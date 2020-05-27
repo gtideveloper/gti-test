@@ -1,0 +1,315 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UpStream Project Timeline\n"
+"POT-Creation-Date: 2019-12-17 09:19-0500\n"
+"PO-Revision-Date: 2019-12-17 09:21-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: upstream-project-timeline.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: includes/up-gantt-chart.php:165 includes/up-gantt-chart.php:542
+msgid "January"
+msgstr "Gennaio"
+
+#: includes/up-gantt-chart.php:166 includes/up-gantt-chart.php:543
+msgid "February"
+msgstr "Febbraio"
+
+#: includes/up-gantt-chart.php:167 includes/up-gantt-chart.php:544
+msgid "March"
+msgstr "Marzo"
+
+#: includes/up-gantt-chart.php:168 includes/up-gantt-chart.php:545
+msgid "April"
+msgstr "Aprile"
+
+#: includes/up-gantt-chart.php:169 includes/up-gantt-chart.php:546
+msgid "May"
+msgstr "Maggio"
+
+#: includes/up-gantt-chart.php:170 includes/up-gantt-chart.php:547
+msgid "June"
+msgstr "Giugno"
+
+#: includes/up-gantt-chart.php:171 includes/up-gantt-chart.php:548
+msgid "July"
+msgstr "Luglio"
+
+#: includes/up-gantt-chart.php:172 includes/up-gantt-chart.php:549
+msgid "August"
+msgstr "Agosto"
+
+#: includes/up-gantt-chart.php:173 includes/up-gantt-chart.php:550
+msgid "September"
+msgstr "Settembre"
+
+#: includes/up-gantt-chart.php:174 includes/up-gantt-chart.php:551
+msgid "October"
+msgstr "Ottobre"
+
+#: includes/up-gantt-chart.php:175 includes/up-gantt-chart.php:552
+msgid "November"
+msgstr "Novembre"
+
+#: includes/up-gantt-chart.php:176 includes/up-gantt-chart.php:553
+msgid "December"
+msgstr "Dicembre"
+
+#: includes/up-gantt-chart.php:179 includes/up-gantt-chart.php:556
+msgctxt "Sunday"
+msgid "S"
+msgstr "S"
+
+#: includes/up-gantt-chart.php:180 includes/up-gantt-chart.php:557
+msgctxt "Monday"
+msgid "M"
+msgstr "M"
+
+#: includes/up-gantt-chart.php:181 includes/up-gantt-chart.php:558
+msgctxt "Tuesday"
+msgid "T"
+msgstr "T"
+
+#: includes/up-gantt-chart.php:182 includes/up-gantt-chart.php:559
+msgctxt "Wednesday"
+msgid "W"
+msgstr "W"
+
+#: includes/up-gantt-chart.php:183 includes/up-gantt-chart.php:560
+msgctxt "Thursday"
+msgid "T"
+msgstr "T"
+
+#: includes/up-gantt-chart.php:184 includes/up-gantt-chart.php:561
+msgctxt "Friday"
+msgid "F"
+msgstr "F"
+
+#: includes/up-gantt-chart.php:185 includes/up-gantt-chart.php:562
+msgctxt "Saturday"
+msgid "S"
+msgstr "S"
+
+#: includes/up-gantt-chart.php:238
+#, fuzzy
+#| msgid "Project Timeline"
+msgid "Projects Timeline"
+msgstr "Sequenza temporale del progetto"
+
+#: includes/up-gantt-chart.php:239 upstream-project-timeline.php:200
+msgid "Project Timeline"
+msgstr "Sequenza temporale del progetto"
+
+#: includes/up-gantt-chart.php:340 includes/up-gantt-chart.php:345
+msgid "Sort by"
+msgstr "Ordina per"
+
+#: includes/up-gantt-chart.php:346
+#, fuzzy
+msgid "Assigned To"
+msgstr "Assegnato da"
+
+#: includes/up-gantt-chart.php:361
+#, php-format
+msgid "Show all %s"
+msgstr "Mostra tutti i %s"
+
+#: includes/up-gantt-chart.php:382
+#, fuzzy, php-format
+msgid "Show all %s Statuses"
+msgstr "Mostra tutti gli stati %s"
+
+#: includes/up-gantt-chart.php:389
+#, fuzzy, php-format
+msgid "Only %s in progress"
+msgstr "Solo % in corso di realizzazione"
+
+#: includes/up-gantt-chart.php:396
+#, fuzzy, php-format
+msgid "Only completed %s"
+msgstr "Solo completato %s"
+
+#: includes/up-gantt-chart.php:402
+#, fuzzy, php-format
+msgid "Only upcoming %s"
+msgstr "Solo i prossimi %s"
+
+#: includes/up-gantt-chart.php:415
+msgid "Show all users"
+msgstr "Mostra tutti gli utenti"
+
+#: includes/up-gantt-chart.php:441
+msgid "Start Date"
+msgstr "Data Inizio"
+
+#: includes/up-gantt-chart.php:454
+msgid "End Date"
+msgstr "Data di fine"
+
+#: includes/up-gantt-chart.php:465
+msgid "Submit"
+msgstr "Invia"
+
+#: includes/up-gantt-chart.php:469
+msgid "Reset"
+msgstr "Ripristina"
+
+#: includes/up-gantt-chart.php:564
+msgid "Please wait..."
+msgstr "Attendi..."
+
+#: includes/up-gantt-chart.php:611
+#, fuzzy
+msgid "You are not allowed to modify the project timeline by drag and drop."
+msgstr ""
+"Non è consentito modificare la timeline del progetto con il drag and drop."
+
+#: includes/up-gantt-chart.php:810 includes/up-gantt-chart.php:937
+msgid "% Complete"
+msgstr "% Completato"
+
+#: includes/up-gantt-chart.php:821 includes/up-gantt-chart.php:954
+#: includes/up-gantt-chart.php:981
+msgid "Assigned To: "
+msgstr "Non assegnato: "
+
+#: includes/up-gantt-chart.php:827 includes/up-gantt-chart.php:961
+msgid "Progress"
+msgstr "Avanzamento"
+
+#: includes/up-gantt-chart.php:832
+msgid "Open"
+msgstr "Aperto"
+
+#: includes/up-gantt-chart.php:1411
+msgid "(no assigned user)"
+msgstr "(nessun utente assegnato)"
+
+#: upstream-project-timeline.php:153
+msgid ""
+"Due security reasons this plugin requires <strong>PHP version 5.6 or "
+"greater</strong> to run."
+msgstr ""
+"Per motivi di sicurezza questo plugin richiede <strong>PHP versione 5.6 o "
+"successiva</strong> per l'esecuzione."
+
+#: upstream-project-timeline.php:155
+#, fuzzy, php-format
+msgid "Please, update your PHP (%s)"
+msgstr "Per favore, aggiorna il tuo PHP (%s)"
+
+#: upstream-project-timeline.php:166
+msgid ""
+"Due security reasons this plugin requires <strong>WordPress version 4.5 or "
+"greater</strong> to run."
+msgstr ""
+"Per motivi di sicurezza questo plugin richiede <strong>WordPress versione "
+"4.5 o successiva</strong> per l'esecuzione."
+
+#: upstream-project-timeline.php:168
+#, fuzzy, php-format
+msgid "Please, update your WordPress (%s)"
+msgstr "Per favore, aggiorna il tuo WordPress (%s)"
+
+#: upstream-project-timeline.php:178
+#, fuzzy, php-format
+msgid ""
+"Please, make sure %s is <strong>installed</strong> and <strong>active</"
+"strong> in order to make this plugin to work."
+msgstr ""
+"Si prega di assicurarsi che %s è <strong>installato</strong> e "
+"<strong>attivo</strong> al fine di rendere questo plugin a lavorare."
+
+#. Author of the plugin/theme
+#: upstream-project-timeline.php:180
+msgid "UpStream"
+msgstr "Upstream"
+
+#: upstream-project-timeline.php:190
+#, fuzzy, php-format
+msgid ""
+"Sorry, but UpStream Project Timeline requires UpStream version %s or later."
+msgstr ""
+"Spiacente, ma la Timeline del progetto UpStream richiede la versione di "
+"UpStream %s o successiva."
+
+#: upstream-project-timeline.php:213
+msgid "General Settings"
+msgstr "Impostazioni generali"
+
+#: upstream-project-timeline.php:214
+#, fuzzy
+msgid "Here you can change general options for project timeline."
+msgstr ""
+"Qui è possibile modificare le opzioni generali per la timeline del "
+"progetto."
+
+#: upstream-project-timeline.php:216
+#, fuzzy
+msgid "Allow Drag and Drop Editing"
+msgstr "Consentire il Drag and Drop Editing"
+
+#: upstream-project-timeline.php:219
+#, fuzzy
+msgid "Allow drag and drop editing of the timeline dates."
+msgstr "Consentire il trascinamento delle date della timeline."
+
+#: upstream-project-timeline.php:221
+msgid "Yes"
+msgstr "Si"
+
+#: upstream-project-timeline.php:222
+msgid "No"
+msgstr "No"
+
+#: upstream-project-timeline.php:259
+msgid "Go back to the plugins page."
+msgstr "Torna alla pagina dei plugin."
+
+#: upstream-project-timeline.php:260
+msgid "Go back"
+msgstr "Indietro"
+
+#: upstream-project-timeline.php:380 upstream-project-timeline.php:400
+msgid "Timeline"
+msgstr "Sequenza temporale"
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+#| msgid "Project Timeline"
+msgid "UpStream Project Timeline"
+msgstr "Sequenza temporale del progetto"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://upstreamplugin.com/extensions/project-timeline"
+msgstr "https://upstreamplugin.com/extensions/project-timeline"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"A Gantt chart that displays a timeline of milestones & tasks for the "
+"UpStream Project Management plugin."
+msgstr ""
+"Un diagramma di Gantt che mostra una timeline di pietre miliari e attività "
+"per il plugin UpStream Project Management."
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://upstreamplugin.com"
+msgstr "https://upstreamplugin.com"

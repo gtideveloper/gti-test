@@ -1,0 +1,658 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UpStream Email Notifications\n"
+"POT-Creation-Date: 2019-09-08 19:56-0400\n"
+"PO-Revision-Date: 2019-09-08 19:57-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: upstream-email-notifications.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: EmailNotifications/Plugin.php:202
+#, fuzzy, php-format
+msgid ""
+"Please, make sure %s plugin is installed and active in order to make %s "
+"plugin to work."
+msgstr ""
+"Si prega di assicurarsi che %s plugin è installato e attivo al fine di "
+"rendere %s plugin per funzionare."
+
+#. Author of the plugin/theme
+#: EmailNotifications/Plugin.php:204 EmailNotifications/Plugin.php:228
+#: EmailNotifications/Plugin.php:974 EmailNotifications/Plugin.php:1000
+#: EmailNotifications/Plugin.php:1020 EmailNotifications/Settings.php:150
+msgid "UpStream"
+msgstr "Upstream"
+
+#: EmailNotifications/Plugin.php:206 EmailNotifications/Plugin.php:229
+#: EmailNotifications/Plugin.php:975 EmailNotifications/Plugin.php:1021
+#: EmailNotifications/Plugin.php:1066 EmailNotifications/Settings.php:152
+#: EmailNotifications/Settings.php:243
+msgid "Email Notifications"
+msgstr "Notifiche Email"
+
+#: EmailNotifications/Plugin.php:230
+#, fuzzy
+msgid ""
+"There was an error sending the notifications. Please review your SMTP "
+"settings."
+msgstr ""
+"Si è verificato un errore durante l'invio delle notifiche. Rivedere le "
+"impostazioni SMTP."
+
+#: EmailNotifications/Plugin.php:742
+#, fuzzy, php-format
+msgctxt "1st %s: Site name, 2nd %s: Project name"
+msgid "%s Notifications | %s"
+msgstr "%s Notifiche %s"
+
+#: EmailNotifications/Plugin.php:768
+#, fuzzy
+msgid "The following item(s) was/were assigned to you:"
+msgstr "I seguenti articoli ti sono stati assegnati:"
+
+#: EmailNotifications/Plugin.php:771
+#, fuzzy, php-format
+msgid "You are receiving this because you are a member of the %s, from %s."
+msgstr "Questo viene ricevuto perché si è un membro di %s, da %s."
+
+#: EmailNotifications/Plugin.php:776 EmailNotifications/Reminders.php:1148
+#: EmailNotifications/Settings.php:155
+#, fuzzy
+msgid "Please do not reply this message."
+msgstr "Si prega di non rispondere a questo messaggio."
+
+#: EmailNotifications/Plugin.php:827
+#, fuzzy, php-format
+msgctxt "%s: Site name"
+msgid "%s Notifications BOT"
+msgstr "%s Notifiche BOT"
+
+#: EmailNotifications/Plugin.php:832
+#, fuzzy
+msgid "SMTP Host not set."
+msgstr "Host SMTP non impostato."
+
+#: EmailNotifications/Plugin.php:836
+#, fuzzy
+msgid "SMTP Port not set."
+msgstr "Porta SMTP non impostata."
+
+#: EmailNotifications/Plugin.php:840
+#, fuzzy
+msgid "SMTP Username not set."
+msgstr "Nome utente SMTP non impostato."
+
+#: EmailNotifications/Plugin.php:844
+#, fuzzy
+msgid "SMTP Password not set."
+msgstr "Password SMTP non impostata."
+
+#: EmailNotifications/Plugin.php:849
+#, fuzzy
+msgid "Sender's email address cannot be empty."
+msgstr "L'indirizzo e-mail del mittente non può essere vuoto."
+
+#: EmailNotifications/Plugin.php:853
+#, fuzzy
+msgid "Recipient's email address cannot be empty."
+msgstr "L'indirizzo e-mail del destinatario non può essere vuoto."
+
+#: EmailNotifications/Plugin.php:861
+msgid "No Subject"
+msgstr "Nessun oggetto"
+
+#: EmailNotifications/Plugin.php:893
+#, fuzzy
+msgid "UpStream was unable to send the notifications."
+msgstr "UpStream non è riuscito a inviare le notifiche."
+
+#: EmailNotifications/Plugin.php:911
+#, fuzzy
+msgid ""
+"UpStream was unable to send the notifications. Please make sure the server "
+"is allowed to send emails."
+msgstr ""
+"UpStream non è riuscito a inviare le notifiche. Assicurarsi che il server "
+"sia autorizzato a inviare e-mail."
+
+#: EmailNotifications/Plugin.php:998
+#, fuzzy, php-format
+msgid ""
+"Please, make sure %s is <strong>installed</strong> and <strong>active</"
+"strong> in order to make this plugin to work."
+msgstr ""
+"Si prega di assicurarsi che %s è <strong>installato</strong> e "
+"<strong>attivo</strong> al fine di rendere questo plugin a lavorare."
+
+#: EmailNotifications/Plugin.php:1013
+#, php-format
+msgctxt "%s: Current WordPress running version"
+msgid "It seems you are using an outdated version of WordPress (%s)."
+msgstr "Sembra che si sta utilizzando una versione obsoleta di WordPress (%s)."
+
+#: EmailNotifications/Plugin.php:1015
+msgid "For security reasons please update your installation."
+msgstr "Per motivi di sicurezza, aggiornare l'installazione."
+
+#: EmailNotifications/Plugin.php:1017
+#, php-format
+msgctxt "%s: Plugin name"
+msgid "The <i>%s</i> requires WordPress version 4.5 or later."
+msgstr "<i>Il %s</i> richiede WordPress versione 4.5 o successiva."
+
+#: EmailNotifications/Plugin.php:1031
+msgid ""
+"For security reasons, this plugin requires <strong>PHP version 5.6</strong> "
+"or <strong>greater</strong> to run."
+msgstr ""
+"Per motivi di sicurezza, questo plugin richiede <strong>PHP versione 5.6</"
+"strong> o <strong>successiva</strong> per l'esecuzione."
+
+#: EmailNotifications/Plugin.php:1033
+msgid "Please, update your PHP (currently at"
+msgstr "Per favore, aggiornare il tuo PHP (attualmente a"
+
+#: EmailNotifications/Plugin.php:1070
+msgid "Go back to the plugins page."
+msgstr "Torna alla pagina dei plugin."
+
+#: EmailNotifications/Plugin.php:1071
+msgid "Go back"
+msgstr "Indietro"
+
+#: EmailNotifications/Plugin.php:1103
+msgid "Open Settings Page"
+msgstr "Aprire la pagina Impostazioni"
+
+#: EmailNotifications/Plugin.php:1104
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: EmailNotifications/Plugin.php:1130
+#, fuzzy
+msgid "Notifications"
+msgstr "Notifiche Email"
+
+#: EmailNotifications/Plugin.php:1143
+#, fuzzy
+msgid "I don't want to receive Email Notifications for this project"
+msgstr "Non voglio ricevere notifiche e-mail per questo progetto"
+
+#: EmailNotifications/Plugin.php:1152
+#, fuzzy
+msgid "Disable all Email Notifications for this project"
+msgstr "Disabilita tutte le notifiche e-mail per questo progetto"
+
+#: EmailNotifications/Plugin.php:1383 EmailNotifications/Reminders.php:455
+#: EmailNotifications/Reminders.php:482 EmailNotifications/Reminders.php:771
+#: EmailNotifications/Reminders.php:1228 EmailNotifications/Settings.php:400
+#, fuzzy
+msgid "A day before"
+msgstr "Un giorno prima"
+
+#: EmailNotifications/Plugin.php:1384 EmailNotifications/Reminders.php:456
+#: EmailNotifications/Reminders.php:483 EmailNotifications/Reminders.php:772
+#: EmailNotifications/Reminders.php:1229 EmailNotifications/Settings.php:401
+#, fuzzy
+msgid "Two days before"
+msgstr "Due giorni prima"
+
+#: EmailNotifications/Plugin.php:1385 EmailNotifications/Reminders.php:457
+#: EmailNotifications/Reminders.php:484 EmailNotifications/Reminders.php:774
+#: EmailNotifications/Reminders.php:1230 EmailNotifications/Settings.php:402
+#, fuzzy
+msgid "Three days before"
+msgstr "Tre giorni prima"
+
+#: EmailNotifications/Plugin.php:1386 EmailNotifications/Reminders.php:458
+#: EmailNotifications/Reminders.php:485 EmailNotifications/Reminders.php:776
+#: EmailNotifications/Reminders.php:1231 EmailNotifications/Settings.php:403
+#, fuzzy
+msgid "A week before"
+msgstr "Una settimana prima"
+
+#: EmailNotifications/Plugin.php:1387 EmailNotifications/Reminders.php:459
+#: EmailNotifications/Reminders.php:486 EmailNotifications/Reminders.php:777
+#: EmailNotifications/Reminders.php:1232 EmailNotifications/Settings.php:404
+#, fuzzy
+msgid "Two weeks before"
+msgstr "Due settimane prima"
+
+#: EmailNotifications/Plugin.php:1388
+msgid "No data found."
+msgstr "Nessun dato trovato."
+
+#: EmailNotifications/Plugin.php:1389 EmailNotifications/Reminders.php:797
+#, fuzzy
+msgid "Loading reminders..."
+msgstr "Caricamento dei promemoria in corso..."
+
+#: EmailNotifications/Plugin.php:1390
+#, fuzzy
+msgid "Invalid type. Please, reload the page and try again."
+msgstr "Tipo non valido. Ricaricare la pagina e riprovare."
+
+#: EmailNotifications/Plugin.php:1392
+#, fuzzy
+msgid "Not saved yet"
+msgstr "Non ancora salvato"
+
+#: EmailNotifications/Reminders.php:493 EmailNotifications/Reminders.php:1258
+#, fuzzy
+msgid "Reminders"
+msgstr "Promemoria"
+
+#: EmailNotifications/Reminders.php:499 EmailNotifications/Reminders.php:769
+#, fuzzy
+msgid "Select when..."
+msgstr "Selezionare quando..."
+
+#: EmailNotifications/Reminders.php:507 EmailNotifications/Reminders.php:661
+msgid "Due Date"
+msgstr "Data Scadenza"
+
+#: EmailNotifications/Reminders.php:507 EmailNotifications/Reminders.php:584
+#: EmailNotifications/Reminders.php:636 EmailNotifications/Reminders.php:780
+msgid "End Date"
+msgstr "Data di fine"
+
+#: EmailNotifications/Reminders.php:517 EmailNotifications/Reminders.php:788
+msgid "When"
+msgstr "Quando"
+
+#: EmailNotifications/Reminders.php:519 EmailNotifications/Reminders.php:789
+msgid "Sent"
+msgstr "Inviato"
+
+#: EmailNotifications/Reminders.php:520 EmailNotifications/Reminders.php:790
+msgid "Discard?"
+msgstr "Scartare?"
+
+#: EmailNotifications/Reminders.php:530
+#, fuzzy
+msgid "Not saved yet."
+msgstr "Non ancora salvato."
+
+#: EmailNotifications/Reminders.php:544
+#, fuzzy
+msgid "No reminders."
+msgstr "Nessun promemoria."
+
+#: EmailNotifications/Reminders.php:586 EmailNotifications/Reminders.php:638
+#, fuzzy
+msgid "End Date Reminders"
+msgstr "Promemoria data di fine"
+
+#: EmailNotifications/Reminders.php:615
+#, fuzzy
+msgid "Manage Reminders"
+msgstr "Gestisci promemoria"
+
+#: EmailNotifications/Reminders.php:663
+#, fuzzy
+msgid "Due Date Reminders"
+msgstr "Promemoria scadenza"
+
+#: EmailNotifications/Reminders.php:767
+#, fuzzy
+msgid "Remind Assigned User"
+msgstr "Ricorda utente assegnato"
+
+#: EmailNotifications/Reminders.php:782
+#, fuzzy
+msgid "Add Reminder"
+msgstr "Aggiungi promemoria"
+
+#: EmailNotifications/Reminders.php:908
+#, fuzzy, php-format
+msgctxt "%s: Site name"
+msgid "%s Notifications About Upcoming Due Dates"
+msgstr "%s Notifiche sulle date di scadenza imminenti"
+
+#: EmailNotifications/Reminders.php:1062
+#, php-format
+msgctxt "%s: User name"
+msgid "Hello %s"
+msgstr "Ciao %s"
+
+#: EmailNotifications/Reminders.php:1064
+#, fuzzy
+msgid "This email is to remind you about the following due dates:"
+msgstr "Questa e-mail è per ricordare le seguenti date di scadenza:"
+
+#: EmailNotifications/Reminders.php:1102
+#, fuzzy
+msgid "Past Due Dates"
+msgstr "Scadenze scadute"
+
+#: EmailNotifications/Reminders.php:1119
+msgid "due date"
+msgstr "data scadenza"
+
+#: EmailNotifications/Settings.php:134
+#, fuzzy
+msgid "Notification Test"
+msgstr "Test di notifica"
+
+#: EmailNotifications/Settings.php:145
+#, fuzzy, php-format
+msgid "Looks like you're all set on %s."
+msgstr "Sembra che tu sia pronto su %s."
+
+#: EmailNotifications/Settings.php:149
+#, fuzzy, php-format
+msgid "Thanks for using %s and the %s plugins."
+msgstr "Grazie per aver usato %s e i plugin %s."
+
+#: EmailNotifications/Settings.php:160
+#, fuzzy
+msgid "Check out your inbox."
+msgstr "Controlla la tua casella di posta."
+
+#: EmailNotifications/Settings.php:290
+#, fuzzy
+msgid "Send Me a Test Email"
+msgstr "Inviami un'e-mail di prova"
+
+#: EmailNotifications/Settings.php:308
+msgid "How does it work?"
+msgstr "Come Funziona?"
+
+#: EmailNotifications/Settings.php:309
+#, fuzzy, php-format
+msgid ""
+"Users will be notified when one or more items (<code>%s</code>, <code>%s</"
+"code> or <code>%s</code>) are assigned to them."
+msgstr ""
+"Gli utenti riceveranno una notifica quando vengono assegnati uno o più "
+"elementi ( <code>%s</code> , <code>%s</code> o <code>%s</code> )."
+
+#: EmailNotifications/Settings.php:310
+msgid "Milestones"
+msgstr "Obiettivi"
+
+#: EmailNotifications/Settings.php:310
+msgid "Tasks"
+msgstr "Attività"
+
+#: EmailNotifications/Settings.php:311
+msgid "Bugs"
+msgstr "Bugs"
+
+#: EmailNotifications/Settings.php:312
+#, fuzzy
+msgid ""
+"Any user is able to unsubscribe from a given project if he doesn't want to "
+"receive notifications related to that project."
+msgstr ""
+"Qualsiasi utente è in grado di annullare la sottoscrizione di un determinato "
+"progetto se non desidera ricevere notifiche relative a tale progetto."
+
+#: EmailNotifications/Settings.php:314
+#, fuzzy
+msgid ""
+"Administrators are able to enable/disable the notifications feature for "
+"individual projects."
+msgstr ""
+"Gli amministratori sono in grado di abilitare/disabilitare la funzionalità "
+"di notifica per i singoli progetti."
+
+#: EmailNotifications/Settings.php:316
+msgid "General Settings"
+msgstr "Impostazioni generali"
+
+#: EmailNotifications/Settings.php:318
+#, fuzzy
+msgid "Email Handler"
+msgstr "Gestore e-mail"
+
+#: EmailNotifications/Settings.php:322
+msgid "WordPress"
+msgstr "Wordpress"
+
+#: EmailNotifications/Settings.php:323
+#, fuzzy
+msgid "PHPMailer with SMTP"
+msgstr "PHPMailer con SMTP"
+
+#: EmailNotifications/Settings.php:326
+#, fuzzy
+msgid ""
+"You can choose to use either of WordPress's native <code>wp_mail()</code> "
+"function or <br />the <code>PHPMailer</code> library using your own SMTP "
+"options to send out emails."
+msgstr ""
+"È possibile scegliere di utilizzare una delle funzioni native di WordPress "
+"<code>wp_mail()</code> o<br>libreria <code>PHPMailer</code> utilizzando le "
+"proprie opzioni SMTP per inviare e-mail."
+
+#: EmailNotifications/Settings.php:332
+#, fuzzy
+msgid "WordPress Handler Settings"
+msgstr "Impostazioni del gestore WordPress"
+
+#: EmailNotifications/Settings.php:333
+msgid "Sender's Email"
+msgstr "Email mittente"
+
+#: EmailNotifications/Settings.php:336
+#, fuzzy
+msgid ""
+"The notifications sender's email address. The site's admin email is set as "
+"default."
+msgstr ""
+"Indirizzo di posta elettronica del mittente delle notifiche. L'indirizzo di "
+"posta elettronica di amministrazione del sito è impostato come predefinito."
+
+#: EmailNotifications/Settings.php:343
+#, fuzzy
+msgid "PHPMailer with SMTP Handler Settings"
+msgstr "PHPMailer con impostazioni del gestore SMTP"
+
+#: EmailNotifications/Settings.php:344
+msgid "SMTP Host"
+msgstr "SMTP Host"
+
+#: EmailNotifications/Settings.php:347
+#, fuzzy
+msgid "Your mail server's address."
+msgstr "Indirizzo del server di posta."
+
+#: EmailNotifications/Settings.php:350
+msgid "SMTP Port"
+msgstr "Porta SMTP"
+
+#: EmailNotifications/Settings.php:353
+#, fuzzy
+msgid "The port to your mail server."
+msgstr "La porta al server di posta."
+
+#: EmailNotifications/Settings.php:357
+msgid "SMTP Username"
+msgstr "Nome utente SMTP"
+
+#: EmailNotifications/Settings.php:360
+#, fuzzy
+msgid "The username to login to your mail server."
+msgstr "Nome utente per accedere al server di posta."
+
+#: EmailNotifications/Settings.php:363
+msgid "SMTP Password"
+msgstr "Password SMTP"
+
+#: EmailNotifications/Settings.php:366
+#, fuzzy
+msgid "The password to login to your mail server."
+msgstr "Password per accedere al server di posta."
+
+#: EmailNotifications/Settings.php:369
+msgid "Encryption Type"
+msgstr "Tipo di crittografia"
+
+#: EmailNotifications/Settings.php:373
+msgid "None"
+msgstr "Nessuno"
+
+#: EmailNotifications/Settings.php:374
+msgid "TLS"
+msgstr "TLS"
+
+#: EmailNotifications/Settings.php:375
+msgid "SSL"
+msgstr "SSL"
+
+#: EmailNotifications/Settings.php:378
+#, fuzzy
+msgid ""
+"The encryption type used for authentication. For most servers SSL is the "
+"recommended option."
+msgstr ""
+"Tipo di crittografia utilizzato per l'autenticazione. Per la maggior parte "
+"dei server SSL è l'opzione consigliata."
+
+#: EmailNotifications/Settings.php:383
+#, fuzzy
+msgid "Reminders Settings"
+msgstr "Impostazioni promemoria"
+
+#: EmailNotifications/Settings.php:384
+#, fuzzy
+msgid "Enable Reminders"
+msgstr "Abilita promemoria"
+
+#: EmailNotifications/Settings.php:388
+msgid "Enabled"
+msgstr "Abilitato"
+
+#: EmailNotifications/Settings.php:389
+msgid "Disabled"
+msgstr "Disabilitato"
+
+#: EmailNotifications/Settings.php:392
+#, fuzzy
+msgid ""
+"Reminders are emails sent to assignees informing about upcoming Milestones, "
+"Tasks and/or Bugs due dates."
+msgstr ""
+"I promemoria sono e-mail inviate agli assegnatari che informano sulle "
+"prossime date di scadenza, attività e/o bug."
+
+#: EmailNotifications/Settings.php:396
+#, fuzzy
+msgid "Default Reminders"
+msgstr "Promemoria predefiniti"
+
+#: EmailNotifications/Settings.php:406
+#, fuzzy
+msgid ""
+"Here you can define a set of default reminders for newly added Milestones, "
+"Tasks and/or Bugs."
+msgstr ""
+"Qui è possibile definire un set di promemoria predefiniti per le attività "
+"cardine, le attività e/o i bug appena aggiunti."
+
+#: EmailNotifications/Settings.php:410
+#, fuzzy
+msgid "Check Recurrency"
+msgstr "Rivaluta"
+
+#: EmailNotifications/Settings.php:414
+msgid "Hourly"
+msgstr "Ogni ora"
+
+#: EmailNotifications/Settings.php:415
+msgid "Twice a day"
+msgstr "Due volte al giorno"
+
+#: EmailNotifications/Settings.php:416
+msgid "Daily"
+msgstr "Giornaliero"
+
+#: EmailNotifications/Settings.php:419
+#, fuzzy
+msgid "How often should UpStream check for upcoming reminders."
+msgstr ""
+"Con quale frequenza UpStream deve verificare la presenza di promemoria "
+"imminenti."
+
+#: EmailNotifications/Settings.php:427
+#, fuzzy
+msgid "Testing Settings"
+msgstr "Impostazioni di test"
+
+#: EmailNotifications/Settings.php:428
+#, fuzzy
+msgid ""
+"By clicking on the button below, UpStream will make an attempt to send a "
+"test message to your email address using the saved settings."
+msgstr ""
+"Cliccando sul pulsante qui sotto, UpStream tenterà di inviare un messaggio "
+"di prova al tuo indirizzo e-mail utilizzando le impostazioni salvate."
+
+#: EmailNotifications/Settings.php:430
+#, fuzzy
+msgid "Make sure you click on the Save button before sending out test emails."
+msgstr ""
+"Assicurati di fare clic sul pulsante Salva prima di inviare e-mail di prova."
+
+#: EmailNotifications/Settings.php:432
+msgid "Sending..."
+msgstr "Invio in corso..."
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+#| msgid "Email Notifications"
+msgid "UpStream Email Notifications"
+msgstr "Notifiche Email"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://upstreamplugin.com/extensions/email-notifications"
+msgstr "https://upstreamplugin.com/extensions/email-notifications"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid "Allow you to email project updates to people working on your projects."
+msgstr ""
+"Consente di inviare via e-mail gli aggiornamenti del progetto alle persone "
+"che lavorano ai tuoi progetti."
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://upstreamplugin.com"
+msgstr "https://upstreamplugin.com"
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s."
+#~ msgstr ""
+#~ "C’è una nuova versione disponibile di %1$s. %2$sVedi versione %3$s "
+#~ "dettagli%4$s."
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s or %5$supdate now%6$s."
+#~ msgstr ""
+#~ "C'è una nuova versione di %1$s disponibile. %2$sVedi versione %3$s "
+#~ "dettagli%4$s o %5$saggiorna adesso%6$s."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr "Non hai il permesso di installare gli aggiornamenti dei plugin"
+
+#~ msgid "Error"
+#~ msgstr "Errore"

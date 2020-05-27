@@ -1,0 +1,160 @@
+== Changelog ==
+
+The format is based on [Keep a Changelog](http://keepachangelog.com)
+and this project adheres to [Semantic Versioning](http://semver.org).
+
+= [1.5.3] - 2020-01-27 =
+* Fix status display on calendar
+* Made titles clickable
+
+= [1.5.2] - 2020-01-03 =
+* Fix AJAX bug caused by non-standard UTF characters
+
+= [1.5.1] - 2019-12-23 =
+* Fix update bug
+
+= [1.5.0] - 2019-12-22 =
+* Fix update bug
+* Fix view on small screens
+
+= [1.4.6] - 2019-11-13 =
+* Fix for warning message for empty documents
+
+= [1.4.5] - 2019-11-11 =
+* Fix for warning message
+
+= [1.4.4] - 2019-11-09 =
+* Fix for potential XSS vulnerability
+* Fix for warning messages when calendar displays in certain conditions
+
+= [1.4.3] - 2019-10-15 =
+* Added support for advanced permissions
+
+= [1.4.2] - 2019-09-20 =
+* Fixed minor bugs with timezones
+* Fixed a bug due to caching
+
+= [1.4.1] - 2019-09-09 =
+
+* Fixed minor bugs with time and date display;
+
+= [1.3.2] - 2019-07-25 =
+
+* Updated text and labels;
+* Fixed start and end arrows for milestones;
+* Fixed the calendar grid in Firefox;
+
+= [1.3.1] - 2019-05-22 =
+
+* Fixed a fatal error when a task has dates but doesn't have a milestone;
+* Fixed the color for milestones in the calendar;
+
+= [1.3.0] - 2019-04-29 =
+
+* Fixed compatibility with new Milestone data structure;
+* Fixed drag-and-drop for items in the Calendar Overview page;
+* Fixed the popover title in the calendar;
+* Fixed the tooltip of calendar items removing the HTML code;
+* Temporarily disabled option to create items in the Calendar Overview page;
+* Added UpStream 1.24 as minimum required version;
+
+= [1.2.0] - 2019-03-07 =
+
+* Fixed minor code organization issues;
+* Fixed call to the composer autoloader to avoid missed requirements;
+* Improved calendar style and visual feedback on day interval selection;
+* Fixed style for popups that where being partially displayed;
+* Added feature for adding items right in the calendar just clicking on a date;
+* Added feature for adding items right in the calendar clicking on a day and dragging to another day for setting the start and end dates;
+* Added feature for automatically assign new items to the filtered user, if filtered;
+* Fixed the missed loading message in the calendar;
+* Added icon to make easier to identify the start and end dates for items;
+* Added the feature to drag and drop items in the calendar, moving to different days;
+
+= [1.1.1] - 2019-01-15 =
+
+* Fixed the HTML content of popovers in the calendar;
+* Fixed calendar's table layout for IE 11;
+
+= [1.1.0] - 2018-12-13 =
+
+* Added persistent state to collapsed box in the front-end;
+* Added sortable behavior to the calendar panel in the front-end;
+* Added ID to the menu item;
+* Fixed the style for the calendar in the IE 11;
+* Changed the attribute ID of the calendar's DIV tag in the front-end to "calendar";
+
+= [1.0.10] - 2018-09-14 =
+
+Fixed:
+* Fixed invalid dates result of some wrong timezone calculation;
+
+= [1.0.9] - 2018-06-07 =
+
+Fixed:
+* Fixed a PHP warning when there is no bugs in the project;
+* Fixed start and end dates when using timezone other than UTC;
+* Fixed PHP warnings when there is no milestones in the project;
+
+Changed:
+* Moved the calendar overview to a specific page and submenu;
+
+= [1.0.8] - 2018-04-26 =
+
+Changed:
+* Added support for dynamic Milestones, Colors and Statuses
+
+= [1.0.7] - 2018-04-18 =
+
+Changes:
+* Performance enhancements
+
+Fixed:
+* Fixed PHP warnings thrown when items didn't have both Start/End dates
+
+= [1.0.6] - 2018-04-02 =
+
+Fixed:
+* Fixed JS error when trying to filter data
+* Fixed more PHP warnings in PHP >= 7.2 environments
+
+= [1.0.5] - 2018-03-27 =
+
+Fixed:
+* Fixed yet another bug where some dates were missed by 1 day
+
+= [1.0.4] - 2018-03-08 =
+
+Changed:
+* Added support for multiple assignees
+
+= [1.0.3] - 2018-02-15 =
+
+Changed:
+* Update year in copyright info
+
+Fixed:
+* Fix collaterals from the new frontend tables changes
+
+= [1.0.2] - 2017-12-28 =
+
+Changed:
+* Update check process now takes at least half the time it took on previous versions
+
+Fixed:
+* Fixed Edit button being unclickable under certain circunstances
+
+= [1.0.1] - 2017-11-09 =
+
+Changed:
+- Calendar Overview now displays all items instead of timeframes by default
+
+Fixed:
+- Fix bug affecting click/longpress actions on some touch devices
+- Fixed some Projects being left out of Calendar Overview due internal fetch methods pagination
+- Fixed Tasks's  Milestones fields having incoherent values
+- Fixed current date not considering WP timezone
+
+= [1.0.0] = 2017-10-30 =
+
+- Initial release.

@@ -1,0 +1,299 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravit Forms - MySQL Connect\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-02 18:25+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ralf Fuhrmann <admin@specialpress.de>\n"
+"Language-Team: Ralf Fuhrmann <admin@specialpress.de>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_html__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class.gravityforms_wpdb-connect.php:452
+#, fuzzy
+msgid "Name"
+msgstr "Name"
+
+#: class.gravityforms_wpdb-connect.php:453
+msgid "WPDB Tablename"
+msgstr "WPDB Tabellen Name"
+
+#: class.gravityforms_wpdb-connect.php:484
+msgid "WPDB Connect Feed Settings"
+msgstr "WPDB Connect Feed Einstellungen"
+
+#: class.gravityforms_wpdb-connect.php:492
+msgid "Feed name"
+msgstr "Feed Name"
+
+#: class.gravityforms_wpdb-connect.php:493
+msgid "Enter a name for the feed"
+msgstr "Trage einen Namen für den Feed ein"
+
+#: class.gravityforms_wpdb-connect.php:500
+msgid "WPDB Table Name"
+msgstr "WPDB Tabellenname"
+
+#: class.gravityforms_wpdb-connect.php:501
+msgid "Select the WPDB Table name"
+msgstr "Wähle den WPDB Tabellen Namen"
+
+#: class.gravityforms_wpdb-connect.php:508
+msgid "Feed Condition"
+msgstr "Feed Bedingung"
+
+#: class.gravityforms_wpdb-connect.php:510
+msgid "Define the conditional logic to process this feed"
+msgstr "Definiere die Bedingungen unter denen der Feed ausgeführt werden soll"
+
+#: class.gravityforms_wpdb-connect.php:511
+msgid "Enable Condition"
+msgstr "Bedingungen aktivieren"
+
+#: class.gravityforms_wpdb-connect.php:512
+msgid "Process this data if"
+msgstr "Verarbeite diese Daten wenn"
+
+#: class.gravityforms_wpdb-connect.php:529
+msgid "Field Names"
+msgstr "Feld Namen"
+
+#: class.gravityforms_wpdb-connect.php:530
+msgid ""
+"Please assign your database table fields with your form fields. Do not "
+"forget to add your primary key field, if you need to update this from your "
+"form data."
+msgstr ""
+"Bitte ordne Deine Felder aus der Datenbank-Tabelle den entsprechenden "
+"Feldern aus Deinem Formular zu. Vergiss bitte nicht einen Primary Key zu "
+"definieren, da sonst eine Aktualisierung der Daten über das Gravityforms "
+"nicht möglich ist."
+
+#: class.gravityforms_wpdb-connect.php:551
+msgid "Primary Key"
+msgstr "Primary Key"
+
+#: class.gravityforms_wpdb-connect.php:722
+msgid "Insert ID"
+msgstr "Insert ID"
+
+#: class.gravityforms_wpdb-connect.php:723
+msgid "Entry ID"
+msgstr "Entry ID"
+
+#: class.gravityforms_wpdb-connect.php:724
+msgid "User ID"
+msgstr "User ID"
+
+#: class.gravityforms_wpdb-connect.php:1165
+#: class.gravityforms_wpdb-connect.php:1192
+msgid "Could not look-up this value at the database"
+msgstr "Kann den Wert nicht in der Datenbank verifizieren"
+
+#: class.gravityforms_wpdb-connect.php:1240
+msgid "MySQL-Query to fill the choices"
+msgstr "MySQL-Query um die Auswahlmöglichkeiten zu füllen"
+
+#: class.gravityforms_wpdb-connect.php:1254
+msgid "MySQL-Query to look-up your field"
+msgstr "MySQL-Query zur Verifizierung des Feldes"
+
+#: class.gravityforms_wpdb-connect.php:1497
+msgid "Table field names"
+msgstr "Tabellen Feld Namen"
+
+#: class.gravityforms_wpdb-connect.php:1546
+msgid "Primary Key Name"
+msgstr "Primärschlüssel Namen"
+
+#~ msgid "MySQL Field Name"
+#~ msgstr "MySQL Feld Name"
+
+#~ msgid "MySQL Field : Prefix"
+#~ msgstr "MySQL Feld : Prefix"
+
+#~ msgid "MySQL Field : First"
+#~ msgstr "MySQL Feld : Vorname"
+
+#~ msgid "MySQL Field : Middle"
+#~ msgstr "MySQL Feld : Mittelname"
+
+#~ msgid "MySQL Field : Last"
+#~ msgstr "MySQL Feld : Nachname"
+
+#~ msgid "MySQL Field : Suffix"
+#~ msgstr "MySQL Feld : Suffix"
+
+#~ msgid "MySQL Field : Street Address"
+#~ msgstr "MySQL Feld : Strassen Adresse"
+
+#~ msgid "MySQL Field : Address Line 2"
+#~ msgstr "MySQL Feld : Adresse Zeile 2"
+
+#~ msgid "MySQL Field : City"
+#~ msgstr "MySQL Feld : Stadt"
+
+#~ msgid "MySQL Field : State / Province"
+#~ msgstr "MySQL Feld : Bundesland"
+
+#~ msgid "MySQL Field : ZIP / Postal Code"
+#~ msgstr "MySQL Feld : Postleitzahl"
+
+#~ msgid "MySQL Field : Country"
+#~ msgstr "MySQL Feld : Land"
+
+#~ msgid "Delete Entry Data"
+#~ msgstr "Formulardaten löschen"
+
+#~ msgid "Delete Entry Data after the record is stored to MySQL"
+#~ msgstr ""
+#~ "Sollen die Formulardaten nach dem speichern in MySQL in Gravity-Forms "
+#~ "gelöscht werden"
+
+#~ msgid ""
+#~ "<h6>Table Name</h6>Please select the MySQL-table-name where you need to "
+#~ "store the data."
+#~ msgstr ""
+#~ "<h6>Tabellen Name</h6>Bitte wählen Sie die MySQL-Tabelle in der die Daten "
+#~ "gespeichert werden sollen."
+
+#~ msgid ""
+#~ "<h6>Primary Key</h6>You need to select a 'primary-key' if you need to "
+#~ "update oder delete your entries from the GF backend."
+#~ msgstr ""
+#~ "<h6>Primär Schlüssel</h6>Sofern Sie die Daten im GF-Backend bearbeiten "
+#~ "möchten, müssen Sie einen Primär-Schlüssel definieren."
+
+#, fuzzy
+#~ msgid "MySQL field for"
+#~ msgstr "MySQL Feld für "
+
+#~ msgid "Delete Field Data"
+#~ msgstr "Felddaten löschen"
+
+#~ msgid "Delete Field Data after the record is stored to MySQL"
+#~ msgstr ""
+#~ "Sollen die Fleddaten nach dem speichern in MySQL in Gravity-Forms "
+#~ "gelöscht werden"
+
+#~ msgid "Please enter a table name"
+#~ msgstr "Bitte trage einen Tabellen Namen ein"
+
+#~ msgid "Please enter a field-type"
+#~ msgstr "Bitte wähle einen Feld-Typ"
+
+#~ msgid "Please enter a field-len"
+#~ msgstr "Bitte trage eine Feld-Länge ein"
+
+#~ msgid "Table succesfully created."
+#~ msgstr "Tabelle erfolgreich angelegt."
+
+#~ msgid "Table could not been created"
+#~ msgstr "Tabelle konnte nicht angelegt werden"
+
+#~ msgid "Form Select"
+#~ msgstr "Formular auswählen"
+
+#~ msgid "Load Form Data"
+#~ msgstr "Formulardaten laden"
+
+#~ msgid "MySQL Table Name"
+#~ msgstr "MySQL Tabellen Name"
+
+#~ msgid "MySQL Field Mapping"
+#~ msgstr "MySQL Field Mapping"
+
+#~ msgid "Grafity Form Field"
+#~ msgstr "Gravity-Forms Feld"
+
+#~ msgid "Create Table"
+#~ msgstr "Tabelle angelegen"
+
+#~ msgid "MySQL field for "
+#~ msgstr "MySQL Feld für "
+
+#~ msgid "You must be logged in."
+#~ msgstr "Du must angemeldet sein."
+
+#~ msgid "Show Field in Entry List"
+#~ msgstr "Feld in der Liste anzeigen"
+
+#~ msgid "Number of Rows"
+#~ msgstr "Anzahl der Zeilen"
+
+#~ msgid "Require user to be logged in"
+#~ msgstr "Benutzer muss angemeldet sein"
+
+#~ msgid "Require user to be logged in to view the list"
+#~ msgstr "Zur Anzeige der Liste muss der Benutzer angemeldet sein"
+
+#~ msgid "Show records to all users"
+#~ msgstr "Alle Einträge zeigen"
+
+#~ msgid "Show records to all users or only to the record creator"
+#~ msgstr "Es werden alle Einträge angezeigt"
+
+#~ msgid "Enable edit mode for this form"
+#~ msgstr "Edit-Modus für dieses Formular aktivieren"
+
+#~ msgid "Page to the gfEdit destination"
+#~ msgstr "Seite auf der das Formular eingebettet ist"
+
+#~ msgid "SAP User Connect Settings"
+#~ msgstr "SAP User Connect Einstellungen"
+
+#~ msgid "Plugin Settings"
+#~ msgstr "Plugin Einstellungen"
+
+#~ msgid "Only SAP-Users could register"
+#~ msgstr "Nur SAP-Benutzer dürfen sich Registrieren"
+
+#~ msgid "Only SAP-Users could login"
+#~ msgstr "Nur SAP-Benutzer dürfen sich Anmelden"
+
+#~ msgid "Exclude Users"
+#~ msgstr "Benutzer ausschliessen"
+
+#~ msgid ""
+#~ "Add the Usernames that should not be checked against SAP(e.g. the ADMIN). "
+#~ "Seperate the usernames with a comma"
+#~ msgstr ""
+#~ "Tragen Sie hier die Benutzernamen ein, die beim Anmelden NICHT gegen SAP "
+#~ "geprüft werden sollen (z.b. der Wordpress Admin). Bitte trennen Sie die "
+#~ "Benutzernamen mit einem Komma."
+
+#~ msgid "Save Changes"
+#~ msgstr "Änderungen speichern"
+
+#~ msgid "Please Note !<br />Your username will be checked against SAP."
+#~ msgstr "Achtung !<br />Der Benutzername wird gegen SAP geprüft."
+
+#~ msgid ""
+#~ "Username <strong>%s</strong> doesn't exist in SAP. <br />Please use your "
+#~ "SAP Username to Register."
+#~ msgstr ""
+#~ "Benutzername <strong>%s</strong> existiert nicht in SAP. <br />Bitte "
+#~ "verwenden Sie Ihren SAP-Benutzernamen zur Registrierung."
+
+#~ msgid ""
+#~ "Username <strong>%s</strong> doesn't exist in SAP. <br />Please use your "
+#~ "SAP Username to Login."
+#~ msgstr ""
+#~ "Benutzername <strong>%s</strong> existiert nicht in SAP. <br />Bitte "
+#~ "verwenden Sie Ihren SAP-Benutzernamen zur Anmeldung"
+
+#~ msgid "Determine Details for an User"
+#~ msgstr "Zeigt Details zum Benutzer an"
+
+#~ msgid "Not a SAP User"
+#~ msgstr "Kein SAP Benutzer"
+
+#~ msgid "Title:"
+#~ msgstr "Titel:"

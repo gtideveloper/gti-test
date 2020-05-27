@@ -1,0 +1,192 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UpStream Copy Project\n"
+"POT-Creation-Date: 2019-12-16 21:51-0500\n"
+"PO-Revision-Date: 2019-12-16 21:52-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: upstream-copy-project.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: library/Plugin.php:118
+msgid ""
+"Due security reasons this plugin requires <strong>PHP version 5.6 or "
+"greater</strong> to run."
+msgstr ""
+
+#: library/Plugin.php:120
+msgid "Please, update your PHP (currently at"
+msgstr ""
+
+#: library/Plugin.php:131
+msgid ""
+"Due security reasons this plugin requires <strong>WordPress version 4.5 or "
+"greater</strong> to run."
+msgstr ""
+
+#: library/Plugin.php:133
+msgid "Please, update your WordPress (currently at"
+msgstr ""
+
+#: library/Plugin.php:143
+#, php-format
+msgid ""
+"Please, make sure %s is <strong>installed</strong> and <strong>active</"
+"strong> in order to make this plugin to work."
+msgstr ""
+
+#. Author of the plugin/theme
+#: library/Plugin.php:145
+msgid "UpStream"
+msgstr ""
+
+#: library/Plugin.php:165 library/Plugin.php:739
+msgid "Copy Project"
+msgstr ""
+
+#: library/Plugin.php:169
+msgid "Go back to the plugins page."
+msgstr ""
+
+#: library/Plugin.php:170
+msgid "Go back"
+msgstr "العودة"
+
+#: library/Plugin.php:195
+msgid "Only Aministrators or Managers are allowed to copy projects."
+msgstr ""
+
+#: library/Plugin.php:226
+msgid "Only Administrators or Managers are allowed to copy projects."
+msgstr ""
+
+#: library/Plugin.php:417
+msgid "It wasn't possible to copy the project."
+msgstr ""
+
+#: library/Plugin.php:463
+msgid "Yes"
+msgstr "نعم"
+
+#: library/Plugin.php:464
+msgid "No"
+msgstr "لا"
+
+#: library/Plugin.php:471
+msgid "Copied Project Settings"
+msgstr ""
+
+#: library/Plugin.php:472
+msgid "Here you can change a few options for copied projects."
+msgstr ""
+
+#: library/Plugin.php:474
+msgid "Publish Status"
+msgstr ""
+
+#: library/Plugin.php:477
+msgid "The copied project publish status option."
+msgstr ""
+
+#: library/Plugin.php:479 library/Plugin.php:491
+msgid "Same as Original"
+msgstr ""
+
+#: library/Plugin.php:480
+msgid "Published"
+msgstr "منشور"
+
+#: library/Plugin.php:481
+msgid "Draft"
+msgstr "مسودة"
+
+#: library/Plugin.php:486
+msgid "Published On"
+msgstr ""
+
+#: library/Plugin.php:489
+msgid "The copied project publish date."
+msgstr ""
+
+#: library/Plugin.php:492
+msgid "Current Time"
+msgstr "الوقت الحالي"
+
+#: library/Plugin.php:497
+msgid "Activity"
+msgstr "النشاط"
+
+#: library/Plugin.php:500
+msgid "Either to copy or not all project activity."
+msgstr ""
+
+#: library/Plugin.php:508 library/Plugin.php:517 library/Plugin.php:526
+#: library/Plugin.php:535
+#, php-format
+msgid "Either to copy or not all project %s."
+msgstr ""
+
+#: library/Plugin.php:541
+msgid "Discussions"
+msgstr "المناقشات"
+
+#: library/Plugin.php:544
+msgid "Either to copy or not all project discussions."
+msgstr ""
+
+#: library/Plugin.php:621
+msgid "Invalid response"
+msgstr "استجابة غير صالحة"
+
+#: library/Plugin.php:622
+msgid "It wasn't possible to copy this project."
+msgstr ""
+
+#: library/Plugin.php:683
+msgid "Open Settings Page"
+msgstr ""
+
+#: library/Plugin.php:684
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: library/Plugin.php:718
+msgid "Copy"
+msgstr "نسخ"
+
+#: library/Plugin.php:719
+msgid "Copying..."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "UpStream Copy Project"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://upstreamplugin.com/extensions/copy-project"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This extension allows you to duplicate an UpStream project including all the "
+"content and options."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://upstreamplugin.com"
+msgstr ""

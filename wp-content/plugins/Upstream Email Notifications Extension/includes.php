@@ -1,0 +1,2 @@
+<?php
+define('UPSTREAM_EMAIL_NOTIFICATIONS_VERSION', '1.3.6');

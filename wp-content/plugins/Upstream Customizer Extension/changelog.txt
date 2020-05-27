@@ -1,0 +1,93 @@
+== Changelog ==
+
+The format is based on [Keep a Changelog](http://keepachangelog.com)
+and this project adheres to [Semantic Versioning](http://semver.org).
+
+= [1.1.11] - 2019-11-11 =
+* Add logout url
+
+= [1.1.10] - 2019-11-09 =
+* Added Nav bar, custom JS
+* Fixed quoting in custom CSS
+
+= [1.1.8] - 2018-09-07 =
+
+Fixed:
+
+* Fixed automatic updates using the new Alledia EDD SL Plugin Updater library, based on the original version 1.6.16;
+
+Changed:
+
+* Updated POT file;
+
+= [1.1.7] - 2018-09-06 =
+
+Fixed:
+* Fixed the alignment of the custom logo in the front-end, centralising it.
+* Fixed outdated POT file;
+
+= [1.1.6] - 2018-02-15 =
+
+Changed:
+* Update year in copyright info
+
+Fixed:
+* Fix collaterals from the new frontend tables changes
+
+= [1.1.5] - 2017-12-28 =
+
+Changed:
+* Update check process now takes at least half the time it took on previous versions
+* Update minimum requirements
+
+= [1.1.4] - 2017-10-23 =
+
+Added:
+* New action added "upstream.customizer:render_styles"
+
+Changed:
+* Code enhancements
+* Removed "Settings" label from settings sub menu items
+
+= [1.1.3] - 2017-09-18 =
+
+Changed:
+* More enhancements to translatable strings
+* Text cleanup
+
+= [1.1.2] - 2017-08-01 =
+
+Changed:
+* Enhanced support for internationalization
+* Enhancements to the licensing system
+
+Fixed:
+* Minor code enhancements
+
+= [1.1.1] - 2017-06-26 =
+
+Added:
+* Added Plugin Settings link into plugins page
+
+Changed:
+* Changed the way licenses were being validated
+* All options were grouped into sections
+
+= [1.1.0] - 2017-05-15 =
+
+Added:
+* Added Header Background Color option
+* Added Header Menu Item Background Color option
+* Added Panel Items (odd) Background Color option
+* Added Panel Items (even) Background Color option
+* Added Secondary Button Background Color option
+* Added Secondary Button Font Color option
+* Added Secondary Button Hover Background Color option
+* Added Secondary Button Hover Font Color option
+
+Fixed:
+* Fixed namespaces
+* Fixed bug where Projects Table List rows were not receiving custom customizations
+
+= [1.0.0] - 2017-05-01 =
+- Initial release

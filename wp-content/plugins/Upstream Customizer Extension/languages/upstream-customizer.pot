@@ -1,0 +1,239 @@
+# Copyright (c) 2018 UpStream Project Management
+# This file is distributed under the same license as the UpStream Customizer package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UpStream Customizer v1.1.6\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: Customizer.php:214
+msgid "Open Settings Page"
+msgstr ""
+
+#: Customizer.php:215
+msgid "Settings"
+msgstr ""
+
+#: Customizer.php:252
+#, php-format
+msgctxt "%s: Current WordPress running version"
+msgid "It seems you are using an outdated version of WordPress (%s)."
+msgstr ""
+
+#: Customizer.php:253
+msgid "For security reasons please update your installation."
+msgstr ""
+
+#: Customizer.php:254
+#, php-format
+msgctxt "%s: Plugin name"
+msgid "The <i>%s</i> requires WordPress version 4.5 or later."
+msgstr ""
+
+#: Customizer.php:256
+msgid "UpStream"
+msgstr ""
+
+#: Customizer.php:256 Customizer.php:285
+msgid "UpStream Customizer"
+msgstr ""
+
+#: Customizer.php:266
+msgid "For security reasons, this plugin requires <strong>PHP version 5.6</strong> or <strong>greater</strong> to run."
+msgstr ""
+
+#: Customizer.php:267
+msgid "Please, update your PHP (currently at"
+msgstr ""
+
+#: Customizer.php:289
+msgid "Go back to the plugins page."
+msgstr ""
+
+#: Customizer.php:290
+msgid "Go back"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:89
+msgid "Customizer"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:141
+msgid "Table of Contents"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:152
+#: includes/class-up-customizer-options.php:162
+msgid "Logo"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:153
+#: includes/class-up-customizer-options.php:194
+msgid "General Styles"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:154
+#: includes/class-up-customizer-options.php:214
+msgid "Panels"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:155
+#: includes/class-up-customizer-options.php:240
+msgid "Sidebar"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:156
+#: includes/class-up-customizer-options.php:272
+msgid "Primary Buttons"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:157
+#: includes/class-up-customizer-options.php:298
+msgid "Secondary Buttons"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:158
+#: includes/class-up-customizer-options.php:324
+msgid "Headers & Heading"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:159
+#: includes/class-up-customizer-options.php:344
+msgid "Footer"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:160
+#: includes/class-up-customizer-options.php:354
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:171
+msgid "Width"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:174
+msgid "Logo width in pixels, up to a maximum of 230px. Include px on the end of number."
+msgstr ""
+
+#: includes/class-up-customizer-options.php:182
+msgid "Height"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:185
+msgid "Logo height in pixels. Include px on the end of number."
+msgstr ""
+
+#: includes/class-up-customizer-options.php:195
+msgid "Default Text Color"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:201
+msgid "Lines & Borders Color"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:207
+msgid "Page Background Color"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:215
+#: includes/class-up-customizer-options.php:241
+#: includes/class-up-customizer-options.php:273
+#: includes/class-up-customizer-options.php:299
+msgid "Background Color"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:221
+msgid "Heading Text Color"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:227
+msgid "Odd Items Background Color"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:233
+msgid "Even Items Background Color"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:247
+msgid "Links Color"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:253
+msgid "Links Hover Color"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:259
+msgid "Highlighted Link Color"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:265
+msgid "Bottom Links Icon Color"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:279
+#: includes/class-up-customizer-options.php:305
+msgid "Font Color"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:285
+msgid "Background Hover"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:291
+msgid "Font Color Hover"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:311
+msgid "Hover Background Color"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:317
+msgid "Hover Font Color"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:325
+msgid "Header Background Color"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:331
+msgid "Header Menu Item Background Color"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:337
+msgid "Text Color"
+msgstr ""
+
+#: includes/class-up-customizer-options.php:345
+msgid "Footer Text"
+msgstr ""
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:214
+#, php-format
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:222
+#, php-format
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s or %5$supdate now%6$s."
+msgstr ""
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:412
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:412
+msgid "Error"
+msgstr ""

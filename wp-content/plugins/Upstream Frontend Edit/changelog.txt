@@ -1,0 +1,450 @@
+== Changelog ==
+
+The format is based on [Keep a Changelog](http://keepachangelog.com)
+and this project adheres to [Semantic Versioning](http://semver.org).
+
+= [1.13.2] - 2019-11-09 =
+* Fixed potential XSS vulnerability
+
+= [1.13.1] - 2019-10-16 =
+* Fixed permissions bugs for custom items
+
+= [1.13.0] - 2019-10-15 =
+* Added support for advanced permissions
+* Fixed permissions bugs
+
+= [1.12.1] - 2019-09-24 =
+* Fix bug not sending emails on assignments
+
+= [1.12.0] - 2019-09-20 =
+* Fix various timezone bugs
+* Fix problems with email notifications
+
+= [1.11.3] - 2019-09-09 =
+* Fix item 143
+* Fix item 142
+
+= [1.11.2] - 2019-09-02 =
+* Fix jQuery and other javascript bugs
+* Fix timezone bugs
+
+= [1.10.0] - 2019-07-29 =
+
+* Added support for taxonomies in the front-end;
+* Fixed colors for milestones;
+* Fixed user, tag and category fields for projects;
+* Fixed date fields;
+
+= [1.9.4] - 2019-07-25 =
+
+* Fixed the Add Project button in the frontend;
+
+= [1.9.3] - 2019-07-22 =
+
+* Fixed multiple tags in Custom Fields;
+* Fixed checkbox values not being saved;
+* Added delete buttons to the frontend;
+* Added support for the linked status and completion percentages for tasks;
+
+= [1.9.2] - 2019-07-03 =
+
+* Added a delete button to projects in the frontend;
+* Fixed color fields when creating new milestones;
+* Fixed color and categories not being saved for milestones;
+* Fixed user, tag and category for projects;
+* Fixed date fields for projects;
+* Fixed style for avatars;
+* Fixed start and end date fields allowing them to have the same date;
+* Fixed multiple tags not being saved for custom fields;
+* Fixed adding category to projects in the frontend;
+* Fixed modal windows in the project screen;
+* Fixed custom fields checkbox in the modal windows;
+* Fixed error related to missed index after removing items from the project;
+
+= [1.9.1] - 2019-05-22 =
+
+* Fixed color for milestones, displaying a field to edit it;
+
+= [1.9.0] - 2019-04-29 =
+
+* Refactored for the new Milestone data architecture;
+* Fixed a bug when saving custom fields;
+* Added UpStream 1.24 as minimum required version;
+* Fixed the -1 day issue that happened when you were editing dates in non UTC timezones if the current time was smaller than the timezone offset;
+
+= [1.8.3] - 2019-03-07 =
+
+* Fixed the file upload on frontend for some themes, making sure the media manager is loaded;
+* Added the item's name and type in the notifications sent from comments;
+* Fixed scroll position after edit an item in the frontend. The position will persists after the page reload;
+* Fixed issue on some themes where the media manager was not being loaded in the frontend;
+
+= [1.8.2] - 2019-01-15 =
+
+* Fixed compatibility with Geodir Advanced Search plugin;
+* Fixed compatibility with the Alliance theme;
+
+= [1.8.1] - 2018-11-08 =
+
+* Fixed JavaScript error: Undefined ajaxurl;
+* Fixed capability check for buttons to edit and add items in the frontend;
+* Fixed values in the created_at field for files, adding the date the file was created;
+* Fixed dates fields for project items to get unixtime directly, fixing an error message for localized date strings;
+* Added specific CSS classes to elements in the front-end allowing to customize the styling or hiding elements;
+
+= [1.8.0] - 2018-10-18 =
+
+Fixed:
+* Fixed "undefined ajaxurl" error in some environments;
+* Fixed the "edit" and "add" button for project items for when the user doesn't have permissions;
+
+Added:
+* Added specific CSS classes for field rows in modal forms;
+
+= [1.7.8] - 2018-10-03 =
+
+Fixed:
+* Fixed compatibility with PeepSo plugin, fixing the submission of post in the profile stream;
+* Fixed check for capabilities to allow or not edit the main fields in the project form;
+* Fixed support for the option to disable clients, hidding the Client and Client Users fields if disabled;
+* Fixed Add Comment strings for translations;
+* Fixed initial post status for new projects - if canceled without saving, won't show a new project in the admin;
+
+Added:
+* Added support for autoincrement fields in the front-end edit pop-ups;
+
+= [1.7.7] - 2018-09-19 =
+
+Fixed:
+* Fixed JS issue preventing users who disabled editor to edit projects in the front-end;
+* Fixed popup form submission in the frontend on Internet Explorer 11;
+* Fixed missed data-value attribute for edit links;
+* Fixed button to delete files in the front-end fields;
+* Fixed upload of files, fixing undefined variable issue;
+
+= [1.7.6] - 2018-09-07 =
+
+Fixed:
+* Fixed comments in projects in the front-end when editor is disabled in the user's profile;
+* Fixed built package removing odd debug statement;
+
+
+= [1.7.5] - 2018-09-06 =
+
+Fixed:
+* Fixed automatic updates removing legacy license and update classes and adding the new library from Alledia;
+
+Changed:
+* Updated POT file for translators;
+
+
+= [1.7.4] - 2018-09-06 =
+
+Fixed:
+* Fixed the value of radio buttons when loading saved data;
+* Fixed project creation in the front-end, fixing the error message: Invalid Project.
+* Fixed saving projects in the frontend, preventing to save if we have invalid fields;
+* Fixed project description in the frontend, to save tags like P and others;
+* Fixed project members not set when creating a new project in the frontend;
+
+Changed:
+* Updated POT file for translators;
+
+= [1.7.3] - 2018-08-21 =
+
+Fixed:
+* Fixed comments containing only images. The bug was preventing to send comments if you didn't write any text too;
+
+= [1.7.2] - 2018-08-14 =
+
+Fixed:
+* Fixed date fields removing browser's autocomplete;
+* Fixed invalid dates result of some wrong timezone calculation;
+
+= [1.7.1] - 2018-08-09 =
+
+Fixed:
+* Fixed bug where a new project added on the front-end would override another existent project;
+* Fixed the value of project's client users saved when editing on the front-end;
+* Fixed the value of project's description when editing on the front-end;
+
+= [1.7.0] - 2018-07-31 =
+
+Added:
+* Added support for the new option to pre-select client users;
+
+Fixed:
+* Fixed project editing in the frontend for custom fields;
+* Fixed multiple select boxes not being properly reset [thanks to awijasa];
+* Fixed issues caused by auto-hiding address bar on Chrome for Android [thanks to awijasa];
+* Fixed issue with unclickable buttons on Chrome for Android [thanks to awijasa];
+* Fixed the form definition adding correct type attribute for projects;
+* Fixed project editing in the front-end to correctly save the data;
+* Fixed the file preview when editing project in the front-end;
+* Fixed color picker fields, checkboxes, selects and radio buttons in the front-end;
+* Fixed default value for fields in the front-end;
+
+= [1.6.3] - 2018-06-20 =
+
+Fixed:
+* Fixed the UTC conversion for the fields in the front-end;
+* Fixed the context sent to the action to render additional fields, fixing the project form, not displaying fields that are not assigned to projects;
+* Fixed deleted milestones unlinking them from the related tasks;
+
+Changed:
+* Removed commented code related to the old admin bar fix. It was fixed in the main plugin;
+
+= [1.6.2] - 2018-06-07 =
+
+Fixed:
+* Temporarily disable the admin bar in the front-end to fix the issue with pages without the trailing slash;
+
+= [1.6.1] - 2018-06-07 =
+
+Fixed:
+* Fixed .pot file updating the strings;
+* Fixed the missed admin bar in the front-end;
+* Fixed hardcoded Client labels replacing them by the customised labels;
+
+Added:
+* Added field to edit client users for a project in the front-end;
+* Added admin bar to the front-end;
+
+Changed:
+* Changed select boxes to use chosen;
+
+= [1.6.0] - 2018-05-29 =
+
+Added:
+* Added button to create projects in the front-end;
+* Added buttons to edit project info in the front-end;
+
+= [1.5.5] - 2018-04-26 =
+
+Changed:
+* Added support for dynamic Milestones, Colors and Statuses
+
+Removed:
+* Removed deprecated code
+
+Fixed:
+* Fixed missing "Add Milestones" permission for Client Users
+* Fixed file upload column missing on Bugs with Files section was disabled
+
+= [1.5.4] - 2018-04-18 =
+
+Changed:
+* Minor improvements for timezones handling
+
+Fixed:
+* Fixed support for multiple assignees on Assigned To fields
+* Fixed Client Users not being able to edit/delete items assigned to them
+
+= [1.5.3] - 2018-03-27 =
+
+Fixed:
+* Fix potential miscompensation of automatically detected timezones by the user's browser
+
+= [1.5.2] - 2018-03-13 =
+
+Fixed:
+* Fixed form submission leading to 404's in WP running under web-root subfolders
+
+= [1.5.1] - 2018-03-08 =
+
+Added:
+* Users can be assigned to Files
+
+Changed:
+* Added support for assigning multiple users to Milestones, Tasks and Bugs
+
+= [1.5.0] - 2018-02-15 =
+
+Changed:
+* File inputs now use the WordPress Media Library
+* Update year in copyright info
+
+Fixed:
+* Fixed thumbnails overflowing on media library modals
+* Fixed Start/End Dates intervals
+* A lot of minor fixes
+
+Deprecated:
+* Both delete_item and delete_item_frontend methods were marked as deprecated
+
+= [1.4.3] - 2018-01-15 =
+
+Removed:
+* Removed deprecated add_tasks_counter() method
+* Removed deprecated add_bugs_counter() method
+
+Fixed:
+* Fixed milestone field label for Milestones not being dynamic
+
+= [1.4.2] - 2017-12-28 =
+
+Added:
+* Added new action "upstream.frontend-edit:renderAdditionalFields"
+
+Changed:
+* Update check process now takes at least half the time it took on previous versions
+
+Fixed:
+* Closing secondary modals no longer breaks their parent's modal scroll
+
+= [1.4.1] - 2017-12-07 =
+
+Fixed:
+* Fixed spacing between items on editors
+* Minor code enhancements
+
+= [1.4.0] - 2017-11-30 =
+
+Added:
+* Added support for replies on comments
+* Now users can leave comments on Milestones, Tasks, Bugs and/or Files
+
+Changed:
+* Comments layout was improved for better UX
+
+Fixed:
+* Fixed editors losing carriage returns
+
+= [1.3.9] - 2017-11-09 =
+
+Added:
+* Added new filter called "upstream.frontend-edit:project.onBeforeInsertMeta"
+
+Changed:
+* Minor code enhancements for uploads
+* Filter "upstream.frontend-edit:project.meta.onBeforeSave" was renamed to "upstream.frontend-edit:project.onBeforeEditMeta" and now passes up to four parameters
+
+Fixed:
+* Fixed bugs with files uploads
+
+= [1.3.8] - 2017-10-23 =
+
+Changed:
+* Enhanced support for internationalization
+* Enhancements to Discussion
+
+Fixed:
+* Fixed some items being overwritten when user was trying to add data instead of updating
+* Fixed edit icons appearing to Users/Client Users when they should
+* Fixed Milestone field still appearing on Tasks form even if they were disabled
+
+= [1.3.7] - 2017-09-19 =
+
+Fixed:
+* Fixed items containing special characters on their titles not being editable
+* Attempt to fix minor PHP warnings
+
+= [1.3.6] - 2017-09-18 =
+
+Changed:
+* Edit buttons were moved close to the correspondent item title
+* Enhanced support for translatable strings
+
+Fixed:
+* Fixed permissions for delete comments on discussion
+
+= [1.3.5] - 2017-08-31 =
+
+Added:
+* Added support for due date reminders through Email Notifications extension
+
+= [1.3.4] - 2017-08-21 =
+
+Update:
+* Optimize assets loading
+
+= [1.3.3] - 2017-08-11 =
+
+Fixed:
+* Fix modal titles being the same for new and existent items
+* Fix plugin assets being loaded on all pages
+
+= [1.3.2] - 2017-08-09 =
+
+Fixed:
+* Fixed bug that was breaking JS if Milestones were disabled within a project
+
+= [1.3.1] - 2017-08-07 =
+
+Fixed:
+* Fix modal conflicts with Bootstrap modals
+
+= [1.3.0] - 2017-08-01 =
+
+Fixed:
+* Fixed plugin language domain
+* Fixed Milestone being shown as required for Tasks
+* Fixed missing code-docs
+
+Changed:
+* Code enhancements
+* Enhanced support for internationalization
+* Enhanced licensign system
+
+= [1.2.2] - 2017-07-20 =
+
+Fixed:
+* Fixed bug that was causing items to lose their dates if edited on localized sites
+
+= [1.2.1] - 2017-07-12 =
+
+Changed:
+* Milestones, Tasks and Bugs can now be assigned to no one
+
+Fixed:
+* Fixed bug that was blocking some items from being deleted
+* Fixed bug causing some usernames to be blank in several places
+
+= [1.2.0] - 2017-06-26 =
+
+Added:
+* Milestones now can also be  added, edited and deleted
+
+Fixed:
+* Fixed bug where some fields - dates and editors - were being broken due duplicated ids
+
+= [1.1.2] - 2017-06-06 =
+
+Added:
+* Warn the user if he is using an outdated version of UpStream prior v1.8.0
+
+Fixed:
+* Fixed bug where some sections and fields were being displayed even if they were disabled by an admin
+* Enhanced compatibility with older versions of UpStream
+* Fixed some JS errors
+
+= [1.1.1] - 2017-05-12 =
+
+Added:
+* Added badges in the sidebar menus with the number of Tasks and Bugs assigned to the current user of that project
+
+= [1.1.0] - 2017-05-04 =
+
+Changed:
+* Replace some textareas with WYSIWYG editor in forms
+
+= [1.0.3] - 2017-03-21 =
+
+Changed:
+* Change include order of template files
+
+= [1.0.2] - 2017-02-16 =
+
+Changed:
+* Update nonce naming conventions
+
+Fixed:
+* Minor fixes to allow Project Activity updates
+
+= [1.0.1] - 2017-02-01 =
+
+Fixed:
+* Minor bug fixes
+
+= [1.0.0] - 2017-01-20 =
+* Initial release

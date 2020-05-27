@@ -1,0 +1,222 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UpStream Copy Project\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2019-12-16 21:50-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: upstream-copy-project.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: library/Plugin.php:118
+msgid ""
+"Due security reasons this plugin requires <strong>PHP version 5.6 or "
+"greater</strong> to run."
+msgstr ""
+"Per motivi di sicurezza questo plugin richiede <strong>PHP versione 5.6 o "
+"successiva</strong> per l'esecuzione."
+
+#: library/Plugin.php:120
+msgid "Please, update your PHP (currently at"
+msgstr "Per favore, aggiornare il tuo PHP (attualmente a"
+
+#: library/Plugin.php:131
+msgid ""
+"Due security reasons this plugin requires <strong>WordPress version 4.5 or "
+"greater</strong> to run."
+msgstr ""
+"Per motivi di sicurezza questo plugin richiede <strong>WordPress versione "
+"4.5 o successiva</strong> per l'esecuzione."
+
+#: library/Plugin.php:133
+msgid "Please, update your WordPress (currently at"
+msgstr "Per favore, aggiorna il tuo WordPress (attualmente a"
+
+#: library/Plugin.php:143
+#, php-format
+msgid ""
+"Please, make sure %s is <strong>installed</strong> and <strong>active</"
+"strong> in order to make this plugin to work."
+msgstr ""
+"Si prega di assicurarsi che %s è <strong>installato</strong> e "
+"<strong>attivo</strong> al fine di rendere questo plugin a lavorare."
+
+#: library/Plugin.php:145
+msgid "UpStream"
+msgstr "Upstream"
+
+#: library/Plugin.php:165 library/Plugin.php:739
+msgid "Copy Project"
+msgstr "Copia progetto"
+
+#: library/Plugin.php:169
+msgid "Go back to the plugins page."
+msgstr "Torna alla pagina dei plugin."
+
+#: library/Plugin.php:170
+msgid "Go back"
+msgstr "Indietro"
+
+#: library/Plugin.php:195
+#, fuzzy
+msgid "Only Aministrators or Managers are allowed to copy projects."
+msgstr ""
+"Solo gli amministratori o i manager sono autorizzati a copiare i progetti."
+
+#: library/Plugin.php:226
+#, fuzzy
+msgid "Only Administrators or Managers are allowed to copy projects."
+msgstr ""
+"Solo gli amministratori o i manager sono autorizzati a copiare i progetti."
+
+#: library/Plugin.php:417
+msgid "It wasn't possible to copy the project."
+msgstr "Non è stato possibile copiare il progetto."
+
+#: library/Plugin.php:463
+msgid "Yes"
+msgstr "Si"
+
+#: library/Plugin.php:464
+msgid "No"
+msgstr "No"
+
+#: library/Plugin.php:471
+msgid "Copied Project Settings"
+msgstr "Impostazioni progetto copiate"
+
+#: library/Plugin.php:472
+msgid "Here you can change a few options for copied projects."
+msgstr "Qui è possibile modificare alcune opzioni per i progetti copiati."
+
+#: library/Plugin.php:474
+msgid "Publish Status"
+msgstr "Stato di Pubblicazione"
+
+#: library/Plugin.php:477
+msgid "The copied project publish status option."
+msgstr "Opzione di stato di pubblicazione del progetto copiato."
+
+#: library/Plugin.php:479 library/Plugin.php:491
+msgid "Same as Original"
+msgstr "Uguale all'originale"
+
+#: library/Plugin.php:480
+msgid "Published"
+msgstr "Pubblicato"
+
+#: library/Plugin.php:481
+msgid "Draft"
+msgstr "Bozza"
+
+#: library/Plugin.php:486
+msgid "Published On"
+msgstr "Pubblicato Il"
+
+#: library/Plugin.php:489
+msgid "The copied project publish date."
+msgstr "Data di pubblicazione del progetto copiato."
+
+#: library/Plugin.php:492
+msgid "Current Time"
+msgstr "Data attuale"
+
+#: library/Plugin.php:497
+msgid "Activity"
+msgstr "Attività"
+
+#: library/Plugin.php:500
+msgid "Either to copy or not all project activity."
+msgstr "Copiare o non tutte le attività del progetto."
+
+#: library/Plugin.php:508 library/Plugin.php:517 library/Plugin.php:526
+#: library/Plugin.php:535
+#, php-format
+msgid "Either to copy or not all project %s."
+msgstr "Per copiare o non tutti i progetti %s."
+
+#: library/Plugin.php:541
+msgid "Discussions"
+msgstr "Discussioni"
+
+#: library/Plugin.php:544
+msgid "Either to copy or not all project discussions."
+msgstr "Per copiare o non tutte le discussioni del progetto."
+
+#: library/Plugin.php:621
+msgid "Invalid response"
+msgstr "Risposta non valida"
+
+#: library/Plugin.php:622
+msgid "It wasn't possible to copy this project."
+msgstr "Non è stato possibile copiare questo progetto."
+
+#: library/Plugin.php:683
+msgid "Open Settings Page"
+msgstr "Aprire la pagina Impostazioni"
+
+#: library/Plugin.php:684
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: library/Plugin.php:718
+msgid "Copy"
+msgstr "Copia"
+
+#: library/Plugin.php:719
+msgid "Copying..."
+msgstr "Copiatura....."
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:332
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:341
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:476
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:477
+msgid "Error"
+msgstr ""
+
+#~ msgid "UpStream Copy Project"
+#~ msgstr "Upstream Copia Progetto"
+
+#, fuzzy
+#~ msgid "https://upstreamplugin.com/extensions/copy-project"
+#~ msgstr "https://upstreamplugin.com/extensions/copy-project"
+
+#, fuzzy
+#~ msgid ""
+#~ "This extension allows you to duplicate an UpStream project including all "
+#~ "the content and options."
+#~ msgstr ""
+#~ "Questa estensione consente di duplicare un progetto UpStream con tutti i "
+#~ "contenuti e le opzioni."
+
+#, fuzzy
+#~ msgid "https://upstreamplugin.com"
+#~ msgstr "https://upstreamplugin.com"

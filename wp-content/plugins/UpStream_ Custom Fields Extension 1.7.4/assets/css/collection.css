@@ -1,0 +1,13 @@
+.wp-list-table > thead > tr > th.column-required,
+.wp-list-table > tfoot > tr > th.column-required {
+    width: 100px;
+    text-align: center;
+}
+
+.wp-list-table > tbody > tr > td.column-required {
+    text-align: center;
+}
+
+.wp-list-table > thead > tr > th#type {
+    width: 100px;
+}

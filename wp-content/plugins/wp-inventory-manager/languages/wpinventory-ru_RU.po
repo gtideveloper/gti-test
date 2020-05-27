@@ -1,0 +1,2163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Inventory\n"
+"POT-Creation-Date: 2019-02-23 11:07-0700\n"
+"PO-Revision-Date: 2019-10-11 12:12-0600\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Last-Translator: \n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/wpinventory.admin.class.php:242 includes/wpinventory.class.php:673
+msgid "Yes"
+msgstr "Да"
+
+#: includes/wpinventory.admin.class.php:242
+#: includes/wpinventory.admin.class.php:1899
+#: includes/wpinventory.admin.class.php:2227
+#: includes/wpinventory.admin.class.php:2233 includes/wpinventory.class.php:672
+msgid "No"
+msgstr "Нет"
+
+#: includes/wpinventory.admin.class.php:244
+msgid "WP Inventory Status"
+msgstr "Состояние инвентаризации WP"
+
+#: includes/wpinventory.admin.class.php:252 wpinventory.core.php:188
+msgid "Inventory Items"
+msgstr "Инвентарь"
+
+#: includes/wpinventory.admin.class.php:252
+msgid "Visible Items"
+msgstr "Видимые элементы"
+
+#: includes/wpinventory.admin.class.php:256
+#: includes/wpinventory.config.class.php:119
+msgid "Reserve"
+msgstr "Резерв"
+
+#: includes/wpinventory.admin.class.php:256
+msgid "Can Reserve Items"
+msgstr "Могут ли резервные позиции"
+
+#: includes/wpinventory.admin.class.php:291
+#, php-format
+msgid "%d Inventory Item slugs and %d Category slugs repaired."
+msgstr "%d Пробки инвентарных позиций и %d Пробки категории отремонтированы."
+
+#: includes/wpinventory.admin.class.php:327
+#, php-format
+msgid "<span>%s</span> total items"
+msgstr "<span>%s</span> итого статей"
+
+#: includes/wpinventory.admin.class.php:335
+#, php-format
+msgid ""
+"Are you sure you want to permanently delete %s inventory items, %s "
+"categories, and the %s images / media that belong to those items?\n"
+"NOTE: If you have modified any of the default items, they will still be "
+"removed.\n"
+"Continue and Delete?"
+msgstr ""
+"Вы уверены, что хотите навсегда удалить элементы инвентаря%s, категории% s и "
+"изображения / носители% s, которые принадлежат этим элементам?\n"
+"ПРИМЕЧАНИЕ. Если вы изменили какие-либо элементы по умолчанию, они все равно "
+"будут удалены.\n"
+"Продолжить и удалить?"
+
+#: includes/wpinventory.admin.class.php:340
+#, php-format
+msgid ""
+"The default inventory items are still in the system.  \n"
+"\t\t\t\t    Would you like to %sRemove default items?%s \n"
+"\t\t\t\t    (Note: this also removes the Inventory Categories, and their "
+"images and media) \n"
+"\t\t\t\t    Or, would you like to %sKeep The Default Items%s? \n"
+"\t\t\t\t    (You can always delete them one at a time later)"
+msgstr ""
+"Инвентаризация по умолчанию все еще находится в системе. \n"
+"Хотели бы вы удалить %sэлементы по умолчанию?%s\n"
+"(Примечание: при этом также удаляются категории инвентаризации, их "
+"изображения и носители информации)\n"
+"Или вы хотите сохранить элементы по умолчанию в %sсохранить элементы по "
+"умолчанию%s?\n"
+"(Вы всегда можете удалить их по очереди позже)"
+
+#: includes/wpinventory.admin.class.php:352
+#, php-format
+msgid ""
+"You have not entered a WP Inventory Manager license key in %sLicense Keys "
+"Settings%s.  You will not receive automatic updates to WP Inventory Manager."
+msgstr ""
+"Вы не ввели лицензионный ключ WP Inventory Manager в %sLicense Keys Settings"
+"%s.  Вы не будете получать автоматические обновления в WP Inventory Manager."
+
+#: includes/wpinventory.admin.class.php:359
+#, php-format
+msgid ""
+"You have not selected a theme in %sGeneral Settings%s, so your inventory may "
+"not display with attractive styles."
+msgstr ""
+"Вы не выбрали тему в %s Общие настройки%s, поэтому ваш инвентарь может не "
+"отображаться с привлекательными стилями."
+
+#: includes/wpinventory.admin.class.php:374
+#, php-format
+msgid ""
+"\"Hide Low Quantities\" is turned on in %sGeneral Settings%s, which is "
+"hiding many of your items (%d items)."
+msgstr ""
+"\"Скрытие низких количеств\" включено в %s Общие настройки%s, которые "
+"скрывают многие из ваших элементов (%d элементов)."
+
+#: includes/wpinventory.admin.class.php:379
+#, php-format
+msgid ""
+"No items will show on the front end: \"Hide Low Quantities\" is turned on in "
+"%sGeneral Settings%s, and all items are below that quantity."
+msgstr ""
+"На передней панели не будет отображаться никаких элементов: \"Скрытие низких "
+"количеств\" включено в %s Общие настройки%s, и все элементы находятся ниже "
+"этого значения."
+
+#: includes/wpinventory.admin.class.php:395
+#, php-format
+msgid "<span>%d</span> hidden by low quantity"
+msgstr "<span>%d</span> скрыто малым количеством"
+
+#: includes/wpinventory.admin.class.php:400
+#, php-format
+msgid ""
+"You are using the default \"Listing\" fields on the front end: You can "
+"change the fields to show in the %sDisplay Settings%s"
+msgstr ""
+"Вы используете поля \"Listing\" по умолчанию на передней панели: Вы можете "
+"изменить поля для отображения в %sDisplay Settings%s"
+
+#: includes/wpinventory.admin.class.php:407
+#, php-format
+msgid "<span>%d</span> hidden due to display settings"
+msgstr "<span>%d</span> скрыто из-за настроек дисплея"
+
+#: includes/wpinventory.admin.class.php:413
+#, php-format
+msgid ""
+"You are using the default \"Detail\" fields on the front end: You can change "
+"the fields to show in the %sDisplay Settings%s"
+msgstr ""
+"Вы используете поля \"Детали\" по умолчанию на передней панели: Вы можете "
+"изменить поля для отображения в %sDisplay Settings%s"
+
+#: includes/wpinventory.admin.class.php:429
+msgid ""
+"Inventory may not display on the front end: It does not appear that the "
+"[wpinventory] shortcode is installed on any pages or posts. NOTE: If you are "
+"using Divi or Themify or other Builder themes, this could be a false "
+"positive."
+msgstr ""
+"Инвентаризация может не отображаться на лицевой стороне: Не похоже, что "
+"ярлык [wpinventory] установлен ни на одной странице или сообщении. "
+"ПРИМЕЧАНИЕ: Если вы используете темы Divi или Themify или другие темы "
+"сборщика, это может быть ложным срабатыванием."
+
+#: includes/wpinventory.admin.class.php:439
+#, php-format
+msgid ""
+"Inventory Detail will not show: The [wpinventory] shortcode is on the home "
+"page, but the \"Shortcode on Home\" setting is not set to \"Yes\".  You need "
+"to turn it on in %sGeneral Settings%s"
+msgstr ""
+"Детали инвентаризации не отображаются: Контекстный код [wpinventory] "
+"находится на главной странице, но для параметра \"Shortcode on Home\" не "
+"установлено значение \"Yes\".  Его нужно включить в %s Общие настройки%s"
+
+#: includes/wpinventory.admin.class.php:459
+#, php-format
+msgid ""
+"Many items will not show on the front end: %d items are set to an inactive "
+"status."
+msgstr ""
+"Многие элементы не отображаются на лицевой стороне: %d элементы переведены в "
+"неактивное состояние."
+
+#: includes/wpinventory.admin.class.php:464
+msgid ""
+"No items will show on the front end: all of the items are set to an "
+"\"Inactive\" status."
+msgstr ""
+"На лицевой стороне не будет отображаться никаких элементов: все элементы "
+"переведены в состояние \"Неактивен\"."
+
+#: includes/wpinventory.admin.class.php:493
+#, php-format
+msgid ""
+"%d items have the same slug, and since you are using SEO url's, this means "
+"that they will not display properly when viewing the single item on the "
+"front-end. Click to %sRebuild Slugs Now%s"
+msgstr ""
+"Элементы %d имеют ту же самую пробку, и поскольку вы используете SEO url's, "
+"это означает, что они не будут отображаться должным образом при просмотре "
+"одного элемента на переднем конце. Нажмите для перехода к %sRebuild Slugs Now"
+"%s"
+
+#: includes/wpinventory.admin.class.php:526
+#, php-format
+msgid ""
+"Numeric sort has been selected for the field \"%s\", but there are %d items "
+"with letters in the field.  This will result in unexpected sorting for this "
+"field."
+msgstr ""
+"Для поля \"%s\" выбрана цифровая сортировка, но в нем присутствуют элементы "
+"%d с буквами.  Это приведет к неожиданной сортировке данного поля."
+
+#: includes/wpinventory.admin.class.php:542
+msgid "Can"
+msgstr "Может"
+
+#: includes/wpinventory.admin.class.php:542
+msgid "Can Not"
+msgstr "Не могу"
+
+#: includes/wpinventory.admin.class.php:543
+#, php-format
+msgid "Users <span>%s</span> set quantity"
+msgstr "Пользователи <span>%s</span> заданное количество"
+
+#: includes/wpinventory.admin.class.php:545
+msgid "Do"
+msgstr "Делать"
+
+#: includes/wpinventory.admin.class.php:545
+msgid "Do Not"
+msgstr "Не надо"
+
+#: includes/wpinventory.admin.class.php:546
+#, php-format
+msgid "Reservations <span>%s</span> reduce item quantity"
+msgstr "Бронирование <span>%s</span> уменьшают количество позиций"
+
+#: includes/wpinventory.admin.class.php:548
+msgid "Are"
+msgstr "Ар"
+
+#: includes/wpinventory.admin.class.php:548
+msgid "Are Not"
+msgstr "Не"
+
+#: includes/wpinventory.admin.class.php:549
+#, php-format
+msgid "Emails <span>%s</span> sent to submitter"
+msgstr "Электронная почта <span>%s</span> отправлено отправителю"
+
+#: includes/wpinventory.admin.class.php:555
+#, php-format
+msgid "Notifications sent to <span>%s</span>"
+msgstr "Уведомления, отправленные в <span>%s</span>"
+
+#: includes/wpinventory.admin.class.php:562
+#, php-format
+msgid ""
+"Reserve emails will not include item details. You need to set the \"Detail\" "
+"fields to show in the %sDisplay Settings%s"
+msgstr ""
+"Резервная электронная почта не будет содержать подробностей о товаре. Для "
+"отображения в %sDisplay Settings%s полей \"Detail\" (Подробности) необходимо "
+"установить значение"
+
+#: includes/wpinventory.admin.class.php:725
+msgid "Instructions"
+msgstr "Инструкции"
+
+#: includes/wpinventory.admin.class.php:727
+msgid "Quick-Start Guide"
+msgstr "Краткое руководство пользователя"
+
+#: includes/wpinventory.admin.class.php:728
+msgid "Before you begin setting up your items, you should follow these steps:"
+msgstr ""
+"Прежде чем приступить к настройке параметров, выполните следующие действия:"
+
+#: includes/wpinventory.admin.class.php:730
+msgid "Set up your"
+msgstr "Настройте"
+
+#: includes/wpinventory.admin.class.php:730
+#: includes/wpinventory.widgets.class.php:71
+msgid "Inventory Categories"
+msgstr "Категории инвентаризации"
+
+#: includes/wpinventory.admin.class.php:731
+msgid "Configure the"
+msgstr "Настройте параметры"
+
+#: includes/wpinventory.admin.class.php:731
+#: includes/wpinventory.admin.class.php:2146 wpinventory.core.php:202
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/wpinventory.admin.class.php:732
+msgid "Configure labels"
+msgstr "Настроить этикетки"
+
+#: includes/wpinventory.admin.class.php:732
+#: includes/wpinventory.admin.class.php:1605 wpinventory.core.php:192
+msgid "Labels"
+msgstr "Метки"
+
+#: includes/wpinventory.admin.class.php:733
+msgid "Set Display Options"
+msgstr "Установка параметров отображения информации"
+
+#: includes/wpinventory.admin.class.php:733 wpinventory.core.php:196
+msgid "Display"
+msgstr "Показать"
+
+#: includes/wpinventory.admin.class.php:734
+msgid "Then, you can "
+msgstr "Тогда ты можешь "
+
+#: includes/wpinventory.admin.class.php:734
+msgid "Add Inventory Items"
+msgstr "Добавить товарно-материальные ценности"
+
+#: includes/wpinventory.admin.class.php:735
+msgid "Finally, install the shortcode"
+msgstr "Наконец, установите код быстрого доступа"
+
+#: includes/wpinventory.admin.class.php:735
+msgid "on any pages you would like to display inventory."
+msgstr "на любых страницах, которые вы хотите выставить на обозрение."
+
+#: includes/wpinventory.admin.class.php:750
+msgid "Inventory Item"
+msgstr "Инвентарный : объект"
+
+#: includes/wpinventory.admin.class.php:750
+#: includes/wpinventory.admin.class.php:1408
+#: includes/wpinventory.admin.class.php:1605
+#: includes/wpinventory.admin.class.php:1724
+#: includes/wpinventory.admin.class.php:1863
+msgid "saved successfully."
+msgstr "успешно спасены."
+
+#: includes/wpinventory.admin.class.php:760
+msgid "Manage Inventory Items"
+msgstr "Управление инвентарными позициями"
+
+#: includes/wpinventory.admin.class.php:840
+msgid "Add Inventory Item"
+msgstr "Добавить инвентарную единицу"
+
+#: includes/wpinventory.admin.class.php:887
+msgid "edit item"
+msgstr "изменить элемент"
+
+#: includes/wpinventory.admin.class.php:892
+msgid "delete item"
+msgstr "удалить элемент"
+
+#: includes/wpinventory.admin.class.php:897
+msgid "duplicate item"
+msgstr "дублирующее изделие"
+
+#: includes/wpinventory.admin.class.php:918
+msgid "You do not have permission to edit this item."
+msgstr "У вас нет разрешения на редактирование этого элемента."
+
+#: includes/wpinventory.admin.class.php:1089
+#: includes/wpinventory.admin.class.php:1446
+#: includes/wpinventory.admin.class.php:1517
+#: includes/wpinventory.widgets.class.php:84
+#: includes/wpinventory.widgets.class.php:91
+msgid "Sort Order"
+msgstr "Порядок сортировки"
+
+#: includes/wpinventory.admin.class.php:1119
+#: includes/wpinventory.admin.class.php:1526
+#: includes/wpinventory.admin.class.php:1645
+#: includes/wpinventory.admin.class.php:1755
+#: includes/wpinventory.admin.class.php:1952
+#: includes/wpinventory.admin.class.php:2006
+#: includes/wpinventory.admin.class.php:2684
+msgid "Cancel"
+msgstr "Отмена"
+
+#: includes/wpinventory.admin.class.php:1122
+msgid "Save Item"
+msgstr "Сохранить элемент"
+
+#: includes/wpinventory.admin.class.php:1129
+#, php-format
+msgid "%s at %s"
+msgstr "%s в %s"
+
+#: includes/wpinventory.admin.class.php:1137
+#, php-format
+msgid "Item last updated %s by %s"
+msgstr "Последние обновления %s по %s"
+
+#: includes/wpinventory.admin.class.php:1139
+#, php-format
+msgid "Item last updated %s"
+msgstr "Последнее обновление %s"
+
+#: includes/wpinventory.admin.class.php:1183
+msgid "Drag and drop images to change sort order"
+msgstr "Перетаскивание изображений для изменения порядка сортировки"
+
+#: includes/wpinventory.admin.class.php:1219 wpinventory.core.php:526
+msgid "Image"
+msgstr "Изображение"
+
+#: includes/wpinventory.admin.class.php:1255
+msgid "Add Media"
+msgstr "Добавить медиа"
+
+#: includes/wpinventory.admin.class.php:1256
+msgid "Drag and drop media to change sort order"
+msgstr "Перетаскивание носителей для изменения порядка сортировки"
+
+#: includes/wpinventory.admin.class.php:1265 wpinventory.core.php:531
+msgid "Title"
+msgstr "Заголовок"
+
+#: includes/wpinventory.admin.class.php:1266 wpinventory.core.php:530
+msgid "URL"
+msgstr "URL"
+
+#: includes/wpinventory.admin.class.php:1316
+msgid "You do not have permission to save this item."
+msgstr "У вас нет разрешения на сохранение этого элемента."
+
+#: includes/wpinventory.admin.class.php:1320
+#: includes/wpinventory.admin.class.php:1550
+msgid "Security failure.  Please try again."
+msgstr "Сбой системы безопасности.  Пожалуйста, попробуйте еще раз."
+
+#: includes/wpinventory.admin.class.php:1324 wpinventory.core.php:535
+#, php-format
+msgid "Either %s or %s is required."
+msgstr "Требуется либо %s, либо %s."
+
+#: includes/wpinventory.admin.class.php:1377
+msgid "Inventory id not set.  Item not deleted."
+msgstr "Инвентарный номер не установлен.  Элемент не удален."
+
+#: includes/wpinventory.admin.class.php:1388
+msgid "Inventory item deleted successfully."
+msgstr "Элемент кадастра удален успешно."
+
+#: includes/wpinventory.admin.class.php:1408
+#: includes/wpinventory.admin.class.php:1416
+#: includes/wpinventory.admin.class.php:1442
+#: includes/wpinventory.widgets.class.php:167
+msgid "Category"
+msgstr "Категория"
+
+#: includes/wpinventory.admin.class.php:1416
+msgid "deleted successfully."
+msgstr "удалены успешно."
+
+#: includes/wpinventory.admin.class.php:1423
+msgid "Manage Categories"
+msgstr "Управление категориями"
+
+#: includes/wpinventory.admin.class.php:1456
+msgid "Add Category"
+msgstr "Добавить категорию"
+
+#: includes/wpinventory.admin.class.php:1473
+msgid "Edit"
+msgstr "Редактировать"
+
+#: includes/wpinventory.admin.class.php:1475
+msgid "Delete"
+msgstr "Удалить"
+
+#: includes/wpinventory.admin.class.php:1500
+#: includes/wpinventory.admin.class.php:1554
+#: includes/wpinventory.widgets.class.php:85
+msgid "Category Name"
+msgstr "Название категории"
+
+#: includes/wpinventory.admin.class.php:1506
+msgid "Permalink"
+msgstr "Постоянная ссылка"
+
+#: includes/wpinventory.admin.class.php:1511
+#: includes/wpinventory.admin.class.php:1767
+msgid "Description"
+msgstr "Описание"
+
+#: includes/wpinventory.admin.class.php:1528
+msgid "Save Category"
+msgstr "Сохранить категорию"
+
+#: includes/wpinventory.admin.class.php:1554
+#: includes/wpinventory.reserve.class.php:147
+msgid "is required."
+msgstr "обязательно для заполнения."
+
+#: includes/wpinventory.admin.class.php:1576
+msgid "Category id not set.  Category not deleted."
+msgstr "Категория id не установлена.  Категория не удалена."
+
+#: includes/wpinventory.admin.class.php:1588
+msgid "Category item deleted successfully."
+msgstr "Элемент категории удален успешно."
+
+#: includes/wpinventory.admin.class.php:1611
+msgid "Manage Labels"
+msgstr "Управление этикетками"
+
+#: includes/wpinventory.admin.class.php:1639
+msgid "Edit Labels"
+msgstr "Редактировать этикетки"
+
+#: includes/wpinventory.admin.class.php:1647
+msgid "Save Labels"
+msgstr "Сохранить Метки"
+
+#: includes/wpinventory.admin.class.php:1649
+#: includes/wpinventory.admin.class.php:2687
+msgid "Reset to Defaults"
+msgstr "Сбросить по умолчанию"
+
+#: includes/wpinventory.admin.class.php:1670
+msgid "Use Field"
+msgstr "Использовать поле"
+
+#: includes/wpinventory.admin.class.php:1672
+msgid "Always On"
+msgstr "Всегда Вкл"
+
+#: includes/wpinventory.admin.class.php:1679
+msgid "Sort Numerically"
+msgstr "Сортировать Численно"
+
+#: includes/wpinventory.admin.class.php:1724 wpinventory.core.php:199
+msgid "Statuses"
+msgstr "Статусы"
+
+#: includes/wpinventory.admin.class.php:1730
+msgid "Manage Statuses"
+msgstr "Управление статусами"
+
+#: includes/wpinventory.admin.class.php:1749
+msgid "Edit Statuses"
+msgstr "Редактировать состоянии"
+
+#: includes/wpinventory.admin.class.php:1757
+msgid "Save Statuses"
+msgstr "Сохранить статусы"
+
+#: includes/wpinventory.admin.class.php:1766
+#: includes/wpinventory.functions.php:1027 wpinventory.core.php:187
+msgid "Status"
+msgstr "Статус"
+
+#: includes/wpinventory.admin.class.php:1768
+#: includes/wpinventory.admin.class.php:1784
+#: includes/wpinventory.admin.class.php:1810
+msgid "Hide Items"
+msgstr "Скрыть"
+
+#: includes/wpinventory.admin.class.php:1788
+msgid " hide items"
+msgstr " скрытые предметы"
+
+#: includes/wpinventory.admin.class.php:1798
+msgid "Add Status"
+msgstr "Добавить статус"
+
+#: includes/wpinventory.admin.class.php:1863
+msgid "Display Settings"
+msgstr "Настройки отображения"
+
+#: includes/wpinventory.admin.class.php:1869
+msgid "Manage Display"
+msgstr "Управление дисплеем"
+
+#: includes/wpinventory.admin.class.php:1882
+msgid "Show in Listing"
+msgstr "Показать в листинге"
+
+#: includes/wpinventory.admin.class.php:1883
+msgid "Show on Detail"
+msgstr "Показать подробности"
+
+#: includes/wpinventory.admin.class.php:1884
+msgid "Show in Admin"
+msgstr "Показать в Администраторе"
+
+#: includes/wpinventory.admin.class.php:1885
+msgid "Show in Search Results"
+msgstr "Показать в результатах поиска"
+
+#: includes/wpinventory.admin.class.php:1900
+msgid "Yes - Standard"
+msgstr "Да - Стандартный"
+
+#: includes/wpinventory.admin.class.php:1901
+msgid "Yes - DataTables"
+msgstr "Да - Таблицы данных"
+
+#: includes/wpinventory.admin.class.php:1953
+#: includes/wpinventory.admin.class.php:2007
+#: includes/wpinventory.admin.class.php:2685
+msgid "Save Settings"
+msgstr "Сохранить настройки"
+
+#: includes/wpinventory.admin.class.php:1955
+msgid ""
+"Drag-and-drop items from the Available Fields list to the desired list to "
+"control what shows on the front-end inventory."
+msgstr ""
+"Перетащите элементы из списка доступных полей в нужный список для управления "
+"тем, что отображается во внешней инвентаризации."
+
+#: includes/wpinventory.admin.class.php:1958
+msgid "Available Fields"
+msgstr "Доступные поля"
+
+#: includes/wpinventory.admin.class.php:1972
+msgid "Add All Fields"
+msgstr "Добавить все поля"
+
+#: includes/wpinventory.admin.class.php:1979
+msgid "Show Labels in Listing"
+msgstr "Показать ярлыки в листинге"
+
+#: includes/wpinventory.admin.class.php:1983
+msgid "Display Listing as Table"
+msgstr "Отображение списка в виде таблицы"
+
+#: includes/wpinventory.admin.class.php:1985
+#, php-format
+msgid ""
+"No: Each item will be in a separate box / panel.  Yes - Standard: Table "
+"(spreadsheet) view.  Yes - DataTables: Table (spreadsheet) view, using the "
+"%sDataTables Library%s to provide sorting / filtering."
+msgstr ""
+"Нет: Каждый предмет будет помещен в отдельную коробку / панель.  Да - "
+"Стандартный: Вид таблицы (электронной таблицы).  Да - Таблицы данных: "
+"Представление таблицы (электронной таблицы), используя %sDataTables Library"
+"%s для обеспечения сортировки/фильтрации."
+
+#: includes/wpinventory.admin.class.php:1987
+#, php-format
+msgid ""
+"IMPORTANT: You are choosing to use the jQuery DataTables library to display "
+"items on the front end.  Please be sure to %sRead the DataTables Docs%s to "
+"understand what you are doing. Some WP Inventory %sshortcode arguments%s "
+"(such as order, page, page size) will NOT work with this setting.  Further, "
+"if you have over 1000 inventory items, DataTables may cause the listing to "
+"be slow."
+msgstr ""
+"ВАЖНО: Для отображения элементов на передней панели используется библиотека "
+"jQuery DataTables.  Пожалуйста, не забудьте прочитать %sДокументация таблиц "
+"данных%s, чтобы понять, что вы делаете. Некоторые аргументы WP Inventory "
+"%sshortcode аргументы% s(такие как заказ, страница, размер страницы) НЕ "
+"будут работать с этим параметром.  Кроме того, если у вас более 1000 единиц "
+"инвентаризации, DataTables может привести к замедлению процесса внесения в "
+"реестр."
+
+#: includes/wpinventory.admin.class.php:1991
+msgid "Image size in Listing"
+msgstr "Размер изображения в Листинге"
+
+#: includes/wpinventory.admin.class.php:1995
+msgid "Show Labels on Detail"
+msgstr "Показать метки на деталях"
+
+#: includes/wpinventory.admin.class.php:1999
+msgid "Image size in Detail"
+msgstr "Размер изображения в деталях"
+
+#: includes/wpinventory.admin.class.php:2052
+#, php-format
+msgid "You may not display the following fields in the %s listing: %s"
+msgstr "Вы не можете отображать следующие поля в списке %s: %s"
+
+#: includes/wpinventory.admin.class.php:2100
+msgid "Admin"
+msgstr "Администратор"
+
+#: includes/wpinventory.admin.class.php:2146
+msgid "saved successfully, and rewrite rules flushed."
+msgstr "сохранены успешно, и переписать правила удалено."
+
+#: includes/wpinventory.admin.class.php:2149
+msgid "Manage Settings"
+msgstr "Управление настройками"
+
+#: includes/wpinventory.admin.class.php:2167
+msgid " - None / No CSS -"
+msgstr " - Нет / Нет CSS -"
+
+#: includes/wpinventory.admin.class.php:2180
+msgid "Administrator"
+msgstr "Администратор"
+
+#: includes/wpinventory.admin.class.php:2181
+msgid "Editor"
+msgstr "Редактор"
+
+#: includes/wpinventory.admin.class.php:2182
+msgid "Author"
+msgstr "Автор"
+
+#: includes/wpinventory.admin.class.php:2183
+msgid "Contributor"
+msgstr "Участник"
+
+#: includes/wpinventory.admin.class.php:2184
+msgid "Subscriber"
+msgstr "Подписчик"
+
+#: includes/wpinventory.admin.class.php:2190
+msgid "Any items"
+msgstr "Любые вещи"
+
+#: includes/wpinventory.admin.class.php:2191
+msgid "Only their own items"
+msgstr "Только их собственные вещи"
+
+#: includes/wpinventory.admin.class.php:2199
+msgid "Do not display"
+msgstr "Не отображать"
+
+#: includes/wpinventory.admin.class.php:2214
+msgid "Before"
+msgstr "До"
+
+#: includes/wpinventory.admin.class.php:2215
+msgid "After"
+msgstr "После"
+
+#: includes/wpinventory.admin.class.php:2228
+msgid "Yes - at top of search results"
+msgstr "Да - в верхней части результатов поиска"
+
+#: includes/wpinventory.admin.class.php:2229
+msgid "Yes - at bottom of search results"
+msgstr "Да - внизу результатов поиска"
+
+#: includes/wpinventory.admin.class.php:2234
+msgid "Yes - Open in Same Window"
+msgstr "Да - Открыть в том же окне"
+
+#: includes/wpinventory.admin.class.php:2235
+msgid "Yes - Open in New Window"
+msgstr "Да - открыть в новом окне"
+
+#: includes/wpinventory.admin.class.php:2244
+msgid "SEO URLs will not work with your current "
+msgstr "SEO URL-адреса не будут работать с вашими текущими "
+
+#: includes/wpinventory.admin.class.php:2244
+msgid "Permalink Structure"
+msgstr "Структура постоянных ссылок"
+
+#: includes/wpinventory.admin.class.php:2262
+msgid "License key is invalid or expired."
+msgstr "Лицензионный ключ недействителен или срок его действия истек."
+
+#: includes/wpinventory.admin.class.php:2262
+#: includes/wpinventory.admin.class.php:2272
+#, php-format
+msgid "License key is valid until %s"
+msgstr "Лицензионный ключ действителен до %s"
+
+#: includes/wpinventory.admin.class.php:2268
+msgid "License key is invalid"
+msgstr "Лицензионный ключ недействителен"
+
+#: includes/wpinventory.admin.class.php:2270
+#, php-format
+msgid "License key expired on %s"
+msgstr "Срок действия лицензионного ключа истек на %s"
+
+#: includes/wpinventory.admin.class.php:2282
+#: includes/wpinventory.admin.class.php:2285
+msgid "License Keys"
+msgstr "Лицензионные ключи"
+
+#: includes/wpinventory.admin.class.php:2288
+msgid "Inventory Manager License Key"
+msgstr "Управляющий запасами Лицензионный ключ"
+
+#: includes/wpinventory.admin.class.php:2300
+#, php-format
+msgid "%s License Key"
+msgstr "%s Лицензионный ключ"
+
+#: includes/wpinventory.admin.class.php:2306
+msgid "Validate Licenses"
+msgstr "Подтверждение лицензий"
+
+#: includes/wpinventory.admin.class.php:2309
+msgid "General Settings"
+msgstr "Основные настройки"
+
+#: includes/wpinventory.admin.class.php:2312
+msgid "Permissions Settings"
+msgstr "Права доступа Настройки"
+
+#: includes/wpinventory.admin.class.php:2315
+msgid "Minimum Role to Add/Edit Items"
+msgstr "Минимальная роль для добавления/редактирования элементов"
+
+#: includes/wpinventory.admin.class.php:2319
+msgid "Allow Users to Edit"
+msgstr "Разрешить пользователям редактировать"
+
+#: includes/wpinventory.admin.class.php:2323
+msgid "Item Display"
+msgstr "Отображение элементов"
+
+#: includes/wpinventory.admin.class.php:2326
+msgid "Use SEO URLs"
+msgstr "Использовать SEO URL-адреса"
+
+#: includes/wpinventory.admin.class.php:2333
+msgid "SEO Endpoint"
+msgstr "SEO Endpoint"
+
+#: includes/wpinventory.admin.class.php:2338
+msgid "Shortcode on Home?"
+msgstr "Короткий код дома?"
+
+#: includes/wpinventory.admin.class.php:2341
+msgid ""
+"Select YES if you are using inventory on the home page. This disables "
+"canonical redirects for the home page."
+msgstr ""
+"Выберите ДА, если вы используете инвентаризацию на главной странице. "
+"Отключает канонические переадресации на главную страницу."
+
+#: includes/wpinventory.admin.class.php:2345
+msgid "Theme"
+msgstr "Тема"
+
+#: includes/wpinventory.admin.class.php:2352
+msgid "Use Media Fields"
+msgstr "Использовать поля медиа"
+
+#: includes/wpinventory.admin.class.php:2354
+msgid "Setting this to no still allows images, just not additional media"
+msgstr ""
+"Установка на \"Нет\" позволяет получать изображения, но не дополнительные "
+"носители"
+
+#: includes/wpinventory.admin.class.php:2358
+msgid "Items Per Page"
+msgstr "Элементов на странице"
+
+#: includes/wpinventory.admin.class.php:2363
+msgid "Hide Items Low Quantity"
+msgstr "Скрыть объекты Низкое Количество Скрыть объекты"
+
+#: includes/wpinventory.admin.class.php:2365
+msgid "Set the low quantity threshold below"
+msgstr "Установите нижний пороговый уровень для малого количества"
+
+#: includes/wpinventory.admin.class.php:2369
+msgid "Hide Items Below Quantity"
+msgstr "Скрыть объекты Ниже Количество"
+
+#: includes/wpinventory.admin.class.php:2373
+msgid "Only honored if \"Hide Items Low Quantity\" set to yes"
+msgstr ""
+"Считается за честь, если \"Скрыть предметы в малом количестве\" установлено "
+"на \"Да\""
+
+#: includes/wpinventory.admin.class.php:2377
+msgid "Display \"Out of Stock\" message"
+msgstr "Отобразить сообщение \"На складе нет\""
+
+#: includes/wpinventory.admin.class.php:2379
+msgid ""
+"This will display a banner on the front end that the item is out of stock "
+"and it will also hide the reserve form"
+msgstr ""
+"Это покажет баннер на переднем конце, что элемент отсутствует на складе, и "
+"он также будет скрывать форму резерва"
+
+#: includes/wpinventory.admin.class.php:2383
+msgid "Quantity item must reach to display out of stock"
+msgstr "Количество товара должно доходить до дисплея для отображения на складе"
+
+#: includes/wpinventory.admin.class.php:2387
+msgid ""
+"Only honored if \"Display \"Out of Stock\" message\" set to yes AND \"Hide "
+"Items Low Quantity\" set to no"
+msgstr ""
+"Выполняется только в том случае, если для параметра \"Отображать сообщение "
+"\"Нет на складе\" установлено значение \"Да\", а для параметра \"Скрыть "
+"предметы Низкое количество\" установлено значение \"Нет\""
+
+#: includes/wpinventory.admin.class.php:2388
+msgid ""
+"Also note that the \"Out of Stock\" notice will only display on the "
+"<strong>listing page</strong> if you <u>do not</u> use tables"
+msgstr ""
+"Также обратите внимание, что уведомление \"Из запасов\" будет отображаться "
+"на <strong>странице листинга</strong> только в том случае, если вы <u>не</u> "
+"используете таблицы"
+
+#: includes/wpinventory.admin.class.php:2393
+msgid "Date Format Settings"
+msgstr "Настройки формата даты"
+
+#: includes/wpinventory.admin.class.php:2396
+msgid "Date Format"
+msgstr "Формат даты"
+
+#: includes/wpinventory.admin.class.php:2400
+msgid "Time Format"
+msgstr "Формат времени"
+
+#: includes/wpinventory.admin.class.php:2405
+msgid "Currency Format Settings"
+msgstr "Настройки формата валюты"
+
+#: includes/wpinventory.admin.class.php:2408
+msgid "Currency Symbol"
+msgstr "Символ валюты"
+
+#: includes/wpinventory.admin.class.php:2413
+msgid "Currency Symbol Location"
+msgstr "Расположение символа валюты"
+
+#: includes/wpinventory.admin.class.php:2417
+msgid "Currency Thousands Separator"
+msgstr "Валюта Разделитель Тысяч Разделитель Тысяч"
+
+#: includes/wpinventory.admin.class.php:2422
+msgid "Currency Decimal Separator"
+msgstr "Десятичный разделитель валют"
+
+#: includes/wpinventory.admin.class.php:2427
+msgid "Currency Precision (decimal places)"
+msgstr "Валюта Точность (десятичные знаки после запятой)"
+
+#: includes/wpinventory.admin.class.php:2431
+msgid "Currency Example (with settings):"
+msgstr "Пример валюты (с настройками):"
+
+#: includes/wpinventory.admin.class.php:2436
+msgid "Search Settings"
+msgstr "Настройки поиска"
+
+#: includes/wpinventory.admin.class.php:2440
+msgid "Include Inventory in Search"
+msgstr "Включить инвентаризацию в поиск"
+
+#: includes/wpinventory.admin.class.php:2442
+msgid "WARNING: May not work with your theme.  Be sure to test."
+msgstr "ВНИМАНИЕ: Может не работать с вашей темой.  Обязательно проверьте."
+
+#: includes/wpinventory.admin.class.php:2446
+msgid "Search Results Links to"
+msgstr "Результаты поиска Ссылки на"
+
+#: includes/wpinventory.admin.class.php:2451
+msgid "WARNING: [wpinventory] shortcode not found on any pages!"
+msgstr "ВНИМАНИЕ: ярлыка [wpinventory] не найдена ни на одной странице!"
+
+#: includes/wpinventory.admin.class.php:2458
+msgid ""
+"This is a list of all posts and pages with the [wpinventory] shortcode on "
+"it.  This is where you will go when you click to view the inventory item "
+"from the search results listing."
+msgstr ""
+"Это список всех сообщений и страниц с ярлыком [wpinventory] на них.  Именно "
+"сюда вы перейдете, когда нажмете на ссылку, чтобы просмотреть товар из "
+"списка результатов поиска."
+
+#: includes/wpinventory.admin.class.php:2463
+msgid "Display Filter at Top of Item Listing"
+msgstr "Отображение фильтра в верхней части списка товаров"
+
+#: includes/wpinventory.admin.class.php:2468
+msgid "Dashboard Admin"
+msgstr "Администратор приборной панели"
+
+#: includes/wpinventory.admin.class.php:2472
+msgid "Hide header in the admin"
+msgstr "Скрыть заголовок в админе"
+
+#: includes/wpinventory.admin.class.php:2477
+msgid "Show The Item ID in The Admin Listing"
+msgstr "Показать идентификатор объекта в списке администратора"
+
+#: includes/wpinventory.admin.class.php:2482
+msgid "Reserve Settings"
+msgstr "Настройки резерва"
+
+#: includes/wpinventory.admin.class.php:2485
+msgid "General"
+msgstr "Общие"
+
+#: includes/wpinventory.admin.class.php:2488
+msgid "Allow Visitors to Reserve Items"
+msgstr "Разрешить посетителям зарезервировать предметы"
+
+#: includes/wpinventory.admin.class.php:2492
+msgid "Ask for Qty When Reserving"
+msgstr "Запрос на Qty при резервировании"
+
+#: includes/wpinventory.admin.class.php:2496
+msgid "Decrease Qty in System on Reserve"
+msgstr "Уменьшение Квартала в системе резервов"
+
+#: includes/wpinventory.admin.class.php:2500
+msgid "Send-to Email When Reserve"
+msgstr "Отправка на электронную почту при резервировании"
+
+#: includes/wpinventory.admin.class.php:2504
+msgid ""
+"If left blank, the E-Mail Address from Settings -> General will be used."
+msgstr ""
+"Если оставить пустым, будет использоваться E-Mail Address from Settings -> "
+"General (Адрес электронной почты из меню Settings -> General)."
+
+#: includes/wpinventory.admin.class.php:2508
+msgid "Send Reserve Confirmation"
+msgstr "Отправить подтверждение резерва"
+
+#: includes/wpinventory.admin.class.php:2510
+msgid ""
+"Should a confirmation e-mail be sent to the submitter when a reserve form\n"
+"                            is submitted?"
+msgstr ""
+"Если подтверждающее письмо будет отправлено отправителю по электронной почте "
+"при заполнении формы резерва\n"
+"                            подается?"
+
+#: includes/wpinventory.admin.class.php:2514
+msgid "Reserve Message"
+msgstr "Резервное сообщение"
+
+#: includes/wpinventory.admin.class.php:2517
+msgid "Message displayed when a visitor completes a reservation."
+msgstr "Сообщение отображается, когда посетитель завершает бронирование."
+
+#: includes/wpinventory.admin.class.php:2520
+msgid "Form Settings"
+msgstr "Настройки формы"
+
+#: includes/wpinventory.admin.class.php:2523
+msgid "Form Title"
+msgstr "Название формы"
+
+#: includes/wpinventory.admin.class.php:2528
+msgid "Require Name"
+msgstr "Имя обязательно"
+
+#: includes/wpinventory.admin.class.php:2532
+msgid "Name Input Label"
+msgstr "Ярлык ввода имени"
+
+#: includes/wpinventory.admin.class.php:2537
+msgid "Require Address"
+msgstr "Требовать адрес"
+
+#: includes/wpinventory.admin.class.php:2541
+msgid "Address Input Label"
+msgstr "Входная адресная этикетка"
+
+#: includes/wpinventory.admin.class.php:2546
+msgid "Require City"
+msgstr "Требуется город"
+
+#: includes/wpinventory.admin.class.php:2550
+msgid "City Input Label"
+msgstr "Маркировка входа в город"
+
+#: includes/wpinventory.admin.class.php:2555
+msgid "Require State"
+msgstr "Требуется штат"
+
+#: includes/wpinventory.admin.class.php:2559
+msgid "State Input Label"
+msgstr "Входная метка состояния"
+
+#: includes/wpinventory.admin.class.php:2564
+msgid "Require Zip"
+msgstr "Требовать застегнуть молнию"
+
+#: includes/wpinventory.admin.class.php:2568
+msgid "Zip Input Label"
+msgstr "Метка входа на молнию"
+
+#: includes/wpinventory.admin.class.php:2573
+msgid "Require Phone"
+msgstr "Телефон требуется"
+
+#: includes/wpinventory.admin.class.php:2577
+msgid "Phone Input Label"
+msgstr "Входная этикетка телефона"
+
+#: includes/wpinventory.admin.class.php:2582
+msgid "Require Email"
+msgstr "Требовать Электронная почта"
+
+#: includes/wpinventory.admin.class.php:2586
+#: includes/wpinventory.admin.class.php:2600
+msgid "Email Input Label"
+msgstr "Ярлык ввода электронной почты"
+
+#: includes/wpinventory.admin.class.php:2591
+msgid "Require Message"
+msgstr "Требовать сообщение"
+
+#: includes/wpinventory.admin.class.php:2595
+msgid "Message Input Label"
+msgstr "Ярлык ввода сообщения"
+
+#: includes/wpinventory.admin.class.php:2605
+msgid "Quantity Input Label"
+msgstr "Этикетка с количественным входом"
+
+#: includes/wpinventory.admin.class.php:2610
+msgid "Reserve Button text"
+msgstr "Текст резервной кнопки"
+
+#: includes/wpinventory.admin.class.php:2616
+msgid "Image / Media"
+msgstr "Изображение / Медиа"
+
+#: includes/wpinventory.admin.class.php:2619
+msgid "Image Settings"
+msgstr "Настройки изображения"
+
+#: includes/wpinventory.admin.class.php:2622
+msgid "Placeholder Image"
+msgstr "Изображение заглушки"
+
+#: includes/wpinventory.admin.class.php:2632
+msgid "Clicking Image Displays Larger Image"
+msgstr "Нажатие кнопки Image (Изображение) Отображает увеличенное изображение"
+
+#: includes/wpinventory.admin.class.php:2634
+msgid ""
+"This setting only applies to Detailed view.  In Listing View, clicking image "
+"links to product details."
+msgstr ""
+"Эта настройка применима только к подробному просмотру.  В режиме просмотра "
+"листинга нажмите на ссылку на изображение, чтобы перейти к информации о "
+"продукте."
+
+#: includes/wpinventory.admin.class.php:2638
+msgid "Open Media in New Window"
+msgstr "Открыть медиа в новом окне"
+
+#: includes/wpinventory.admin.class.php:2642
+msgid "Rebuild Image Thumbnails"
+msgstr "Восстановление миниатюр изображений"
+
+#: includes/wpinventory.admin.class.php:2647
+#: includes/wpinventory.admin.class.php:2650
+msgid "Notifications"
+msgstr "Уведомления"
+
+#: includes/wpinventory.admin.class.php:2653
+msgid "Send Low Quantity Email Notification"
+msgstr "Отправка уведомлений по электронной почте в малом количестве"
+
+#: includes/wpinventory.admin.class.php:2659
+msgid "Show alert marker and message"
+msgstr "Показать предупреждающий маркер и сообщение"
+
+#: includes/wpinventory.admin.class.php:2660
+msgid ""
+"Highlights the inventory item in the admin dashboard with a red-ish "
+"background. Also adds a message to the top of the edit item page."
+msgstr ""
+"Выделяет элемент инвентаризации на панели инструментов администратора на "
+"красном фоне. Также добавляет сообщение в верхнюю часть страницы "
+"редактирования элемента."
+
+#: includes/wpinventory.admin.class.php:2663
+#: includes/wpinventory.config.class.php:116
+msgid "Email"
+msgstr "Email"
+
+#: includes/wpinventory.admin.class.php:2668
+msgid ""
+"Set the email you want to receive the low quantity alerts. If none is set, "
+"we will use "
+msgstr ""
+"Установка адреса электронной почты для получения уведомлений о низком "
+"количестве. Если ни один из них не установлен, мы будем использовать "
+
+#: includes/wpinventory.admin.class.php:2673
+#: includes/wpinventory.config.class.php:118
+msgid "Quantity"
+msgstr "Количество"
+
+#: includes/wpinventory.admin.class.php:2676
+msgid ""
+"This is the quantity the alert will be sent at. Once an item hits this "
+"quantity you will receive an email if you selected to receive them above."
+msgstr ""
+"Это количество, на которое будет отправлено предупреждение. Как только товар "
+"достигнет этого количества, вы получите письмо по электронной почте, если вы "
+"выбрали его для получения выше."
+
+#: includes/wpinventory.admin.class.php:3027
+msgid "ID #:"
+msgstr "УДОСТОВЕРЕНИЕ ЛИЧНОСТИ:"
+
+#: includes/wpinventory.admin.class.php:3054
+msgid "Actions"
+msgstr "Действия"
+
+#: includes/wpinventory.admin.class.php:3197
+msgid "WP Inventory Add Ons"
+msgstr "Добавления в кадастр WP"
+
+#: includes/wpinventory.admin.class.php:3205
+msgid "Installed"
+msgstr "Установлен"
+
+#: includes/wpinventory.admin.class.php:3215
+#: includes/wpinventory.promo.class.php:250
+#: includes/wpinventory.promo.class.php:278
+#: includes/wpinventory.promo.class.php:302
+msgid "Learn More"
+msgstr "Узнать больше"
+
+#: includes/wpinventory.admin.class.php:3218
+msgid "Download"
+msgstr "Скачать"
+
+#: includes/wpinventory.admin.class.php:3224
+msgid "No add ons found.  Please check back soon!"
+msgstr ""
+"Никаких добавок не обнаружено.  Пожалуйста, проверьте в ближайшее время!"
+
+#: includes/wpinventory.api.class.php:124
+msgid "When attempting to activate license, could not reach license site."
+msgstr ""
+"При попытке активировать лицензию не удалось добраться до лицензионного "
+"участка."
+
+#: includes/wpinventory.api.class.php:131
+msgid "When attempting to activate license, no response was received."
+msgstr "При попытке активировать лицензию ответа получено не было."
+
+#: includes/wpinventory.api.class.php:134
+#, php-format
+msgid ""
+"When attempting to activate license, a response code of %d was returned."
+msgstr "При попытке активировать лицензию возвращается код ответа %d."
+
+#: includes/wpinventory.api.class.php:154
+#, php-format
+msgid ""
+"The license entered for %s is expired. To continue receiving updates and "
+"support, please renew."
+msgstr ""
+"Срок действия лицензии, введенной для %s, истекает. Чтобы продолжать "
+"получать обновления и поддержку, пожалуйста, обновите."
+
+#: includes/wpinventory.api.class.php:158
+#, php-format
+msgid "The license entered for %s is invalid. (%s)"
+msgstr "Введенная лицензия для %s недействительна. (%s)"
+
+#: includes/wpinventory.api.class.php:161
+#, php-format
+msgid "Congratulations! The %s license entered is valid."
+msgstr "Поздравляю! Введенная лицензия %s действительна."
+
+#: includes/wpinventory.api.class.php:163
+#, php-format
+msgid "(Click to refresh if %s is not visible.)"
+msgstr "(Нажмите, чтобы обновить, если %s не видно.)"
+
+#: includes/wpinventory.bxslideshow.class.php:62
+msgid "None / Off"
+msgstr "Нет / Выключено"
+
+#: includes/wpinventory.bxslideshow.class.php:63
+msgid "Horizontal"
+msgstr "Горизонтально"
+
+#: includes/wpinventory.bxslideshow.class.php:64
+msgid "Vertical"
+msgstr "Вертикально"
+
+#: includes/wpinventory.bxslideshow.class.php:65
+msgid "Fade"
+msgstr "Затухание"
+
+#: includes/wpinventory.bxslideshow.class.php:69
+msgid "Slideshow Settings"
+msgstr "Настройки слайд-шоу"
+
+#: includes/wpinventory.bxslideshow.class.php:72
+msgid "Slide Mode"
+msgstr "Режим слайдов"
+
+#: includes/wpinventory.bxslideshow.class.php:78
+msgid "Speed"
+msgstr "Скорость"
+
+#: includes/wpinventory.bxslideshow.class.php:81
+msgid "Defaults to 2000 if left blank (milliseconds)."
+msgstr "По умолчанию 2000, если оставить пустым (миллисекунды)."
+
+#: includes/wpinventory.bxslideshow.class.php:154
+msgid ""
+"This will adjust the height of the slideshow to each image.  Useful if your "
+"images are different sizes."
+msgstr ""
+"При этом высота слайд-шоу будет регулироваться в соответствии с каждым "
+"изображением.  Полезно, если ваши изображения различного размера."
+
+#: includes/wpinventory.bxslideshow.class.php:161
+msgid ""
+"This is measured in milliseconds.  It require that \"Adaptive Height\" above "
+"be set to \"Yes\".  If left blank it defaults to 500."
+msgstr ""
+"Это измеряется в миллисекундах.  Для этого необходимо, чтобы \"адаптивная "
+"высота\" выше была установлена на \"Да\".  Если оставить пустым, то по "
+"умолчанию устанавливается значение 500."
+
+#: includes/wpinventory.category.class.php:166
+msgid "Category has "
+msgstr "Категория имеет "
+
+#: includes/wpinventory.category.class.php:178
+msgid "Select Category"
+msgstr "Выбрать категорию"
+
+#: includes/wpinventory.class.php:154
+msgid "requires a licensed copy of Inventory Manager."
+msgstr "требует лицензированную копию менеджера по инвентаризации."
+
+#: includes/wpinventory.class.php:162
+msgid "requires inventory version"
+msgstr "требует инвентаризации"
+
+#: includes/wpinventory.class.php:162
+msgid "or higher, so it is not activated."
+msgstr "или выше, так что он не активирован."
+
+#: includes/wpinventory.class.php:689
+msgid "Do Not Display"
+msgstr "Не отображать"
+
+#: includes/wpinventory.class.php:690
+msgid "Display (not required)"
+msgstr "Дисплей (не требуется)"
+
+#: includes/wpinventory.class.php:691
+msgid "Required"
+msgstr "Обязательно"
+
+#: includes/wpinventory.class.php:815
+#, php-format
+msgid "%s license is invalid or not found."
+msgstr "%s лицензия недействительна или не найдена."
+
+#: includes/wpinventory.class.php:816 wpinventory.core.php:152
+msgid "Enter your license key now."
+msgstr "Введите ваш лицензионный ключ сейчас."
+
+#: includes/wpinventory.config.class.php:109
+msgid "Reserve This Item"
+msgstr "Зарезервировать этот пункт"
+
+#: includes/wpinventory.config.class.php:110
+msgid "Name"
+msgstr "Имя"
+
+#: includes/wpinventory.config.class.php:111
+msgid "Address"
+msgstr "Адрес"
+
+#: includes/wpinventory.config.class.php:112
+msgid "City"
+msgstr "Город"
+
+#: includes/wpinventory.config.class.php:113
+msgid "State"
+msgstr "Область"
+
+#: includes/wpinventory.config.class.php:114
+msgid "Zip"
+msgstr "Индекс"
+
+#: includes/wpinventory.config.class.php:115
+msgid "Phone"
+msgstr "Телефон"
+
+#: includes/wpinventory.config.class.php:117
+msgid "Message"
+msgstr "Сообщение"
+
+#: includes/wpinventory.config.class.php:122
+msgid "Thank you.  Your reservation has been submitted."
+msgstr "Спасибо.  Ваше бронирование было подано."
+
+#: includes/wpinventory.filters.php:104
+msgid "This item is currently out of stock"
+msgstr "Этот товар в настоящее время отсутствует в наличии"
+
+#: includes/wpinventory.filters.php:155
+msgid "Out of Stock"
+msgstr "Нет в наличии"
+
+#: includes/wpinventory.filters.php:171
+#, php-format
+msgid "This item has fallen below the low quantity amount of %d"
+msgstr "Эта позиция упала ниже небольшого количества %d"
+
+#: includes/wpinventory.functions.php:867
+msgid "An item has been reserved from"
+msgstr "Товар был зарезервирован у"
+
+#: includes/wpinventory.functions.php:880
+msgid "Item Details"
+msgstr "Детали элемента"
+
+#: includes/wpinventory.functions.php:909
+msgid "Reservation Details"
+msgstr "Детали бронирования"
+
+#: includes/wpinventory.functions.php:945
+msgid ""
+"There was an issue sending your e-mail, but your reservation is complete.<br>"
+msgstr ""
+"Возникла проблема с отправкой электронного письма, но ваше бронирование "
+"завершено<br>"
+
+#: includes/wpinventory.functions.php:990
+msgid ""
+"There was an issue sending the confirmation e-mail, but your reservation is "
+"complete."
+msgstr ""
+"Возникла проблема с отправкой подтверждения по электронной почте, но ваше "
+"бронирование завершено."
+
+#: includes/wpinventory.functions.php:1029
+msgid "Sort By"
+msgstr "Сортировать по"
+
+#: includes/wpinventory.functions.php:1031
+msgid "Search"
+msgstr "Поиск"
+
+#: includes/wpinventory.functions.php:1032
+msgid "Search For"
+msgstr "Искать"
+
+#: includes/wpinventory.functions.php:1120
+msgid "Status..."
+msgstr "Статус..."
+
+#: includes/wpinventory.functions.php:1153
+msgid "Sort By..."
+msgstr "Сортировать по..."
+
+#: includes/wpinventory.functions.php:1172
+#, php-format
+msgid "Choose %s..."
+msgstr "Выберите %s..."
+
+#: includes/wpinventory.functions.php:1221
+msgid "Showing [start] - [end] of [count] items"
+msgstr "Отображение [старт] - [конец] элементов [количество] элементов"
+
+#: includes/wpinventory.functions.php:1246
+#: includes/wpinventory.functions.php:1323
+msgid "&lt;&lt;"
+msgstr "..;"
+
+#: includes/wpinventory.functions.php:1248
+#: includes/wpinventory.functions.php:1326
+msgid "&lt;"
+msgstr "&lt;"
+
+#: includes/wpinventory.functions.php:1269
+#: includes/wpinventory.functions.php:1350
+msgid "&gt;"
+msgstr "&gt;"
+
+#: includes/wpinventory.functions.php:1271
+#: includes/wpinventory.functions.php:1353
+msgid "&gt;&gt;"
+msgstr "..;"
+
+#: includes/wpinventory.functions.php:1306
+#, php-format
+msgid "Showing %d - %d of %d %s"
+msgstr "Показать %d - %d из %d %s"
+
+#: includes/wpinventory.item.class.php:655
+msgid "Inventory item deleted, but the images could not be deleted."
+msgstr "Элемент кадастра удален, но изображения не могут быть удалены."
+
+#: includes/wpinventory.item.class.php:659
+msgid "Inventory item deleted, but the media could not be deleted."
+msgstr "Элемент кадастра удален, но носитель информации не может быть удален."
+
+#: includes/wpinventory.item.class.php:663
+msgid "The inventory item is already deleted."
+msgstr "Инвентарь уже удален."
+
+#: includes/wpinventory.item.class.php:665
+msgid "Inventory item could not be deleted."
+msgstr "Инвентарный элемент не может быть удален."
+
+#: includes/wpinventory.label.class.php:150
+msgid "Number:"
+msgstr "Номер:"
+
+#: includes/wpinventory.label.class.php:151
+msgid "Name:"
+msgstr "Имя:"
+
+#: includes/wpinventory.label.class.php:152
+msgid "Image:"
+msgstr "Изображение:"
+
+#: includes/wpinventory.label.class.php:153
+msgid "Images:"
+msgstr "Изображения:"
+
+#: includes/wpinventory.label.class.php:154
+msgid "Media:"
+msgstr "Медиа:"
+
+#: includes/wpinventory.label.class.php:155
+msgid "Description:"
+msgstr "Описание:"
+
+#: includes/wpinventory.label.class.php:156
+msgid "Size:"
+msgstr "Размер:"
+
+#: includes/wpinventory.label.class.php:157
+msgid "Manufacturer:"
+msgstr "Производитель:"
+
+#: includes/wpinventory.label.class.php:158
+msgid "Make:"
+msgstr "Марка:"
+
+#: includes/wpinventory.label.class.php:159
+msgid "Model:"
+msgstr "Модель:"
+
+#: includes/wpinventory.label.class.php:160
+msgid "Year:"
+msgstr "Год:"
+
+#: includes/wpinventory.label.class.php:161
+msgid "Serial #:"
+msgstr "Серийный номер:"
+
+#: includes/wpinventory.label.class.php:162
+msgid "FOB:"
+msgstr "ПОБ:"
+
+#: includes/wpinventory.label.class.php:163
+msgid "Quantity:"
+msgstr "Количество:"
+
+#: includes/wpinventory.label.class.php:164
+msgid "Quantity Reserved:"
+msgstr "Количество зарезервировано:"
+
+#: includes/wpinventory.label.class.php:165
+msgid "Price:"
+msgstr "Цена:"
+
+#: includes/wpinventory.label.class.php:166
+msgid "Status:"
+msgstr "Статус:"
+
+#: includes/wpinventory.label.class.php:167
+msgid "Slug:"
+msgstr "Ярлык:"
+
+#: includes/wpinventory.label.class.php:168
+msgid "Sort Order:"
+msgstr "Сортировать по:"
+
+#: includes/wpinventory.label.class.php:169
+msgid "Category:"
+msgstr "Категория:"
+
+#: includes/wpinventory.label.class.php:170
+msgid "User:"
+msgstr "Пользователь:"
+
+#: includes/wpinventory.label.class.php:171
+msgid "Date Added:"
+msgstr "Дата создания:"
+
+#: includes/wpinventory.label.class.php:172
+msgid "Date Updated:"
+msgstr "Свидание Обновлено:"
+
+#: includes/wpinventory.label.class.php:173
+msgid "Updated by"
+msgstr "Обновлено"
+
+#: includes/wpinventory.promo.class.php:33
+msgid "the Add-Ons page"
+msgstr "на странице добавления"
+
+#: includes/wpinventory.promo.class.php:34
+msgid "The WPInventory Website"
+msgstr "Веб-сайт WPInventory"
+
+#: includes/wpinventory.promo.class.php:185
+msgid "Dismiss and Do Not Show Again"
+msgstr "Свобода и не показывать снова"
+
+#: includes/wpinventory.promo.class.php:205
+#: includes/wpinventory.promo.class.php:228
+msgid "Buy Now"
+msgstr "Купить сейчас"
+
+#: includes/wpinventory.promo.class.php:214
+msgid "All-Access Pass"
+msgstr "Пропуск на все входы"
+
+#: includes/wpinventory.promo.class.php:215
+msgid "Best Value!"
+msgstr "Лучшая цена!"
+
+#: includes/wpinventory.promo.class.php:216
+msgid "For just $99, unlock full access to all WP Inventory Add-ons:"
+msgstr ""
+"Всего за 99 долларов, разблокируйте полный доступ ко всем дополнениям WP "
+"Inventory Add-ons:"
+
+#: includes/wpinventory.promo.class.php:238
+#: includes/wpinventory.promo.class.php:325
+#: includes/wpinventory.promo.class.php:326
+msgid "Import / Export"
+msgstr "Импорт / Экспорт"
+
+#: includes/wpinventory.promo.class.php:241
+msgid "Powerful Importing / Exporting Tools"
+msgstr "Мощные инструменты для импорта/экспорта"
+
+#: includes/wpinventory.promo.class.php:242
+#: includes/wpinventory.promo.class.php:293
+msgid "Just $24.99"
+msgstr "Всего $24.99"
+
+#: includes/wpinventory.promo.class.php:244
+msgid "Allows importing and exporting items quickly and easily."
+msgstr "Позволяет быстро и легко импортировать и экспортировать товары."
+
+#: includes/wpinventory.promo.class.php:245
+msgid "Update your inventory offline, and simply import a CSV."
+msgstr "Обновляйте свои запасы в автономном режиме и просто импортируйте CSV."
+
+#: includes/wpinventory.promo.class.php:246
+msgid "Add new items quickly."
+msgstr "Быстро добавляйте новые элементы."
+
+#: includes/wpinventory.promo.class.php:265
+#: includes/wpinventory.promo.class.php:336
+msgid "Advanced Inventory Manager"
+msgstr "Расширенный менеджер по инвентаризации"
+
+#: includes/wpinventory.promo.class.php:268
+msgid "More fields, more types."
+msgstr "Больше полей, больше типов."
+
+#: includes/wpinventory.promo.class.php:269
+msgid "Just $39.99"
+msgstr "Всего 39,99 долларов"
+
+#: includes/wpinventory.promo.class.php:271
+msgid "Add \"types\" of inventory and fields for each"
+msgstr "Добавить \"типы\" инвентаризации и поля для каждого из них"
+
+#: includes/wpinventory.promo.class.php:272
+msgid ""
+"Add as many fields as you want and various types like radio, text, number "
+"and drop down select"
+msgstr ""
+"Добавляйте столько полей, сколько хотите, и различные типы, такие как радио, "
+"текст, число и выпадающий список выберите"
+
+#: includes/wpinventory.promo.class.php:273
+msgid "Display item types via shortcode option on any page"
+msgstr ""
+"Отображать типы элементов с помощью опции быстрого доступа на любой странице"
+
+#: includes/wpinventory.promo.class.php:289
+#: includes/wpinventory.promo.class.php:341
+#: includes/wpinventory.promo.class.php:342
+msgid "Locations Manager"
+msgstr "Менеджер по локациям"
+
+#: includes/wpinventory.promo.class.php:292
+msgid "Track Inventory Across Multiple Locations."
+msgstr "Отслеживание инвентаризации в нескольких местах."
+
+#: includes/wpinventory.promo.class.php:295
+msgid "Add as many locations as you want"
+msgstr "Добавьте столько мест, сколько хотите"
+
+#: includes/wpinventory.promo.class.php:296
+msgid "Manage each item and the location(s) it is at"
+msgstr ""
+"Управляйте каждым элементом и местоположением (местоположениями), в котором "
+"он находится"
+
+#: includes/wpinventory.promo.class.php:297
+msgid "No limits on quantities you can add to each location"
+msgstr ""
+"Нет ограничений на количество, которое вы можете добавить к каждому "
+"местоположению"
+
+#: includes/wpinventory.promo.class.php:335
+msgid "Advanced Management"
+msgstr "Расширенное управление"
+
+#: includes/wpinventory.reserve.class.php:128
+msgid "Security error.  Please try again."
+msgstr "Ошибка безопасности.  Пожалуйста, попробуйте еще раз."
+
+#: includes/wpinventory.reserve.class.php:165
+msgid "There is not enough of this item to reserve"
+msgstr "Недостаточно этого товара, чтобы зарезервировать"
+
+#: includes/wpinventory.reserve.class.php:183
+#, php-format
+msgid "Low Quantity Alert: %s"
+msgstr "Предупреждение о низком количестве: %s"
+
+#: includes/wpinventory.reserve.class.php:184
+#, php-format
+msgid ""
+"This is an email alert that the following item: %s - has fallen below the "
+"quantity alert threshold of %d"
+msgstr ""
+"Это оповещение по электронной почте о следующем элементе: %s - опустилась "
+"ниже порога оповещения о количестве в %d"
+
+#: includes/wpinventory.search.class.php:217
+msgid ""
+"No WP Inventory shortcode found on the site.  Cannot display inventory "
+"search."
+msgstr ""
+"На сайте ярлыка с описанием WP Inventory не найдено.  Невозможно отобразить "
+"инвентарный поиск."
+
+#: includes/wpinventory.support.class.php:19
+msgid "Security Error. Please try again."
+msgstr "Ошибка системы безопасности. Пожалуйста, попробуйте еще раз."
+
+#: includes/wpinventory.support.class.php:31
+msgid "WP Inventory Support"
+msgstr "Поддержка инвентаризации WP"
+
+#: includes/wpinventory.support.class.php:35
+#, php-format
+msgid ""
+"Thank you for being a user of WP Inventory!\n"
+"\t\t\t\t<br>Please understand that support is provided to licensed users.  \n"
+"\t\t\t\t<br>It does not appear that you have licensed WP Inventory, so "
+"please %senter your license key%s if you have one, or %spurchase a license "
+"before requesting support%s."
+msgstr ""
+"Спасибо, что являетесь пользователем WP Inventory!\n"
+"<br> Пожалуйста, поймите, что поддержка предоставляется лицензированным "
+"пользователям.\n"
+"<br> Похоже, что вы не лицензировали WP Inventory, поэтому, пожалуйста,"
+"%senter ваш лицензионный ключ%s, если он у вас есть, или%s приобретите "
+"лицензию, прежде чем запрашивать поддержку%s."
+
+#: includes/wpinventory.support.class.php:45
+msgid "Show Installation Details"
+msgstr "Показать детали установки"
+
+#: includes/wpinventory.support.class.php:49
+msgid "Server Info"
+msgstr "Информация о сервере"
+
+#: includes/wpinventory.support.class.php:58
+msgid "Active Plugins"
+msgstr "Активные плагины"
+
+#: includes/wpinventory.support.class.php:69
+msgid "Request Support"
+msgstr "Запрос поддержки"
+
+#: includes/wpinventory.support.class.php:71
+msgid "Complete the details below to submit a support request."
+msgstr "Заполните приведенные ниже данные, чтобы подать запрос на поддержку."
+
+#: includes/wpinventory.support.class.php:72
+msgid "Email Address:"
+msgstr "Email адрес:"
+
+#: includes/wpinventory.support.class.php:74 wpinventory.core.php:537
+msgid "Please describe your issue or request as completely as possible."
+msgstr "Пожалуйста, опишите вашу проблему или запрос как можно более подробно."
+
+#: includes/wpinventory.support.class.php:79
+msgid "Send Support Request"
+msgstr "Отправить запрос в поддержку"
+
+#: includes/wpinventory.support.class.php:202
+msgid ""
+"There was a problem connecting to our server.  If this problem persists, "
+"please contact us via e-mail."
+msgstr ""
+"Возникла проблема с подключением к нашему серверу.  Если эта проблема "
+"сохраняется, пожалуйста, свяжитесь с нами по электронной почте."
+
+#: includes/wpinventory.support.class.php:205
+msgid "Your support request has been sent.  We will contact you soon!"
+msgstr ""
+"Ваш запрос на поддержку отправлен.  Мы свяжемся с Вами в ближайшее время!"
+
+#: includes/wpinventory.updater.php:227
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr "Доступна новая версия %1$s. %2$sПосмотреть подробности %3$s%4$s."
+
+#: includes/wpinventory.updater.php:235
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Доступна новая версия %1$s. %2$sПосмотреть подробности %3$s%4$s или "
+"%5$sобновить сейчас%6$s."
+
+#: includes/wpinventory.updater.php:471
+msgid "You do not have permission to install plugin updates"
+msgstr "У Вас нет прав на установку обновлений плагина"
+
+#: includes/wpinventory.updater.php:471
+msgid "Error"
+msgstr "Ошибка"
+
+#: includes/wpinventory.widgets.class.php:43
+msgid "Choose Category..."
+msgstr "Выберите категорию..."
+
+#: includes/wpinventory.widgets.class.php:80
+msgid "List"
+msgstr "Список"
+
+#: includes/wpinventory.widgets.class.php:81
+msgid "Dropdown"
+msgstr "Выпадающий список"
+
+#: includes/wpinventory.widgets.class.php:88
+#: includes/wpinventory.widgets.class.php:164
+msgid "Widget Title"
+msgstr "Заголовок виджета"
+
+#: includes/wpinventory.widgets.class.php:89
+#: includes/wpinventory.widgets.class.php:166
+msgid "Links to Page"
+msgstr "Ссылки на страницу"
+
+#: includes/wpinventory.widgets.class.php:89
+#: includes/wpinventory.widgets.class.php:166
+msgid "Select..."
+msgstr "Выбрать..."
+
+#: includes/wpinventory.widgets.class.php:90
+msgid "Display As"
+msgstr "Дисплей Как"
+
+#: includes/wpinventory.widgets.class.php:147
+msgid "Latest Items"
+msgstr "Последние товары Премиум"
+
+#: includes/wpinventory.widgets.class.php:157
+msgid "Show All"
+msgstr "Показать все"
+
+#: includes/wpinventory.widgets.class.php:165
+msgid "Number of Items"
+msgstr "Количество элементов"
+
+#: views/loop-all-table.php:69 views/loop-all.php:55
+#: views/loop-category-table.php:68 views/loop-category.php:50
+#: views/widget-latest-items-loop.php:24
+msgid "No Inventory Items"
+msgstr "Отсутствие товарно-материальных ценностей"
+
+#: views/loop-search.php:36
+msgid "No Inventory Items Matched the Search Term"
+msgstr ""
+"Отсутствуют товарно-материальные ценности, соответствующие критерию поиска"
+
+#: wpinventory.core.php:151
+msgid ""
+"WP Inventory Manager is unlicensed.  Get automatic updates and support by "
+"getting a license."
+msgstr ""
+"Управляющий инвентаризацией ЗП не имеет лицензии.  Получите автоматические "
+"обновления и поддержку, получив лицензию."
+
+#: wpinventory.core.php:175
+msgid "WP Inventory"
+msgstr "Инвентаризация ЗП"
+
+#: wpinventory.core.php:189
+msgid "Categories"
+msgstr "Категории"
+
+#: wpinventory.core.php:201
+msgid "Add Ons"
+msgstr "Дополнения"
+
+#: wpinventory.core.php:205
+msgid "Support"
+msgstr "Поддержка"
+
+#: wpinventory.core.php:525
+msgid "Images"
+msgstr "Изображения"
+
+#: wpinventory.core.php:527 wpinventory.core.php:528
+msgid "Media"
+msgstr "Медиа"
+
+#: wpinventory.core.php:529
+msgid "Use In Item"
+msgstr "Использовать в элементе"
+
+#: wpinventory.core.php:532
+msgid "Are you sure you want to delete"
+msgstr "Вы уверены, что хотите удалить"
+
+#: wpinventory.core.php:533
+msgid "this item"
+msgstr "эта деталь"
+
+#: wpinventory.core.php:534
+msgid "the item"
+msgstr "предмет"
+
+#: wpinventory.core.php:536
+msgid "?"
+msgstr "?"
+
+#: wpinventory.core.php:538
+msgid "Sending..."
+msgstr "Отправка..."
+
+#: wpinventory.core.php:578
+msgid "WP Inventory styles not loaded due to settings in dashboard."
+msgstr ""
+"Стили инвентаризации WP не загружены из-за настроек в приборной панели."
+
+#: wpinventory.php:61
+msgid "IMPORTANT!"
+msgstr "ВАЖНО!"
+
+#: wpinventory.php:61
+#, php-format
+msgid ""
+"Your server is using version %s of PHP, which is over 6 years old, not "
+"maintained, and exposes your website to attack."
+msgstr ""
+"Ваш сервер использует версию %s PHP старше 6 лет, которая не поддерживается "
+"и подвергает ваш сайт атакам."
+
+#: wpinventory.php:62
+#, php-format
+msgid " WP Inventory requires version %s or higher, so it is not loaded."
+msgstr ""
+" Для инвентаризации WP необходима версия %s или выше, поэтому она не "
+"загружается."
+
+#: wpinventory.php:63
+#, php-format
+msgid ""
+"This is normally easy to correct.  Contact your host provider and ask them "
+"to upgrade you to at least PHP version %s"
+msgstr ""
+"Обычно это легко исправить.  Свяжитесь с вашим хост-провайдером и попросите "
+"его обновить ваш PHP по крайней мере до версии %s"
+
+#: wpinventory.php:64
+msgid ""
+"It is very insecure to use this old version of PHP, so we strongly recommend "
+"upgrading, even if you choose not to use WP Inventory."
+msgstr ""
+"Очень небезопасно использовать эту старую версию PHP, поэтому мы "
+"настоятельно рекомендуем обновиться, даже если вы решили не использовать WP "
+"Inventory."
+
+msgid "Either "
+msgstr "Ya sea "
+
+msgid "INSERT INTO Item"
+msgstr "Inserte en el artículo"
+
+msgid ""
+"Inventory will not display on the front end: It does not appear that the "
+"[wpinventory] shortcode is installed on any pages or posts."
+msgstr ""
+"Инвентаризация может не отображаться на лицевой стороне: Не похоже, что "
+"ярлык [wpinventory] установлен ни на одной странице или сообщении. "
+"ПРИМЕЧАНИЕ: Если вы используете темы Divi или Themify или другие темы "
+"сборщика, это может быть ложным срабатыванием."
+
+msgid ""
+"You have not entered a WP Inventory Manager license key in %License Keys "
+"Settings%s.  You will not receive automatic updates to WP Inventory Manager."
+msgstr ""
+"No ha introducido una clave de licencia de administrador de inventario de WP "
+"en %s valores de claves de licencia %s.  Usted no recibirá actualizaciones "
+"automáticas al administrador de inventario de WP."
+
+msgid ""
+"No items will show on the front end: You need to the \"Listing\" fields to "
+"show in the %sDisplay Settings%s"
+msgstr ""
+"Ningún elemento se mostrará en la parte delantera: necesita a los campos de "
+"\"Listado\" para mostrar en el %s Display configuración %s"
+
+msgid ""
+"Inventory Item details will be blank: You need to set the \"Detail\" fields "
+"to show in the %sDisplay Settings%s"
+msgstr ""
+"Detalles del artículo de inventario será en blanco: es necesario establecer "
+"los campos de \"Detalles\" Mostrar en el %sDisplay configuración %s"
+
+msgid "Table (spreadsheet) view, or each item in a separate box"
+msgstr ""
+"Представление таблицы (электронной таблицы) или каждого элемента в отдельном "
+"квадрате"
+
+msgid "WARNING: This feature is in beta.  Please test with your theme!"
+msgstr ""
+"ADVERTENCIA: Esta función está en beta.  Por favor, prueba con tu tema!"
+
+msgid "Number"
+msgstr "Число"
+
+msgid "Size"
+msgstr "Площадь"
+
+msgid "Manufacturer"
+msgstr "Производитель"
+
+msgid "Make"
+msgstr "Производитель"
+
+msgid "Model"
+msgstr "Модель"
+
+msgid "Year"
+msgstr "Год"
+
+msgid "Serial #"
+msgstr "Número de serie #"
+
+msgid "FOB"
+msgstr "FOB"
+
+msgid "Quantity Reserved"
+msgstr "Зарезервированное количество"
+
+msgid "Price"
+msgstr "Цена"
+
+msgid "Slug"
+msgstr "Ярлык"
+
+msgid "User"
+msgstr "Пользователь"
+
+msgid "Date Added"
+msgstr "Дата добавления"
+
+msgid "edit"
+msgstr "modificar"
+
+msgid "delete"
+msgstr "удалить"
+
+msgid "You may not display images or media in the admin listing."
+msgstr ""
+"Вы не можете отображать изображения или медиафайлы в списке администраторов."
+
+msgid "Version"
+msgstr "Версия"
+
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"Доступна новая версия %1$s. <a target=\"_blank\" class=\"thickbox\" href="
+"\"%2$s\">Посмотреть детали %3$s версии</a>."
+
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"Доступна новая версия %1$s. <a target=\"_blank\" class=\"thickbox\" href="
+"\"%2$s\">Посмотреть детали %3$s версии</a> или <a href=\"%4$s\">обновить "
+"сейчас</a>."
+
+msgid ""
+"Coming soon, you will be able to send support requests through this page."
+msgstr "Скоро вы сможете отправлять запросы на поддержку через эту страницу."
+
+msgid "There was an issue sending your e-mail.  Please try again later."
+msgstr ""
+"Возникла проблема с отправкой электронного письма.  Пожалуйста, попробуйте "
+"еще раз позже."
+
+msgid ""
+"There was an issue sending the confirmation e-mail.  Please try again later."
+msgstr ""
+"Возникла проблема с отправкой подтверждения по электронной почте.  "
+"Пожалуйста, попробуйте еще раз позже."
+
+msgid "Inventory Manager License Keys"
+msgstr "Управляющий запасами Лицензионные ключи"
+
+msgid "Permission Settings"
+msgstr "Настройки прав доступа"
+
+msgid "Image Tools"
+msgstr "Инструменты для работы с изображениями"
+
+msgid "Postal Code"
+msgstr "Почтовый индекс"
+
+msgid "Quantity to Reserve"
+msgstr "Количество в резерв"
+
+msgid "Go"
+msgstr "Перейти"

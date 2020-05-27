@@ -1,0 +1,273 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UpStream Customizer\n"
+"POT-Creation-Date: 2019-09-08 19:55-0400\n"
+"PO-Revision-Date: 2019-09-08 19:56-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: upstream-customizer.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: Customizer.php:214
+msgid "Open Settings Page"
+msgstr "Aprire la pagina Impostazioni"
+
+#: Customizer.php:215
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: Customizer.php:252
+#, php-format
+msgctxt "%s: Current WordPress running version"
+msgid "It seems you are using an outdated version of WordPress (%s)."
+msgstr "Sembra che si sta utilizzando una versione obsoleta di WordPress (%s)."
+
+#: Customizer.php:253
+msgid "For security reasons please update your installation."
+msgstr "Per motivi di sicurezza, aggiornare l'installazione."
+
+#: Customizer.php:254
+#, php-format
+msgctxt "%s: Plugin name"
+msgid "The <i>%s</i> requires WordPress version 4.5 or later."
+msgstr "<i>Il %s</i> richiede WordPress versione 4.5 o successiva."
+
+#. Author of the plugin/theme
+#: Customizer.php:256
+msgid "UpStream"
+msgstr "Upstream"
+
+#. Plugin Name of the plugin/theme
+#: Customizer.php:256 Customizer.php:285
+msgid "UpStream Customizer"
+msgstr "Personalizzazione di UpStream"
+
+#: Customizer.php:266
+msgid ""
+"For security reasons, this plugin requires <strong>PHP version 5.6</strong> "
+"or <strong>greater</strong> to run."
+msgstr ""
+"Per motivi di sicurezza, questo plugin richiede <strong>PHP versione 5.6</"
+"strong> o <strong>successiva</strong> per l'esecuzione."
+
+#: Customizer.php:267
+msgid "Please, update your PHP (currently at"
+msgstr "Per favore, aggiornare il tuo PHP (attualmente a"
+
+#: Customizer.php:289
+msgid "Go back to the plugins page."
+msgstr "Torna alla pagina dei plugin."
+
+#: Customizer.php:290
+msgid "Go back"
+msgstr "Indietro"
+
+#: includes/class-up-customizer-options.php:89
+msgid "Customizer"
+msgstr "Personalizzatore"
+
+#: includes/class-up-customizer-options.php:141
+msgid "Table of Contents"
+msgstr "Tabella dei Contenuti"
+
+#: includes/class-up-customizer-options.php:152
+#: includes/class-up-customizer-options.php:162
+msgid "Logo"
+msgstr "Logo"
+
+#: includes/class-up-customizer-options.php:153
+#: includes/class-up-customizer-options.php:194
+msgid "General Styles"
+msgstr "Stili generali"
+
+#: includes/class-up-customizer-options.php:154
+#: includes/class-up-customizer-options.php:214
+msgid "Panels"
+msgstr "Pannelli"
+
+#: includes/class-up-customizer-options.php:155
+#: includes/class-up-customizer-options.php:240
+msgid "Sidebar"
+msgstr "Barra laterale"
+
+#: includes/class-up-customizer-options.php:156
+#: includes/class-up-customizer-options.php:272
+msgid "Primary Buttons"
+msgstr "Bottone primario"
+
+#: includes/class-up-customizer-options.php:157
+#: includes/class-up-customizer-options.php:298
+msgid "Secondary Buttons"
+msgstr "Bottone secondario"
+
+#: includes/class-up-customizer-options.php:158
+#: includes/class-up-customizer-options.php:324
+msgid "Headers & Heading"
+msgstr "Intestazioni e intestazione"
+
+#: includes/class-up-customizer-options.php:159
+#: includes/class-up-customizer-options.php:344
+msgid "Footer"
+msgstr "Piè di pagina"
+
+#: includes/class-up-customizer-options.php:160
+#: includes/class-up-customizer-options.php:354
+msgid "Custom CSS"
+msgstr "CSS personalizzato"
+
+#: includes/class-up-customizer-options.php:171
+msgid "Width"
+msgstr "Larghezza"
+
+#: includes/class-up-customizer-options.php:174
+msgid ""
+"Logo width in pixels, up to a maximum of 230px. Include px on the end of "
+"number."
+msgstr ""
+"Larghezza del logo in pixel, fino a un massimo di 230px. Includere px alla "
+"fine del numero."
+
+#: includes/class-up-customizer-options.php:182
+msgid "Height"
+msgstr "Altezza"
+
+#: includes/class-up-customizer-options.php:185
+msgid "Logo height in pixels. Include px on the end of number."
+msgstr "Altezza del logo in pixel. Includere px alla fine del numero."
+
+#: includes/class-up-customizer-options.php:195
+msgid "Default Text Color"
+msgstr "Imposta il colore del testo predefinito..."
+
+#: includes/class-up-customizer-options.php:201
+msgid "Lines & Borders Color"
+msgstr "Colore di linee e bordi"
+
+#: includes/class-up-customizer-options.php:207
+msgid "Page Background Color"
+msgstr "Colore di Sfondo della Pagina"
+
+#: includes/class-up-customizer-options.php:215
+#: includes/class-up-customizer-options.php:241
+#: includes/class-up-customizer-options.php:273
+#: includes/class-up-customizer-options.php:299
+msgid "Background Color"
+msgstr "Colore di sfondo"
+
+#: includes/class-up-customizer-options.php:221
+msgid "Heading Text Color"
+msgstr "Colore testo intestazione"
+
+#: includes/class-up-customizer-options.php:227
+msgid "Odd Items Background Color"
+msgstr "Colore di sfondo Elementi dispari"
+
+#: includes/class-up-customizer-options.php:233
+msgid "Even Items Background Color"
+msgstr "Colore di sfondo degli elementi pari"
+
+#: includes/class-up-customizer-options.php:247
+msgid "Links Color"
+msgstr "Colore dei link"
+
+#: includes/class-up-customizer-options.php:253
+msgid "Links Hover Color"
+msgstr "Colore Links attivo"
+
+#: includes/class-up-customizer-options.php:259
+msgid "Highlighted Link Color"
+msgstr "Colore collegamento evidenziato"
+
+#: includes/class-up-customizer-options.php:265
+msgid "Bottom Links Icon Color"
+msgstr "Colore icona collegamenti in basso"
+
+#: includes/class-up-customizer-options.php:279
+#: includes/class-up-customizer-options.php:305
+msgid "Font Color"
+msgstr "Colore del carattere"
+
+#: includes/class-up-customizer-options.php:285
+msgid "Background Hover"
+msgstr "Colore di sfondo attivo"
+
+#: includes/class-up-customizer-options.php:291
+msgid "Font Color Hover"
+msgstr "Colore testo attivo"
+
+#: includes/class-up-customizer-options.php:311
+msgid "Hover Background Color"
+msgstr "Colore dello sfondo al passaggio del mouse"
+
+#: includes/class-up-customizer-options.php:317
+msgid "Hover Font Color"
+msgstr "Colore testo attivo"
+
+#: includes/class-up-customizer-options.php:325
+msgid "Header Background Color"
+msgstr "Colore Sfondo Intestazione"
+
+#: includes/class-up-customizer-options.php:331
+msgid "Header Menu Item Background Color"
+msgstr "Colore sfondo voce di menu intestazione"
+
+#: includes/class-up-customizer-options.php:337
+msgid "Text Color"
+msgstr "Colore del testo"
+
+#: includes/class-up-customizer-options.php:345
+msgid "Footer Text"
+msgstr "Testo piè di pagina"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://upstreamplugin.com/extensions/customizer"
+msgstr "https://upstreamplugin.com/extensions/customizer"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Adds controls to easily customize the appearance of the WordPress Project "
+"Management plugin by UpStream."
+msgstr ""
+"Aggiunge controlli per personalizzare facilmente l'aspetto del plugin "
+"WordPress Project Management di UpStream."
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://upstreamplugin.com"
+msgstr "https://upstreamplugin.com"
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s."
+#~ msgstr ""
+#~ "C’è una nuova versione disponibile di %1$s. %2$sVedi versione %3$s "
+#~ "dettagli%4$s."
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s or %5$supdate now%6$s."
+#~ msgstr ""
+#~ "C'è una nuova versione di %1$s disponibile. %2$sVedi versione %3$s "
+#~ "dettagli%4$s o %5$saggiorna adesso%6$s."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr "Non hai il permesso di installare gli aggiornamenti dei plugin"
+
+#~ msgid "Error"
+#~ msgstr "Errore"

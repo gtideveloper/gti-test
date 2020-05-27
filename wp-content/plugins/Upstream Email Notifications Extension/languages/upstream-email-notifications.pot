@@ -1,0 +1,509 @@
+# Copyright (c) 2018 UpStream Project Management
+# This file is distributed under the same license as the Email Notifications package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Email Notifications v1.1.10\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: EmailNotifications/Plugin.php:125
+#, php-format
+msgid "Please, make sure %s plugin is installed and active in order to make %s plugin to work."
+msgstr ""
+
+#: EmailNotifications/Plugin.php:126 EmailNotifications/Plugin.php:149
+#: EmailNotifications/Plugin.php:817 EmailNotifications/Plugin.php:841
+#: EmailNotifications/Plugin.php:857 EmailNotifications/Settings.php:145
+msgid "UpStream"
+msgstr ""
+
+#: EmailNotifications/Plugin.php:127 EmailNotifications/Plugin.php:149
+#: EmailNotifications/Plugin.php:817 EmailNotifications/Plugin.php:857
+#: EmailNotifications/Plugin.php:1273 EmailNotifications/Settings.php:146
+#: EmailNotifications/Settings.php:340
+msgid "Email Notifications"
+msgstr ""
+
+#: EmailNotifications/Plugin.php:150
+msgid "There was an error sending the notifications. Please review your SMTP settings."
+msgstr ""
+
+#: EmailNotifications/Plugin.php:647
+#, php-format
+msgctxt "%s: Site name"
+msgid "%s Notifications BOT"
+msgstr ""
+
+#: EmailNotifications/Plugin.php:651
+msgid "SMTP Host not set."
+msgstr ""
+
+#: EmailNotifications/Plugin.php:655
+msgid "SMTP Port not set."
+msgstr ""
+
+#: EmailNotifications/Plugin.php:659
+msgid "SMTP Username not set."
+msgstr ""
+
+#: EmailNotifications/Plugin.php:663
+msgid "SMTP Password not set."
+msgstr ""
+
+#: EmailNotifications/Plugin.php:668
+msgid "Sender's email address cannot be empty."
+msgstr ""
+
+#: EmailNotifications/Plugin.php:672
+msgid "Recipient's email address cannot be empty."
+msgstr ""
+
+#: EmailNotifications/Plugin.php:680
+msgid "No Subject"
+msgstr ""
+
+#: EmailNotifications/Plugin.php:712
+msgid "UpStream was unable to send the notifications."
+msgstr ""
+
+#: EmailNotifications/Plugin.php:729
+msgid "UpStream was unable to send the notifications. Please make sure the server is allowed to send emails."
+msgstr ""
+
+#: EmailNotifications/Plugin.php:763
+#, php-format
+msgctxt "1st %s: Site name, 2nd %s: Project name"
+msgid "%s Notifications | %s"
+msgstr ""
+
+#: EmailNotifications/Plugin.php:777
+msgid "The following item(s) was/were assigned to you:"
+msgstr ""
+
+#: EmailNotifications/Plugin.php:780
+#, php-format
+msgid "You are receiving this because you are a member of the %s, from %s."
+msgstr ""
+
+#: EmailNotifications/Plugin.php:784 EmailNotifications/Reminders.php:1032
+#: EmailNotifications/Settings.php:148
+msgid "Please do not reply this message."
+msgstr ""
+
+#: EmailNotifications/Plugin.php:840
+#, php-format
+msgid "Please, make sure %s is <strong>installed</strong> and <strong>active</strong> in order to make this plugin to work."
+msgstr ""
+
+#: EmailNotifications/Plugin.php:853
+#, php-format
+msgctxt "%s: Current WordPress running version"
+msgid "It seems you are using an outdated version of WordPress (%s)."
+msgstr ""
+
+#: EmailNotifications/Plugin.php:854
+msgid "For security reasons please update your installation."
+msgstr ""
+
+#: EmailNotifications/Plugin.php:855
+#, php-format
+msgctxt "%s: Plugin name"
+msgid "The <i>%s</i> requires WordPress version 4.5 or later."
+msgstr ""
+
+#: EmailNotifications/Plugin.php:867
+msgid "For security reasons, this plugin requires <strong>PHP version 5.6</strong> or <strong>greater</strong> to run."
+msgstr ""
+
+#: EmailNotifications/Plugin.php:868
+msgid "Please, update your PHP (currently at"
+msgstr ""
+
+#: EmailNotifications/Plugin.php:945
+msgid "Open Settings Page"
+msgstr ""
+
+#: EmailNotifications/Plugin.php:946
+msgid "Settings"
+msgstr ""
+
+#: EmailNotifications/Plugin.php:972
+msgid "Notifications"
+msgstr ""
+
+#: EmailNotifications/Plugin.php:984
+msgid "I don't want to receive Email Notifications for this project"
+msgstr ""
+
+#: EmailNotifications/Plugin.php:992
+msgid "Disable all Email Notifications for this project"
+msgstr ""
+
+#: EmailNotifications/Plugin.php:1277
+msgid "Go back to the plugins page."
+msgstr ""
+
+#: EmailNotifications/Plugin.php:1278
+msgid "Go back"
+msgstr ""
+
+#: EmailNotifications/Plugin.php:1310 EmailNotifications/Reminders.php:426
+#: EmailNotifications/Reminders.php:683 EmailNotifications/Reminders.php:1109
+#: EmailNotifications/Reminders.php:1154 EmailNotifications/Settings.php:274
+msgid "A day before"
+msgstr ""
+
+#: EmailNotifications/Plugin.php:1311 EmailNotifications/Reminders.php:427
+#: EmailNotifications/Reminders.php:684 EmailNotifications/Reminders.php:1110
+#: EmailNotifications/Reminders.php:1155 EmailNotifications/Settings.php:275
+msgid "Two days before"
+msgstr ""
+
+#: EmailNotifications/Plugin.php:1312 EmailNotifications/Reminders.php:428
+#: EmailNotifications/Reminders.php:685 EmailNotifications/Reminders.php:1111
+#: EmailNotifications/Reminders.php:1156 EmailNotifications/Settings.php:276
+msgid "Three days before"
+msgstr ""
+
+#: EmailNotifications/Plugin.php:1313 EmailNotifications/Reminders.php:429
+#: EmailNotifications/Reminders.php:686 EmailNotifications/Reminders.php:1112
+#: EmailNotifications/Reminders.php:1157 EmailNotifications/Settings.php:277
+msgid "A week before"
+msgstr ""
+
+#: EmailNotifications/Plugin.php:1314 EmailNotifications/Reminders.php:430
+#: EmailNotifications/Reminders.php:687 EmailNotifications/Reminders.php:1113
+#: EmailNotifications/Reminders.php:1158 EmailNotifications/Settings.php:278
+msgid "Two weeks before"
+msgstr ""
+
+#: EmailNotifications/Plugin.php:1315
+msgid "No data found."
+msgstr ""
+
+#: EmailNotifications/Plugin.php:1316 EmailNotifications/Reminders.php:704
+msgid "Loading reminders..."
+msgstr ""
+
+#: EmailNotifications/Plugin.php:1317
+msgid "Invalid type. Please, reload the page and try again."
+msgstr ""
+
+#: EmailNotifications/Plugin.php:1318
+msgid "Not saved yet"
+msgstr ""
+
+#: EmailNotifications/Reminders.php:437 EmailNotifications/Reminders.php:1139
+msgid "Reminders"
+msgstr ""
+
+#: EmailNotifications/Reminders.php:443 EmailNotifications/Reminders.php:682
+msgid "Select when..."
+msgstr ""
+
+#: EmailNotifications/Reminders.php:449 EmailNotifications/Reminders.php:585
+msgid "Due Date"
+msgstr ""
+
+#: EmailNotifications/Reminders.php:449 EmailNotifications/Reminders.php:535
+#: EmailNotifications/Reminders.php:560 EmailNotifications/Reminders.php:689
+msgid "End Date"
+msgstr ""
+
+#: EmailNotifications/Reminders.php:457 EmailNotifications/Reminders.php:696
+msgid "When"
+msgstr ""
+
+#: EmailNotifications/Reminders.php:458 EmailNotifications/Reminders.php:697
+msgid "Sent"
+msgstr ""
+
+#: EmailNotifications/Reminders.php:459 EmailNotifications/Reminders.php:698
+msgid "Discard?"
+msgstr ""
+
+#: EmailNotifications/Reminders.php:468
+msgid "Not saved yet."
+msgstr ""
+
+#: EmailNotifications/Reminders.php:480
+msgid "No reminders."
+msgstr ""
+
+#: EmailNotifications/Reminders.php:514
+msgid "Manage Reminders"
+msgstr ""
+
+#: EmailNotifications/Reminders.php:537 EmailNotifications/Reminders.php:562
+msgid "End Date Reminders"
+msgstr ""
+
+#: EmailNotifications/Reminders.php:587
+msgid "Due Date Reminders"
+msgstr ""
+
+#: EmailNotifications/Reminders.php:680
+msgid "Remind Assigned User"
+msgstr ""
+
+#: EmailNotifications/Reminders.php:691
+msgid "Add Reminder"
+msgstr ""
+
+#: EmailNotifications/Reminders.php:813
+#, php-format
+msgctxt "%s: Site name"
+msgid "%s Notifications About Upcoming Due Dates"
+msgstr ""
+
+#: EmailNotifications/Reminders.php:966
+#, php-format
+msgctxt "%s: User name"
+msgid "Hello %s"
+msgstr ""
+
+#: EmailNotifications/Reminders.php:967
+msgid "This email is to remind you about the following due dates:"
+msgstr ""
+
+#: EmailNotifications/Reminders.php:1004
+msgid "Past Due Dates"
+msgstr ""
+
+#: EmailNotifications/Reminders.php:1021
+msgid "due date"
+msgstr ""
+
+#: EmailNotifications/Settings.php:129
+msgid "Notification Test"
+msgstr ""
+
+#: EmailNotifications/Settings.php:140
+#, php-format
+msgid "Looks like you're all set on %s."
+msgstr ""
+
+#: EmailNotifications/Settings.php:144
+#, php-format
+msgid "Thanks for using %s and the %s plugins."
+msgstr ""
+
+#: EmailNotifications/Settings.php:153
+msgid "Check out your inbox."
+msgstr ""
+
+#: EmailNotifications/Settings.php:174
+msgid "Send Me a Test Email"
+msgstr ""
+
+#: EmailNotifications/Settings.php:192
+msgid "How does it work?"
+msgstr ""
+
+#: EmailNotifications/Settings.php:193
+#, php-format
+msgid "Users will be notified when one or more items (<code>%s</code>, <code>%s</code> or <code>%s</code>) are assigned to them."
+msgstr ""
+
+#: EmailNotifications/Settings.php:193
+msgid "Milestones"
+msgstr ""
+
+#: EmailNotifications/Settings.php:193
+msgid "Tasks"
+msgstr ""
+
+#: EmailNotifications/Settings.php:193
+msgid "Bugs"
+msgstr ""
+
+#: EmailNotifications/Settings.php:194
+msgid "Any user is able to unsubscribe from a given project if he doesn't want to receive notifications related to that project."
+msgstr ""
+
+#: EmailNotifications/Settings.php:195
+msgid "Administrators are able to enable/disable the notifications feature for individual projects."
+msgstr ""
+
+#: EmailNotifications/Settings.php:196
+msgid "General Settings"
+msgstr ""
+
+#: EmailNotifications/Settings.php:198
+msgid "Email Handler"
+msgstr ""
+
+#: EmailNotifications/Settings.php:202
+msgid "WordPress"
+msgstr ""
+
+#: EmailNotifications/Settings.php:203
+msgid "PHPMailer with SMTP"
+msgstr ""
+
+#: EmailNotifications/Settings.php:206
+msgid "You can choose to use either of WordPress's native <code>wp_mail()</code> function or <br />the <code>PHPMailer</code> library using your own SMTP options to send out emails."
+msgstr ""
+
+#: EmailNotifications/Settings.php:210
+msgid "WordPress Handler Settings"
+msgstr ""
+
+#: EmailNotifications/Settings.php:211
+msgid "Sender's Email"
+msgstr ""
+
+#: EmailNotifications/Settings.php:214
+msgid "The notifications sender's email address. The site's admin email is set as default."
+msgstr ""
+
+#: EmailNotifications/Settings.php:219
+msgid "PHPMailer with SMTP Handler Settings"
+msgstr ""
+
+#: EmailNotifications/Settings.php:220
+msgid "SMTP Host"
+msgstr ""
+
+#: EmailNotifications/Settings.php:223
+msgid "Your mail server's address."
+msgstr ""
+
+#: EmailNotifications/Settings.php:226
+msgid "SMTP Port"
+msgstr ""
+
+#: EmailNotifications/Settings.php:229
+msgid "The port to your mail server."
+msgstr ""
+
+#: EmailNotifications/Settings.php:233
+msgid "SMTP Username"
+msgstr ""
+
+#: EmailNotifications/Settings.php:236
+msgid "The username to login to your mail server."
+msgstr ""
+
+#: EmailNotifications/Settings.php:239
+msgid "SMTP Password"
+msgstr ""
+
+#: EmailNotifications/Settings.php:242
+msgid "The password to login to your mail server."
+msgstr ""
+
+#: EmailNotifications/Settings.php:245
+msgid "Encryption Type"
+msgstr ""
+
+#: EmailNotifications/Settings.php:249
+msgid "None"
+msgstr ""
+
+#: EmailNotifications/Settings.php:250
+msgid "TLS"
+msgstr ""
+
+#: EmailNotifications/Settings.php:251
+msgid "SSL"
+msgstr ""
+
+#: EmailNotifications/Settings.php:254
+msgid "The encryption type used for authentication. For most servers SSL is the recommended option."
+msgstr ""
+
+#: EmailNotifications/Settings.php:258
+msgid "Reminders Settings"
+msgstr ""
+
+#: EmailNotifications/Settings.php:259
+msgid "Enable Reminders"
+msgstr ""
+
+#: EmailNotifications/Settings.php:263
+msgid "Enabled"
+msgstr ""
+
+#: EmailNotifications/Settings.php:264
+msgid "Disabled"
+msgstr ""
+
+#: EmailNotifications/Settings.php:267
+msgid "Reminders are emails sent to assignees informing about upcoming Milestones, Tasks and/or Bugs due dates."
+msgstr ""
+
+#: EmailNotifications/Settings.php:270
+msgid "Default Reminders"
+msgstr ""
+
+#: EmailNotifications/Settings.php:280
+msgid "Here you can define a set of default reminders for newly added Milestones, Tasks and/or Bugs."
+msgstr ""
+
+#: EmailNotifications/Settings.php:283
+msgid "Check Recurrency"
+msgstr ""
+
+#: EmailNotifications/Settings.php:287
+msgid "Hourly"
+msgstr ""
+
+#: EmailNotifications/Settings.php:288
+msgid "Twice a day"
+msgstr ""
+
+#: EmailNotifications/Settings.php:289
+msgid "Daily"
+msgstr ""
+
+#: EmailNotifications/Settings.php:292
+msgid "How often should UpStream check for upcoming reminders."
+msgstr ""
+
+#: EmailNotifications/Settings.php:300
+msgid "Testing Settings"
+msgstr ""
+
+#: EmailNotifications/Settings.php:301
+msgid "By clicking on the button below, UpStream will make an attempt to send a test message to your email address using the saved settings."
+msgstr ""
+
+#: EmailNotifications/Settings.php:302
+msgid "Make sure you click on the Save button before sending out test emails."
+msgstr ""
+
+#: EmailNotifications/Settings.php:303
+msgid "Sending..."
+msgstr ""
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:214
+#, php-format
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:222
+#, php-format
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s or %5$supdate now%6$s."
+msgstr ""
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:412
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:412
+msgid "Error"
+msgstr ""

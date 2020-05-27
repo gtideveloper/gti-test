@@ -1,0 +1,207 @@
+== Changelog ==
+
+The format is based on [Keep a Changelog](http://keepachangelog.com)
+and this project adheres to [Semantic Versioning](http://semver.org).
+
+= [1.7.4] - 2020-03-13 =
+* Fix bug in showing category fields in tables
+
+= [1.7.3] - 2020-02-02 =
+* Fix bug where popup can't be scrolled after adding a file
+
+= [1.7.2] - 2020-01-03 =
+* Fix bug with items not showing properly in tables on frontend
+
+= [1.7.1] - 2019-12-25 =
+* Minor bug fixes
+
+= [1.7.0] - 2019-12-22 =
+* Added model functions for custom fields
+* Fixed various bugs
+
+= [1.6.6] - 2019-11-18 =
+* Fixed bug not showing unweighted items
+
+= [1.6.5] - 2019-11-16 =
+* Added weights to allow reordering of fields
+
+= [1.6.4] - 2019-10-31 =
+* Fixed bug with showing warning messages when you view a copied milestone with checkboxes
+
+= [1.6.3] - 2019-10-16 =
+* Fixed bug due to permissions with custom fields
+
+= [1.6.2] - 2019-10-15 =
+* Added support for advanced permissions
+
+= [1.6.0] - 2019-07-24 =
+
+* Fixed multiple tags not being saved correctly;
+* Fixed single checkbox not being saved correctly;
+* Added custom fields to clients;
+
+= [1.5.0] - 2019-07-03 =
+
+* Added a new field type for selecting Users;
+* Added a new field type for selecting Countries;
+* Fixed the autoincrement field markup properly closing the tag after the row;
+* Fixed PHP warnings in the project overview screen and project screen;
+* Fixed categories not being saved for projects in the front-end;
+* Fixed sorting for custom fields;
+* Fixed checkbox value for custom fields in the front-end;
+
+= [1.4.1] - 2019-05-06 =
+
+* Fixed a PHP warning regarding two non static method being called as static;
+* Fixed a fatal error when an uploaded file is not available anymore;
+* Updated the EDD Software License library fixing the update for some users;
+
+= [1.4.0] - 2019-04-29 =
+
+* Fixed custom fields for Milestones;
+
+= [1.3.2] - 2019-01-15 =
+
+* Fixed PHP warning about undefined index;
+* Fixed PHP warning about the trim function receiving an object;
+* Removed use of deprecated version constant;
+* Fixed the value on columns for custom fields;
+
+= [1.3.1] - 2018-12-13 =
+
+* Fixed columns for custom fields;
+* Added icon to the filter fields;
+
+= [1.3.0] - 2018-10-03 =
+
+Added:
+
+* Added new field type - autoincrement - for projects. A read-only value automatically set and incremented;
+* Added new option in the custom field form to display the field or not in the frontend project list;
+
+Fixed:
+
+* Fixed filters for custom fields in the front-end;
+
+
+= [1.2.11] - 2018-09-19 =
+
+Fixed:
+
+* Fixed missed debug code;
+* Fixed fields of the File type in the front-end;
+* Fixed delete button for file fields in the front-end;
+* Fixed the custom fields form in the backend. When editing, it wasn't displaying the fields to edit params;
+
+= [1.2.10] - 2018-09-06 =
+
+Fixed:
+
+* Fixed automatic updates using the new Alledia EDD SL Plugin Updater library, based on the original version 1.6.16;
+
+Changed:
+
+* Updated POT file;
+
+
+= [1.2.9] - 2018-09-06 =
+
+Fixed:
+
+* Fixed automatic updates removing legacy license and update classes and adding the new library from Alledia;
+
+Changed:
+
+* Updated POT file;
+
+= [1.2.8] - 2018-09-06 =
+
+Fixed:
+
+* Fixed a PHP warning about invalid abstract methods;
+* Fixed a redundant code setting a jQuery element's property;
+* Fixed outdated POT file;
+
+= [1.2.7] - 2018-08-14 =
+
+Fixed:
+
+* Fixed plugin file header;
+
+= [1.2.6] - 2018-07-31 =
+
+Fixed:
+* Fixed typo in text and messages;
+* Fixed data saving for projects in the front-end;
+* Fixed missed ID and title for file fields in the front-end;
+* Fixed value of radio buttons, selects, checkboxes in the front-end;
+* Fixed default value for radio buttons, selects, checkboxes in the front-end;
+* Fixed the color picker field in the add form;
+
+= [1.2.5] - 2018-06-07 =
+
+Fixed:
+* Fixed PHP warning about wrong argument for in_array function;
+* Fixed PHP warning about undefined "id" index;
+
+= [1.2.4] - 2018-04-19 =
+
+Fixed:
+* Patch last release
+
+= [1.2.3] - 2018-04-19 =
+
+Fixed:
+* Fix a couple of potential PHP warnings
+
+= [1.2.2] - 2018-04-18 =
+
+Fixed:
+* Fixed uncommon PHP error regarding non array default values
+
+= [1.2.1] - 2018-03-27 =
+
+Fixed:
+* Fixed error with Dropdowns breaking up Projects
+
+= [1.2.0] - 2018-02-15 =
+
+Added:
+* Added info text about how many items can be selected on Radio and Checkboxes fields
+* Added option that indicates whether a particular Custom Field can be filtered on frontend
+
+Fixed:
+* Fix "None" string language domain
+* Minor general fixes
+
+= [1.1.0] - 2018-01-31 =
+
+Added:
+- Added Category Field
+- Added Tag Field
+
+Changes:
+- Custom file fields now uses the Media Manager
+
+Fixed:
+- Fixed some custom fields being rendered in the wrong place in the admin Project form
+- Prevent PHP error rendering Dropdown/Checkboxes fields for the first time in a Project
+
+= [1.0.2] - 2018-01-04 =
+
+Fixed:
+- Fixed update messages being too generic
+- Fixed error message thrown when trying to save a Custom Field without title
+- Fixed default values for Select fields not working
+- Fixed default values for Radio fields not working
+- Fixed default values for Checkboxes fields not working
+- Fixed typos
+
+= [1.0.1] - 2017-12-29 =
+
+Fixed:
+- Fixed permission that was preventing some users from access the plugin
+
+= [1.0.0] - 2017-12-28 =
+
+- First release.

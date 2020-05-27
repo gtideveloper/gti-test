@@ -1,0 +1,671 @@
+# Copyright (c) 2018 UpStream Project Management
+# This file is distributed under the same license as the UpStream Custom Fields package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UpStream Custom Fields v1.2.3\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: CustomFields/AutoincrementModel.php:342
+#: CustomFields/AutoincrementModel.php:358
+#: CustomFields/Metaboxes/Fields/Autoincrement.php:66
+#: CustomFields/Pages/Project.php:921
+msgid "---"
+msgstr ""
+
+#: CustomFields/Fields/Autoincrement.php:63
+msgid "Cannot set autoincrement value."
+msgstr ""
+
+#: CustomFields/Fields/Category.php:79
+msgid "Passed value must be an array."
+msgstr ""
+
+#: CustomFields/Fields/Category.php:87 CustomFields/Fields/Tag.php:67
+#, php-format
+msgid "Term ID %s is invalid."
+msgstr ""
+
+#: CustomFields/Fields/Checkbox.php:109 CustomFields/Fields/Radio.php:103
+#: CustomFields/Fields/Select.php:108
+#, php-format
+msgid "%s is not a valid option."
+msgstr ""
+
+#: CustomFields/Fields/Colorpicker.php:84
+#, php-format
+msgid "%s is not a valid hex string."
+msgstr ""
+
+#: CustomFields/Fields/Country.php:62 CustomFields/Fields/Select.php:95
+#: CustomFields/Fields/Tag.php:59 CustomFields/Fields/User.php:60
+msgid "Passed value cannot be an array."
+msgstr ""
+
+#: CustomFields/Fields/Country.php:72
+#, php-format
+msgid "Country %s is invalid."
+msgstr ""
+
+#: CustomFields/Fields/File.php:69
+#, php-format
+msgid "File ID %s is invalid."
+msgstr ""
+
+#: CustomFields/Fields/Radio.php:90
+msgid "Passed value must not be an array."
+msgstr ""
+
+#: CustomFields/Fields/Text.php:72
+#, php-format
+msgid "Input %s must be a string."
+msgstr ""
+
+#: CustomFields/Fields/Text.php:74
+#, php-format
+msgid "Input %s is shorter than the min length."
+msgstr ""
+
+#: CustomFields/Fields/Text.php:76
+#, php-format
+msgid "Input %s is longer than the max length."
+msgstr ""
+
+#: CustomFields/Fields/Text.php:78
+#, php-format
+msgid "Input %s does not match the required pattern."
+msgstr ""
+
+#: CustomFields/Fields/User.php:67
+#, php-format
+msgid "User ID %s does not exist."
+msgstr ""
+
+#: CustomFields/Metaboxes/Args.php:23
+#: CustomFields/Metaboxes/Fields/Checkbox.php:138
+#: CustomFields/Metaboxes/Fields/Radio.php:149
+#: CustomFields/Metaboxes/Fields/Select.php:136
+msgid "Options"
+msgstr ""
+
+#: CustomFields/Metaboxes/Details.php:21
+msgid "Details"
+msgstr ""
+
+#: CustomFields/Metaboxes/Details.php:31
+msgid "Field Type"
+msgstr ""
+
+#: CustomFields/Metaboxes/Details.php:73 CustomFields/Pages/Collection.php:100
+msgid "Required"
+msgstr ""
+
+#: CustomFields/Metaboxes/Details.php:78
+#: CustomFields/Metaboxes/Fields/Category.php:143
+#: CustomFields/Metaboxes/Fields/Checkbox.php:176
+#: CustomFields/Metaboxes/Fields/Checkbox.php:202
+#: CustomFields/Metaboxes/Fields/Country.php:139
+#: CustomFields/Metaboxes/Fields/Radio.php:187
+#: CustomFields/Metaboxes/Fields/Radio.php:213
+#: CustomFields/Metaboxes/Fields/Select.php:174
+#: CustomFields/Metaboxes/Fields/Tag.php:144
+#: CustomFields/Metaboxes/Fields/User.php:177
+#: CustomFields/Metaboxes/Usage.php:48 CustomFields/Metaboxes/Usage.php:60
+msgid "Yes"
+msgstr ""
+
+#: CustomFields/Metaboxes/Details.php:79
+#: CustomFields/Metaboxes/Fields/Category.php:144
+#: CustomFields/Metaboxes/Fields/Checkbox.php:203
+#: CustomFields/Metaboxes/Fields/Country.php:140
+#: CustomFields/Metaboxes/Fields/Radio.php:214
+#: CustomFields/Metaboxes/Fields/Tag.php:145
+#: CustomFields/Metaboxes/Fields/User.php:178
+#: CustomFields/Metaboxes/Usage.php:49 CustomFields/Metaboxes/Usage.php:61
+msgid "No"
+msgstr ""
+
+#: CustomFields/Metaboxes/Details.php:89
+msgid "Description"
+msgstr ""
+
+#: CustomFields/Metaboxes/Details.php:90
+msgid "This description appears under the fields and helps users understand their choice."
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Autoincrement.php:101
+msgid "Initial Number"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Autoincrement.php:116
+msgid "Prefix"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Autoincrement.php:117
+msgid "Text added as prefix to the number."
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Autoincrement.php:125
+msgid "Suffix"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Autoincrement.php:127
+msgid "Text added as suffix to the number."
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Category.php:136
+#: CustomFields/Metaboxes/Fields/Country.php:132
+#: CustomFields/Metaboxes/Fields/Tag.php:137
+#: CustomFields/Metaboxes/Fields/User.php:170
+msgid "Allow Multiple Selection"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Category.php:137
+#: CustomFields/Metaboxes/Fields/Country.php:133
+#: CustomFields/Metaboxes/Fields/Tag.php:138
+#: CustomFields/Metaboxes/Fields/User.php:171
+msgid "Indicates that multiple options can be selected in the list."
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Category.php:152
+msgid "Root Category"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Category.php:153
+msgid "Parent category to retrieve all children from."
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:88
+#: CustomFields/Pages/Project.php:1065
+msgid "Select / Deselect All"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:139
+msgid "Multiple options can be selected per field."
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:142
+#: CustomFields/Metaboxes/Fields/Radio.php:153
+#: CustomFields/Metaboxes/Fields/Select.php:140
+msgctxt "{#} stands for the option index"
+msgid "Option {#}"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:143
+#: CustomFields/Metaboxes/Fields/Radio.php:154
+#: CustomFields/Metaboxes/Fields/Select.php:141
+msgid "Add Another Option"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:144
+#: CustomFields/Metaboxes/Fields/Radio.php:155
+#: CustomFields/Metaboxes/Fields/Select.php:142
+msgid "Remove Option"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:151
+#: CustomFields/Metaboxes/Fields/Radio.php:162
+#: CustomFields/Metaboxes/Fields/Select.php:149
+msgid "Label"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:154
+#: CustomFields/Metaboxes/Fields/Radio.php:165
+#: CustomFields/Metaboxes/Fields/Select.php:152
+msgid "Indicates the meaning of the option. This is displayed to users."
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:161
+#: CustomFields/Metaboxes/Fields/Radio.php:172
+#: CustomFields/Metaboxes/Fields/Select.php:159
+msgid "Value"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:164
+#: CustomFields/Metaboxes/Fields/Radio.php:175
+#: CustomFields/Metaboxes/Fields/Select.php:162
+msgid "This is the value that will be saved in the database."
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:171
+#: CustomFields/Metaboxes/Fields/Radio.php:182
+#: CustomFields/Metaboxes/Fields/Select.php:169
+msgid "Selected by default"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:174
+#: CustomFields/Metaboxes/Fields/Radio.php:185
+#: CustomFields/Metaboxes/Fields/Select.php:172
+msgid "The option should be initially selected."
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:185
+#: CustomFields/Metaboxes/Fields/Radio.php:196
+msgid "Options list display layout"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:190
+#: CustomFields/Metaboxes/Fields/Radio.php:201
+msgid "Vertical"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:191
+#: CustomFields/Metaboxes/Fields/Radio.php:202
+msgid "Horizontal"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:198
+msgid "Show \"Select all\" button"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Colorpicker.php:64
+#: CustomFields/Metaboxes/Fields/Text.php:64
+msgid "Default Value"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Colorpicker.php:75
+msgid "Disable Transparency"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Colorpicker.php:76
+msgid "Either to allow transparency or not."
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Colorpicker.php:84
+msgid "Disable Palettes"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Colorpicker.php:85
+msgid "Disable palette of basic colors beneath the color picker."
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/File.php:65
+msgid "Button Text"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/File.php:66
+msgid "Represents the upload button text. Supported only on admin."
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/File.php:69 CustomFields/Pages/Project.php:965
+msgid "Add or Upload File"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Radio.php:101
+#: CustomFields/Pages/Project.php:948 CustomFields/Pages/Project.php:1020
+#: CustomFields/Pages/Project.php:1146 CustomFields/Pages/Project.php:1179
+msgid "None"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Radio.php:150
+msgid "Only one option can be selected per field."
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Radio.php:209
+msgid "Show the \"None\" option?"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Text.php:72
+msgid "Placeholder"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Text.php:73
+msgid "Short hint that describes the expected value."
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Text.php:81
+msgid "Minimum Length"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Text.php:82
+msgid "Specifies the minimum number of characters the field requires. Max: 254."
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Text.php:97
+msgid "Maximum Length"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Text.php:98
+msgid "Specifies the maximum number of characters the field requires. Max: 255."
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Text.php:113
+msgid "Pattern"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/Text.php:114
+msgid "Regular expression that the input value is checked against. This pattern must match the entire value, not just a subset.<br>Should not have a leading or trailing slash. Use the <strong>Description</strong> field to describe the pattern to help the user."
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/User.php:195
+msgid "User Roles"
+msgstr ""
+
+#: CustomFields/Metaboxes/Fields/User.php:196
+msgid "Select which user roles are allowed for this field."
+msgstr ""
+
+#: CustomFields/Metaboxes/Usage.php:20
+msgid "Use this field on"
+msgstr ""
+
+#: CustomFields/Metaboxes/Usage.php:28
+msgid "Usage"
+msgstr ""
+
+#: CustomFields/Metaboxes/Usage.php:29
+msgid "Choose where this field should be used."
+msgstr ""
+
+#: CustomFields/Metaboxes/Usage.php:43
+msgid "Filterable"
+msgstr ""
+
+#: CustomFields/Metaboxes/Usage.php:44
+msgid "Whether the field can be filtered on frontend or not."
+msgstr ""
+
+#: CustomFields/Metaboxes/Usage.php:55
+msgid "Display as column"
+msgstr ""
+
+#: CustomFields/Metaboxes/Usage.php:56
+msgid "Whether the field should be added as column to tables."
+msgstr ""
+
+#: CustomFields/Metaboxes/Usage.php:67
+msgid "Weight (number)"
+msgstr ""
+
+#: CustomFields/Metaboxes/Usage.php:68
+msgid "Enter a number from 0 to 1000. This allows you to order custom fields in display. A larger weight number means the item will show up lower on the page. Note: in order for this to work, ALL custom fields must have weights."
+msgstr ""
+
+#: CustomFields/Model.php:49 CustomFields/Pages/Collection.php:128
+msgid "Text"
+msgstr ""
+
+#: CustomFields/Model.php:50 CustomFields/Pages/Collection.php:132
+msgid "Dropdown"
+msgstr ""
+
+#: CustomFields/Model.php:51 CustomFields/Pages/Collection.php:134
+msgid "File"
+msgstr ""
+
+#: CustomFields/Model.php:52 CustomFields/Pages/Collection.php:138
+msgid "Radio Buttons"
+msgstr ""
+
+#: CustomFields/Model.php:53
+msgid "Checkboxes"
+msgstr ""
+
+#: CustomFields/Model.php:54 CustomFields/Pages/Collection.php:136
+msgid "Color Picker"
+msgstr ""
+
+#: CustomFields/Model.php:55 CustomFields/Pages/Collection.php:142
+msgid "Category"
+msgstr ""
+
+#: CustomFields/Model.php:56 CustomFields/Pages/Collection.php:144
+msgid "Tag"
+msgstr ""
+
+#: CustomFields/Model.php:57 CustomFields/Pages/Collection.php:130
+msgid "Autoincrement"
+msgstr ""
+
+#: CustomFields/Model.php:58 CustomFields/Pages/Collection.php:146
+msgid "User"
+msgstr ""
+
+#: CustomFields/Model.php:59 CustomFields/Pages/Collection.php:148
+msgid "Country"
+msgstr ""
+
+#: CustomFields/Pages/Collection.php:98
+msgid "Slug"
+msgstr ""
+
+#: CustomFields/Pages/Collection.php:99
+msgid "Type"
+msgstr ""
+
+#: CustomFields/Pages/Collection.php:101
+msgid "Used on"
+msgstr ""
+
+#: CustomFields/Pages/Collection.php:140
+msgid "Checkbox"
+msgstr ""
+
+#: CustomFields/Pages/Collection.php:150 CustomFields/Pages/Collection.php:187
+msgid "none"
+msgstr ""
+
+#: CustomFields/Pages/Collection.php:219
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: CustomFields/Pages/Collection.php:220
+msgid "Types"
+msgstr ""
+
+#: CustomFields/Pages/Project.php:286
+msgid "Clear"
+msgstr ""
+
+#: CustomFields/Pages/Project.php:287
+msgid "Default"
+msgstr ""
+
+#: CustomFields/Pages/Project.php:288
+msgid "Select Color"
+msgstr ""
+
+#: CustomFields/Pages/Project.php:289
+msgid "Current Color"
+msgstr ""
+
+#: CustomFields/Pages/Project.php:299
+msgid "Remove"
+msgstr ""
+
+#: CustomFields/Pages/Project.php:300
+msgid "Undo"
+msgstr ""
+
+#: CustomFields/Pages/Project.php:301
+msgid "Use this file"
+msgstr ""
+
+#: CustomFields/Plugin.php:131 CustomFields/Plugin.php:323
+msgid "Custom Field"
+msgstr ""
+
+#: CustomFields/Plugin.php:132 CustomFields/Plugin.php:324
+msgid "Custom Fields"
+msgstr ""
+
+#: CustomFields/Plugin.php:135
+#, php-format
+msgctxt "Custom Field post type name"
+msgid "%2$s"
+msgstr ""
+
+#: CustomFields/Plugin.php:136
+#, php-format
+msgctxt "singular custom field post type name"
+msgid "%1$s"
+msgstr ""
+
+#: CustomFields/Plugin.php:137
+#, php-format
+msgid "New %1s"
+msgstr ""
+
+#: CustomFields/Plugin.php:138
+#, php-format
+msgid "Add New %1$s"
+msgstr ""
+
+#: CustomFields/Plugin.php:139
+#, php-format
+msgid "Edit %1$s"
+msgstr ""
+
+#: CustomFields/Plugin.php:140
+#, php-format
+msgid "New %1$s"
+msgstr ""
+
+#: CustomFields/Plugin.php:141
+#, php-format
+msgid "%2$s"
+msgstr ""
+
+#: CustomFields/Plugin.php:142
+#, php-format
+msgid "View %1$s"
+msgstr ""
+
+#: CustomFields/Plugin.php:143
+#, php-format
+msgid "Search %2$s"
+msgstr ""
+
+#: CustomFields/Plugin.php:144
+#, php-format
+msgid "No %2$s found"
+msgstr ""
+
+#: CustomFields/Plugin.php:145
+#, php-format
+msgid "No %2$s found in Trash"
+msgstr ""
+
+#: CustomFields/Plugin.php:147
+#, php-format
+msgctxt "custom field post type menu name"
+msgid "%2$s"
+msgstr ""
+
+#: CustomFields/Plugin.php:148
+#, php-format
+msgid "%1$s Image"
+msgstr ""
+
+#: CustomFields/Plugin.php:149
+#, php-format
+msgid "Set %1$s Image"
+msgstr ""
+
+#: CustomFields/Plugin.php:150
+#, php-format
+msgid "Remove %1$s Image"
+msgstr ""
+
+#: CustomFields/Plugin.php:151
+#, php-format
+msgid "Use as %1$s Image"
+msgstr ""
+
+#: CustomFields/Plugin.php:152
+#, php-format
+msgid "Filter %2$s list"
+msgstr ""
+
+#: CustomFields/Plugin.php:153
+#, php-format
+msgid "%2$s list navigation"
+msgstr ""
+
+#: CustomFields/Plugin.php:154
+#, php-format
+msgid "%2$s list"
+msgstr ""
+
+#: CustomFields/Plugin.php:292 CustomFields/Plugin.php:293
+msgid "Custom Field updated."
+msgstr ""
+
+#: CustomFields/Plugin.php:294
+msgid "Custom Field published."
+msgstr ""
+
+#: CustomFields/Plugin.php:295
+msgid "Custom Field saved."
+msgstr ""
+
+#: CustomFields/Plugin.php:296
+msgid "Custom Field submitted."
+msgstr ""
+
+#: CustomFields/Plugin.php:328
+#, php-format
+msgid "%1$s %2$s updated."
+msgid_plural "%1$s %3$s updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: CustomFields/Plugin.php:334
+#, php-format
+msgid "%1$s %2$s not updated, somebody is editing it."
+msgid_plural "%1$s %3$s updated, somebody is editing them."
+msgstr[0] ""
+msgstr[1] ""
+
+#: CustomFields/Plugin.php:341
+#, php-format
+msgid "%1$s %2$s permanently deleted."
+msgid_plural "%1$s %3$s permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: CustomFields/Plugin.php:347
+#, php-format
+msgid "%1$s %2$s moved to the Trash."
+msgid_plural "%1$s %3$s moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: CustomFields/Plugin.php:353
+#, php-format
+msgid "%1$s %2$s restored from the Trash."
+msgid_plural "%1$s %3$s restored from the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:362
+#, php-format
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:371
+#, php-format
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s or %5$supdate now%6$s."
+msgstr ""
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:513
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:514
+msgid "Error"
+msgstr ""

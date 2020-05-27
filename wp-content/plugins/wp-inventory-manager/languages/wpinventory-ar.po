@@ -1,0 +1,2107 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Inventory\n"
+"POT-Creation-Date: 2019-02-23 11:07-0700\n"
+"PO-Revision-Date: 2019-10-06 20:22-0600\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"Last-Translator: \n"
+"Language: ar\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/wpinventory.admin.class.php:242 includes/wpinventory.class.php:673
+msgid "Yes"
+msgstr "نعم"
+
+#: includes/wpinventory.admin.class.php:242
+#: includes/wpinventory.admin.class.php:1899
+#: includes/wpinventory.admin.class.php:2227
+#: includes/wpinventory.admin.class.php:2233 includes/wpinventory.class.php:672
+msgid "No"
+msgstr "لا"
+
+#: includes/wpinventory.admin.class.php:244
+msgid "WP Inventory Status"
+msgstr "حالة جرد الفسفور الابيض"
+
+#: includes/wpinventory.admin.class.php:252 wpinventory.core.php:188
+msgid "Inventory Items"
+msgstr "أصناف المخزون"
+
+#: includes/wpinventory.admin.class.php:252
+msgid "Visible Items"
+msgstr "العناصر المرئية"
+
+#: includes/wpinventory.admin.class.php:256
+#: includes/wpinventory.config.class.php:119
+msgid "Reserve"
+msgstr "الاحتياطي"
+
+#: includes/wpinventory.admin.class.php:256
+msgid "Can Reserve Items"
+msgstr "يمكن حجز العناصر"
+
+#: includes/wpinventory.admin.class.php:291
+#, php-format
+msgid "%d Inventory Item slugs and %d Category slugs repaired."
+msgstr "٪ d جرد عنصر الرخويات و٪ d فئة الرخويات التي تم إصلاحها."
+
+#: includes/wpinventory.admin.class.php:327
+#, php-format
+msgid "<span>%s</span> total items"
+msgstr "إجمالي عناصر <span>٪ s</span>"
+
+#: includes/wpinventory.admin.class.php:335
+#, php-format
+msgid ""
+"Are you sure you want to permanently delete %s inventory items, %s "
+"categories, and the %s images / media that belong to those items?\n"
+"NOTE: If you have modified any of the default items, they will still be "
+"removed.\n"
+"Continue and Delete?"
+msgstr ""
+"هل تريد بالتأكيد حذف عناصر مخزون٪ s وفئات٪ s وصور / وسائط٪ s التي تنتمي إلى "
+"هذه العناصر؟\n"
+"ملاحظة: إذا قمت بتعديل أي من العناصر الافتراضية ، فسيتم إزالتها.\n"
+"متابعة وحذف؟"
+
+#: includes/wpinventory.admin.class.php:340
+#, php-format
+msgid ""
+"The default inventory items are still in the system.  \n"
+"\t\t\t\t    Would you like to %sRemove default items?%s \n"
+"\t\t\t\t    (Note: this also removes the Inventory Categories, and their "
+"images and media) \n"
+"\t\t\t\t    Or, would you like to %sKeep The Default Items%s? \n"
+"\t\t\t\t    (You can always delete them one at a time later)"
+msgstr ""
+"لا تزال عناصر المخزون الافتراضية في النظام.\n"
+"هل ترغب في٪ sRemove العناصر الافتراضية؟٪ s\n"
+"(ملاحظة: هذا يزيل أيضًا فئات الجرد ، وصورهم ووسائطهم)\n"
+"أو هل ترغب في٪ sKeep العناصر الافتراضية٪ s؟\n"
+"(يمكنك دائمًا حذفها مرة واحدة في وقت لاحق)"
+
+#: includes/wpinventory.admin.class.php:352
+#, php-format
+msgid ""
+"You have not entered a WP Inventory Manager license key in %sLicense Keys "
+"Settings%s.  You will not receive automatic updates to WP Inventory Manager."
+msgstr ""
+"لم تقم بإدخال مفتاح ترخيص WP Inventory Manager في٪ sLicense Keys Settings٪ s. "
+"لن تتلقى تحديثات تلقائية لـ WP Inventory Manager."
+
+#: includes/wpinventory.admin.class.php:359
+#, php-format
+msgid ""
+"You have not selected a theme in %sGeneral Settings%s, so your inventory may "
+"not display with attractive styles."
+msgstr ""
+"لم تقم بتحديد سمة في٪ sGeneral Settings٪ s ، لذلك قد لا يتم عرض المخزون الخاص "
+"بك مع أنماط جذابة."
+
+#: includes/wpinventory.admin.class.php:374
+#, php-format
+msgid ""
+"\"Hide Low Quantities\" is turned on in %sGeneral Settings%s, which is hiding "
+"many of your items (%d items)."
+msgstr ""
+"يتم تشغيل \"إخفاء الكميات المنخفضة\" في٪ s الإعدادات العامة٪ s ، والتي تخفي "
+"العديد من العناصر (٪ d عناصر)."
+
+#: includes/wpinventory.admin.class.php:379
+#, php-format
+msgid ""
+"No items will show on the front end: \"Hide Low Quantities\" is turned on in "
+"%sGeneral Settings%s, and all items are below that quantity."
+msgstr ""
+"لن يتم عرض أي عناصر على الواجهة الأمامية: \"إخفاء الكميات المنخفضة\" قيد "
+"التشغيل في٪ s الإعدادات العامة٪ s ، وجميع العناصر أقل من تلك الكمية."
+
+#: includes/wpinventory.admin.class.php:395
+#, php-format
+msgid "<span>%d</span> hidden by low quantity"
+msgstr "<span>٪ د</span> مخبأة من قبل كمية منخفضة"
+
+#: includes/wpinventory.admin.class.php:400
+#, php-format
+msgid ""
+"You are using the default \"Listing\" fields on the front end: You can change "
+"the fields to show in the %sDisplay Settings%s"
+msgstr ""
+"أنت تستخدم حقول \"الإدراج\" الافتراضية في الواجهة الأمامية: يمكنك تغيير "
+"الحقول لإظهارها في٪ sDisplay Settings٪ s"
+
+#: includes/wpinventory.admin.class.php:407
+#, php-format
+msgid "<span>%d</span> hidden due to display settings"
+msgstr "<span>٪ d</span> مخفي بسبب إعدادات العرض"
+
+#: includes/wpinventory.admin.class.php:413
+#, php-format
+msgid ""
+"You are using the default \"Detail\" fields on the front end: You can change "
+"the fields to show in the %sDisplay Settings%s"
+msgstr ""
+"أنت تستخدم حقول \"التفاصيل\" الافتراضية في الواجهة الأمامية: يمكنك تغيير "
+"الحقول لإظهارها في٪ sDisplay Settings٪ s"
+
+#: includes/wpinventory.admin.class.php:429
+msgid ""
+"Inventory may not display on the front end: It does not appear that the "
+"[wpinventory] shortcode is installed on any pages or posts. NOTE: If you are "
+"using Divi or Themify or other Builder themes, this could be a false positive."
+msgstr ""
+"قد لا يتم عرض المخزون على الواجهة الأمامية: لا يبدو أن الرمز القصير "
+"[wpinventory] مثبت على أي صفحات أو منشورات. ملاحظة: إذا كنت تستخدم سمات Divi "
+"أو Themify أو غيرها من سمات Builder ، فقد يكون ذلك إيجابًا كاذبًا."
+
+#: includes/wpinventory.admin.class.php:439
+#, php-format
+msgid ""
+"Inventory Detail will not show: The [wpinventory] shortcode is on the home "
+"page, but the \"Shortcode on Home\" setting is not set to \"Yes\".  You need "
+"to turn it on in %sGeneral Settings%s"
+msgstr ""
+"لن يتم عرض تفاصيل الجرد: الرمز القصير [wpinventory] موجود على الصفحة "
+"الرئيسية ، لكن إعداد \"الرمز القصير على الصفحة الرئيسية\" لم يتم تعيينه على "
+"\"نعم\". تحتاج إلى تشغيله في٪ s الإعدادات العامة٪ s"
+
+#: includes/wpinventory.admin.class.php:459
+#, php-format
+msgid ""
+"Many items will not show on the front end: %d items are set to an inactive "
+"status."
+msgstr ""
+"لن تظهر العديد من العناصر في الواجهة الأمامية: تم تعيين٪ d من العناصر إلى "
+"حالة غير نشطة."
+
+#: includes/wpinventory.admin.class.php:464
+msgid ""
+"No items will show on the front end: all of the items are set to an \"Inactive"
+"\" status."
+msgstr ""
+"لن تظهر أي عناصر في الواجهة الأمامية: يتم تعيين جميع العناصر إلى حالة \"غير "
+"نشطة\"."
+
+#: includes/wpinventory.admin.class.php:493
+#, php-format
+msgid ""
+"%d items have the same slug, and since you are using SEO url's, this means "
+"that they will not display properly when viewing the single item on the front-"
+"end. Click to %sRebuild Slugs Now%s"
+msgstr ""
+"تحتوي العناصر٪ d على نفس الشريحة ، وبما أنك تستخدم عناوين URL الخاصة بـ SEO ، "
+"فهذا يعني أنها لن يتم عرضها بشكل صحيح عند عرض العنصر الفردي على الواجهة "
+"الأمامية. انقر على٪ sRebuild Slugs Now٪ s"
+
+#: includes/wpinventory.admin.class.php:526
+#, php-format
+msgid ""
+"Numeric sort has been selected for the field \"%s\", but there are %d items "
+"with letters in the field.  This will result in unexpected sorting for this "
+"field."
+msgstr ""
+"تم اختيار فرز رقمي للحقل \"٪ s\" ، ولكن هناك عناصر٪ d مع أحرف في الحقل. سيؤدي "
+"ذلك إلى فرز غير متوقع لهذا الحقل."
+
+#: includes/wpinventory.admin.class.php:542
+msgid "Can"
+msgstr "يستطيع"
+
+#: includes/wpinventory.admin.class.php:542
+msgid "Can Not"
+msgstr "لا تستطيع"
+
+#: includes/wpinventory.admin.class.php:543
+#, php-format
+msgid "Users <span>%s</span> set quantity"
+msgstr "كمية المستخدمين <span>٪ s</span> المحددة"
+
+#: includes/wpinventory.admin.class.php:545
+msgid "Do"
+msgstr "المرغوب"
+
+#: includes/wpinventory.admin.class.php:545
+msgid "Do Not"
+msgstr "لا"
+
+#: includes/wpinventory.admin.class.php:546
+#, php-format
+msgid "Reservations <span>%s</span> reduce item quantity"
+msgstr "الحجوزات <span>٪ s</span> تقلل كمية المادة"
+
+#: includes/wpinventory.admin.class.php:548
+msgid "Are"
+msgstr "هي"
+
+#: includes/wpinventory.admin.class.php:548
+msgid "Are Not"
+msgstr "غير صحيح"
+
+#: includes/wpinventory.admin.class.php:549
+#, php-format
+msgid "Emails <span>%s</span> sent to submitter"
+msgstr "تم إرسال رسائل البريد الإلكتروني <span>٪ s</span> إلى مقدم الطلب"
+
+#: includes/wpinventory.admin.class.php:555
+#, php-format
+msgid "Notifications sent to <span>%s</span>"
+msgstr "تم إرسال الإشعارات إلى <span>٪ s</span>"
+
+#: includes/wpinventory.admin.class.php:562
+#, php-format
+msgid ""
+"Reserve emails will not include item details. You need to set the \"Detail\" "
+"fields to show in the %sDisplay Settings%s"
+msgstr ""
+"لن تتضمن رسائل البريد الإلكتروني الاحتياطية تفاصيل العنصر. تحتاج إلى تعيين "
+"حقول \"التفاصيل\" لإظهارها في٪ sDisplay Settings٪ s"
+
+#: includes/wpinventory.admin.class.php:725
+msgid "Instructions"
+msgstr "التعليمات"
+
+#: includes/wpinventory.admin.class.php:727
+msgid "Quick-Start Guide"
+msgstr "دليل البدء السريع"
+
+#: includes/wpinventory.admin.class.php:728
+msgid "Before you begin setting up your items, you should follow these steps:"
+msgstr "قبل البدء في إعداد العناصر الخاصة بك ، يجب عليك اتباع الخطوات التالية:"
+
+#: includes/wpinventory.admin.class.php:730
+msgid "Set up your"
+msgstr "إعداد الخاص بك"
+
+#: includes/wpinventory.admin.class.php:730
+#: includes/wpinventory.widgets.class.php:71
+msgid "Inventory Categories"
+msgstr "فئات المخزون"
+
+#: includes/wpinventory.admin.class.php:731
+msgid "Configure the"
+msgstr "تكوين"
+
+#: includes/wpinventory.admin.class.php:731
+#: includes/wpinventory.admin.class.php:2146 wpinventory.core.php:202
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: includes/wpinventory.admin.class.php:732
+msgid "Configure labels"
+msgstr "تكوين التسميات"
+
+#: includes/wpinventory.admin.class.php:732
+#: includes/wpinventory.admin.class.php:1605 wpinventory.core.php:192
+msgid "Labels"
+msgstr "العلامات"
+
+#: includes/wpinventory.admin.class.php:733
+msgid "Set Display Options"
+msgstr "ضبط خيارات العرض"
+
+#: includes/wpinventory.admin.class.php:733 wpinventory.core.php:196
+msgid "Display"
+msgstr "عرض"
+
+#: includes/wpinventory.admin.class.php:734
+msgid "Then, you can "
+msgstr "إذا تستطيع"
+
+#: includes/wpinventory.admin.class.php:734
+msgid "Add Inventory Items"
+msgstr "إضافة عناصر المخزون"
+
+#: includes/wpinventory.admin.class.php:735
+msgid "Finally, install the shortcode"
+msgstr "أخيرًا ، قم بتثبيت الرمز القصير"
+
+#: includes/wpinventory.admin.class.php:735
+msgid "on any pages you would like to display inventory."
+msgstr "على أي صفحات ترغب في عرض المخزون."
+
+#: includes/wpinventory.admin.class.php:750
+msgid "Inventory Item"
+msgstr "البند المخزون"
+
+#: includes/wpinventory.admin.class.php:750
+#: includes/wpinventory.admin.class.php:1408
+#: includes/wpinventory.admin.class.php:1605
+#: includes/wpinventory.admin.class.php:1724
+#: includes/wpinventory.admin.class.php:1863
+msgid "saved successfully."
+msgstr "حفظ بنجاح."
+
+#: includes/wpinventory.admin.class.php:760
+msgid "Manage Inventory Items"
+msgstr "إدارة عناصر المخزون"
+
+#: includes/wpinventory.admin.class.php:840
+msgid "Add Inventory Item"
+msgstr "إضافة عنصر المخزون"
+
+#: includes/wpinventory.admin.class.php:887
+msgid "edit item"
+msgstr "تعديل العنصر"
+
+#: includes/wpinventory.admin.class.php:892
+msgid "delete item"
+msgstr "حذف العنصر"
+
+#: includes/wpinventory.admin.class.php:897
+msgid "duplicate item"
+msgstr "البند مكررة"
+
+#: includes/wpinventory.admin.class.php:918
+msgid "You do not have permission to edit this item."
+msgstr "ليس لديك إذن لتعديل هذا العنصر."
+
+#: includes/wpinventory.admin.class.php:1089
+#: includes/wpinventory.admin.class.php:1446
+#: includes/wpinventory.admin.class.php:1517
+#: includes/wpinventory.widgets.class.php:84
+#: includes/wpinventory.widgets.class.php:91
+msgid "Sort Order"
+msgstr "ترتيب الفرز"
+
+#: includes/wpinventory.admin.class.php:1119
+#: includes/wpinventory.admin.class.php:1526
+#: includes/wpinventory.admin.class.php:1645
+#: includes/wpinventory.admin.class.php:1755
+#: includes/wpinventory.admin.class.php:1952
+#: includes/wpinventory.admin.class.php:2006
+#: includes/wpinventory.admin.class.php:2684
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: includes/wpinventory.admin.class.php:1122
+msgid "Save Item"
+msgstr "حفظ البند"
+
+#: includes/wpinventory.admin.class.php:1129
+#, php-format
+msgid "%s at %s"
+msgstr "%s علي %s"
+
+#: includes/wpinventory.admin.class.php:1137
+#, php-format
+msgid "Item last updated %s by %s"
+msgstr "آخر عنصر تم تحديثه٪ s بنسبة٪ s"
+
+#: includes/wpinventory.admin.class.php:1139
+#, php-format
+msgid "Item last updated %s"
+msgstr "العنصر آخر تحديث٪ s"
+
+#: includes/wpinventory.admin.class.php:1183
+msgid "Drag and drop images to change sort order"
+msgstr "سحب وإسقاط الصور لتغيير ترتيب الفرز"
+
+#: includes/wpinventory.admin.class.php:1219 wpinventory.core.php:526
+msgid "Image"
+msgstr "صورة"
+
+#: includes/wpinventory.admin.class.php:1255
+msgid "Add Media"
+msgstr "إضافة وسائط"
+
+#: includes/wpinventory.admin.class.php:1256
+msgid "Drag and drop media to change sort order"
+msgstr ""
+
+#: includes/wpinventory.admin.class.php:1265 wpinventory.core.php:531
+msgid "Title"
+msgstr "العنوان"
+
+#: includes/wpinventory.admin.class.php:1266 wpinventory.core.php:530
+msgid "URL"
+msgstr "الرابط"
+
+#: includes/wpinventory.admin.class.php:1316
+msgid "You do not have permission to save this item."
+msgstr ""
+
+#: includes/wpinventory.admin.class.php:1320
+#: includes/wpinventory.admin.class.php:1550
+msgid "Security failure.  Please try again."
+msgstr ""
+
+#: includes/wpinventory.admin.class.php:1324 wpinventory.core.php:535
+#, php-format
+msgid "Either %s or %s is required."
+msgstr ""
+
+#: includes/wpinventory.admin.class.php:1377
+msgid "Inventory id not set.  Item not deleted."
+msgstr ""
+
+#: includes/wpinventory.admin.class.php:1388
+msgid "Inventory item deleted successfully."
+msgstr ""
+
+#: includes/wpinventory.admin.class.php:1408
+#: includes/wpinventory.admin.class.php:1416
+#: includes/wpinventory.admin.class.php:1442
+#: includes/wpinventory.widgets.class.php:167
+msgid "Category"
+msgstr "التصنيف"
+
+#: includes/wpinventory.admin.class.php:1416
+msgid "deleted successfully."
+msgstr ""
+
+#: includes/wpinventory.admin.class.php:1423
+msgid "Manage Categories"
+msgstr "إدارة الأقسام"
+
+#: includes/wpinventory.admin.class.php:1456
+msgid "Add Category"
+msgstr "إضافة فئة"
+
+#: includes/wpinventory.admin.class.php:1473
+msgid "Edit"
+msgstr "تعديل"
+
+#: includes/wpinventory.admin.class.php:1475
+msgid "Delete"
+msgstr "حذف"
+
+#: includes/wpinventory.admin.class.php:1500
+#: includes/wpinventory.admin.class.php:1554
+#: includes/wpinventory.widgets.class.php:85
+msgid "Category Name"
+msgstr "اسم التصنيف"
+
+#: includes/wpinventory.admin.class.php:1506
+msgid "Permalink"
+msgstr "الرابط الدائم"
+
+#: includes/wpinventory.admin.class.php:1511
+#: includes/wpinventory.admin.class.php:1767
+msgid "Description"
+msgstr "الوصف"
+
+#: includes/wpinventory.admin.class.php:1528
+msgid "Save Category"
+msgstr "حفظ التصنيف"
+
+#: includes/wpinventory.admin.class.php:1554
+#: includes/wpinventory.reserve.class.php:147
+msgid "is required."
+msgstr "مطلوب."
+
+#: includes/wpinventory.admin.class.php:1576
+msgid "Category id not set.  Category not deleted."
+msgstr "معرف الفئة غير مضبوط. الفئة غير محذوفة."
+
+#: includes/wpinventory.admin.class.php:1588
+msgid "Category item deleted successfully."
+msgstr "تم حذف عنصر الفئة بنجاح."
+
+#: includes/wpinventory.admin.class.php:1611
+msgid "Manage Labels"
+msgstr "إدارة التصنيفات"
+
+#: includes/wpinventory.admin.class.php:1639
+msgid "Edit Labels"
+msgstr "تحرير التسميات"
+
+#: includes/wpinventory.admin.class.php:1647
+msgid "Save Labels"
+msgstr "حفظ التسميات"
+
+#: includes/wpinventory.admin.class.php:1649
+#: includes/wpinventory.admin.class.php:2687
+msgid "Reset to Defaults"
+msgstr "استعادة الوضع الافتراضي"
+
+#: includes/wpinventory.admin.class.php:1670
+msgid "Use Field"
+msgstr "استخدام الحقل"
+
+#: includes/wpinventory.admin.class.php:1672
+msgid "Always On"
+msgstr "يعمل دائماً"
+
+#: includes/wpinventory.admin.class.php:1679
+msgid "Sort Numerically"
+msgstr "فرز عدديا"
+
+#: includes/wpinventory.admin.class.php:1724 wpinventory.core.php:199
+msgid "Statuses"
+msgstr "الحالات"
+
+#: includes/wpinventory.admin.class.php:1730
+msgid "Manage Statuses"
+msgstr "إدارة الحالات"
+
+#: includes/wpinventory.admin.class.php:1749
+msgid "Edit Statuses"
+msgstr "تحرير الحالات"
+
+#: includes/wpinventory.admin.class.php:1757
+msgid "Save Statuses"
+msgstr "حفظ الحالات"
+
+#: includes/wpinventory.admin.class.php:1766
+#: includes/wpinventory.functions.php:1027 wpinventory.core.php:187
+msgid "Status"
+msgstr "الحالة"
+
+#: includes/wpinventory.admin.class.php:1768
+#: includes/wpinventory.admin.class.php:1784
+#: includes/wpinventory.admin.class.php:1810
+msgid "Hide Items"
+msgstr "إخفاء العناصر"
+
+#: includes/wpinventory.admin.class.php:1788
+msgid " hide items"
+msgstr "إخفاء العناصر"
+
+#: includes/wpinventory.admin.class.php:1798
+msgid "Add Status"
+msgstr "إضافة حالة"
+
+#: includes/wpinventory.admin.class.php:1863
+msgid "Display Settings"
+msgstr "اعدادات العرض"
+
+#: includes/wpinventory.admin.class.php:1869
+msgid "Manage Display"
+msgstr "إدارة العرض"
+
+#: includes/wpinventory.admin.class.php:1882
+msgid "Show in Listing"
+msgstr "تظهر في القائمة"
+
+#: includes/wpinventory.admin.class.php:1883
+msgid "Show on Detail"
+msgstr "تظهر على التفاصيل"
+
+#: includes/wpinventory.admin.class.php:1884
+msgid "Show in Admin"
+msgstr "تظهر في الادارية"
+
+#: includes/wpinventory.admin.class.php:1885
+msgid "Show in Search Results"
+msgstr "تظهر في نتائج البحث"
+
+#: includes/wpinventory.admin.class.php:1900
+msgid "Yes - Standard"
+msgstr "نعم - قياسي"
+
+#: includes/wpinventory.admin.class.php:1901
+msgid "Yes - DataTables"
+msgstr "نعم - DataTables"
+
+#: includes/wpinventory.admin.class.php:1953
+#: includes/wpinventory.admin.class.php:2007
+#: includes/wpinventory.admin.class.php:2685
+msgid "Save Settings"
+msgstr "حفظ الإعدادات"
+
+#: includes/wpinventory.admin.class.php:1955
+msgid ""
+"Drag-and-drop items from the Available Fields list to the desired list to "
+"control what shows on the front-end inventory."
+msgstr ""
+"قم بسحب العناصر وإفلاتها من قائمة الحقول المتاحة إلى القائمة المرغوبة للتحكم "
+"في العروض الموجودة في مخزون الواجهة الأمامية."
+
+#: includes/wpinventory.admin.class.php:1958
+msgid "Available Fields"
+msgstr "الحقول المتوفرة"
+
+#: includes/wpinventory.admin.class.php:1972
+msgid "Add All Fields"
+msgstr "إضافة جميع الحقول"
+
+#: includes/wpinventory.admin.class.php:1979
+msgid "Show Labels in Listing"
+msgstr "إظهار التسميات في القائمة"
+
+#: includes/wpinventory.admin.class.php:1983
+msgid "Display Listing as Table"
+msgstr "عرض قائمة الجدول"
+
+#: includes/wpinventory.admin.class.php:1985
+#, php-format
+msgid ""
+"No: Each item will be in a separate box / panel.  Yes - Standard: Table "
+"(spreadsheet) view.  Yes - DataTables: Table (spreadsheet) view, using the "
+"%sDataTables Library%s to provide sorting / filtering."
+msgstr ""
+"لا: سيكون كل عنصر في مربع / لوحة منفصلة. نعم - قياسي: عرض جدول (جدول). نعم - "
+"DataTables: عرض جدول (جدول بيانات) ، وذلك باستخدام مكتبة٪ sDataTables٪ s "
+"لتوفير الفرز / التصفية."
+
+#: includes/wpinventory.admin.class.php:1987
+#, php-format
+msgid ""
+"IMPORTANT: You are choosing to use the jQuery DataTables library to display "
+"items on the front end.  Please be sure to %sRead the DataTables Docs%s to "
+"understand what you are doing. Some WP Inventory %sshortcode arguments%s "
+"(such as order, page, page size) will NOT work with this setting.  Further, "
+"if you have over 1000 inventory items, DataTables may cause the listing to be "
+"slow."
+msgstr ""
+"هام: أنت تختار استخدام مكتبة jQuery DataTables لعرض العناصر في الواجهة "
+"الأمامية. يرجى التأكد من أن٪ s أقرأ مستندات DataTables٪ s لفهم ما تفعله. لن "
+"تعمل بعض وسيطات WP Inventory٪ sshortcode٪ s (مثل الترتيب ، الصفحة ، حجم "
+"الصفحة) مع هذا الإعداد. علاوة على ذلك ، إذا كان لديك أكثر من 1000 عنصر من "
+"عناصر المخزون ، فقد يتسبب DataTables في أن تكون القائمة بطيئة."
+
+#: includes/wpinventory.admin.class.php:1991
+msgid "Image size in Listing"
+msgstr "حجم الصورة في القائمة"
+
+#: includes/wpinventory.admin.class.php:1995
+msgid "Show Labels on Detail"
+msgstr "إظهار التسميات على التفاصيل"
+
+#: includes/wpinventory.admin.class.php:1999
+msgid "Image size in Detail"
+msgstr "حجم الصورة في التفاصيل"
+
+#: includes/wpinventory.admin.class.php:2052
+#, php-format
+msgid "You may not display the following fields in the %s listing: %s"
+msgstr "لا يمكنك عرض الحقول التالية في قائمة٪ s:٪ s"
+
+#: includes/wpinventory.admin.class.php:2100
+msgid "Admin"
+msgstr "مشرف"
+
+#: includes/wpinventory.admin.class.php:2146
+msgid "saved successfully, and rewrite rules flushed."
+msgstr "حفظ بنجاح ، وإعادة كتابة القواعد مسح."
+
+#: includes/wpinventory.admin.class.php:2149
+msgid "Manage Settings"
+msgstr "إدارة الإعدادات"
+
+#: includes/wpinventory.admin.class.php:2167
+msgid " - None / No CSS -"
+msgstr "- لا شيء / لا CSS -"
+
+#: includes/wpinventory.admin.class.php:2180
+msgid "Administrator"
+msgstr "مدير"
+
+#: includes/wpinventory.admin.class.php:2181
+msgid "Editor"
+msgstr "المحرر"
+
+#: includes/wpinventory.admin.class.php:2182
+msgid "Author"
+msgstr "الكاتب"
+
+#: includes/wpinventory.admin.class.php:2183
+msgid "Contributor"
+msgstr "مساهم"
+
+#: includes/wpinventory.admin.class.php:2184
+msgid "Subscriber"
+msgstr "مشترك"
+
+#: includes/wpinventory.admin.class.php:2190
+msgid "Any items"
+msgstr "أي صنف"
+
+#: includes/wpinventory.admin.class.php:2191
+msgid "Only their own items"
+msgstr "فقط البنود الخاصة بهم"
+
+#: includes/wpinventory.admin.class.php:2199
+msgid "Do not display"
+msgstr "لا تظهر"
+
+#: includes/wpinventory.admin.class.php:2214
+msgid "Before"
+msgstr "قبل"
+
+#: includes/wpinventory.admin.class.php:2215
+msgid "After"
+msgstr "بعد"
+
+#: includes/wpinventory.admin.class.php:2228
+msgid "Yes - at top of search results"
+msgstr "نعم - في أعلى نتائج البحث"
+
+#: includes/wpinventory.admin.class.php:2229
+msgid "Yes - at bottom of search results"
+msgstr "نعم - في أسفل نتائج البحث"
+
+#: includes/wpinventory.admin.class.php:2234
+msgid "Yes - Open in Same Window"
+msgstr "نعم - فتح في نفس النافذة"
+
+#: includes/wpinventory.admin.class.php:2235
+msgid "Yes - Open in New Window"
+msgstr "نعم - فتح في نافذة جديدة"
+
+#: includes/wpinventory.admin.class.php:2244
+msgid "SEO URLs will not work with your current "
+msgstr "لن تعمل عناوين URL لكبار المسئولين الاقتصاديين مع موقعك الحالي"
+
+#: includes/wpinventory.admin.class.php:2244
+msgid "Permalink Structure"
+msgstr "بنية الرابط الدائم"
+
+#: includes/wpinventory.admin.class.php:2262
+msgid "License key is invalid or expired."
+msgstr "مفتاح الترخيص غير صالح أو منتهي الصلاحية."
+
+#: includes/wpinventory.admin.class.php:2262
+#: includes/wpinventory.admin.class.php:2272
+#, php-format
+msgid "License key is valid until %s"
+msgstr "مفتاح الترخيص صالح حتى٪ s"
+
+#: includes/wpinventory.admin.class.php:2268
+msgid "License key is invalid"
+msgstr "مفتاح الترخيص غير صالح"
+
+#: includes/wpinventory.admin.class.php:2270
+#, php-format
+msgid "License key expired on %s"
+msgstr "انتهت صلاحية مفتاح الترخيص في٪ s"
+
+#: includes/wpinventory.admin.class.php:2282
+#: includes/wpinventory.admin.class.php:2285
+msgid "License Keys"
+msgstr "مفاتيح التفعيل"
+
+#: includes/wpinventory.admin.class.php:2288
+msgid "Inventory Manager License Key"
+msgstr "مفتاح ترخيص مدير المخزون"
+
+#: includes/wpinventory.admin.class.php:2300
+#, php-format
+msgid "%s License Key"
+msgstr "مفتاح ترخيص٪ s"
+
+#: includes/wpinventory.admin.class.php:2306
+msgid "Validate Licenses"
+msgstr "التحقق من التراخيص"
+
+#: includes/wpinventory.admin.class.php:2309
+msgid "General Settings"
+msgstr "الاعدادات العامة"
+
+#: includes/wpinventory.admin.class.php:2312
+msgid "Permissions Settings"
+msgstr "إعدادات الأذونات"
+
+#: includes/wpinventory.admin.class.php:2315
+msgid "Minimum Role to Add/Edit Items"
+msgstr "الحد الأدنى لدور لإضافة / تحرير العناصر"
+
+#: includes/wpinventory.admin.class.php:2319
+msgid "Allow Users to Edit"
+msgstr "السماح للمستخدمين بالتحرير"
+
+#: includes/wpinventory.admin.class.php:2323
+msgid "Item Display"
+msgstr "عرض البند"
+
+#: includes/wpinventory.admin.class.php:2326
+msgid "Use SEO URLs"
+msgstr "استخدام عناوين المواقع سيو"
+
+#: includes/wpinventory.admin.class.php:2333
+msgid "SEO Endpoint"
+msgstr "سيو نقطة النهاية"
+
+#: includes/wpinventory.admin.class.php:2338
+msgid "Shortcode on Home?"
+msgstr "رمز قصير على المنزل؟"
+
+#: includes/wpinventory.admin.class.php:2341
+msgid ""
+"Select YES if you are using inventory on the home page. This disables "
+"canonical redirects for the home page."
+msgstr ""
+"حدد نعم إذا كنت تستخدم المخزون على الصفحة الرئيسية. يؤدي هذا إلى تعطيل عمليات "
+"إعادة التوجيه المتعارف عليها للصفحة الرئيسية."
+
+#: includes/wpinventory.admin.class.php:2345
+msgid "Theme"
+msgstr "القالب"
+
+#: includes/wpinventory.admin.class.php:2352
+msgid "Use Media Fields"
+msgstr "استخدم حقول الوسائط"
+
+#: includes/wpinventory.admin.class.php:2354
+msgid "Setting this to no still allows images, just not additional media"
+msgstr "تعيين هذا إلى لا يزال يسمح بالصور ، وليس فقط وسائط إضافية"
+
+#: includes/wpinventory.admin.class.php:2358
+msgid "Items Per Page"
+msgstr "عدد عناصر بكل صفحة"
+
+#: includes/wpinventory.admin.class.php:2363
+msgid "Hide Items Low Quantity"
+msgstr "إخفاء العناصر انخفاض الكمية"
+
+#: includes/wpinventory.admin.class.php:2365
+msgid "Set the low quantity threshold below"
+msgstr "اضبط الحد الأدنى للكمية أدناه"
+
+#: includes/wpinventory.admin.class.php:2369
+msgid "Hide Items Below Quantity"
+msgstr "إخفاء العناصر أدناه الكمية"
+
+#: includes/wpinventory.admin.class.php:2373
+msgid "Only honored if \"Hide Items Low Quantity\" set to yes"
+msgstr "يتم تكريمه فقط إذا تم تعيين \"إخفاء العناصر منخفضة الكمية\" على \"نعم\""
+
+#: includes/wpinventory.admin.class.php:2377
+msgid "Display \"Out of Stock\" message"
+msgstr "عرض رسالة \"نفاد المخزون\""
+
+#: includes/wpinventory.admin.class.php:2379
+msgid ""
+"This will display a banner on the front end that the item is out of stock and "
+"it will also hide the reserve form"
+msgstr ""
+"سيعرض هذا لافتة على الواجهة الأمامية مفادها أن العنصر غير متوفر وسيخفي أيضًا "
+"نموذج الاحتياطي"
+
+#: includes/wpinventory.admin.class.php:2383
+msgid "Quantity item must reach to display out of stock"
+msgstr "يجب أن يصل عنصر الكمية إلى العرض من المخزون"
+
+#: includes/wpinventory.admin.class.php:2387
+msgid ""
+"Only honored if \"Display \"Out of Stock\" message\" set to yes AND \"Hide "
+"Items Low Quantity\" set to no"
+msgstr ""
+"يتم تكريمه فقط إذا تم تعيين رسالة \"عرض\" غير متوفر \"\" على \"نعم\" و "
+"\"إخفاء العناصر منخفضة الكمية\" على \"لا\""
+
+#: includes/wpinventory.admin.class.php:2388
+msgid ""
+"Also note that the \"Out of Stock\" notice will only display on the "
+"<strong>listing page</strong> if you <u>do not</u> use tables"
+msgstr ""
+"لاحظ أيضًا أن إشعار \"نفاد المخزون\" لن يتم عرضه على <strong>صفحة القائمة إلا</"
+"strong> إذا كنت <u>لا</u> تستخدم الجداول"
+
+#: includes/wpinventory.admin.class.php:2393
+msgid "Date Format Settings"
+msgstr "اعدادات تنسيق التاريخ "
+
+#: includes/wpinventory.admin.class.php:2396
+msgid "Date Format"
+msgstr "صيغة التاريخ"
+
+#: includes/wpinventory.admin.class.php:2400
+msgid "Time Format"
+msgstr "صيغة الوقت"
+
+#: includes/wpinventory.admin.class.php:2405
+msgid "Currency Format Settings"
+msgstr "إعدادات تنسيق العملة"
+
+#: includes/wpinventory.admin.class.php:2408
+msgid "Currency Symbol"
+msgstr "رمز العملة"
+
+#: includes/wpinventory.admin.class.php:2413
+msgid "Currency Symbol Location"
+msgstr "موقع رمز العملة"
+
+#: includes/wpinventory.admin.class.php:2417
+msgid "Currency Thousands Separator"
+msgstr "العملة الآلاف فاصل"
+
+#: includes/wpinventory.admin.class.php:2422
+msgid "Currency Decimal Separator"
+msgstr "فاصل العملة العشري"
+
+#: includes/wpinventory.admin.class.php:2427
+msgid "Currency Precision (decimal places)"
+msgstr "دقة العملة (المنازل العشرية)"
+
+#: includes/wpinventory.admin.class.php:2431
+msgid "Currency Example (with settings):"
+msgstr "مثال العملة (مع الإعدادات):"
+
+#: includes/wpinventory.admin.class.php:2436
+msgid "Search Settings"
+msgstr "إعدادات البحث"
+
+#: includes/wpinventory.admin.class.php:2440
+msgid "Include Inventory in Search"
+msgstr "تضمين المخزون في البحث"
+
+#: includes/wpinventory.admin.class.php:2442
+msgid "WARNING: May not work with your theme.  Be sure to test."
+msgstr "تحذير: قد لا تعمل مع الموضوع الخاص بك. تأكد من اختبار."
+
+#: includes/wpinventory.admin.class.php:2446
+msgid "Search Results Links to"
+msgstr "نتائج البحث"
+
+#: includes/wpinventory.admin.class.php:2451
+msgid "WARNING: [wpinventory] shortcode not found on any pages!"
+msgstr "تحذير: [wpinventory] رمز قصير غير موجود على أي صفحات!"
+
+#: includes/wpinventory.admin.class.php:2458
+msgid ""
+"This is a list of all posts and pages with the [wpinventory] shortcode on "
+"it.  This is where you will go when you click to view the inventory item from "
+"the search results listing."
+msgstr ""
+"هذه قائمة بجميع المشاركات والصفحات التي بها الرمز القصير [wpinventory]. هذا "
+"هو المكان الذي ستذهب إليه عند النقر فوق لعرض عنصر المخزون من قائمة نتائج "
+"البحث."
+
+#: includes/wpinventory.admin.class.php:2463
+msgid "Display Filter at Top of Item Listing"
+msgstr "عرض مرشح في أعلى قائمة البند"
+
+#: includes/wpinventory.admin.class.php:2468
+msgid "Dashboard Admin"
+msgstr "لوحة القيادة الادارية"
+
+#: includes/wpinventory.admin.class.php:2472
+msgid "Hide header in the admin"
+msgstr "إخفاء الرأس في المشرف"
+
+#: includes/wpinventory.admin.class.php:2477
+msgid "Show The Item ID in The Admin Listing"
+msgstr "إظهار معرف العنصر في قائمة الإدارة"
+
+#: includes/wpinventory.admin.class.php:2482
+msgid "Reserve Settings"
+msgstr "احتياطي الإعدادات"
+
+#: includes/wpinventory.admin.class.php:2485
+msgid "General"
+msgstr "عام"
+
+#: includes/wpinventory.admin.class.php:2488
+msgid "Allow Visitors to Reserve Items"
+msgstr "السماح للزوار بحجز العناصر"
+
+#: includes/wpinventory.admin.class.php:2492
+msgid "Ask for Qty When Reserving"
+msgstr "اسأل عن الكمية عند الحجز"
+
+#: includes/wpinventory.admin.class.php:2496
+msgid "Decrease Qty in System on Reserve"
+msgstr "خفض الكمية في النظام على الاحتياطي"
+
+#: includes/wpinventory.admin.class.php:2500
+msgid "Send-to Email When Reserve"
+msgstr "إرسال إلى البريد الإلكتروني عندما الاحتياطي"
+
+#: includes/wpinventory.admin.class.php:2504
+msgid "If left blank, the E-Mail Address from Settings -> General will be used."
+msgstr ""
+"في حالة تركه فارغًا ، فسيتم استخدام عنوان البريد الإلكتروني من الإعدادات -> "
+"عام."
+
+#: includes/wpinventory.admin.class.php:2508
+msgid "Send Reserve Confirmation"
+msgstr "إرسال تأكيد الحجز"
+
+#: includes/wpinventory.admin.class.php:2510
+msgid ""
+"Should a confirmation e-mail be sent to the submitter when a reserve form\n"
+"                            is submitted?"
+msgstr ""
+"يجب إرسال رسالة تأكيد بالبريد الإلكتروني إلى مقدم الطلب عند تقديم نموذج حجز\n"
+"                            يقدم؟"
+
+#: includes/wpinventory.admin.class.php:2514
+msgid "Reserve Message"
+msgstr "رسالة احتياطي"
+
+#: includes/wpinventory.admin.class.php:2517
+msgid "Message displayed when a visitor completes a reservation."
+msgstr "يتم عرض الرسالة عندما يكمل زائر الحجز."
+
+#: includes/wpinventory.admin.class.php:2520
+msgid "Form Settings"
+msgstr "خصائص النموذج"
+
+#: includes/wpinventory.admin.class.php:2523
+msgid "Form Title"
+msgstr "عنوان النموذج"
+
+#: includes/wpinventory.admin.class.php:2528
+msgid "Require Name"
+msgstr "طلب الاسم"
+
+#: includes/wpinventory.admin.class.php:2532
+msgid "Name Input Label"
+msgstr "اسم إدخال التسمية"
+
+#: includes/wpinventory.admin.class.php:2537
+msgid "Require Address"
+msgstr "تتطلب العنوان"
+
+#: includes/wpinventory.admin.class.php:2541
+msgid "Address Input Label"
+msgstr "عنوان إدخال التسمية"
+
+#: includes/wpinventory.admin.class.php:2546
+msgid "Require City"
+msgstr "تتطلب مدينة"
+
+#: includes/wpinventory.admin.class.php:2550
+msgid "City Input Label"
+msgstr "تسمية إدخال المدينة"
+
+#: includes/wpinventory.admin.class.php:2555
+msgid "Require State"
+msgstr "يتطلب الدولة"
+
+#: includes/wpinventory.admin.class.php:2559
+msgid "State Input Label"
+msgstr "تسمية إدخال الدولة"
+
+#: includes/wpinventory.admin.class.php:2564
+msgid "Require Zip"
+msgstr "يتطلب الرمز البريدي"
+
+#: includes/wpinventory.admin.class.php:2568
+msgid "Zip Input Label"
+msgstr "الرمز البريدي إدخال التسمية"
+
+#: includes/wpinventory.admin.class.php:2573
+msgid "Require Phone"
+msgstr "تتطلب الهاتف"
+
+#: includes/wpinventory.admin.class.php:2577
+msgid "Phone Input Label"
+msgstr "تسمية إدخال الهاتف"
+
+#: includes/wpinventory.admin.class.php:2582
+msgid "Require Email"
+msgstr "تتطلب البريد الإلكتروني"
+
+#: includes/wpinventory.admin.class.php:2586
+#: includes/wpinventory.admin.class.php:2600
+msgid "Email Input Label"
+msgstr "تسمية إدخال البريد الإلكتروني"
+
+#: includes/wpinventory.admin.class.php:2591
+msgid "Require Message"
+msgstr "تتطلب رسالة"
+
+#: includes/wpinventory.admin.class.php:2595
+msgid "Message Input Label"
+msgstr "تسمية إدخال الرسالة"
+
+#: includes/wpinventory.admin.class.php:2605
+msgid "Quantity Input Label"
+msgstr "تسمية إدخال الكمية"
+
+#: includes/wpinventory.admin.class.php:2610
+msgid "Reserve Button text"
+msgstr "حجز زر النص"
+
+#: includes/wpinventory.admin.class.php:2616
+msgid "Image / Media"
+msgstr "الصورة / وسائل الإعلام"
+
+#: includes/wpinventory.admin.class.php:2619
+msgid "Image Settings"
+msgstr "إعدادات الصورة"
+
+#: includes/wpinventory.admin.class.php:2622
+msgid "Placeholder Image"
+msgstr "صورة بديله"
+
+#: includes/wpinventory.admin.class.php:2632
+msgid "Clicking Image Displays Larger Image"
+msgstr "النقر فوق الصورة يعرض صورة أكبر"
+
+#: includes/wpinventory.admin.class.php:2634
+msgid ""
+"This setting only applies to Detailed view.  In Listing View, clicking image "
+"links to product details."
+msgstr ""
+"ينطبق هذا الإعداد فقط على طريقة العرض التفصيلية. في \"طريقة عرض القائمة\" ، "
+"انقر فوق ارتباطات الصور لتفاصيل المنتج."
+
+#: includes/wpinventory.admin.class.php:2638
+msgid "Open Media in New Window"
+msgstr "افتح الوسائط في نافذة جديدة"
+
+#: includes/wpinventory.admin.class.php:2642
+msgid "Rebuild Image Thumbnails"
+msgstr "إعادة بناء الصور المصغرة"
+
+#: includes/wpinventory.admin.class.php:2647
+#: includes/wpinventory.admin.class.php:2650
+msgid "Notifications"
+msgstr "الإشعارات"
+
+#: includes/wpinventory.admin.class.php:2653
+msgid "Send Low Quantity Email Notification"
+msgstr "إرسال إشعار انخفاض كمية البريد الإلكتروني"
+
+#: includes/wpinventory.admin.class.php:2659
+msgid "Show alert marker and message"
+msgstr "إظهار علامة التنبيه والرسالة"
+
+#: includes/wpinventory.admin.class.php:2660
+msgid ""
+"Highlights the inventory item in the admin dashboard with a red-ish "
+"background. Also adds a message to the top of the edit item page."
+msgstr ""
+"يبرز عنصر المخزون في لوحة تحكم المشرف بخلفية العش الأحمر. يضيف أيضًا رسالة إلى "
+"أعلى صفحة تحرير العنصر."
+
+#: includes/wpinventory.admin.class.php:2663
+#: includes/wpinventory.config.class.php:116
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: includes/wpinventory.admin.class.php:2668
+msgid ""
+"Set the email you want to receive the low quantity alerts. If none is set, we "
+"will use "
+msgstr ""
+"قم بتعيين البريد الإلكتروني الذي تريد تلقي تنبيهات الكمية المنخفضة. إذا لم "
+"يتم تعيين أي ، سوف نستخدم"
+
+#: includes/wpinventory.admin.class.php:2673
+#: includes/wpinventory.config.class.php:118
+msgid "Quantity"
+msgstr "الكمية"
+
+#: includes/wpinventory.admin.class.php:2676
+msgid ""
+"This is the quantity the alert will be sent at. Once an item hits this "
+"quantity you will receive an email if you selected to receive them above."
+msgstr ""
+"هذه هي الكمية التي سيتم إرسال التنبيه بها. بمجرد أن يصل عنصر إلى هذه الكمية ، "
+"ستتلقى رسالة إلكترونية إذا اخترت استلامها أعلاه."
+
+#: includes/wpinventory.admin.class.php:3027
+msgid "ID #:"
+msgstr "هوية شخصية #:"
+
+#: includes/wpinventory.admin.class.php:3054
+msgid "Actions"
+msgstr "الإجراءات"
+
+#: includes/wpinventory.admin.class.php:3197
+msgid "WP Inventory Add Ons"
+msgstr "الفسفور الابيض جرد إضافات"
+
+#: includes/wpinventory.admin.class.php:3205
+msgid "Installed"
+msgstr "تنصيب"
+
+#: includes/wpinventory.admin.class.php:3215
+#: includes/wpinventory.promo.class.php:250
+#: includes/wpinventory.promo.class.php:278
+#: includes/wpinventory.promo.class.php:302
+msgid "Learn More"
+msgstr "تعلم المزيد"
+
+#: includes/wpinventory.admin.class.php:3218
+msgid "Download"
+msgstr "تحميل"
+
+#: includes/wpinventory.admin.class.php:3224
+msgid "No add ons found.  Please check back soon!"
+msgstr "لم يتم العثور على إضافات. الرجاء التحقق مرة اخرى قريبا!"
+
+#: includes/wpinventory.api.class.php:124
+msgid "When attempting to activate license, could not reach license site."
+msgstr "عند محاولة تنشيط الترخيص ، لا يمكن الوصول إلى موقع الترخيص."
+
+#: includes/wpinventory.api.class.php:131
+msgid "When attempting to activate license, no response was received."
+msgstr "عند محاولة تنشيط الترخيص ، لم يتم تلقي أي استجابة."
+
+#: includes/wpinventory.api.class.php:134
+#, php-format
+msgid "When attempting to activate license, a response code of %d was returned."
+msgstr "عند محاولة تنشيط الترخيص ، تم إرجاع رمز استجابة لـ٪ d."
+
+#: includes/wpinventory.api.class.php:154
+#, php-format
+msgid ""
+"The license entered for %s is expired. To continue receiving updates and "
+"support, please renew."
+msgstr ""
+"انتهت صلاحية الترخيص الذي تم إدخاله لـ٪ s. لمتابعة تلقي التحديثات والدعم ، "
+"يرجى التجديد."
+
+#: includes/wpinventory.api.class.php:158
+#, php-format
+msgid "The license entered for %s is invalid. (%s)"
+msgstr "الترخيص الذي تم إدخاله لـ٪ s غير صالح. (٪س)"
+
+#: includes/wpinventory.api.class.php:161
+#, php-format
+msgid "Congratulations! The %s license entered is valid."
+msgstr "تهانينا! ترخيص٪ s الذي تم إدخاله صالح."
+
+#: includes/wpinventory.api.class.php:163
+#, php-format
+msgid "(Click to refresh if %s is not visible.)"
+msgstr "(انقر للتحديث إذا كان٪ s غير مرئي.)"
+
+#: includes/wpinventory.bxslideshow.class.php:62
+msgid "None / Off"
+msgstr "بلا / قبالة"
+
+#: includes/wpinventory.bxslideshow.class.php:63
+msgid "Horizontal"
+msgstr "أفقي"
+
+#: includes/wpinventory.bxslideshow.class.php:64
+msgid "Vertical"
+msgstr "عمودي"
+
+#: includes/wpinventory.bxslideshow.class.php:65
+msgid "Fade"
+msgstr "تلاشى"
+
+#: includes/wpinventory.bxslideshow.class.php:69
+msgid "Slideshow Settings"
+msgstr "اعدادات عرض الشرائح"
+
+#: includes/wpinventory.bxslideshow.class.php:72
+msgid "Slide Mode"
+msgstr "وضع الشريحة"
+
+#: includes/wpinventory.bxslideshow.class.php:78
+msgid "Speed"
+msgstr "السرعة"
+
+#: includes/wpinventory.bxslideshow.class.php:81
+msgid "Defaults to 2000 if left blank (milliseconds)."
+msgstr "الإعدادات الافتراضية إلى 2000 إذا تركت فارغة (ميلي ثانية)."
+
+#: includes/wpinventory.bxslideshow.class.php:154
+msgid ""
+"This will adjust the height of the slideshow to each image.  Useful if your "
+"images are different sizes."
+msgstr ""
+"سيؤدي ذلك إلى ضبط ارتفاع عرض الشرائح على كل صورة. مفيد إذا كانت صورك بأحجام "
+"مختلفة."
+
+#: includes/wpinventory.bxslideshow.class.php:161
+msgid ""
+"This is measured in milliseconds.  It require that \"Adaptive Height\" above "
+"be set to \"Yes\".  If left blank it defaults to 500."
+msgstr ""
+"يتم قياس هذا بالمللي ثانية. تتطلب تعيين \"الارتفاع التكيفي\" أعلاه على \"نعم"
+"\". إذا تم تركه فارغًا ، فسيتم تعيينه على 500."
+
+#: includes/wpinventory.category.class.php:166
+msgid "Category has "
+msgstr "الفئة لديها"
+
+#: includes/wpinventory.category.class.php:178
+msgid "Select Category"
+msgstr "اختر تصنيف"
+
+#: includes/wpinventory.class.php:154
+msgid "requires a licensed copy of Inventory Manager."
+msgstr "يتطلب نسخة مرخصة من Inventory Manager."
+
+#: includes/wpinventory.class.php:162
+msgid "requires inventory version"
+msgstr "يتطلب نسخة المخزون"
+
+#: includes/wpinventory.class.php:162
+msgid "or higher, so it is not activated."
+msgstr "أو أعلى ، لذلك لا يتم تنشيطه."
+
+#: includes/wpinventory.class.php:689
+msgid "Do Not Display"
+msgstr "لا تعرض"
+
+#: includes/wpinventory.class.php:690
+msgid "Display (not required)"
+msgstr "العرض (غير مطلوب)"
+
+#: includes/wpinventory.class.php:691
+msgid "Required"
+msgstr "مطلوب"
+
+#: includes/wpinventory.class.php:815
+#, php-format
+msgid "%s license is invalid or not found."
+msgstr "ترخيص٪ s غير صالح أو غير موجود."
+
+#: includes/wpinventory.class.php:816 wpinventory.core.php:152
+msgid "Enter your license key now."
+msgstr "أدخل مفتاح الترخيص الخاص بك الآن."
+
+#: includes/wpinventory.config.class.php:109
+msgid "Reserve This Item"
+msgstr "حجز هذا البند"
+
+#: includes/wpinventory.config.class.php:110
+msgid "Name"
+msgstr "الاسم"
+
+#: includes/wpinventory.config.class.php:111
+msgid "Address"
+msgstr "العنوان"
+
+#: includes/wpinventory.config.class.php:112
+msgid "City"
+msgstr "المدينة"
+
+#: includes/wpinventory.config.class.php:113
+msgid "State"
+msgstr "المحافظة"
+
+#: includes/wpinventory.config.class.php:114
+msgid "Zip"
+msgstr "الرمز البريدي"
+
+#: includes/wpinventory.config.class.php:115
+msgid "Phone"
+msgstr "الهاتف"
+
+#: includes/wpinventory.config.class.php:117
+msgid "Message"
+msgstr "الرسالة"
+
+#: includes/wpinventory.config.class.php:122
+msgid "Thank you.  Your reservation has been submitted."
+msgstr "شكرا. تم إرسال الحجز الخاص بك."
+
+#: includes/wpinventory.filters.php:104
+msgid "This item is currently out of stock"
+msgstr "هذا المنتج نفذ"
+
+#: includes/wpinventory.filters.php:155
+msgid "Out of Stock"
+msgstr "غير متوفر"
+
+#: includes/wpinventory.filters.php:171
+#, php-format
+msgid "This item has fallen below the low quantity amount of %d"
+msgstr "انخفض هذا العنصر إلى أقل من كمية الكمية المنخفضة٪ d"
+
+#: includes/wpinventory.functions.php:867
+msgid "An item has been reserved from"
+msgstr "تم حجز عنصر من"
+
+#: includes/wpinventory.functions.php:880
+msgid "Item Details"
+msgstr "تفاصيل البند"
+
+#: includes/wpinventory.functions.php:909
+msgid "Reservation Details"
+msgstr "تفاصيل الحجز"
+
+#: includes/wpinventory.functions.php:945
+msgid ""
+"There was an issue sending your e-mail, but your reservation is complete.<br>"
+msgstr "حدثت مشكلة أثناء إرسال بريدك الإلكتروني ، لكن حجزك اكتمل. <br>"
+
+#: includes/wpinventory.functions.php:990
+msgid ""
+"There was an issue sending the confirmation e-mail, but your reservation is "
+"complete."
+msgstr "حدثت مشكلة أثناء إرسال رسالة التأكيد الإلكترونية ، ولكن حجزك اكتمل."
+
+#: includes/wpinventory.functions.php:1029
+msgid "Sort By"
+msgstr "ترتيب حسب"
+
+#: includes/wpinventory.functions.php:1031
+msgid "Search"
+msgstr "بحث"
+
+#: includes/wpinventory.functions.php:1032
+msgid "Search For"
+msgstr "البحث عن"
+
+#: includes/wpinventory.functions.php:1120
+msgid "Status..."
+msgstr "الحالة..."
+
+#: includes/wpinventory.functions.php:1153
+msgid "Sort By..."
+msgstr "صنف حسب..."
+
+#: includes/wpinventory.functions.php:1172
+#, php-format
+msgid "Choose %s..."
+msgstr "اختر٪ s ..."
+
+#: includes/wpinventory.functions.php:1221
+msgid "Showing [start] - [end] of [count] items"
+msgstr "عرض [البداية] - [نهاية] من [العد] العناصر"
+
+#: includes/wpinventory.functions.php:1246
+#: includes/wpinventory.functions.php:1323
+msgid "&lt;&lt;"
+msgstr "&lt;"
+
+#: includes/wpinventory.functions.php:1248
+#: includes/wpinventory.functions.php:1326
+msgid "&lt;"
+msgstr "&lt;"
+
+#: includes/wpinventory.functions.php:1269
+#: includes/wpinventory.functions.php:1350
+msgid "&gt;"
+msgstr "&gt;"
+
+#: includes/wpinventory.functions.php:1271
+#: includes/wpinventory.functions.php:1353
+msgid "&gt;&gt;"
+msgstr ""
+
+#: includes/wpinventory.functions.php:1306
+#, php-format
+msgid "Showing %d - %d of %d %s"
+msgstr "عرض٪ d -٪ d من٪ d٪ s"
+
+#: includes/wpinventory.item.class.php:655
+msgid "Inventory item deleted, but the images could not be deleted."
+msgstr "تم حذف عنصر المخزون ، لكن تعذر حذف الصور."
+
+#: includes/wpinventory.item.class.php:659
+msgid "Inventory item deleted, but the media could not be deleted."
+msgstr "تم حذف عنصر المخزون ، لكن تعذر حذف الوسائط."
+
+#: includes/wpinventory.item.class.php:663
+msgid "The inventory item is already deleted."
+msgstr "تم حذف عنصر المخزون بالفعل."
+
+#: includes/wpinventory.item.class.php:665
+msgid "Inventory item could not be deleted."
+msgstr "لا يمكن حذف عنصر المخزون."
+
+#: includes/wpinventory.label.class.php:150
+msgid "Number:"
+msgstr "رقم:"
+
+#: includes/wpinventory.label.class.php:151
+msgid "Name:"
+msgstr "الاسم:"
+
+#: includes/wpinventory.label.class.php:152
+msgid "Image:"
+msgstr "الصورة :"
+
+#: includes/wpinventory.label.class.php:153
+msgid "Images:"
+msgstr "الصور :"
+
+#: includes/wpinventory.label.class.php:154
+msgid "Media:"
+msgstr "الوسائط:"
+
+#: includes/wpinventory.label.class.php:155
+msgid "Description:"
+msgstr "الوصف:"
+
+#: includes/wpinventory.label.class.php:156
+msgid "Size:"
+msgstr "الحجم:"
+
+#: includes/wpinventory.label.class.php:157
+msgid "Manufacturer:"
+msgstr "المُصنع:"
+
+#: includes/wpinventory.label.class.php:158
+msgid "Make:"
+msgstr "الصنع:"
+
+#: includes/wpinventory.label.class.php:159
+msgid "Model:"
+msgstr "الموديل:"
+
+#: includes/wpinventory.label.class.php:160
+msgid "Year:"
+msgstr "السنة:"
+
+#: includes/wpinventory.label.class.php:161
+msgid "Serial #:"
+msgstr "الرقم التسلسلي:"
+
+#: includes/wpinventory.label.class.php:162
+msgid "FOB:"
+msgstr "FOB:"
+
+#: includes/wpinventory.label.class.php:163
+msgid "Quantity:"
+msgstr "الكمية:"
+
+#: includes/wpinventory.label.class.php:164
+msgid "Quantity Reserved:"
+msgstr "الكمية المحجوزة:"
+
+#: includes/wpinventory.label.class.php:165
+msgid "Price:"
+msgstr "السعر:"
+
+#: includes/wpinventory.label.class.php:166
+msgid "Status:"
+msgstr "الحالة:"
+
+#: includes/wpinventory.label.class.php:167
+msgid "Slug:"
+msgstr "الاسم اللطيف:"
+
+#: includes/wpinventory.label.class.php:168
+msgid "Sort Order:"
+msgstr "ترتيب الفرز:"
+
+#: includes/wpinventory.label.class.php:169
+msgid "Category:"
+msgstr "التصنيف:"
+
+#: includes/wpinventory.label.class.php:170
+msgid "User:"
+msgstr "المستخدم"
+
+#: includes/wpinventory.label.class.php:171
+msgid "Date Added:"
+msgstr "تم إضافة التاريخ:"
+
+#: includes/wpinventory.label.class.php:172
+msgid "Date Updated:"
+msgstr "تاريخ تحديث:"
+
+#: includes/wpinventory.label.class.php:173
+msgid "Updated by"
+msgstr "تم التحديث بواسطة"
+
+#: includes/wpinventory.promo.class.php:33
+msgid "the Add-Ons page"
+msgstr "صفحة الوظائف الإضافية"
+
+#: includes/wpinventory.promo.class.php:34
+msgid "The WPInventory Website"
+msgstr "موقع WPInventory"
+
+#: includes/wpinventory.promo.class.php:185
+msgid "Dismiss and Do Not Show Again"
+msgstr "رفض ولا تظهر مرة أخرى"
+
+#: includes/wpinventory.promo.class.php:205
+#: includes/wpinventory.promo.class.php:228
+msgid "Buy Now"
+msgstr "اشتري الآن"
+
+#: includes/wpinventory.promo.class.php:214
+msgid "All-Access Pass"
+msgstr "جميع الوصول باس"
+
+#: includes/wpinventory.promo.class.php:215
+msgid "Best Value!"
+msgstr "القيمة الأفضل!"
+
+#: includes/wpinventory.promo.class.php:216
+msgid "For just $99, unlock full access to all WP Inventory Add-ons:"
+msgstr ""
+"مقابل 99 دولارًا فقط ، افتح قفل الوصول الكامل إلى جميع إضافات WP Inventory:"
+
+#: includes/wpinventory.promo.class.php:238
+#: includes/wpinventory.promo.class.php:325
+#: includes/wpinventory.promo.class.php:326
+msgid "Import / Export"
+msgstr "استيراد وتصدير"
+
+#: includes/wpinventory.promo.class.php:241
+msgid "Powerful Importing / Exporting Tools"
+msgstr "أدوات استيراد / تصدير قوية"
+
+#: includes/wpinventory.promo.class.php:242
+#: includes/wpinventory.promo.class.php:293
+msgid "Just $24.99"
+msgstr "فقط 24.99 دولار"
+
+#: includes/wpinventory.promo.class.php:244
+msgid "Allows importing and exporting items quickly and easily."
+msgstr "يسمح باستيراد وتصدير العناصر بسرعة وسهولة."
+
+#: includes/wpinventory.promo.class.php:245
+msgid "Update your inventory offline, and simply import a CSV."
+msgstr ""
+"قم بتحديث المخزون الخاص بك في وضع عدم الاتصال ، وقم ببساطة باستيراد ملف CSV."
+
+#: includes/wpinventory.promo.class.php:246
+msgid "Add new items quickly."
+msgstr "إضافة عناصر جديدة بسرعة."
+
+#: includes/wpinventory.promo.class.php:265
+#: includes/wpinventory.promo.class.php:336
+msgid "Advanced Inventory Manager"
+msgstr "مدير الجرد المتقدم"
+
+#: includes/wpinventory.promo.class.php:268
+msgid "More fields, more types."
+msgstr "المزيد من الحقول ، أكثر أنواع."
+
+#: includes/wpinventory.promo.class.php:269
+msgid "Just $39.99"
+msgstr "فقط 39.99 دولار"
+
+#: includes/wpinventory.promo.class.php:271
+msgid "Add \"types\" of inventory and fields for each"
+msgstr "أضف \"أنواع\" المخزون والحقول لكل منها"
+
+#: includes/wpinventory.promo.class.php:272
+msgid ""
+"Add as many fields as you want and various types like radio, text, number and "
+"drop down select"
+msgstr ""
+"أضف العديد من الحقول التي تريدها وأنواعًا مختلفة مثل الراديو والنص والرقم وحدد "
+"القائمة المنسدلة"
+
+#: includes/wpinventory.promo.class.php:273
+msgid "Display item types via shortcode option on any page"
+msgstr "عرض أنواع العناصر عبر خيار الرمز القصير في أي صفحة"
+
+#: includes/wpinventory.promo.class.php:289
+#: includes/wpinventory.promo.class.php:341
+#: includes/wpinventory.promo.class.php:342
+msgid "Locations Manager"
+msgstr "مدير المواقع"
+
+#: includes/wpinventory.promo.class.php:292
+msgid "Track Inventory Across Multiple Locations."
+msgstr "تتبع المخزون عبر مواقع متعددة."
+
+#: includes/wpinventory.promo.class.php:295
+msgid "Add as many locations as you want"
+msgstr "إضافة العديد من المواقع كما تريد"
+
+#: includes/wpinventory.promo.class.php:296
+msgid "Manage each item and the location(s) it is at"
+msgstr "إدارة كل عنصر والموقع (المواقع) هو في"
+
+#: includes/wpinventory.promo.class.php:297
+msgid "No limits on quantities you can add to each location"
+msgstr "لا حدود للكميات التي يمكنك إضافتها إلى كل موقع"
+
+#: includes/wpinventory.promo.class.php:335
+msgid "Advanced Management"
+msgstr "الإدارة المتقدمة"
+
+#: includes/wpinventory.reserve.class.php:128
+msgid "Security error.  Please try again."
+msgstr "خطآ امني. حاول مرة اخرى."
+
+#: includes/wpinventory.reserve.class.php:165
+msgid "There is not enough of this item to reserve"
+msgstr "لا يوجد ما يكفي من هذا البند للحجز"
+
+#: includes/wpinventory.reserve.class.php:183
+#, php-format
+msgid "Low Quantity Alert: %s"
+msgstr "تنبيه انخفاض الكمية:٪ s"
+
+#: includes/wpinventory.reserve.class.php:184
+#, php-format
+msgid ""
+"This is an email alert that the following item: %s - has fallen below the "
+"quantity alert threshold of %d"
+msgstr ""
+"هذا عبارة عن تنبيه عبر البريد الإلكتروني بأن العنصر التالي:٪ s - انخفض إلى "
+"أقل من حد تنبيه الكمية وهو٪ d"
+
+#: includes/wpinventory.search.class.php:217
+msgid ""
+"No WP Inventory shortcode found on the site.  Cannot display inventory search."
+msgstr "لم يتم العثور على رمز قصير لجرد WP على الموقع. لا يمكن عرض بحث المخزون."
+
+#: includes/wpinventory.support.class.php:19
+msgid "Security Error. Please try again."
+msgstr "خطآ امني. حاول مرة اخرى."
+
+#: includes/wpinventory.support.class.php:31
+msgid "WP Inventory Support"
+msgstr "الفسفور الابيض دعم الجرد"
+
+#: includes/wpinventory.support.class.php:35
+#, php-format
+msgid ""
+"Thank you for being a user of WP Inventory!\n"
+"\t\t\t\t<br>Please understand that support is provided to licensed users.  \n"
+"\t\t\t\t<br>It does not appear that you have licensed WP Inventory, so please "
+"%senter your license key%s if you have one, or %spurchase a license before "
+"requesting support%s."
+msgstr ""
+"شكرًا لك على كونك أحد مستخدمي WP Inventory! <br> يرجى فهم أنه يتم توفير الدعم "
+"للمستخدمين المرخصين. <br> لا يبدو أنك حصلت على ترخيص WP Inventory ، لذا يرجى٪ "
+"senter مفتاح الترخيص٪ s إذا كان لديك واحدًا أو٪ spurchase ترخيصًا قبل طلب الدعم"
+"٪ s."
+
+#: includes/wpinventory.support.class.php:45
+msgid "Show Installation Details"
+msgstr "عرض تفاصيل التثبيت"
+
+#: includes/wpinventory.support.class.php:49
+msgid "Server Info"
+msgstr "معلومات الخادم"
+
+#: includes/wpinventory.support.class.php:58
+msgid "Active Plugins"
+msgstr "الإضافات المفعلة"
+
+#: includes/wpinventory.support.class.php:69
+msgid "Request Support"
+msgstr "طلب الدعم"
+
+#: includes/wpinventory.support.class.php:71
+msgid "Complete the details below to submit a support request."
+msgstr "أكمل التفاصيل أدناه لإرسال طلب دعم."
+
+#: includes/wpinventory.support.class.php:72
+msgid "Email Address:"
+msgstr "البريد الكتروني:"
+
+#: includes/wpinventory.support.class.php:74 wpinventory.core.php:537
+msgid "Please describe your issue or request as completely as possible."
+msgstr "يرجى وصف مشكلتك أو طلبك على أكمل وجه ممكن."
+
+#: includes/wpinventory.support.class.php:79
+msgid "Send Support Request"
+msgstr "إرسال طلب الدعم"
+
+#: includes/wpinventory.support.class.php:202
+msgid ""
+"There was a problem connecting to our server.  If this problem persists, "
+"please contact us via e-mail."
+msgstr ""
+"حدثت مشكلة في الاتصال بخادمنا. إذا استمرت هذه المشكلة ، فيرجى الاتصال بنا عبر "
+"البريد الإلكتروني."
+
+#: includes/wpinventory.support.class.php:205
+msgid "Your support request has been sent.  We will contact you soon!"
+msgstr "تم إرسال طلب الدعم الخاص بك. سوف نتصل بك قريبا!"
+
+#: includes/wpinventory.updater.php:227
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr "هناك إصدار جديد من  %1$s هو متاح. %2$sView version %3$s details%4$s."
+
+#: includes/wpinventory.updater.php:235
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"هناك إصدار جديد من  %1$s متاح. %2$ رؤية إصدار %3$ تفاصيل%4$ أو %5$تحديث الآن "
+"%6$s."
+
+#: includes/wpinventory.updater.php:471
+msgid "You do not have permission to install plugin updates"
+msgstr "ليس لديك إذن لتثبيت تحديثات المكون الإضافي"
+
+#: includes/wpinventory.updater.php:471
+msgid "Error"
+msgstr "خطأ "
+
+#: includes/wpinventory.widgets.class.php:43
+msgid "Choose Category..."
+msgstr "اختر الفئة..."
+
+#: includes/wpinventory.widgets.class.php:80
+msgid "List"
+msgstr "قائمة"
+
+#: includes/wpinventory.widgets.class.php:81
+msgid "Dropdown"
+msgstr "المنسدلة خيارات اللون"
+
+#: includes/wpinventory.widgets.class.php:88
+#: includes/wpinventory.widgets.class.php:164
+msgid "Widget Title"
+msgstr "عنوان الأداة"
+
+#: includes/wpinventory.widgets.class.php:89
+#: includes/wpinventory.widgets.class.php:166
+msgid "Links to Page"
+msgstr "روابط إلى الصفحة"
+
+#: includes/wpinventory.widgets.class.php:89
+#: includes/wpinventory.widgets.class.php:166
+msgid "Select..."
+msgstr "اختر .."
+
+#: includes/wpinventory.widgets.class.php:90
+msgid "Display As"
+msgstr "عرض باسم"
+
+#: includes/wpinventory.widgets.class.php:147
+msgid "Latest Items"
+msgstr "أحدث الأصناف"
+
+#: includes/wpinventory.widgets.class.php:157
+msgid "Show All"
+msgstr "عرض الكل"
+
+#: includes/wpinventory.widgets.class.php:165
+msgid "Number of Items"
+msgstr "عدد العناصر"
+
+#: views/loop-all-table.php:69 views/loop-all.php:55
+#: views/loop-category-table.php:68 views/loop-category.php:50
+#: views/widget-latest-items-loop.php:24
+msgid "No Inventory Items"
+msgstr "لا توجد عناصر جرد"
+
+#: views/loop-search.php:36
+msgid "No Inventory Items Matched the Search Term"
+msgstr "لا توجد عناصر جرد مطابقة لمصطلح البحث"
+
+#: wpinventory.core.php:151
+msgid ""
+"WP Inventory Manager is unlicensed.  Get automatic updates and support by "
+"getting a license."
+msgstr ""
+"WP Inventory Manager غير مرخص. احصل على التحديثات التلقائية والدعم من خلال "
+"الحصول على ترخيص."
+
+#: wpinventory.core.php:175
+msgid "WP Inventory"
+msgstr "جرد الفسفور الابيض"
+
+#: wpinventory.core.php:189
+msgid "Categories"
+msgstr "التصنيفات"
+
+#: wpinventory.core.php:201
+msgid "Add Ons"
+msgstr "إضافات"
+
+#: wpinventory.core.php:205
+msgid "Support"
+msgstr "الدعم"
+
+#: wpinventory.core.php:525
+msgid "Images"
+msgstr "الصور"
+
+#: wpinventory.core.php:527 wpinventory.core.php:528
+msgid "Media"
+msgstr "الوسائط"
+
+#: wpinventory.core.php:529
+msgid "Use In Item"
+msgstr "استخدام في البند"
+
+#: wpinventory.core.php:532
+msgid "Are you sure you want to delete"
+msgstr "هل أنت متأكد أنك تريد حذف"
+
+#: wpinventory.core.php:533
+msgid "this item"
+msgstr "هذه الماده"
+
+#: wpinventory.core.php:534
+msgid "the item"
+msgstr "البند"
+
+#: wpinventory.core.php:536
+msgid "?"
+msgstr "؟"
+
+#: wpinventory.core.php:538
+msgid "Sending..."
+msgstr "ارسال....."
+
+#: wpinventory.core.php:578
+msgid "WP Inventory styles not loaded due to settings in dashboard."
+msgstr "أنماط جرد الفسفور الابيض لم يتم تحميلها بسبب الإعدادات في لوحة القيادة."
+
+#: wpinventory.php:61
+msgid "IMPORTANT!"
+msgstr "هام!"
+
+#: wpinventory.php:61
+#, php-format
+msgid ""
+"Your server is using version %s of PHP, which is over 6 years old, not "
+"maintained, and exposes your website to attack."
+msgstr ""
+"يستخدم الخادم الخاص بك الإصدار٪ s من PHP ، الذي يتجاوز عمره 6 سنوات ، ولا تتم "
+"صيانته ، ويعرض موقع الويب الخاص بك للهجوم."
+
+#: wpinventory.php:62
+#, php-format
+msgid " WP Inventory requires version %s or higher, so it is not loaded."
+msgstr "يتطلب WP Inventory الإصدار٪ s أو أعلى ، لذلك لم يتم تحميله."
+
+#: wpinventory.php:63
+#, php-format
+msgid ""
+"This is normally easy to correct.  Contact your host provider and ask them to "
+"upgrade you to at least PHP version %s"
+msgstr ""
+"هذا عادة ما يكون من السهل تصحيح. اتصل بمزود الخدمة المضيف واطلب منهم ترقيتك "
+"إلى إصدار PHP٪ s على الأقل"
+
+#: wpinventory.php:64
+msgid ""
+"It is very insecure to use this old version of PHP, so we strongly recommend "
+"upgrading, even if you choose not to use WP Inventory."
+msgstr ""
+"من غير الآمن للغاية استخدام هذا الإصدار القديم من PHP ، لذلك نوصي بشدة "
+"بالترقية ، حتى إذا اخترت عدم استخدام WP Inventory."
+
+msgid "Either "
+msgstr "إما"
+
+msgid "INSERT INTO Item"
+msgstr "Inserte en el artículo"
+
+msgid ""
+"Inventory will not display on the front end: It does not appear that the "
+"[wpinventory] shortcode is installed on any pages or posts."
+msgstr ""
+"Inventario no se mostrará en la parte delantera: no parece que el shortcode "
+"[wpinventory] se instala en cualquiera de las páginas o posts."
+
+msgid ""
+"You have not entered a WP Inventory Manager license key in %License Keys "
+"Settings%s.  You will not receive automatic updates to WP Inventory Manager."
+msgstr ""
+"No ha introducido una clave de licencia de administrador de inventario de WP "
+"en %s valores de claves de licencia %s.  Usted no recibirá actualizaciones "
+"automáticas al administrador de inventario de WP."
+
+msgid ""
+"No items will show on the front end: You need to the \"Listing\" fields to "
+"show in the %sDisplay Settings%s"
+msgstr ""
+"Ningún elemento se mostrará en la parte delantera: necesita a los campos de "
+"\"Listado\" para mostrar en el %s Display configuración %s"
+
+msgid ""
+"Inventory Item details will be blank: You need to set the \"Detail\" fields "
+"to show in the %sDisplay Settings%s"
+msgstr ""
+"Detalles del artículo de inventario será en blanco: es necesario establecer "
+"los campos de \"Detalles\" Mostrar en el %sDisplay configuración %s"
+
+msgid "Table (spreadsheet) view, or each item in a separate box"
+msgstr ""
+"Tabla (hoja de cálculo) punto de vista, o de cada elemento en un cuadro "
+"separado"
+
+msgid "WARNING: This feature is in beta.  Please test with your theme!"
+msgstr "ADVERTENCIA: Esta función está en beta.  Por favor, prueba con tu tema!"
+
+msgid "Number"
+msgstr "رقم"
+
+msgid "Size"
+msgstr "الحجم"
+
+msgid "Manufacturer"
+msgstr "الشركة المصنعة"
+
+msgid "Make"
+msgstr "الماركة"
+
+msgid "Model"
+msgstr "نموذج"
+
+msgid "Year"
+msgstr "السنة"
+
+msgid "Serial #"
+msgstr "الرقم التسلسلي"
+
+msgid "FOB"
+msgstr "FOB"
+
+msgid "Quantity Reserved"
+msgstr "الكمية المحجوزة"
+
+msgid "Price"
+msgstr "السعر"
+
+msgid "Slug"
+msgstr "سبيكة"
+
+msgid "User"
+msgstr "المستخدم"
+
+msgid "Date Added"
+msgstr "تاريخ الإضافة"
+
+msgid "edit"
+msgstr "تحرير"
+
+msgid "delete"
+msgstr "حذف"
+
+msgid "You may not display images or media in the admin listing."
+msgstr "لا يجوز لك عرض الصور أو الوسائط في قائمة المشرف."
+
+msgid "Version"
+msgstr "الإصدار"
+
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"هناك إصدار جديد من %1$s ljhp <a target=\"_blank\" class=\"thickbox\" href="
+"\"%2$s\">عرض الإصدار  %3$s details</a>."
+
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+
+msgid ""
+"Coming soon, you will be able to send support requests through this page."
+msgstr "قريبًا ، ستتمكن من إرسال طلبات الدعم من خلال هذه الصفحة."
+
+msgid "There was an issue sending your e-mail.  Please try again later."
+msgstr ""
+"حدثت مشكلة في إرسال بريدك الإلكتروني. الرجاء معاودة المحاولة في وقت لاحق."
+
+msgid ""
+"There was an issue sending the confirmation e-mail.  Please try again later."
+msgstr ""
+"حدثت مشكلة أثناء إرسال رسالة التأكيد الإلكترونية. الرجاء معاودة المحاولة في "
+"وقت لاحق."
+
+msgid "Inventory Manager License Keys"
+msgstr "مفاتيح ترخيص مدير الجرد"
+
+msgid "Permission Settings"
+msgstr "إعدادات إذن"
+
+msgid "Image Tools"
+msgstr "أدوات الصورة"
+
+msgid "Postal Code"
+msgstr "الرمز البريدي"
+
+msgid "Quantity to Reserve"
+msgstr "الكمية إلى الاحتياطي"
+
+msgid "Go"
+msgstr "اذهب"

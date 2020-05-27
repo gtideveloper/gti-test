@@ -1,0 +1,280 @@
+# Copyright (c) 2018 UpStream Project Management
+# This file is distributed under the same license as the UpStream Project Timeline package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UpStream Project Timeline v1.0.15\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/upstream\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/up-gantt-chart.php:165 includes/up-gantt-chart.php:542
+msgid "January"
+msgstr ""
+
+#: includes/up-gantt-chart.php:166 includes/up-gantt-chart.php:543
+msgid "February"
+msgstr ""
+
+#: includes/up-gantt-chart.php:167 includes/up-gantt-chart.php:544
+msgid "March"
+msgstr ""
+
+#: includes/up-gantt-chart.php:168 includes/up-gantt-chart.php:545
+msgid "April"
+msgstr ""
+
+#: includes/up-gantt-chart.php:169 includes/up-gantt-chart.php:546
+msgid "May"
+msgstr ""
+
+#: includes/up-gantt-chart.php:170 includes/up-gantt-chart.php:547
+msgid "June"
+msgstr ""
+
+#: includes/up-gantt-chart.php:171 includes/up-gantt-chart.php:548
+msgid "July"
+msgstr ""
+
+#: includes/up-gantt-chart.php:172 includes/up-gantt-chart.php:549
+msgid "August"
+msgstr ""
+
+#: includes/up-gantt-chart.php:173 includes/up-gantt-chart.php:550
+msgid "September"
+msgstr ""
+
+#: includes/up-gantt-chart.php:174 includes/up-gantt-chart.php:551
+msgid "October"
+msgstr ""
+
+#: includes/up-gantt-chart.php:175 includes/up-gantt-chart.php:552
+msgid "November"
+msgstr ""
+
+#: includes/up-gantt-chart.php:176 includes/up-gantt-chart.php:553
+msgid "December"
+msgstr ""
+
+#: includes/up-gantt-chart.php:179 includes/up-gantt-chart.php:556
+msgctxt "Sunday"
+msgid "S"
+msgstr ""
+
+#: includes/up-gantt-chart.php:180 includes/up-gantt-chart.php:557
+msgctxt "Monday"
+msgid "M"
+msgstr ""
+
+#: includes/up-gantt-chart.php:181 includes/up-gantt-chart.php:558
+msgctxt "Tuesday"
+msgid "T"
+msgstr ""
+
+#: includes/up-gantt-chart.php:182 includes/up-gantt-chart.php:559
+msgctxt "Wednesday"
+msgid "W"
+msgstr ""
+
+#: includes/up-gantt-chart.php:183 includes/up-gantt-chart.php:560
+msgctxt "Thursday"
+msgid "T"
+msgstr ""
+
+#: includes/up-gantt-chart.php:184 includes/up-gantt-chart.php:561
+msgctxt "Friday"
+msgid "F"
+msgstr ""
+
+#: includes/up-gantt-chart.php:185 includes/up-gantt-chart.php:562
+msgctxt "Saturday"
+msgid "S"
+msgstr ""
+
+#: includes/up-gantt-chart.php:238
+msgid "Projects Timeline"
+msgstr ""
+
+#: includes/up-gantt-chart.php:239 upstream-project-timeline.php:200
+msgid "Project Timeline"
+msgstr ""
+
+#: includes/up-gantt-chart.php:340 includes/up-gantt-chart.php:345
+msgid "Sort by"
+msgstr ""
+
+#: includes/up-gantt-chart.php:346
+msgid "Assigned To"
+msgstr ""
+
+#: includes/up-gantt-chart.php:361
+#, php-format
+msgid "Show all %s"
+msgstr ""
+
+#: includes/up-gantt-chart.php:382
+#, php-format
+msgid "Show all %s Statuses"
+msgstr ""
+
+#: includes/up-gantt-chart.php:389
+#, php-format
+msgid "Only %s in progress"
+msgstr ""
+
+#: includes/up-gantt-chart.php:396
+#, php-format
+msgid "Only completed %s"
+msgstr ""
+
+#: includes/up-gantt-chart.php:402
+#, php-format
+msgid "Only upcoming %s"
+msgstr ""
+
+#: includes/up-gantt-chart.php:415
+msgid "Show all users"
+msgstr ""
+
+#: includes/up-gantt-chart.php:441
+msgid "Start Date"
+msgstr ""
+
+#: includes/up-gantt-chart.php:454
+msgid "End Date"
+msgstr ""
+
+#: includes/up-gantt-chart.php:465
+msgid "Submit"
+msgstr ""
+
+#: includes/up-gantt-chart.php:469
+msgid "Reset"
+msgstr ""
+
+#: includes/up-gantt-chart.php:564
+msgid "Please wait..."
+msgstr ""
+
+#: includes/up-gantt-chart.php:611
+msgid "You are not allowed to modify the project timeline by drag and drop."
+msgstr ""
+
+#: includes/up-gantt-chart.php:810 includes/up-gantt-chart.php:937
+msgid "% Complete"
+msgstr ""
+
+#: includes/up-gantt-chart.php:821 includes/up-gantt-chart.php:954
+#: includes/up-gantt-chart.php:981
+msgid "Assigned To: "
+msgstr ""
+
+#: includes/up-gantt-chart.php:827 includes/up-gantt-chart.php:961
+msgid "Progress"
+msgstr ""
+
+#: includes/up-gantt-chart.php:832
+msgid "Open"
+msgstr ""
+
+#: includes/up-gantt-chart.php:1411
+msgid "(no assigned user)"
+msgstr ""
+
+#: upstream-project-timeline.php:153
+msgid "Due security reasons this plugin requires <strong>PHP version 5.6 or greater</strong> to run."
+msgstr ""
+
+#: upstream-project-timeline.php:155
+#, php-format
+msgid "Please, update your PHP (%s)"
+msgstr ""
+
+#: upstream-project-timeline.php:166
+msgid "Due security reasons this plugin requires <strong>WordPress version 4.5 or greater</strong> to run."
+msgstr ""
+
+#: upstream-project-timeline.php:168
+#, php-format
+msgid "Please, update your WordPress (%s)"
+msgstr ""
+
+#: upstream-project-timeline.php:178
+#, php-format
+msgid "Please, make sure %s is <strong>installed</strong> and <strong>active</strong> in order to make this plugin to work."
+msgstr ""
+
+#: upstream-project-timeline.php:180
+msgid "UpStream"
+msgstr ""
+
+#: upstream-project-timeline.php:190
+#, php-format
+msgid "Sorry, but UpStream Project Timeline requires UpStream version %s or later."
+msgstr ""
+
+#: upstream-project-timeline.php:213
+msgid "General Settings"
+msgstr ""
+
+#: upstream-project-timeline.php:214
+msgid "Here you can change general options for project timeline."
+msgstr ""
+
+#: upstream-project-timeline.php:216
+msgid "Allow Drag and Drop Editing"
+msgstr ""
+
+#: upstream-project-timeline.php:219
+msgid "Allow drag and drop editing of the timeline dates."
+msgstr ""
+
+#: upstream-project-timeline.php:221
+msgid "Yes"
+msgstr ""
+
+#: upstream-project-timeline.php:222
+msgid "No"
+msgstr ""
+
+#: upstream-project-timeline.php:259
+msgid "Go back to the plugins page."
+msgstr ""
+
+#: upstream-project-timeline.php:260
+msgid "Go back"
+msgstr ""
+
+#: upstream-project-timeline.php:380 upstream-project-timeline.php:400
+msgid "Timeline"
+msgstr ""
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:332
+#, php-format
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:341
+#, php-format
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s or %5$supdate now%6$s."
+msgstr ""
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:476
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:477
+msgid "Error"
+msgstr ""

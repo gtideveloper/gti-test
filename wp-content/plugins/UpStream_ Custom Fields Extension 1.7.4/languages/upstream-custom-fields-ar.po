@@ -1,0 +1,744 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UpStream Custom Fields\n"
+"POT-Creation-Date: 2019-12-16 22:00-0500\n"
+"PO-Revision-Date: 2019-12-28 08:15+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: upstream-custom-fields.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: CustomFields/AutoincrementModel.php:342
+#: CustomFields/AutoincrementModel.php:358
+#: CustomFields/Metaboxes/Fields/Autoincrement.php:66
+#: CustomFields/Pages/Project.php:921
+#: dist/upstream-custom-fields/CustomFields/Pages/Project.php:834
+msgid "---"
+msgstr "---"
+
+#: CustomFields/Fields/Autoincrement.php:63
+msgid "Cannot set autoincrement value."
+msgstr "لا يمكن تعيين قيمة التزايد التلقائي."
+
+#: CustomFields/Fields/Category.php:79 CustomFields/Fields/Checkbox.php:99
+#: CustomFields/Fields/Country.php:59 CustomFields/Fields/Select.php:92
+#: CustomFields/Fields/Tag.php:56 CustomFields/Fields/User.php:57
+msgid "Passed value must be an array."
+msgstr "يجب أن تكون القيمة المنقولة على هيئة مصفوفة."
+
+#: CustomFields/Fields/Category.php:87 CustomFields/Fields/Tag.php:64
+#, php-format
+msgid "Term ID %s is invalid."
+msgstr "الرقم التعريفى للفترة %sغير صالح."
+
+#: CustomFields/Fields/Checkbox.php:109 CustomFields/Fields/Radio.php:103
+#: CustomFields/Fields/Select.php:105
+#, php-format
+msgid "%s is not a valid option."
+msgstr "%s ليس بخيار صالح."
+
+#: CustomFields/Fields/Colorpicker.php:84
+#, php-format
+msgid "%s is not a valid hex string."
+msgstr "%s ليس بسلسلة صالحة من الأرقام السداسية العشرية."
+
+#: CustomFields/Fields/Country.php:67
+#, php-format
+msgid "Country %s is invalid."
+msgstr "البلد %s ليست قيمة صالحة."
+
+#: CustomFields/Fields/File.php:69
+#, php-format
+msgid "File ID %s is invalid."
+msgstr "الرقم التعريفى للملف %s غير صالح."
+
+#: CustomFields/Fields/Radio.php:90
+msgid "Passed value must not be an array."
+msgstr "يجب ألا تكون القيمة المنقولة على هيئة مصفوفة."
+
+#: CustomFields/Fields/Text.php:72
+#, php-format
+msgid "Input %s must be a string."
+msgstr "المدخل %s يجب أن يكون على هيئة سلسلة."
+
+#: CustomFields/Fields/Text.php:74
+#, php-format
+msgid "Input %s is shorter than the min length."
+msgstr "المدخل %s هو أقل من الحد الأدنى للطول."
+
+#: CustomFields/Fields/Text.php:76
+#, php-format
+msgid "Input %s is longer than the max length."
+msgstr "المدخل %s هو أطول من الحد الأقصى للطول."
+
+#: CustomFields/Fields/Text.php:78
+#, php-format
+msgid "Input %s does not match the required pattern."
+msgstr "المدخل %s لا يتطابق مع النمط المطلوب."
+
+#: CustomFields/Fields/User.php:64
+#, php-format
+msgid "User ID %s does not exist."
+msgstr "الرقم التعريفى للمستخدم %s غير موجود."
+
+#: CustomFields/Metaboxes/Args.php:23
+#: CustomFields/Metaboxes/Fields/Checkbox.php:138
+#: CustomFields/Metaboxes/Fields/Radio.php:149
+#: CustomFields/Metaboxes/Fields/Select.php:136
+msgid "Options"
+msgstr "خيارات"
+
+#: CustomFields/Metaboxes/Details.php:21
+msgid "Details"
+msgstr "تفاصيل"
+
+#: CustomFields/Metaboxes/Details.php:31
+msgid "Field Type"
+msgstr "نوع الحقل"
+
+#: CustomFields/Metaboxes/Details.php:73 CustomFields/Pages/Collection.php:100
+msgid "Required"
+msgstr "مطلوب"
+
+#: CustomFields/Metaboxes/Details.php:78
+#: CustomFields/Metaboxes/Fields/Category.php:143
+#: CustomFields/Metaboxes/Fields/Checkbox.php:176
+#: CustomFields/Metaboxes/Fields/Checkbox.php:202
+#: CustomFields/Metaboxes/Fields/Country.php:139
+#: CustomFields/Metaboxes/Fields/Radio.php:187
+#: CustomFields/Metaboxes/Fields/Radio.php:213
+#: CustomFields/Metaboxes/Fields/Select.php:174
+#: CustomFields/Metaboxes/Fields/Tag.php:144
+#: CustomFields/Metaboxes/Fields/User.php:177
+#: CustomFields/Metaboxes/Usage.php:48 CustomFields/Metaboxes/Usage.php:60
+msgid "Yes"
+msgstr "نعم"
+
+#: CustomFields/Metaboxes/Details.php:79
+#: CustomFields/Metaboxes/Fields/Category.php:144
+#: CustomFields/Metaboxes/Fields/Checkbox.php:203
+#: CustomFields/Metaboxes/Fields/Country.php:140
+#: CustomFields/Metaboxes/Fields/Radio.php:214
+#: CustomFields/Metaboxes/Fields/Tag.php:145
+#: CustomFields/Metaboxes/Fields/User.php:178
+#: CustomFields/Metaboxes/Usage.php:49 CustomFields/Metaboxes/Usage.php:61
+msgid "No"
+msgstr "لا"
+
+#: CustomFields/Metaboxes/Details.php:89
+msgid "Description"
+msgstr "الوصف"
+
+#: CustomFields/Metaboxes/Details.php:90
+msgid ""
+"This description appears under the fields and helps users understand their "
+"choice."
+msgstr "هذا الوصف يظهر أسفل الحقول ويساعد المستخدمين على فهم إختياراتهم."
+
+#: CustomFields/Metaboxes/Fields/Autoincrement.php:101
+msgid "Initial Number"
+msgstr "الرقم الأوَلى"
+
+#: CustomFields/Metaboxes/Fields/Autoincrement.php:116
+msgid "Prefix"
+msgstr "بادئة"
+
+#: CustomFields/Metaboxes/Fields/Autoincrement.php:117
+msgid "Text added as prefix to the number."
+msgstr "النص المضاف يعمل كبادئة للرقم."
+
+#: CustomFields/Metaboxes/Fields/Autoincrement.php:125
+msgid "Suffix"
+msgstr "لاحقة"
+
+#: CustomFields/Metaboxes/Fields/Autoincrement.php:127
+msgid "Text added as suffix to the number."
+msgstr "النص المضاف يعمل كلاحقة للرقم."
+
+#: CustomFields/Metaboxes/Fields/Category.php:136
+#: CustomFields/Metaboxes/Fields/Country.php:132
+#: CustomFields/Metaboxes/Fields/Tag.php:137
+#: CustomFields/Metaboxes/Fields/User.php:170
+msgid "Allow Multiple Selection"
+msgstr "إتاحة الاختيار المتعدد"
+
+#: CustomFields/Metaboxes/Fields/Category.php:137
+#: CustomFields/Metaboxes/Fields/Country.php:133
+#: CustomFields/Metaboxes/Fields/Tag.php:138
+#: CustomFields/Metaboxes/Fields/User.php:171
+msgid "Indicates that multiple options can be selected in the list."
+msgstr "يشير إلى أنه يمكن إختيار خيارات متعددة من القائمة."
+
+#: CustomFields/Metaboxes/Fields/Category.php:152
+msgid "Root Category"
+msgstr "فئة الأصل"
+
+#: CustomFields/Metaboxes/Fields/Category.php:153
+msgid "Parent category to retrieve all children from."
+msgstr "فئة الأصل لإسترداد كل النماذج الفرعية."
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:88
+#: CustomFields/Pages/Project.php:1065
+#: dist/upstream-custom-fields/CustomFields/Pages/Project.php:978
+msgid "Select / Deselect All"
+msgstr "اختيار / الغاء اختيار الكل"
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:139
+msgid "Multiple options can be selected per field."
+msgstr "يمكن إختيار خيارات متعددة لكل حقل."
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:142
+#: CustomFields/Metaboxes/Fields/Radio.php:153
+#: CustomFields/Metaboxes/Fields/Select.php:140
+msgctxt "{#} stands for the option index"
+msgid "Option {#}"
+msgstr "الخيار {#}"
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:143
+#: CustomFields/Metaboxes/Fields/Radio.php:154
+#: CustomFields/Metaboxes/Fields/Select.php:141
+msgid "Add Another Option"
+msgstr "اضافة خيار جديد"
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:144
+#: CustomFields/Metaboxes/Fields/Radio.php:155
+#: CustomFields/Metaboxes/Fields/Select.php:142
+msgid "Remove Option"
+msgstr "إزالة الخيار"
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:151
+#: CustomFields/Metaboxes/Fields/Radio.php:162
+#: CustomFields/Metaboxes/Fields/Select.php:149
+msgid "Label"
+msgstr "ملصق"
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:154
+#: CustomFields/Metaboxes/Fields/Radio.php:165
+#: CustomFields/Metaboxes/Fields/Select.php:152
+msgid "Indicates the meaning of the option. This is displayed to users."
+msgstr "يشير إلى معنى الخيار. يتم عرض هذا للمستخدمين."
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:161
+#: CustomFields/Metaboxes/Fields/Radio.php:172
+#: CustomFields/Metaboxes/Fields/Select.php:159
+msgid "Value"
+msgstr "القيمة"
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:164
+#: CustomFields/Metaboxes/Fields/Radio.php:175
+#: CustomFields/Metaboxes/Fields/Select.php:162
+msgid "This is the value that will be saved in the database."
+msgstr "هذه هى القيمة التي سيتم حفظها في قاعدة البيانات."
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:171
+#: CustomFields/Metaboxes/Fields/Radio.php:182
+#: CustomFields/Metaboxes/Fields/Select.php:169
+msgid "Selected by default"
+msgstr "تم الإختيار بشكل إفتراضى"
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:174
+#: CustomFields/Metaboxes/Fields/Radio.php:185
+#: CustomFields/Metaboxes/Fields/Select.php:172
+msgid "The option should be initially selected."
+msgstr "يجب تحديد هذا الخيار في البداية."
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:185
+#: CustomFields/Metaboxes/Fields/Radio.php:196
+msgid "Options list display layout"
+msgstr "نسق إستعراض قائمة الخيارات"
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:190
+#: CustomFields/Metaboxes/Fields/Radio.php:201
+msgid "Vertical"
+msgstr "عمودي"
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:191
+#: CustomFields/Metaboxes/Fields/Radio.php:202
+msgid "Horizontal"
+msgstr "أفقي"
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:198
+msgid "Show \"Select all\" button"
+msgstr "إظهار زر \"إختيار الكل\""
+
+#: CustomFields/Metaboxes/Fields/Colorpicker.php:64
+#: CustomFields/Metaboxes/Fields/Text.php:64
+msgid "Default Value"
+msgstr "القيمة الافتراضية"
+
+#: CustomFields/Metaboxes/Fields/Colorpicker.php:75
+msgid "Disable Transparency"
+msgstr "تعطيل الشفافية"
+
+#: CustomFields/Metaboxes/Fields/Colorpicker.php:76
+msgid "Either to allow transparency or not."
+msgstr "إما إتاحة أو تعطيل الشفافية."
+
+#: CustomFields/Metaboxes/Fields/Colorpicker.php:84
+msgid "Disable Palettes"
+msgstr "لوحات التعطيل"
+
+#: CustomFields/Metaboxes/Fields/Colorpicker.php:85
+msgid "Disable palette of basic colors beneath the color picker."
+msgstr "لوحة التعطيل للألوان الأساسية أسفل منتقي الألوان."
+
+#: CustomFields/Metaboxes/Fields/File.php:65
+msgid "Button Text"
+msgstr "نص الزر"
+
+#: CustomFields/Metaboxes/Fields/File.php:66
+msgid "Represents the upload button text. Supported only on admin."
+msgstr "يمثل نص زر التحميل. يتم دعمه فقط من مدير النظام."
+
+#: CustomFields/Metaboxes/Fields/File.php:69 CustomFields/Pages/Project.php:965
+#: dist/upstream-custom-fields/CustomFields/Pages/Project.php:878
+msgid "Add or Upload File"
+msgstr "إضافة أو تحميل ملف"
+
+#: CustomFields/Metaboxes/Fields/Radio.php:101
+#: CustomFields/Pages/Project.php:948 CustomFields/Pages/Project.php:1020
+#: CustomFields/Pages/Project.php:1146 CustomFields/Pages/Project.php:1179
+#: dist/upstream-custom-fields/CustomFields/Pages/Project.php:861
+#: dist/upstream-custom-fields/CustomFields/Pages/Project.php:933
+#: dist/upstream-custom-fields/CustomFields/Pages/Project.php:1059
+#: dist/upstream-custom-fields/CustomFields/Pages/Project.php:1092
+msgid "None"
+msgstr "لا شيء"
+
+#: CustomFields/Metaboxes/Fields/Radio.php:150
+msgid "Only one option can be selected per field."
+msgstr "خيار واحد فقط متاح لكل حقل."
+
+#: CustomFields/Metaboxes/Fields/Radio.php:209
+msgid "Show the \"None\" option?"
+msgstr "إظهار الخيار \"لا شيء\"؟"
+
+#: CustomFields/Metaboxes/Fields/Text.php:72
+msgid "Placeholder"
+msgstr "حيز مخصص"
+
+#: CustomFields/Metaboxes/Fields/Text.php:73
+msgid "Short hint that describes the expected value."
+msgstr "تلميح قصير يقوم يوصف القيمة المتوقعة."
+
+#: CustomFields/Metaboxes/Fields/Text.php:81
+msgid "Minimum Length"
+msgstr "الحد الأدنى للطول"
+
+#: CustomFields/Metaboxes/Fields/Text.php:82
+msgid ""
+"Specifies the minimum number of characters the field requires. Max: 254."
+msgstr "تحديد الحد الأدنى من الحروف التي يتطلبها الحقل. الحد الأقصى: 254."
+
+#: CustomFields/Metaboxes/Fields/Text.php:97
+msgid "Maximum Length"
+msgstr "الحد الأقصى للطول"
+
+#: CustomFields/Metaboxes/Fields/Text.php:98
+msgid ""
+"Specifies the maximum number of characters the field requires. Max: 255."
+msgstr "تحديد الحد الأقصى من الحروف التي يتطلبها الحقل. الحد الأقصى: 255."
+
+#: CustomFields/Metaboxes/Fields/Text.php:113
+msgid "Pattern"
+msgstr "نمط"
+
+#: CustomFields/Metaboxes/Fields/Text.php:114
+msgid ""
+"Regular expression that the input value is checked against. This pattern "
+"must match the entire value, not just a subset.<br>Should not have a leading "
+"or trailing slash. Use the <strong>Description</strong> field to describe "
+"the pattern to help the user."
+msgstr ""
+"تعبير منتظم يتم التحقق من قيمة الإدخال به. يجب أن يتطابق هذا النمط مع القيمة "
+"بأكملها ، وليس فقط مع مجموعة فرعية. <br> يجب ألا تحتوي على شرطة مائلة أو "
+"زائدة. استخدم حقل <strong> الوصف </strong> لوصف النمط لمساعدة المستخدم."
+
+#: CustomFields/Metaboxes/Fields/User.php:195
+msgid "User Roles"
+msgstr "أدوار المستخدمين"
+
+#: CustomFields/Metaboxes/Fields/User.php:196
+msgid "Select which user roles are allowed for this field."
+msgstr "أختر أي من أدوار المستخدمين تصلح لهذا الحقل."
+
+#: CustomFields/Metaboxes/Usage.php:20
+msgid "Use this field on"
+msgstr "إستخدم هذا الحقل فى"
+
+#: CustomFields/Metaboxes/Usage.php:28
+msgid "Usage"
+msgstr "الاستخدام"
+
+#: CustomFields/Metaboxes/Usage.php:29
+msgid "Choose where this field should be used."
+msgstr "أختر أين يمكن إستخدام هذا الحقل."
+
+#: CustomFields/Metaboxes/Usage.php:43
+msgid "Filterable"
+msgstr "قابل للترشيح"
+
+#: CustomFields/Metaboxes/Usage.php:44
+msgid "Whether the field can be filtered on frontend or not."
+msgstr "هل يتم ترشيح الحقل في الواجهة أم لا."
+
+#: CustomFields/Metaboxes/Usage.php:55
+msgid "Display as column"
+msgstr "عرض كعمود"
+
+#: CustomFields/Metaboxes/Usage.php:56
+msgid "Whether the field should be added as column to tables."
+msgstr "هل يتم إضافة الحقل كعمود الى الجداول."
+
+#: CustomFields/Metaboxes/Usage.php:67
+msgid "Weight (number)"
+msgstr "الوزن(رقم)"
+
+#: CustomFields/Metaboxes/Usage.php:68
+msgid ""
+"Enter a number from 0 to 1000. This allows you to order custom fields in "
+"display. A larger weight number means the item will show up lower on the "
+"page. Note: in order for this to work, ALL custom fields must have weights."
+msgstr ""
+"أدخل رقم من 0 الى 1000. هذا يسمح لك بترتيب الحقول المخصصة عند العرض. أرقام "
+"ذات وزن أعلى تعنى أن العنصر سوف يظهر أعلى وأسفل الصفحة. ملحوظة: لكى يتم "
+"القيام بهذا الأمر، ينبغي أن يكون لكل الحقول المخصصة أوزان."
+
+#: CustomFields/Model.php:49 CustomFields/Pages/Collection.php:128
+msgid "Text"
+msgstr "نص"
+
+#: CustomFields/Model.php:50 CustomFields/Pages/Collection.php:132
+msgid "Dropdown"
+msgstr "المنسدلة"
+
+#: CustomFields/Model.php:51 CustomFields/Pages/Collection.php:134
+msgid "File"
+msgstr "ملف"
+
+#: CustomFields/Model.php:52 CustomFields/Pages/Collection.php:138
+msgid "Radio Buttons"
+msgstr "ازرار الاختيار من متعدد"
+
+#: CustomFields/Model.php:53
+msgid "Checkboxes"
+msgstr "مربعات الاختيار"
+
+#: CustomFields/Model.php:54 CustomFields/Pages/Collection.php:136
+msgid "Color Picker"
+msgstr "منتقي الألوان"
+
+#: CustomFields/Model.php:55 CustomFields/Pages/Collection.php:142
+msgid "Category"
+msgstr "الفئة"
+
+#: CustomFields/Model.php:56 CustomFields/Pages/Collection.php:144
+msgid "Tag"
+msgstr "وسم"
+
+#: CustomFields/Model.php:57 CustomFields/Pages/Collection.php:130
+msgid "Autoincrement"
+msgstr "التزايد التلقائى"
+
+#: CustomFields/Model.php:58 CustomFields/Pages/Collection.php:146
+msgid "User"
+msgstr "المستخدم"
+
+#: CustomFields/Model.php:59 CustomFields/Pages/Collection.php:148
+msgid "Country"
+msgstr "الدولة"
+
+#: CustomFields/Pages/Collection.php:98
+msgid "Slug"
+msgstr "معرف Slug"
+
+#: CustomFields/Pages/Collection.php:99
+msgid "Type"
+msgstr "النوع"
+
+#: CustomFields/Pages/Collection.php:101
+msgid "Used on"
+msgstr "يستخدم فى"
+
+#: CustomFields/Pages/Collection.php:140
+msgid "Checkbox"
+msgstr "مربع الأختيار"
+
+#: CustomFields/Pages/Collection.php:150 CustomFields/Pages/Collection.php:187
+msgid "none"
+msgstr "لا شيء"
+
+#: CustomFields/Pages/Collection.php:219
+#, php-format
+msgid "All %s"
+msgstr "كل %s"
+
+#: CustomFields/Pages/Collection.php:220
+msgid "Types"
+msgstr "الأنواع"
+
+#: CustomFields/Pages/Project.php:286
+#: dist/upstream-custom-fields/CustomFields/Pages/Project.php:199
+msgid "Clear"
+msgstr "مسح"
+
+#: CustomFields/Pages/Project.php:287
+#: dist/upstream-custom-fields/CustomFields/Pages/Project.php:200
+msgid "Default"
+msgstr "افتراضي"
+
+#: CustomFields/Pages/Project.php:288
+#: dist/upstream-custom-fields/CustomFields/Pages/Project.php:201
+msgid "Select Color"
+msgstr "اختيار اللون"
+
+#: CustomFields/Pages/Project.php:289
+#: dist/upstream-custom-fields/CustomFields/Pages/Project.php:202
+msgid "Current Color"
+msgstr "اللون الحالي"
+
+#: CustomFields/Pages/Project.php:299
+#: dist/upstream-custom-fields/CustomFields/Pages/Project.php:212
+msgid "Remove"
+msgstr "إزالة"
+
+#: CustomFields/Pages/Project.php:300
+#: dist/upstream-custom-fields/CustomFields/Pages/Project.php:213
+msgid "Undo"
+msgstr "تراجع"
+
+#: CustomFields/Pages/Project.php:301
+#: dist/upstream-custom-fields/CustomFields/Pages/Project.php:214
+msgid "Use this file"
+msgstr "استخدم هذا الملف"
+
+#: CustomFields/Plugin.php:131 CustomFields/Plugin.php:323
+msgid "Custom Field"
+msgstr "حقل مخصص"
+
+#: CustomFields/Plugin.php:132 CustomFields/Plugin.php:324
+msgid "Custom Fields"
+msgstr "الحقول المخصصة"
+
+#: CustomFields/Plugin.php:135
+#, php-format
+msgctxt "Custom Field post type name"
+msgid "%2$s"
+msgstr "%2$s"
+
+#: CustomFields/Plugin.php:136
+#, php-format
+msgctxt "singular custom field post type name"
+msgid "%1$s"
+msgstr "%1$s"
+
+#: CustomFields/Plugin.php:137
+#, php-format
+msgid "New %1s"
+msgstr "%1s جديد"
+
+#: CustomFields/Plugin.php:138
+#, php-format
+msgid "Add New %1$s"
+msgstr "أضف %1$s جديد"
+
+#: CustomFields/Plugin.php:139
+#, php-format
+msgid "Edit %1$s"
+msgstr "تعديل %1$s"
+
+#: CustomFields/Plugin.php:140
+#, php-format
+msgid "New %1$s"
+msgstr "%1$s جديد"
+
+#: CustomFields/Plugin.php:141
+#, php-format
+msgid "%2$s"
+msgstr "%2$s"
+
+#: CustomFields/Plugin.php:142
+#, php-format
+msgid "View %1$s"
+msgstr "مشاهدة  %1$s"
+
+#: CustomFields/Plugin.php:143
+#, php-format
+msgid "Search %2$s"
+msgstr "بحث  %2$s"
+
+#: CustomFields/Plugin.php:144
+#, php-format
+msgid "No %2$s found"
+msgstr "لم يتم العثور على   %2$s"
+
+#: CustomFields/Plugin.php:145
+#, php-format
+msgid "No %2$s found in Trash"
+msgstr "لم يتم العثور على %2$s فى المهملات"
+
+#: CustomFields/Plugin.php:147
+#, php-format
+msgctxt "custom field post type menu name"
+msgid "%2$s"
+msgstr "%2$s"
+
+#: CustomFields/Plugin.php:148
+#, php-format
+msgid "%1$s Image"
+msgstr "صورة %1$s"
+
+#: CustomFields/Plugin.php:149
+#, php-format
+msgid "Set %1$s Image"
+msgstr "تعيين صورة %1$s"
+
+#: CustomFields/Plugin.php:150
+#, php-format
+msgid "Remove %1$s Image"
+msgstr "إزالة صورة %1$s"
+
+#: CustomFields/Plugin.php:151
+#, php-format
+msgid "Use as %1$s Image"
+msgstr "الاستخدام كصورةـ %1$s"
+
+#: CustomFields/Plugin.php:152
+#, php-format
+msgid "Filter %2$s list"
+msgstr "ترشيح قائمة %2$s"
+
+#: CustomFields/Plugin.php:153
+#, php-format
+msgid "%2$s list navigation"
+msgstr "قائمة الإنتقال في %2$s"
+
+#: CustomFields/Plugin.php:154
+#, php-format
+msgid "%2$s list"
+msgstr "قائمة %2$s"
+
+#: CustomFields/Plugin.php:292 CustomFields/Plugin.php:293
+msgid "Custom Field updated."
+msgstr "تم تحديث الحقل المخصص."
+
+#: CustomFields/Plugin.php:294
+msgid "Custom Field published."
+msgstr "تم نشر الحقل المخصص."
+
+#: CustomFields/Plugin.php:295
+msgid "Custom Field saved."
+msgstr "تم حفظ الحقل المخصص."
+
+#: CustomFields/Plugin.php:296
+msgid "Custom Field submitted."
+msgstr "تم إرسال الحقل المخصص."
+
+#: CustomFields/Plugin.php:328
+#, php-format
+msgid "%1$s %2$s updated."
+msgid_plural "%1$s %3$s updated."
+msgstr[0] ""
+"%1$s %2$s تم تحديثه.\n"
+"\n"
+"%1$s %3$s تم تحديثهم."
+msgstr[1] "%1$s %3$s تم تحديثهم."
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: CustomFields/Plugin.php:334
+#, php-format
+msgid "%1$s %2$s not updated, somebody is editing it."
+msgid_plural "%1$s %3$s updated, somebody is editing them."
+msgstr[0] ""
+"%1$s %2$s لم يتم تحديثه, شخص ما يقوم بالتعديل عليهم.\n"
+"\n"
+"%1$s %3$s لم يتم تحديثهم, يقوم شخص ما بالتعديل عليهم."
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: CustomFields/Plugin.php:341
+#, php-format
+msgid "%1$s %2$s permanently deleted."
+msgid_plural "%1$s %3$s permanently deleted."
+msgstr[0] ""
+"%1$s %2$s تم حذفه بشكل نهائى.\n"
+"\n"
+"%1$s %3$s تم حذفهم بشكل نهائى."
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: CustomFields/Plugin.php:347
+#, php-format
+msgid "%1$s %2$s moved to the Trash."
+msgid_plural "%1$s %3$s moved to the Trash."
+msgstr[0] ""
+"%1$s %2$s تم نقله الى المهملات.\n"
+"\n"
+"%1$s %3$s تم نقلهم الى المهملات."
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: CustomFields/Plugin.php:353
+#, php-format
+msgid "%1$s %2$s restored from the Trash."
+msgid_plural "%1$s %3$s restored from the Trash."
+msgstr[0] ""
+"%1$s %2$s تم إعاده تخزينه من المهملات.\n"
+"\n"
+"%1$s %3$s تم إعادة نخزينهم من المهملات."
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. Plugin Name of the plugin/theme
+msgid "UpStream Custom Fields"
+msgstr "حقول UpStream المخصصة"
+
+#. Plugin URI of the plugin/theme
+msgid "https://upstreamplugin.com/extensions/custom-fields"
+msgstr "https://upstreamplugin.com/extensions/custom-fields"
+
+#. Description of the plugin/theme
+msgid ""
+"This extension will allow you to add more information to tasks and bugs. For "
+"example, in a web design"
+msgstr ""
+"هذا الملحق سوف يسمح لك بإضافة مزيد من المعلومات الى المهام والأخطاء. على "
+"سبيل المثال، في تصميم صفحة الويب"
+
+#. Author of the plugin/theme
+msgid "UpStream"
+msgstr "UpStream"
+
+#. Author URI of the plugin/theme
+msgid "https://upstreamplugin.com"
+msgstr "https://upstreamplugin.com"

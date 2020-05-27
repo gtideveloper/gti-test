@@ -1,0 +1,21 @@
+#cmb2-metabox-upstream_email_notifications .plugin-info-wrapper ul {
+    list-style: inherit;
+    margin-left: 42px;
+}
+
+.lb-has-reminders {
+    margin-right: -2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lb-has-reminders > a {
+    font-weight: initial;
+    text-decoration: none;
+}
+
+#modal-reminders-wrapper {
+    max-height: 200px;
+}

@@ -1,0 +1,554 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UpStream Frontend Edit\n"
+"POT-Creation-Date: 2019-09-08 21:22-0400\n"
+"PO-Revision-Date: 2019-09-08 21:23-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: upstream-frontend-edit.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: FrontendEdit.php:183
+msgid "Warning!"
+msgstr "Attention !"
+
+#: FrontendEdit.php:185
+#, php-format
+msgid "There is a new version of %s available."
+msgstr "Une nouvelle version de %s est disponible."
+
+#. Author of the plugin/theme
+#: FrontendEdit.php:186
+msgid "UpStream"
+msgstr "UpStream"
+
+#: FrontendEdit.php:189
+#, fuzzy, php-format
+msgid ""
+"Please, update now in order to make sure <strong>%s</strong> plugin is "
+"working correctly and you're using the latest released features."
+msgstr ""
+"S'il vous plaît, mettez à jour maintenant afin de vous assurer que le plugin "
+"<strong>%s</strong> fonctionne correctement et que vous utilisez les "
+"dernières fonctionnalités disponibles."
+
+#: FrontendEdit.php:231 FrontendEdit.php:241
+msgid "Cheatin&#8217; huh?"
+msgstr "Alors &#8217; on triche?"
+
+#: includes/class-up-frontend-output.php:120
+#, fuzzy
+msgid "Create Milestones"
+msgstr "Créer des jalons"
+
+#: includes/class-up-frontend-output.php:122
+#: includes/class-up-frontend-output.php:131
+#, fuzzy, php-format
+msgid "Allow users to create %s in %s."
+msgstr "Permet aux utilisateurs de créer des %s en %s."
+
+#: includes/class-up-frontend-output.php:129
+#, fuzzy
+msgid "Create Tasks"
+msgstr "Créer des tâches"
+
+#: includes/class-up-frontend-output.php:138
+#, fuzzy
+msgid "Report Bugs"
+msgstr "Signaler des bogues"
+
+#: includes/class-up-frontend-output.php:140
+#, fuzzy, php-format
+msgid "Allow users to publish new %s in %s."
+msgstr "Permettre aux utilisateurs de publier de nouveaux %s en %s."
+
+#: includes/class-up-frontend-output.php:147
+#, fuzzy
+msgid "Upload Files"
+msgstr "Ajouter ou Télécharger des fichiers"
+
+#: includes/class-up-frontend-output.php:149
+#, fuzzy, php-format
+msgid "Allow users to upload %s in %s."
+msgstr "Autoriser les utilisateurs à télécharger %s en %s."
+
+#: includes/class-up-frontend-output.php:156
+#, fuzzy
+msgid "Publish Messages"
+msgstr "Publier des messages"
+
+#: includes/class-up-frontend-output.php:158
+#, fuzzy, php-format
+msgid "Allow users to participate in %s discussions."
+msgstr "Permettre aux utilisateurs de participer aux discussions %s."
+
+#: includes/class-up-frontend-output.php:164
+#, fuzzy
+msgid "Delete Comments"
+msgstr "Supprimer les commentaires"
+
+#: includes/class-up-frontend-output.php:165
+#, fuzzy
+msgid "Allow users to delete discussion messages."
+msgstr "Autoriser les utilisateurs à supprimer les messages de discussion."
+
+#: includes/class-up-frontend-output.php:169
+#, fuzzy
+msgid "Edit Projects"
+msgstr "Modifier les projets"
+
+#: includes/class-up-frontend-output.php:170
+#, fuzzy
+msgid "Allow users to edit project details."
+msgstr "Autoriser les utilisateurs à modifier les détails du projet."
+
+#: includes/class-up-frontend-output.php:271
+#: includes/class-up-frontend-output.php:574
+msgid "Unapprove"
+msgstr "Désapprouver"
+
+#: includes/class-up-frontend-output.php:278
+#: includes/class-up-frontend-output.php:576
+msgid "Approve"
+msgstr "Approuver"
+
+#: includes/class-up-frontend-output.php:288
+#: includes/class-up-frontend-output.php:359
+#: includes/class-up-frontend-output.php:582 templates/comment_reply.php:53
+msgid "Reply"
+msgstr "Répondre"
+
+#: includes/class-up-frontend-output.php:297
+#: includes/class-up-frontend-output.php:364
+#: includes/class-up-frontend-output.php:572 templates/add-bug.php:247
+#: templates/add-files.php:162 templates/add-milestone.php:246
+#: templates/add-project.php:231 templates/add-task.php:266
+#: templates/delete.php:22
+msgid "Delete"
+msgstr "Supprimer"
+
+#: includes/class-up-frontend-output.php:543
+msgid "Clear"
+msgstr "Éclaircir"
+
+#: includes/class-up-frontend-output.php:544
+msgid "Default"
+msgstr "Par défaut"
+
+#: includes/class-up-frontend-output.php:545
+msgid "Select Color"
+msgstr "Sélectionner une couleur"
+
+#: includes/class-up-frontend-output.php:546
+msgid "Current Color"
+msgstr "Couleur actuelle"
+
+#: includes/class-up-frontend-output.php:564
+msgid "Invalid response"
+msgstr "Réponse invalide"
+
+#: includes/class-up-frontend-output.php:565
+#, fuzzy
+msgid "It wasn't possible to copy this "
+msgstr "Il n'a pas été possible de copier ceci"
+
+#: includes/class-up-frontend-output.php:569
+msgid "Are you sure? This action cannot be undone."
+msgstr "Êtes-vous sûr? Cette action ne peut pas être annulée."
+
+#: includes/class-up-frontend-output.php:570
+#, fuzzy
+msgid "Are you sure you want to copy this "
+msgstr "Tu es sûr de vouloir copier ça ?"
+
+#: includes/class-up-frontend-output.php:571
+#, fuzzy
+msgid "Existing File"
+msgstr "Fichier existant"
+
+#: includes/class-up-frontend-output.php:573
+msgid "Deleting..."
+msgstr "Supprimer ..."
+
+#: includes/class-up-frontend-output.php:575
+#, fuzzy
+msgid "Unapproving..."
+msgstr "Non-approbation...."
+
+#: includes/class-up-frontend-output.php:577
+#, fuzzy
+msgid "Approving..."
+msgstr "Approuver...."
+
+#: includes/class-up-frontend-output.php:578
+#: includes/class-up-frontend-output.php:646
+#: includes/class-up-frontend-output.php:756 templates/add-bug.php:234
+#: templates/add-files.php:149 templates/add-message.php:63
+#: templates/add-milestone.php:233 templates/add-task.php:253
+msgid "Add Comment"
+msgstr "Ajouter un commentaire"
+
+#: includes/class-up-frontend-output.php:579
+msgid "Adding..."
+msgstr "Ajouter..."
+
+#: includes/class-up-frontend-output.php:580
+msgid "Saving..."
+msgstr "Enregistrement en cours..."
+
+#: includes/class-up-frontend-output.php:581 templates/add-bug.php:256
+#: templates/add-bug.php:266 templates/add-files.php:171
+#: templates/add-files.php:181 templates/add-milestone.php:255
+#: templates/add-milestone.php:265 templates/add-project.php:243
+#: templates/add-project.php:256 templates/add-task.php:275
+#: templates/add-task.php:285
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: includes/class-up-frontend-output.php:583
+msgid "Replying..."
+msgstr "Répondre…"
+
+#: includes/class-up-frontend-output.php:584
+msgid "Remove"
+msgstr "Supprimer"
+
+#: includes/class-up-frontend-output.php:585
+msgid "Undo"
+msgstr "Annuler"
+
+#: includes/class-up-frontend-output.php:586
+msgid "Use this file"
+msgstr "Utiliser ce fichier"
+
+#: includes/class-up-frontend-output.php:587
+msgid "Invalid date."
+msgstr "Date invalide."
+
+#: includes/class-up-frontend-output.php:629
+msgid "Done"
+msgstr "Terminé"
+
+#: includes/class-up-frontend-output.php:630
+msgid "Today"
+msgstr "Aujourd'hui"
+
+#: includes/class-up-frontend-output.php:633
+msgid "Show a different month"
+msgstr "Afficher un mois différent"
+
+#: includes/class-up-frontend-output.php:640
+#, fuzzy
+msgid "Add"
+msgstr "Ajouter des utilisateurs existants"
+
+#: includes/class-up-frontend-output.php:641
+msgid "Edit"
+msgstr "Modifier"
+
+#: includes/class-up-frontend-output.php:718
+#: includes/class-up-frontend-output.php:740
+#: includes/class-up-frontend-output.php:779
+#: includes/class-up-frontend-output.php:812
+#, fuzzy, php-format
+msgid "New: %s"
+msgstr "Nouveau %s"
+
+#: includes/class-up-frontend-output.php:719
+#: includes/class-up-frontend-output.php:741
+#: includes/class-up-frontend-output.php:780
+#: includes/class-up-frontend-output.php:813
+#: includes/class-up-frontend-output.php:876
+#: includes/class-up-frontend-output.php:877
+#, php-format
+msgid "Add %s"
+msgstr "Ajouter %s"
+
+#: includes/class-up-frontend-output.php:823
+#, php-format
+msgid "Edit %s"
+msgstr "Modifier %s"
+
+#: includes/class-up-frontend-output.php:843
+#, fuzzy, php-format
+msgid "Copy %s"
+msgstr "Copier %s"
+
+#: includes/class-up-frontend-output.php:863
+#, php-format
+msgid "New %s"
+msgstr "Nouveau %s"
+
+#: includes/class-up-frontend-process.php:284
+#: includes/class-up-frontend-process.php:806
+#: includes/class-up-frontend-process.php:1112
+#: includes/class-up-frontend-process.php:1175
+#: includes/class-up-frontend-process.php:1314
+#: includes/class-up-frontend-process.php:1494
+#: includes/class-up-frontend-process.php:1548
+msgid "You're not allowed to do this."
+msgstr "Vous n’êtes pas autorisé à effectuer cette action."
+
+#: includes/class-up-frontend-process.php:394
+msgid "Invalid type."
+msgstr "Type  invalide."
+
+#: includes/class-up-frontend-process.php:415
+#, fuzzy
+msgid "Success! Your item has been added."
+msgstr "Succès ! Votre article a été ajouté."
+
+#: includes/class-up-frontend-process.php:419
+#, fuzzy
+msgid "Your item has been successfully updated."
+msgstr "Votre article a été mis à jour avec succès."
+
+#: includes/class-up-frontend-process.php:423
+#, fuzzy
+msgid "There was a problem adding this item."
+msgstr "Il y a eu un problème lors de l'ajout de cet article."
+
+#: includes/class-up-frontend-process.php:427
+#, fuzzy
+msgid "Your item has been successfully deleted."
+msgstr "Votre article a été supprimé avec succès."
+
+#: includes/class-up-frontend-process.php:431
+#, fuzzy
+msgid "There was a problem deleting this item."
+msgstr "Il y a eu un problème pour supprimer cet élément."
+
+#: includes/class-up-frontend-process.php:435
+msgid "There was an error."
+msgstr "Une erreur s’est produite."
+
+#: includes/class-up-frontend-process.php:439
+msgid "You don't have permission for this."
+msgstr "Vous n'êtes pas autorisé à faire cela."
+
+#: includes/class-up-frontend-process.php:443
+#, fuzzy
+msgid "Looks like there were some empty fields."
+msgstr "On dirait qu'il y avait des champs vides."
+
+#: includes/class-up-frontend-process.php:780
+#: includes/class-up-frontend-process.php:1158
+#: includes/class-up-frontend-process.php:1310
+#: includes/class-up-frontend-process.php:1487
+#: includes/class-up-frontend-process.php:1538
+msgid "Invalid request."
+msgstr "Requête invalide."
+
+#: includes/class-up-frontend-process.php:786
+#: includes/class-up-frontend-process.php:1164
+#: includes/class-up-frontend-process.php:1544
+msgid "Invalid Project."
+msgstr "Projet non valide."
+
+#: includes/class-up-frontend-process.php:793
+#: includes/class-up-frontend-process.php:1338
+#: includes/class-up-frontend-process.php:1556
+msgid "This project is being edited by "
+msgstr "Ce projet est édité par "
+
+#: includes/class-up-frontend-process.php:800
+#: includes/class-up-frontend-process.php:1169
+msgid "Invalid item ID."
+msgstr "ID d'élément non valide."
+
+#: includes/class-up-frontend-process.php:908
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr "%s plus tôt"
+
+#: includes/class-up-frontend-process.php:1007
+#: includes/class-up-frontend-process.php:1010
+#: includes/class-up-frontend-process.php:1204
+#, fuzzy
+msgid "Item not found."
+msgstr "Article non trouvé."
+
+#: includes/class-up-frontend-process.php:1121
+#, fuzzy
+msgid "This project has been deleted."
+msgstr "Ce projet a été supprimé."
+
+#: includes/class-up-frontend-process.php:1279
+#, fuzzy
+msgid "The item was deleted successfully."
+msgstr "Le poste a été supprimé avec succès."
+
+#: includes/class-up-frontend-process.php:1324
+#: includes/class-up-frontend-process.php:1358
+msgid "Auto Draft"
+msgstr "Brouillon automatique"
+
+#: includes/class-up-frontend-process.php:1346
+#: includes/class-up-frontend-process.php:1564
+#, fuzzy
+msgid "Project not found."
+msgstr "Projet non trouvé."
+
+#: includes/class-up-frontend-process.php:1710
+msgid "Close"
+msgstr "Fermer"
+
+#: includes/up-frontend-edit-functions.php:100
+#: includes/up-frontend-edit-functions.php:170
+#: includes/up-frontend-edit-functions.php:225 templates/add-bug.php:86
+#: templates/add-bug.php:110 templates/add-bug.php:135
+#: templates/add-bug.php:160 templates/add-files.php:77
+#: templates/add-milestone.php:97 templates/add-milestone.php:119
+#: templates/add-milestone.php:143 templates/add-milestone.php:162
+#: templates/add-project.php:63 templates/add-project.php:101
+#: templates/add-project.php:125 templates/add-project.php:149
+#: templates/add-project.php:170 templates/add-project.php:189
+#: templates/add-task.php:88 templates/add-task.php:112
+#: templates/add-task.php:158 templates/add-task.php:180
+#: templates/add-task.php:199
+msgid "None"
+msgstr "Aucun"
+
+#: templates/add-bug.php:42 templates/add-files.php:39
+#: templates/add-milestone.php:56 templates/add-task.php:47
+msgid "Data"
+msgstr "Données"
+
+#: templates/add-bug.php:49 templates/add-files.php:46
+#: templates/add-milestone.php:62 templates/add-task.php:53
+msgid "Comments"
+msgstr "Commentaires"
+
+#: templates/add-bug.php:64 templates/add-files.php:60
+#: templates/add-project.php:42 templates/add-task.php:66
+msgid "Title"
+msgstr "Titre"
+
+#: templates/add-bug.php:80 templates/add-files.php:72
+#: templates/add-milestone.php:113 templates/add-task.php:82
+#, fuzzy
+msgid "Assigned To"
+msgstr "Assigné par"
+
+#: templates/add-bug.php:104
+msgid "Severity"
+msgstr "Gravité"
+
+#: templates/add-bug.php:129 templates/add-project.php:57
+#: templates/add-task.php:106
+msgid "Status"
+msgstr "Statuts"
+
+#: templates/add-bug.php:154
+msgid "Due Date"
+msgstr "Date d'échéance"
+
+#: templates/add-bug.php:174 templates/add-files.php:93
+#: templates/add-project.php:200
+msgid "Description"
+msgstr "Description"
+
+#: templates/add-bug.php:193 templates/add-bug.php:198
+#: templates/add-files.php:109 templates/add-files.php:114
+msgid "File"
+msgstr "Fichier"
+
+#: templates/add-bug.php:200 templates/add-files.php:116
+msgid "Add or Upload File"
+msgstr "Ajouter ou Télécharger un fichier"
+
+#: templates/add-bug.php:252 templates/add-bug.php:262
+#: templates/add-files.php:167 templates/add-files.php:177
+#: templates/add-message.php:53 templates/add-milestone.php:251
+#: templates/add-milestone.php:261 templates/add-project.php:236
+#: templates/add-project.php:249 templates/add-task.php:271
+#: templates/add-task.php:281 templates/comment_reply.php:51
+#: templates/delete.php:20
+msgid "Cancel"
+msgstr "Annuler"
+
+#: templates/add-message.php:22
+msgid "New Message"
+msgstr "Nouveau message"
+
+#: templates/add-milestone.php:137 templates/add-project.php:163
+#: templates/add-task.php:174
+msgid "Start Date"
+msgstr "Date de début"
+
+#: templates/add-milestone.php:156 templates/add-project.php:182
+#: templates/add-task.php:193
+msgid "End Date"
+msgstr "Date de Fin"
+
+#: templates/add-milestone.php:174
+msgid "Color"
+msgstr "Couleur"
+
+#: templates/add-milestone.php:194 templates/add-task.php:214
+msgid "Notes"
+msgstr "Notes"
+
+#: templates/add-project.php:95
+msgid "Owner"
+msgstr "Gestionnaire"
+
+#: templates/add-project.php:143
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: templates/add-task.php:131
+msgid "Progress"
+msgstr "Progression"
+
+#: templates/comment_reply.php:16
+#, fuzzy
+msgid "Replying Comment"
+msgstr "Réponse au commentaire"
+
+#: templates/delete.php:15
+msgid "Delete This Item"
+msgstr "Supprimer cet article"
+
+#: upstream-frontend-edit.php:36
+#, fuzzy, php-format
+msgid ""
+"Sorry, but UpStream Frontend Edit requires UpStream version %s or later."
+msgstr ""
+"Désolé, mais UpStream Frontend Edit nécessite UpStream version %s ou "
+"ultérieure."
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "UpStream Frontend Edit"
+msgstr "UpStream Frontend Edit"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://upstreamplugin.com"
+msgstr "https://upstreamplugin.com"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Allow users to edit info on the frontend for the UpStream Project Management "
+"plugin."
+msgstr ""
+"Permet aux utilisateurs d'éditer les informations sur le frontend pour le "
+"plugin UpStream Project Management."

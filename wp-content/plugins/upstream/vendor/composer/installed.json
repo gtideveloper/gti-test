@@ -1,0 +1,440 @@
+[
+    {
+        "name": "alledia/wordpress-plugin-builder",
+        "version": "dev-development",
+        "version_normalized": "dev-development",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/publishpress/WordPress-Plugin-Builder.git",
+            "reference": "73687d805c5064aedd602ab66c59949b4b32e088"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/publishpress/WordPress-Plugin-Builder/zipball/73687d805c5064aedd602ab66c59949b4b32e088",
+            "reference": "73687d805c5064aedd602ab66c59949b4b32e088",
+            "shasum": ""
+        },
+        "require": {
+            "phing/phing": "^2",
+            "php": ">=5.4.0"
+        },
+        "time": "2020-04-14T22:57:34+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Alledia\\Builder\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "PublishPress",
+                "email": "help@publishpress.com",
+                "homepage": "https://publishpress.com"
+            },
+            {
+                "name": "Alledia",
+                "email": "help@alledia.com"
+            },
+            {
+                "name": "UpStream",
+                "email": "help@upstream.com"
+            },
+            {
+                "name": "Anderson Grudtner Martins",
+                "email": "anderson@grudtner.me",
+                "homepage": "http://anderson.grudtner.me",
+                "role": "Lead Developer"
+            }
+        ],
+        "description": "Base classes and Phing scripts for building WordPress plugins",
+        "keywords": [
+            "builder",
+            "phing",
+            "plugin",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "alledia/wordpress-plugin-framework",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/publishpress/WordPress-Plugin-Framework.git",
+            "reference": "d92bdbda933412f8d04f7088b758c81f1eb4fba0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/publishpress/WordPress-Plugin-Framework/zipball/d92bdbda933412f8d04f7088b758c81f1eb4fba0",
+            "reference": "d92bdbda933412f8d04f7088b758c81f1eb4fba0",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6",
+            "pimple/pimple": "~3.0",
+            "twig/twig": "~1.20"
+        },
+        "time": "2019-11-19T16:38:51+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Allex\\": "src/library"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Alledia",
+                "email": "help@alledia.com",
+                "homepage": "https://alledia.com"
+            },
+            {
+                "name": "Anderson Grudtner Martins",
+                "email": "anderson@grudtner.me",
+                "homepage": "http://anderson.grudtner.me",
+                "role": "Lead Developer"
+            }
+        ],
+        "description": "Alledia framework for creating WordPress plugins.",
+        "keywords": [
+            "framework",
+            "plugin",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "phing/phing",
+        "version": "2.16.3",
+        "version_normalized": "2.16.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/phingofficial/phing.git",
+            "reference": "b34c2bf9cd6abd39b4287dee31e68673784c8567"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/phingofficial/phing/zipball/b34c2bf9cd6abd39b4287dee31e68673784c8567",
+            "reference": "b34c2bf9cd6abd39b4287dee31e68673784c8567",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.0"
+        },
+        "require-dev": {
+            "ext-pdo_sqlite": "*",
+            "mikey179/vfsstream": "^1.6",
+            "pdepend/pdepend": "2.x",
+            "pear/archive_tar": "1.4.x",
+            "pear/http_request2": "dev-trunk",
+            "pear/net_growl": "dev-trunk",
+            "pear/pear-core-minimal": "1.10.1",
+            "pear/versioncontrol_git": "@dev",
+            "pear/versioncontrol_svn": "~0.5",
+            "phpdocumentor/phpdocumentor": "2.x",
+            "phploc/phploc": "~2.0.6",
+            "phpmd/phpmd": "~2.2",
+            "phpunit/phpunit": ">=3.7",
+            "sebastian/git": "~1.0",
+            "sebastian/phpcpd": "2.x",
+            "siad007/versioncontrol_hg": "^1.0",
+            "simpletest/simpletest": "^1.1",
+            "squizlabs/php_codesniffer": "~2.2",
+            "symfony/yaml": "^2.8 || ^3.1 || ^4.0"
+        },
+        "suggest": {
+            "pdepend/pdepend": "PHP version of JDepend",
+            "pear/archive_tar": "Tar file management class",
+            "pear/versioncontrol_git": "A library that provides OO interface to handle Git repository",
+            "pear/versioncontrol_svn": "A simple OO-style interface for Subversion, the free/open-source version control system",
+            "phpdocumentor/phpdocumentor": "Documentation Generator for PHP",
+            "phploc/phploc": "A tool for quickly measuring the size of a PHP project",
+            "phpmd/phpmd": "PHP version of PMD tool",
+            "phpunit/php-code-coverage": "Library that provides collection, processing, and rendering functionality for PHP code coverage information",
+            "phpunit/phpunit": "The PHP Unit Testing Framework",
+            "sebastian/phpcpd": "Copy/Paste Detector (CPD) for PHP code",
+            "siad007/versioncontrol_hg": "A library for interfacing with Mercurial repositories.",
+            "tedivm/jshrink": "Javascript Minifier built in PHP"
+        },
+        "time": "2020-02-03T18:50:54+00:00",
+        "bin": [
+            "bin/phing"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.16.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "classes/phing/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "include-path": [
+            "classes"
+        ],
+        "license": [
+            "LGPL-3.0-only"
+        ],
+        "authors": [
+            {
+                "name": "Michiel Rook",
+                "email": "mrook@php.net"
+            },
+            {
+                "name": "Phing Community",
+                "homepage": "https://www.phing.info/trac/wiki/Development/Contributors"
+            }
+        ],
+        "description": "PHing Is Not GNU make; it's a PHP project build system or build tool based on Apache Ant.",
+        "homepage": "https://www.phing.info/",
+        "keywords": [
+            "build",
+            "phing",
+            "task",
+            "tool"
+        ]
+    },
+    {
+        "name": "pimple/pimple",
+        "version": "v3.2.3",
+        "version_normalized": "3.2.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/silexphp/Pimple.git",
+            "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/silexphp/Pimple/zipball/9e403941ef9d65d20cba7d54e29fe906db42cf32",
+            "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0",
+            "psr/container": "^1.0"
+        },
+        "require-dev": {
+            "symfony/phpunit-bridge": "^3.2"
+        },
+        "time": "2018-01-21T07:42:36+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.2.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Pimple": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            }
+        ],
+        "description": "Pimple, a simple Dependency Injection Container",
+        "homepage": "http://pimple.sensiolabs.org",
+        "keywords": [
+            "container",
+            "dependency injection"
+        ]
+    },
+    {
+        "name": "psr/container",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/container.git",
+            "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+            "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2017-02-14T16:28:37+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Container\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common Container Interface (PHP FIG PSR-11)",
+        "homepage": "https://github.com/php-fig/container",
+        "keywords": [
+            "PSR-11",
+            "container",
+            "container-interface",
+            "container-interop",
+            "psr"
+        ]
+    },
+    {
+        "name": "symfony/polyfill-ctype",
+        "version": "v1.15.0",
+        "version_normalized": "1.15.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-ctype.git",
+            "reference": "4719fa9c18b0464d399f1a63bf624b42b6fa8d14"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/4719fa9c18b0464d399f1a63bf624b42b6fa8d14",
+            "reference": "4719fa9c18b0464d399f1a63bf624b42b6fa8d14",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "ext-ctype": "For best performance"
+        },
+        "time": "2020-02-27T09:26:54+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.15-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Ctype\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Gert de Pagter",
+                "email": "BackEndTea@gmail.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for ctype functions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "ctype",
+            "polyfill",
+            "portable"
+        ]
+    },
+    {
+        "name": "twig/twig",
+        "version": "v1.38.4",
+        "version_normalized": "1.38.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twigphp/Twig.git",
+            "reference": "7732e9e7017d751313811bd118de61302e9c8b35"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twigphp/Twig/zipball/7732e9e7017d751313811bd118de61302e9c8b35",
+            "reference": "7732e9e7017d751313811bd118de61302e9c8b35",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0",
+            "symfony/polyfill-ctype": "^1.8"
+        },
+        "require-dev": {
+            "psr/container": "^1.0",
+            "symfony/debug": "^2.7",
+            "symfony/phpunit-bridge": "^3.4.19|^4.1.8"
+        },
+        "time": "2019-03-23T14:27:19+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.38-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Twig_": "lib/"
+            },
+            "psr-4": {
+                "Twig\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": "http://fabien.potencier.org",
+                "role": "Lead Developer"
+            },
+            {
+                "name": "Armin Ronacher",
+                "email": "armin.ronacher@active-4.com",
+                "role": "Project Founder"
+            },
+            {
+                "name": "Twig Team",
+                "homepage": "https://twig.symfony.com/contributors",
+                "role": "Contributors"
+            }
+        ],
+        "description": "Twig, the flexible, fast, and secure template language for PHP",
+        "homepage": "https://twig.symfony.com",
+        "keywords": [
+            "templating"
+        ]
+    }
+]

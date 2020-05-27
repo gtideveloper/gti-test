@@ -1,0 +1,703 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Test\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: CustomFields/AutoincrementModel.php:342
+#: CustomFields/AutoincrementModel.php:358
+#: CustomFields/Metaboxes/Fields/Autoincrement.php:66
+#: CustomFields/Pages/Project.php:921
+msgid "---"
+msgstr "---"
+
+#: CustomFields/Fields/Autoincrement.php:63
+msgid "Cannot set autoincrement value."
+msgstr "无法设置自增值."
+
+#: CustomFields/Fields/Category.php:79
+msgid "Passed value must be an array."
+msgstr "传递的值必须是一个数组."
+
+#: CustomFields/Fields/Category.php:87 CustomFields/Fields/Tag.php:67
+#, php-format
+msgid "Term ID %s is invalid."
+msgstr "条款ID %s 无效."
+
+#: CustomFields/Fields/Checkbox.php:109 CustomFields/Fields/Radio.php:103
+#: CustomFields/Fields/Select.php:108
+#, php-format
+msgid "%s is not a valid option."
+msgstr "%s 不是一个有效选项."
+
+#: CustomFields/Fields/Colorpicker.php:84
+#, php-format
+msgid "%s is not a valid hex string."
+msgstr "%s 不是一个有效的十六进制字符串."
+
+#: CustomFields/Fields/Country.php:62 CustomFields/Fields/Select.php:95
+#: CustomFields/Fields/Tag.php:59 CustomFields/Fields/User.php:60
+#, fuzzy
+#| msgid "Passed value must not be an array."
+msgid "Passed value cannot be an array."
+msgstr "传递的值不能为一个数组."
+
+#: CustomFields/Fields/Country.php:72
+#, php-format
+msgid "Country %s is invalid."
+msgstr "国家 %s 无效."
+
+#: CustomFields/Fields/File.php:69
+#, php-format
+msgid "File ID %s is invalid."
+msgstr "文件 ID %s 无效."
+
+#: CustomFields/Fields/Radio.php:90
+msgid "Passed value must not be an array."
+msgstr "传递的值不能为一个数组."
+
+#: CustomFields/Fields/Text.php:72
+#, php-format
+msgid "Input %s must be a string."
+msgstr "输入 %s 须为一个字符串."
+
+#: CustomFields/Fields/Text.php:74
+#, php-format
+msgid "Input %s is shorter than the min length."
+msgstr "输入 %s 长度小于最小值."
+
+#: CustomFields/Fields/Text.php:76
+#, php-format
+msgid "Input %s is longer than the max length."
+msgstr "输入 %s 长度大于最大值."
+
+#: CustomFields/Fields/Text.php:78
+#, php-format
+msgid "Input %s does not match the required pattern."
+msgstr "输入 %s 与要求的模式不匹配."
+
+#: CustomFields/Fields/User.php:67
+#, php-format
+msgid "User ID %s does not exist."
+msgstr "用户 ID %s 不存在."
+
+#: CustomFields/Metaboxes/Args.php:23
+#: CustomFields/Metaboxes/Fields/Checkbox.php:138
+#: CustomFields/Metaboxes/Fields/Radio.php:149
+#: CustomFields/Metaboxes/Fields/Select.php:136
+msgid "Options"
+msgstr "选项"
+
+#: CustomFields/Metaboxes/Details.php:21
+msgid "Details"
+msgstr "详细"
+
+#: CustomFields/Metaboxes/Details.php:31
+msgid "Field Type"
+msgstr "字段数据类型"
+
+#: CustomFields/Metaboxes/Details.php:73 CustomFields/Pages/Collection.php:100
+msgid "Required"
+msgstr "必须"
+
+#: CustomFields/Metaboxes/Details.php:78
+#: CustomFields/Metaboxes/Fields/Category.php:143
+#: CustomFields/Metaboxes/Fields/Checkbox.php:176
+#: CustomFields/Metaboxes/Fields/Checkbox.php:202
+#: CustomFields/Metaboxes/Fields/Country.php:139
+#: CustomFields/Metaboxes/Fields/Radio.php:187
+#: CustomFields/Metaboxes/Fields/Radio.php:213
+#: CustomFields/Metaboxes/Fields/Select.php:174
+#: CustomFields/Metaboxes/Fields/Tag.php:144
+#: CustomFields/Metaboxes/Fields/User.php:177
+#: CustomFields/Metaboxes/Usage.php:48 CustomFields/Metaboxes/Usage.php:60
+msgid "Yes"
+msgstr "好的"
+
+#: CustomFields/Metaboxes/Details.php:79
+#: CustomFields/Metaboxes/Fields/Category.php:144
+#: CustomFields/Metaboxes/Fields/Checkbox.php:203
+#: CustomFields/Metaboxes/Fields/Country.php:140
+#: CustomFields/Metaboxes/Fields/Radio.php:214
+#: CustomFields/Metaboxes/Fields/Tag.php:145
+#: CustomFields/Metaboxes/Fields/User.php:178
+#: CustomFields/Metaboxes/Usage.php:49 CustomFields/Metaboxes/Usage.php:61
+msgid "No"
+msgstr "拒绝"
+
+#: CustomFields/Metaboxes/Details.php:89
+msgid "Description"
+msgstr "描述"
+
+#: CustomFields/Metaboxes/Details.php:90
+msgid ""
+"This description appears under the fields and helps users understand their "
+"choice."
+msgstr "该描述位于字段下方，用来帮助用户了解他们所做的选择."
+
+#: CustomFields/Metaboxes/Fields/Autoincrement.php:101
+msgid "Initial Number"
+msgstr "初始数值"
+
+#: CustomFields/Metaboxes/Fields/Autoincrement.php:116
+msgid "Prefix"
+msgstr "前缀"
+
+#: CustomFields/Metaboxes/Fields/Autoincrement.php:117
+msgid "Text added as prefix to the number."
+msgstr "作为数字前缀的文本."
+
+#: CustomFields/Metaboxes/Fields/Autoincrement.php:125
+msgid "Suffix"
+msgstr "后缀"
+
+#: CustomFields/Metaboxes/Fields/Autoincrement.php:127
+msgid "Text added as suffix to the number."
+msgstr "作为数字后缀的文本."
+
+#: CustomFields/Metaboxes/Fields/Category.php:136
+#: CustomFields/Metaboxes/Fields/Country.php:132
+#: CustomFields/Metaboxes/Fields/Tag.php:137
+#: CustomFields/Metaboxes/Fields/User.php:170
+msgid "Allow Multiple Selection"
+msgstr "允许多选"
+
+#: CustomFields/Metaboxes/Fields/Category.php:137
+#: CustomFields/Metaboxes/Fields/Country.php:133
+#: CustomFields/Metaboxes/Fields/Tag.php:138
+#: CustomFields/Metaboxes/Fields/User.php:171
+msgid "Indicates that multiple options can be selected in the list."
+msgstr "表示可以选择列表中多个选项."
+
+#: CustomFields/Metaboxes/Fields/Category.php:152
+msgid "Root Category"
+msgstr "根类别"
+
+#: CustomFields/Metaboxes/Fields/Category.php:153
+msgid "Parent category to retrieve all children from."
+msgstr "用来提取所有子代的父类别."
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:88
+#: CustomFields/Pages/Project.php:1065
+msgid "Select / Deselect All"
+msgstr "选择/取消 全选"
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:139
+msgid "Multiple options can be selected per field."
+msgstr "每个字段都可多选."
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:142
+#: CustomFields/Metaboxes/Fields/Radio.php:153
+#: CustomFields/Metaboxes/Fields/Select.php:140
+msgctxt "{#} stands for the option index"
+msgid "Option {#}"
+msgstr "选项{#}"
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:143
+#: CustomFields/Metaboxes/Fields/Radio.php:154
+#: CustomFields/Metaboxes/Fields/Select.php:141
+msgid "Add Another Option"
+msgstr "添加选项"
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:144
+#: CustomFields/Metaboxes/Fields/Radio.php:155
+#: CustomFields/Metaboxes/Fields/Select.php:142
+msgid "Remove Option"
+msgstr "移除选项"
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:151
+#: CustomFields/Metaboxes/Fields/Radio.php:162
+#: CustomFields/Metaboxes/Fields/Select.php:149
+msgid "Label"
+msgstr "标签"
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:154
+#: CustomFields/Metaboxes/Fields/Radio.php:165
+#: CustomFields/Metaboxes/Fields/Select.php:152
+msgid "Indicates the meaning of the option. This is displayed to users."
+msgstr "表示选项的意义。用于向用户展示."
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:161
+#: CustomFields/Metaboxes/Fields/Radio.php:172
+#: CustomFields/Metaboxes/Fields/Select.php:159
+msgid "Value"
+msgstr "值"
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:164
+#: CustomFields/Metaboxes/Fields/Radio.php:175
+#: CustomFields/Metaboxes/Fields/Select.php:162
+msgid "This is the value that will be saved in the database."
+msgstr "这是保存在数据库中的值."
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:171
+#: CustomFields/Metaboxes/Fields/Radio.php:182
+#: CustomFields/Metaboxes/Fields/Select.php:169
+msgid "Selected by default"
+msgstr "默认选择"
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:174
+#: CustomFields/Metaboxes/Fields/Radio.php:185
+#: CustomFields/Metaboxes/Fields/Select.php:172
+msgid "The option should be initially selected."
+msgstr "该选项应首先选择."
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:185
+#: CustomFields/Metaboxes/Fields/Radio.php:196
+msgid "Options list display layout"
+msgstr "布局选项"
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:190
+#: CustomFields/Metaboxes/Fields/Radio.php:201
+msgid "Vertical"
+msgstr "垂直"
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:191
+#: CustomFields/Metaboxes/Fields/Radio.php:202
+msgid "Horizontal"
+msgstr "水平"
+
+#: CustomFields/Metaboxes/Fields/Checkbox.php:198
+msgid "Show \"Select all\" button"
+msgstr "显示“全选”按钮"
+
+#: CustomFields/Metaboxes/Fields/Colorpicker.php:64
+#: CustomFields/Metaboxes/Fields/Text.php:64
+msgid "Default Value"
+msgstr "默认值"
+
+#: CustomFields/Metaboxes/Fields/Colorpicker.php:75
+msgid "Disable Transparency"
+msgstr "禁用透明"
+
+#: CustomFields/Metaboxes/Fields/Colorpicker.php:76
+msgid "Either to allow transparency or not."
+msgstr "是否允许透明."
+
+#: CustomFields/Metaboxes/Fields/Colorpicker.php:84
+msgid "Disable Palettes"
+msgstr "禁用调色板"
+
+#: CustomFields/Metaboxes/Fields/Colorpicker.php:85
+msgid "Disable palette of basic colors beneath the color picker."
+msgstr "禁用颜色选择器下方的基本颜色调色板."
+
+#: CustomFields/Metaboxes/Fields/File.php:65
+msgid "Button Text"
+msgstr "按钮文本"
+
+#: CustomFields/Metaboxes/Fields/File.php:66
+msgid "Represents the upload button text. Supported only on admin."
+msgstr "代表上传按钮文字。 仅在管理员上受支持."
+
+#: CustomFields/Metaboxes/Fields/File.php:69 CustomFields/Pages/Project.php:965
+msgid "Add or Upload File"
+msgstr "添加或上传文件"
+
+#: CustomFields/Metaboxes/Fields/Radio.php:101
+#: CustomFields/Pages/Project.php:948 CustomFields/Pages/Project.php:1020
+#: CustomFields/Pages/Project.php:1146 CustomFields/Pages/Project.php:1179
+msgid "None"
+msgstr "无"
+
+#: CustomFields/Metaboxes/Fields/Radio.php:150
+msgid "Only one option can be selected per field."
+msgstr "每个字段仅能选择一个选项."
+
+#: CustomFields/Metaboxes/Fields/Radio.php:209
+msgid "Show the \"None\" option?"
+msgstr "显示“无”选项?"
+
+#: CustomFields/Metaboxes/Fields/Text.php:72
+msgid "Placeholder"
+msgstr "占位符"
+
+#: CustomFields/Metaboxes/Fields/Text.php:73
+msgid "Short hint that describes the expected value."
+msgstr "描述期望值的简短提示."
+
+#: CustomFields/Metaboxes/Fields/Text.php:81
+msgid "Minimum Length"
+msgstr "最小长度"
+
+#: CustomFields/Metaboxes/Fields/Text.php:82
+msgid ""
+"Specifies the minimum number of characters the field requires. Max: 254."
+msgstr ""
+"指定该字段所需的最少字符数. \n"
+"最大值：254."
+
+#: CustomFields/Metaboxes/Fields/Text.php:97
+msgid "Maximum Length"
+msgstr "最大长度"
+
+#: CustomFields/Metaboxes/Fields/Text.php:98
+msgid ""
+"Specifies the maximum number of characters the field requires. Max: 255."
+msgstr ""
+"指定该字段所能容纳的最长字符数. \n"
+"最大值：255."
+
+#: CustomFields/Metaboxes/Fields/Text.php:113
+msgid "Pattern"
+msgstr "模式"
+
+#: CustomFields/Metaboxes/Fields/Text.php:114
+msgid ""
+"Regular expression that the input value is checked against. This pattern "
+"must match the entire value, not just a subset.<br>Should not have a leading "
+"or trailing slash. Use the <strong>Description</strong> field to describe "
+"the pattern to help the user."
+msgstr ""
+"检查输入值的正则表达式。 此模式必须与整个值匹配，而不仅仅是一个子集。<br>不能"
+"有前斜杠或后斜杠。 使用<strong>描述</ strong>字段来描述可帮助用户的模式."
+
+#: CustomFields/Metaboxes/Fields/User.php:195
+msgid "User Roles"
+msgstr "用户角色"
+
+#: CustomFields/Metaboxes/Fields/User.php:196
+msgid "Select which user roles are allowed for this field."
+msgstr "选择该字段允许哪些用户角色."
+
+#: CustomFields/Metaboxes/Usage.php:20
+msgid "Use this field on"
+msgstr "使用此字段"
+
+#: CustomFields/Metaboxes/Usage.php:28
+msgid "Usage"
+msgstr "用法"
+
+#: CustomFields/Metaboxes/Usage.php:29
+msgid "Choose where this field should be used."
+msgstr "选择应在何处使用此字段."
+
+#: CustomFields/Metaboxes/Usage.php:43
+msgid "Filterable"
+msgstr "可过滤"
+
+#: CustomFields/Metaboxes/Usage.php:44
+msgid "Whether the field can be filtered on frontend or not."
+msgstr "是否可以在前端过滤字段."
+
+#: CustomFields/Metaboxes/Usage.php:55
+msgid "Display as column"
+msgstr "以列显示"
+
+#: CustomFields/Metaboxes/Usage.php:56
+msgid "Whether the field should be added as column to tables."
+msgstr "是否应将该字段作为列添加到表中."
+
+#: CustomFields/Metaboxes/Usage.php:67
+msgid "Weight (number)"
+msgstr "权重（数值）"
+
+#: CustomFields/Metaboxes/Usage.php:68
+msgid ""
+"Enter a number from 0 to 1000. This allows you to order custom fields in "
+"display. A larger weight number means the item will show up lower on the "
+"page. Note: in order for this to work, ALL custom fields must have weights."
+msgstr ""
+"输入一个介于0到1000之间的数字。这使您可以对显示中的自定义字段进行排序。 较大"
+"的权重数字表示该项目将在页面下方显示。 注意：为了使它起作用，所有自定义字段都"
+"必须具有权重."
+
+#: CustomFields/Model.php:49 CustomFields/Pages/Collection.php:128
+msgid "Text"
+msgstr "文本"
+
+#: CustomFields/Model.php:50 CustomFields/Pages/Collection.php:132
+msgid "Dropdown"
+msgstr "下拉菜单"
+
+#: CustomFields/Model.php:51 CustomFields/Pages/Collection.php:134
+msgid "File"
+msgstr "文件"
+
+#: CustomFields/Model.php:52 CustomFields/Pages/Collection.php:138
+msgid "Radio Buttons"
+msgstr "单选按钮"
+
+#: CustomFields/Model.php:53
+msgid "Checkboxes"
+msgstr "复选框"
+
+#: CustomFields/Model.php:54 CustomFields/Pages/Collection.php:136
+msgid "Color Picker"
+msgstr "颜色选择器"
+
+#: CustomFields/Model.php:55 CustomFields/Pages/Collection.php:142
+msgid "Category"
+msgstr "类别"
+
+#: CustomFields/Model.php:56 CustomFields/Pages/Collection.php:144
+msgid "Tag"
+msgstr "标签"
+
+#: CustomFields/Model.php:57 CustomFields/Pages/Collection.php:130
+msgid "Autoincrement"
+msgstr "自增"
+
+#: CustomFields/Model.php:58 CustomFields/Pages/Collection.php:146
+msgid "User"
+msgstr "用户"
+
+#: CustomFields/Model.php:59 CustomFields/Pages/Collection.php:148
+msgid "Country"
+msgstr "国家"
+
+#: CustomFields/Pages/Collection.php:98
+msgid "Slug"
+msgstr "Slug"
+
+#: CustomFields/Pages/Collection.php:99
+msgid "Type"
+msgstr "类型"
+
+#: CustomFields/Pages/Collection.php:101
+msgid "Used on"
+msgstr "被用在"
+
+#: CustomFields/Pages/Collection.php:140
+msgid "Checkbox"
+msgstr "复选框"
+
+#: CustomFields/Pages/Collection.php:150 CustomFields/Pages/Collection.php:187
+msgid "none"
+msgstr "无或空值"
+
+#: CustomFields/Pages/Collection.php:219
+#, php-format
+msgid "All %s"
+msgstr "所有 %s"
+
+#: CustomFields/Pages/Collection.php:220
+msgid "Types"
+msgstr "类型"
+
+#: CustomFields/Pages/Project.php:286
+msgid "Clear"
+msgstr "清除"
+
+#: CustomFields/Pages/Project.php:287
+msgid "Default"
+msgstr "默认"
+
+#: CustomFields/Pages/Project.php:288
+msgid "Select Color"
+msgstr "选择颜色"
+
+#: CustomFields/Pages/Project.php:289
+msgid "Current Color"
+msgstr "当前颜色"
+
+#: CustomFields/Pages/Project.php:299
+msgid "Remove"
+msgstr "清除"
+
+#: CustomFields/Pages/Project.php:300
+msgid "Undo"
+msgstr "撤销"
+
+#: CustomFields/Pages/Project.php:301
+msgid "Use this file"
+msgstr "使用该文件"
+
+#: CustomFields/Plugin.php:131 CustomFields/Plugin.php:323
+msgid "Custom Field"
+msgstr "自定义字段"
+
+#: CustomFields/Plugin.php:132 CustomFields/Plugin.php:324
+msgid "Custom Fields"
+msgstr "自定义字段"
+
+#: CustomFields/Plugin.php:135
+#, php-format
+msgctxt "Custom Field post type name"
+msgid "%2$s"
+msgstr "%2$s"
+
+#: CustomFields/Plugin.php:136
+#, php-format
+msgctxt "singular custom field post type name"
+msgid "%1$s"
+msgstr "%1$s"
+
+#: CustomFields/Plugin.php:137
+#, php-format
+msgid "New %1s"
+msgstr "新 %1s"
+
+#: CustomFields/Plugin.php:138
+#, php-format
+msgid "Add New %1$s"
+msgstr "添加新 %1$s"
+
+#: CustomFields/Plugin.php:139
+#, php-format
+msgid "Edit %1$s"
+msgstr "编辑 %1$s"
+
+#: CustomFields/Plugin.php:140
+#, php-format
+msgid "New %1$s"
+msgstr "新 %1$s"
+
+#: CustomFields/Plugin.php:141
+#, php-format
+msgid "%2$s"
+msgstr "%2$s"
+
+#: CustomFields/Plugin.php:142
+#, php-format
+msgid "View %1$s"
+msgstr "查看 %1$s"
+
+#: CustomFields/Plugin.php:143
+#, php-format
+msgid "Search %2$s"
+msgstr "查询 %2$s"
+
+#: CustomFields/Plugin.php:144
+#, php-format
+msgid "No %2$s found"
+msgstr "未找到 %2$s"
+
+#: CustomFields/Plugin.php:145
+#, php-format
+msgid "No %2$s found in Trash"
+msgstr "在回收站未找到 %2$s"
+
+#: CustomFields/Plugin.php:147
+#, php-format
+msgctxt "custom field post type menu name"
+msgid "%2$s"
+msgstr "%2$s"
+
+#: CustomFields/Plugin.php:148
+#, php-format
+msgid "%1$s Image"
+msgstr "%1$s 图片"
+
+#: CustomFields/Plugin.php:149
+#, php-format
+msgid "Set %1$s Image"
+msgstr "设置%1$s 图片"
+
+#: CustomFields/Plugin.php:150
+#, php-format
+msgid "Remove %1$s Image"
+msgstr "移除 %1$s 图片"
+
+#: CustomFields/Plugin.php:151
+#, php-format
+msgid "Use as %1$s Image"
+msgstr "用作%1$s 图片"
+
+#: CustomFields/Plugin.php:152
+#, php-format
+msgid "Filter %2$s list"
+msgstr "过滤 %1$s 列表"
+
+#: CustomFields/Plugin.php:153
+#, php-format
+msgid "%2$s list navigation"
+msgstr "%2$s 导航列表"
+
+#: CustomFields/Plugin.php:154
+#, php-format
+msgid "%2$s list"
+msgstr "%2$s 列表"
+
+#: CustomFields/Plugin.php:292 CustomFields/Plugin.php:293
+msgid "Custom Field updated."
+msgstr "自定义字段已更新."
+
+#: CustomFields/Plugin.php:294
+msgid "Custom Field published."
+msgstr "自定义字段已发布."
+
+#: CustomFields/Plugin.php:295
+msgid "Custom Field saved."
+msgstr "自定义字段已保存."
+
+#: CustomFields/Plugin.php:296
+msgid "Custom Field submitted."
+msgstr "自定义字段已提交."
+
+#: CustomFields/Plugin.php:328
+#, php-format
+msgid "%1$s %2$s updated."
+msgid_plural "%1$s %3$s updated."
+msgstr[0] "%1$s %2$s 已更新."
+
+#: CustomFields/Plugin.php:334
+#, php-format
+msgid "%1$s %2$s not updated, somebody is editing it."
+msgid_plural "%1$s %3$s updated, somebody is editing them."
+msgstr[0] "%1$s %2$s 未能更新，正在被其他用户编辑."
+
+#: CustomFields/Plugin.php:341
+#, php-format
+msgid "%1$s %2$s permanently deleted."
+msgid_plural "%1$s %3$s permanently deleted."
+msgstr[0] "%1$s %2$s 被永久移除."
+
+#: CustomFields/Plugin.php:347
+#, php-format
+msgid "%1$s %2$s moved to the Trash."
+msgid_plural "%1$s %3$s moved to the Trash."
+msgstr[0] "%1$s %2$s 被移入回收站."
+
+#: CustomFields/Plugin.php:353
+#, php-format
+msgid "%1$s %2$s restored from the Trash."
+msgid_plural "%1$s %3$s restored from the Trash."
+msgstr[0] "%1$s %2$s 已从回收站恢复."
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:362
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr "有一个新版本的 %1$s 可用。%2$s查看版本 %3$s 细节%4$s."
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:371
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"有一个新版本的 %1$s 可用。 %2$s查看版本 %3$s 细节%4$s 或者 %5$s现在更新%6$s."
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:513
+msgid "You do not have permission to install plugin updates"
+msgstr "您没有安装插件更新的权限"
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:514
+#, fuzzy
+msgid "Error"
+msgstr "错误！"
+
+#~ msgid "UpStream Custom Fields"
+#~ msgstr "UpStream 自定义字段"
+
+#~ msgid "https://upstreamplugin.com/extensions/custom-fields"
+#~ msgstr "https://upstreamplugin.com/extensions/custom-fields"
+
+#~ msgid ""
+#~ "This extension will allow you to add more information to tasks and bugs. "
+#~ "For example, in a web design"
+#~ msgstr "此扩展程序将使您可以向任务和错误添加更多信息。 例如，在网页设计中"
+
+#~ msgid "UpStream"
+#~ msgstr "UpStream"
+
+#~ msgid "https://upstreamplugin.com"
+#~ msgstr "https://upstreamplugin.com"

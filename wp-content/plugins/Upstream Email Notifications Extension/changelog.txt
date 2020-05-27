@@ -1,0 +1,170 @@
+== Changelog ==
+
+The format is based on [Keep a Changelog](http://keepachangelog.com)
+and this project adheres to [Semantic Versioning](http://semver.org).
+
+= [1.3.6] - 2019-10-16 =
+* Fix minor bug in email
+
+= [1.3.5] - 2019-10-16 =
+* Fix fatal error when sending email
+
+= [1.3.3] - 2019-10-15 =
+* Fix minor bug in email functionality
+
+= [1.3.2] - 2019-09-25 =
+* Fix JS error due to email reminders being activated, but disabled in the upstream menu
+
+= [1.3.1] - 2019-09-24 =
+* Fix bug not sending emails on assignment
+
+= [1.3.0] - 2019-09-20 =
+* Added ability to choose date to send email
+* Fixed various timezone bugs
+* Added emailing after comments
+
+= [1.2.5] - 2019-09-09 =
+* Fixed HTML bug in email
+
+= [1.2.4] - 2019-09-02 =
+* Fixed data saving bugs
+
+= [1.2.2] - 2019-05-22 =
+
+* Fixed error when no reminders were set in a milestone;
+* Fixed the priority of the End Date field;
+
+= [1.2.1] - 2019-04-29 =
+
+* Fixed reminders for the new Milestone structure released on UpStream 1.24.0;
+
+= [1.2.0] - 2019-03-07 =
+
+* Added new filters that allow customizing the subject and text of email notifications for assigned items. New filters: "upstream_email_notifications_assigned_email_message" and "upstream_email_notifications_assigned_email_subject";
+
+= [1.1.16] - 2018-12-13 =
+
+* Fixed link to the project page in the reminder - Thanks @awijasa;
+* Fixed notifications to catch all projects removing pagination from the query - Thanks @awijasa;
+* Removed automatic deactivation when dependencies (UpStream) are not loaded;
+
+= [1.1.15] - 2018-09-19 =
+
+Fixed:
+
+* Fixed title of Milestones in notifications by email on the front-end;
+
+= [1.1.14] - 2018-09-07 =
+
+Fixed:
+
+* Fixed automatic updates using the new Alledia EDD SL Plugin Updater library, based on the original version 1.6.16;
+
+Changed:
+
+* Updated POT file;
+
+= [1.1.13] - 2018-09-06 =
+
+Fixed:
+* Fixed PHP warning when milestones are disabled;
+* Fixed PHP warning when there is no reminders set for the project;
+* Fixed PHP warning about undefined index in the date field for projects in the admin;
+* Fixed outdated POT file;
+
+= [1.1.12] - 2018-08-21 =
+
+Fixed:
+* Fixed a PHP warning when milestones are disabled and you try to add or edit a task in the backend;
+
+= [1.1.11] - 2018-07-11 =
+
+Fixed:
+* Fixed a PHP warning when the project doesn't have an specific item type;
+
+= [1.1.10] - 2018-06-20 =
+
+Fixed:
+* Fixed date format in the emails;
+
+= [1.1.9] - 2018-06-07 =
+
+Fixed:
+* Fixed wrong name for milestones in the emails;
+
+= [1.1.8] - 2018-04-19 =
+
+Fixed:
+* Patching last update
+
+= [1.1.7] - 2018-04-19 =
+
+Fixed:
+* Fix a couple of potential PHP warnings
+
+= [1.1.6] - 2018-03-08 =
+
+Changed:
+* Added support for multiple assignees
+* Added support for Files assignees
+
+= [1.1.5] - 2018-02-15 =
+
+Changed:
+* Changes for compatibility with the new tables on frontend
+* Update year in copyright info
+
+Fixed:
+* Fix "None" and "End Date" strings language domain
+
+= [1.1.4] - 2017-12-28 =
+
+Added:
+* Hide non selected handler sections on Settings page
+
+Changed:
+* Update check process now takes at least half the time it took on previous versions
+
+Fixed:
+* Fixed assets being loaded on every page
+
+= [1.1.3] = 2017-11-09 =
+
+Changed:
+* Grammar enhancements on emails
+
+Fixed:
+* Fixed bug where some Reminders were being lost after save
+* Fixed bug where some Reminders were not being removed or replaced as they should
+
+= [1.1.2] = 2017-10-23 =
+
+Changed:
+* Code enhancements
+
+= [1.1.1] = 2017-09-19 =
+
+Fixed:
+* Fixed some reminders not being sent as they should
+* Enhanced support for internationalization
+
+= [1.1.0] = 2017-08-31 =
+
+Added:
+* Now users can set up notification reminders for upcoming due dates
+
+= [1.0.2] = 2017-08-01 =
+
+Changed:
+* Enhancements to the licensing system
+
+Fixed:
+* Minor code enhancements
+
+= [1.0.1] = 2017-06-29 =
+
+Changed:
+* Enhanced compatibility with PHP prior to version 5.5
+
+= [1.0.0] = 2017-06-26 =
+* Initial Release

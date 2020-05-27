@@ -1,0 +1,113 @@
+[
+    {
+        "name": "alledia/edd-sl-plugin-updater",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/publishpress/EDD-SL-Plugin-Updater.git",
+            "reference": "d7d400b85091eeca2b85fad9bcdb22a319e9c594"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/publishpress/EDD-SL-Plugin-Updater/zipball/d7d400b85091eeca2b85fad9bcdb22a319e9c594",
+            "reference": "d7d400b85091eeca2b85fad9bcdb22a319e9c594",
+            "shasum": ""
+        },
+        "require": {
+            "ext-json": "*",
+            "php": ">=5.6.20"
+        },
+        "time": "2019-10-30T22:59:27+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "EDD_SL_Plugin_Updater.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "EasyDigitalDownloads",
+                "email": "contact@easydigitaldownloads.com"
+            },
+            {
+                "name": "PublishPress",
+                "email": "help@publishpress.com"
+            },
+            {
+                "name": "Alledia",
+                "email": "help@alledia.com"
+            }
+        ],
+        "description": "EDD Updates Handler for WordPress Plugins",
+        "keywords": [
+            "edd",
+            "updates",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "alledia/wordpress-plugin-builder",
+        "version": "dev-development",
+        "version_normalized": "dev-development",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/publishpress/WordPress-Plugin-Builder.git",
+            "reference": "cb4645ed4963677f76249ae841bc68f5b5dd6992"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/publishpress/WordPress-Plugin-Builder/zipball/cb4645ed4963677f76249ae841bc68f5b5dd6992",
+            "reference": "cb4645ed4963677f76249ae841bc68f5b5dd6992",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2019-12-02T21:20:13+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Alledia\\Builder\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "PublishPress",
+                "email": "help@publishpress.com",
+                "homepage": "https://publishpress.com"
+            },
+            {
+                "name": "Alledia",
+                "email": "help@alledia.com"
+            },
+            {
+                "name": "UpStream",
+                "email": "help@upstream.com"
+            },
+            {
+                "name": "Anderson Grudtner Martins",
+                "email": "anderson@grudtner.me",
+                "homepage": "http://anderson.grudtner.me",
+                "role": "Lead Developer"
+            }
+        ],
+        "description": "Base classes and Phing scripts for building WordPress plugins",
+        "keywords": [
+            "builder",
+            "phing",
+            "plugin",
+            "wordpress"
+        ]
+    }
+]

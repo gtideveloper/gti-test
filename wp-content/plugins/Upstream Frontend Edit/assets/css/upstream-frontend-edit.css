@@ -1,0 +1,202 @@
+.badge.counter {
+    float: right;
+    background-color: #D54E21;
+    padding: 4px 6px;
+    font-size: .75em;
+    color: #FFF;
+    border-radius: 3px;
+}
+
+.btn[data-toggle="up-modal"] {
+    margin: 0;
+}
+
+.up-action-col {
+    width: 40px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.o-comment-reply > .panel-body > blockquote {
+    font-size: 1em;
+    margin: 0;
+    max-height: 100px;
+    overflow: auto;
+}
+
+.o-comment.is-being-removed {
+    opacity: .5;
+}
+
+.main_container .modal {
+    bottom: unset;
+    height: 97vh;
+}
+
+@media not all and (min-resolution: .001dpcm) {
+    @media {
+        .main_container .modal {
+            bottom: 0px;
+            height: unset;
+        }
+    }
+}
+
+.modal .c-comments {
+    margin-top: 5px;
+}
+
+.modal .tab-content {
+    padding-top: 15px;
+}
+
+.modal .tab-content .comments-controls-btns {
+    margin: 10px 0 5px 0;
+    text-align: right;
+}
+
+.o-comment .o-comment-control[data-action="comment.reply"]:link,
+.o-comment .o-comment-control[data-action="comment.reply"]:visited {
+    color: rgba(41, 128, 185, 1);
+}
+
+.o-comment .o-comment-control[data-action="comment.reply"]:hover,
+.o-comment .o-comment-control[data-action="comment.reply"]:active {
+    color: rgba(41, 128, 185, .5);
+}
+
+.o-comment .o-comment-control[data-action="comment.approve"]:link,
+.o-comment .o-comment-control[data-action="comment.approve"]:visited {
+    color: rgba(39, 174, 96, 1);
+}
+
+.o-comment .o-comment-control[data-action="comment.approve"]:hover,
+.o-comment .o-comment-control[data-action="comment.approve"]:active {
+    color: rgba(39, 174, 96, .5);
+}
+
+.o-comment .o-comment-control[data-action="comment.unapprove"]:link,
+.o-comment .o-comment-control[data-action="comment.unapprove"]:visited {
+    color: rgba(230, 126, 34, 1);
+}
+
+.o-comment .o-comment-control[data-action="comment.unapprove"]:hover,
+.o-comment .o-comment-control[data-action="comment.unapprove"]:active {
+    color: rgba(230, 126, 34, .5);
+}
+
+.o-comment .o-comment-control[data-action="comment.trash"]:link,
+.o-comment .o-comment-control[data-action="comment.trash"]:visited {
+    color: rgba(192, 57, 43, 1);
+}
+
+.o-comment .o-comment-control[data-action="comment.trash"]:hover,
+.o-comment .o-comment-control[data-action="comment.trash"]:active {
+    color: rgba(192, 57, 43, .5);
+}
+
+.o-modal-form > .row > div > label {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.o-modal-form > .row + .row {
+    margin-top: 5px;
+}
+
+select + .chosen-container {
+    width: 100% !important;
+}
+
+.o-img-preview {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.modal .file-preview {
+    margin-top: 5px;
+}
+
+.c-media-preview img.media-object {
+    max-width: 32px;
+    max-height: 32px;
+}
+
+.c-media-preview ul {
+    list-style: none;
+    padding: 0;
+}
+
+.media-modal .thumbnail {
+    height: inherit;
+    padding: 0;
+    margin-bottom: 0;
+    background-color: inherit;
+    border: inherit;
+    border-radius: inherit;
+}
+
+.o-modal-form .o-error-message {
+    color: #A94442;
+}
+
+
+.up-c-color-square {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAAHnlligAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAHJJREFUeNpi+P///4EDBxiAGMgCCCAGFB5AADGCRBgYDh48CCRZIJS9vT2QBAggFBkmBiSAogxFBiCAoHogAKIKAlBUYTELAiAmEtABEECk20G6BOmuIl0CIMBQ/IEMkO0myiSSraaaBhZcbkUOs0HuBwDplz5uFJ3Z4gAAAABJRU5ErkJggg==");
+    position: relative;
+    border: 1px solid #CCC;
+}
+
+.up-c-color-square > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+}
+
+.wp-picker-container {
+    position: relative;
+}
+
+.wp-picker-container .button.wp-color-result {
+    display: inline-block;
+    height: 32px !important;
+    width: 32px !important;
+}
+
+.wp-picker-container .button.wp-color-result > .color-alpha {
+    height: 32px !important;
+}
+
+.wp-picker-container .button.wp-color-result > .wp-color-result-text {
+    display: none;
+}
+
+.wp-picker-container .wp-picker-input-wrap {
+    display: inline;
+}
+
+.wp-picker-container .wp-picker-input-wrap .wp-picker-clear {
+    display: none;
+}
+
+.wp-picker-container .button.button-small.wp-picker-clear {
+    padding: 6px 15px;
+}
+
+.wp-picker-container input[type=text].wp-color-picker {
+    width: 108% !important;
+    display: block !important;
+}
+
+@media (min-width: 1080px) {
+    .modal-dialog {
+        width: 1080px;
+        margin: 30px auto;
+    }
+}

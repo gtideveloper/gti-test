@@ -1,0 +1,66 @@
+.cmb-row.cmb-type-multicheck.cmb2-id--upstream--custom-fieldsusage {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.cmb-row.cmb-type-multicheck.cmb2-id--upstream--custom-fieldsusage .cmb-th {
+    display: none !important;
+}
+
+.cmb2-id--upstream--custom-fieldsis-filterable {
+    padding-bottom: 0 !important;
+}
+
+.cmb2-id--upstream--custom-fieldsis-filterable .cmb2-metabox-description {
+    padding-bottom: 0 !important;
+}
+
+.cmb-nested[data-groupid="_upstream__custom-fields:args:options"] h2.cmb-group-name {
+    font-weight: bold;
+    padding-left: 0 !important;
+}
+
+.cmb-nested[data-groupid="_upstream__custom-fields:args:options"] .cmb-row.cmb-group-description {
+    border: 0;
+}
+
+.cmb-nested[data-groupid="_upstream__custom-fields:args:options"] .cmb2-metabox-description {
+    padding-bottom: 0 !important;
+}
+
+.cmb-nested[data-groupid="_upstream__custom-fields:args:options"] .cmb-row.cmb-group-description .cmb-th {
+    padding-bottom: 0;
+}
+
+#cmb2-metabox-_upstream__custom-fieldsargs .wp-picker-container .iris-slider.iris-strip {
+    width: 17.625px !important;
+}
+
+.cmb-row.cmb-repeat-group-wrap.cmb-type-group.cmb-repeat h2.cmb-group-name {
+    padding-left: 0 !important;
+}
+
+.cmb-row.cmb-repeat-group-wrap.cmb-type-group.cmb-repeat .cmb2-metabox-description {
+    font-weight: 400;
+}
+
+div[data-groupid$=":args:options"] .cmb-th,
+div[data-groupid$=":options"] .cmb2-metabox-description {
+    padding-bottom: 0 !important;
+}
+
+div[data-groupid$=":args:options"] > .cmb-row:first-child {
+    display: none;
+}
+
+.up-s-hidden {
+    display: none;
+}
+
+.up-c-args-wrapper:not(.is-active) {
+    display: none;
+}
+
+.cmb-row .cmb-td span.select2.select2-container {
+    min-width: 125px;
+}

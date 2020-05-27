@@ -1,0 +1,453 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UpStream Calendar View\n"
+"POT-Creation-Date: 2019-12-16 21:43-0500\n"
+"PO-Revision-Date: 2019-12-16 21:44-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: upstream-calendar-view.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: CalendarView/Calendar.php:440 CalendarView/Plugin.php:350
+msgid "Calendar Overview"
+msgstr "一目了然的行事曆"
+
+#: CalendarView/Calendar.php:459 templates/calendar-body.php:13
+msgid "Loading..."
+msgstr "载入中..."
+
+#: CalendarView/Calendar.php:613
+msgid "Click to create"
+msgstr ""
+
+#: CalendarView/Calendar.php:731 CalendarView/Plugin.php:308
+msgid "Monday"
+msgstr "星期一"
+
+#: CalendarView/Calendar.php:732 CalendarView/Plugin.php:309
+msgid "Tuesday"
+msgstr "星期二"
+
+#: CalendarView/Calendar.php:733 CalendarView/Plugin.php:310
+msgid "Wednesday"
+msgstr "星期三"
+
+#: CalendarView/Calendar.php:734 CalendarView/Plugin.php:311
+msgid "Thursday"
+msgstr "星期四"
+
+#: CalendarView/Calendar.php:735 CalendarView/Plugin.php:312
+msgid "Friday"
+msgstr "星期五"
+
+#: CalendarView/Calendar.php:736 CalendarView/Plugin.php:313
+msgid "Saturday"
+msgstr "星期六"
+
+#: CalendarView/Calendar.php:737 CalendarView/Plugin.php:314
+msgid "Sunday"
+msgstr "星期日"
+
+#: CalendarView/Calendar.php:779 templates/calendar-header.php:83
+msgid "January"
+msgstr "一月"
+
+#: CalendarView/Calendar.php:780 templates/calendar-header.php:84
+msgid "February"
+msgstr "二月"
+
+#: CalendarView/Calendar.php:781 templates/calendar-header.php:85
+msgid "March"
+msgstr "三月"
+
+#: CalendarView/Calendar.php:782 templates/calendar-header.php:86
+msgid "April"
+msgstr "四月"
+
+#: CalendarView/Calendar.php:783 templates/calendar-header.php:87
+msgid "May"
+msgstr "五月"
+
+#: CalendarView/Calendar.php:784 templates/calendar-header.php:88
+msgid "June"
+msgstr "六月"
+
+#: CalendarView/Calendar.php:785 templates/calendar-header.php:89
+msgid "July"
+msgstr "七月"
+
+#: CalendarView/Calendar.php:786 templates/calendar-header.php:90
+msgid "August"
+msgstr "八月"
+
+#: CalendarView/Calendar.php:787 templates/calendar-header.php:91
+msgid "September"
+msgstr "九月"
+
+#: CalendarView/Calendar.php:788 templates/calendar-header.php:92
+msgid "October"
+msgstr "十月"
+
+#: CalendarView/Calendar.php:789 templates/calendar-header.php:93
+msgid "November"
+msgstr "十一月"
+
+#: CalendarView/Calendar.php:790 templates/calendar-header.php:94
+msgid "December"
+msgstr "十二月"
+
+#: CalendarView/Calendar.php:1514
+msgid "none"
+msgstr "无"
+
+#: CalendarView/Calendar.php:1540 CalendarView/Calendar.php:1548
+msgid "Start Date"
+msgstr "开始日期"
+
+#: CalendarView/Calendar.php:1541 CalendarView/Calendar.php:1549
+msgid "End Date"
+msgstr "结束日期"
+
+#: CalendarView/Calendar.php:1542 CalendarView/Calendar.php:1551
+msgid "Status"
+msgstr "状态"
+
+#: CalendarView/Calendar.php:1547
+msgid "Assigned To"
+msgstr "分配给"
+
+#: CalendarView/Calendar.php:1550
+msgid "Due Date"
+msgstr "截止日期"
+
+#: CalendarView/Calendar.php:1552
+msgid "Progress"
+msgstr "进度"
+
+#: CalendarView/Calendar.php:1554
+msgid "Severity"
+msgstr "严重性"
+
+#: CalendarView/Calendar.php:1616
+msgid "(hidden)"
+msgstr "隐藏域"
+
+#: CalendarView/Calendar.php:1651
+msgid "Edit"
+msgstr "编辑"
+
+#: CalendarView/Calendar.php:1735 CalendarView/Calendar.php:1740
+#: CalendarView/Calendar.php:1823 CalendarView/Calendar.php:1828
+#: CalendarView/Calendar.php:1935 CalendarView/Calendar.php:1944
+msgid "Invalid request."
+msgstr "无效的请求。"
+
+#: CalendarView/Calendar.php:1748 CalendarView/Calendar.php:1836
+#: CalendarView/Calendar.php:1953
+msgid "Invalid Project."
+msgstr ""
+
+#: CalendarView/Calendar.php:1842 CalendarView/Calendar.php:1850
+#: CalendarView/Calendar.php:1855 CalendarView/Calendar.php:1868
+#: CalendarView/Calendar.php:1873
+#, php-format
+msgid "Invalid \"%s\" parameter."
+msgstr ""
+
+#: CalendarView/Calendar.php:1939
+msgid "You're not allowed to do this."
+msgstr ""
+
+#: CalendarView/Calendar.php:2042
+msgid "Nothing updated"
+msgstr ""
+
+#: CalendarView/Plugin.php:165
+#, php-format
+msgid ""
+"For performance and security reasons this plugin requires <strong>%s</"
+"strong> to run."
+msgstr ""
+
+#: CalendarView/Plugin.php:172
+msgid "PHP version 5.6 or greater"
+msgstr ""
+
+#: CalendarView/Plugin.php:173
+#, php-format
+msgctxt "%s = running PHP version"
+msgid "Please consider updating your PHP (currently at %s)."
+msgstr ""
+
+#: CalendarView/Plugin.php:185
+msgid "WordPress version 4.5 or greater"
+msgstr ""
+
+#: CalendarView/Plugin.php:186
+#, php-format
+msgctxt "%s = running WordPress version"
+msgid "Please consider updating your WordPress (currently at %s)."
+msgstr ""
+
+#: CalendarView/Plugin.php:197
+#, php-format
+msgctxt "%s = \"UpStream\" localized string"
+msgid ""
+"Please make sure %s is <strong>installed</strong> and <strong>active</"
+"strong> in order to make this plugin to work."
+msgstr ""
+
+#: CalendarView/Plugin.php:199 CalendarView/Plugin.php:218
+msgid "UpStream"
+msgstr "UpStream"
+
+#: CalendarView/Plugin.php:219 CalendarView/Plugin.php:264
+#: CalendarView/Plugin.php:500 CalendarView/Plugin.php:523
+#: templates/panel.php:16
+msgid "Calendar View"
+msgstr "日历视图"
+
+#: CalendarView/Plugin.php:223
+msgid "Go back to the plugins page."
+msgstr ""
+
+#: CalendarView/Plugin.php:224
+msgid "Go Back"
+msgstr "返回"
+
+#: CalendarView/Plugin.php:301
+msgid "General Calendars Settings"
+msgstr ""
+
+#: CalendarView/Plugin.php:303
+msgid "First Day of the week"
+msgstr ""
+
+#: CalendarView/Plugin.php:306
+msgid "Select the first day of the week on the calendar."
+msgstr ""
+
+#: CalendarView/Plugin.php:319
+msgid "Weeks to be displayed"
+msgstr ""
+
+#: CalendarView/Plugin.php:322
+msgid "Select how many weeks will be displayed by default on the calendar."
+msgstr ""
+
+#: CalendarView/Plugin.php:325
+msgid "week"
+msgstr "周"
+
+#: CalendarView/Plugin.php:326 CalendarView/Plugin.php:327
+#: CalendarView/Plugin.php:328 CalendarView/Plugin.php:329
+#: CalendarView/Plugin.php:330 CalendarView/Plugin.php:331
+#: CalendarView/Plugin.php:332 CalendarView/Plugin.php:333
+#: CalendarView/Plugin.php:334 CalendarView/Plugin.php:335
+#: CalendarView/Plugin.php:336
+msgid "weeks"
+msgstr "周"
+
+#: CalendarView/Plugin.php:343
+msgid "Calendar Overview Settings"
+msgstr ""
+
+#: CalendarView/Plugin.php:345
+#, php-format
+msgctxt "%s = Custom \"Project\" label."
+msgid "%s Timeframe as Bars"
+msgstr ""
+
+#: CalendarView/Plugin.php:349
+#, php-format
+msgid "Choose to display all %s dates as bars on the %s."
+msgstr ""
+
+#: CalendarView/Plugin.php:353
+msgid "No, use dates"
+msgstr ""
+
+#: CalendarView/Plugin.php:354
+msgid "Yes, use bars"
+msgstr ""
+
+#: CalendarView/Plugin.php:405
+msgid "Open Settings Page"
+msgstr ""
+
+#: CalendarView/Plugin.php:406
+msgid "Settings"
+msgstr "设置"
+
+#: CalendarView/Plugin.php:519
+msgid "Default Color"
+msgstr "默认颜色"
+
+#: CalendarView/Plugin.php:524 CalendarView/Plugin.php:533
+msgctxt "Calendar Header"
+msgid "Header"
+msgstr "页眉"
+
+#: CalendarView/Plugin.php:525
+msgid "Day Name Text Color"
+msgstr ""
+
+#: CalendarView/Plugin.php:534
+msgid "Bottom Separator Color"
+msgstr ""
+
+#: CalendarView/Plugin.php:542
+msgid "Days Border Color"
+msgstr ""
+
+#: CalendarView/Plugin.php:550 CalendarView/Plugin.php:559
+#: CalendarView/Plugin.php:568
+msgid "Weekdays"
+msgstr "星期"
+
+#: CalendarView/Plugin.php:551 CalendarView/Plugin.php:578
+#: CalendarView/Plugin.php:605
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: CalendarView/Plugin.php:560 CalendarView/Plugin.php:587
+#: CalendarView/Plugin.php:614
+msgid "Text Color"
+msgstr "文本颜色"
+
+#: CalendarView/Plugin.php:569 CalendarView/Plugin.php:596
+#: CalendarView/Plugin.php:623
+msgid "Day Number Color"
+msgstr ""
+
+#: CalendarView/Plugin.php:577 CalendarView/Plugin.php:586
+#: CalendarView/Plugin.php:595
+msgid "Weekend"
+msgstr "周末"
+
+#: CalendarView/Plugin.php:604 CalendarView/Plugin.php:613
+#: CalendarView/Plugin.php:622
+msgid "Current Day"
+msgstr "本日"
+
+#: CalendarView/Plugin.php:748 CalendarView/Plugin.php:770
+msgid "Calendar"
+msgstr "日历"
+
+#: templates/calendar-header.php:22
+msgid "Filter items by the assigned user"
+msgstr ""
+
+#: templates/calendar-header.php:25
+msgid "Any user"
+msgstr ""
+
+#: templates/calendar-header.php:26
+msgid "Assigned to me"
+msgstr "分配给我"
+
+#: templates/calendar-header.php:27
+msgid "No assigned user"
+msgstr ""
+
+#: templates/calendar-header.php:29
+#, php-format
+msgid "%s Members"
+msgstr ""
+
+#: templates/calendar-header.php:44
+msgid "Filter items by their type"
+msgstr ""
+
+#: templates/calendar-header.php:46
+msgid "All types"
+msgstr "所有类型"
+
+#: templates/calendar-header.php:60
+msgid "Select how many weeks will be displayed on the calendar"
+msgstr ""
+
+#: templates/calendar-header.php:65
+#, php-format
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] "%s 周"
+
+#: templates/calendar-header.php:72
+msgid "Reset all filters to their defaults"
+msgstr ""
+
+#: templates/calendar-header.php:74
+msgid "Reset"
+msgstr "重置"
+
+#: templates/calendar-header.php:80
+msgid "Jump to a certain month"
+msgstr ""
+
+#: templates/calendar-header.php:82
+msgid "Month"
+msgstr "月"
+
+#: templates/calendar-header.php:99
+msgid "Back 1 month"
+msgstr ""
+
+#: templates/calendar-header.php:105
+msgid "Back 1 week"
+msgstr ""
+
+#: templates/calendar-header.php:110
+#, php-format
+msgid "Today is %s"
+msgstr ""
+
+#: templates/calendar-header.php:112
+msgid "Today"
+msgstr "今天"
+
+#: templates/calendar-header.php:116
+msgid "Forward 1 week"
+msgstr ""
+
+#: templates/calendar-header.php:121
+msgid "Forward 1 month"
+msgstr ""
+
+#: upstream-calendar-view.php:43
+#, php-format
+msgid ""
+"Sorry, but UpStream Calendar View requires UpStream version %s or later."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "UpStream Calendar View"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://upstreamplugin.com/extensions/calendar-view"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This calendar display will allow you to easily see everything that’s "
+"happening in a project. You’ll be"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "UpStream Author URI:"
+msgstr ""

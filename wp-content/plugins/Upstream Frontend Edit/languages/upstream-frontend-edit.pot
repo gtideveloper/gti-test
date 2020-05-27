@@ -1,0 +1,454 @@
+# Copyright (c) 2018 UpStream Project Management
+# This file is distributed under the same license as the UpStream Frontend Edit package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UpStream Frontend Edit v1.6.3\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: FrontendEdit.php:191
+msgid "Warning!"
+msgstr ""
+
+#: FrontendEdit.php:193
+#, php-format
+msgid "There is a new version of %s available."
+msgstr ""
+
+#: FrontendEdit.php:194
+msgid "UpStream"
+msgstr ""
+
+#: FrontendEdit.php:197
+#, php-format
+msgid "Please, update now in order to make sure <strong>%s</strong> plugin is working correctly and you're using the latest released features."
+msgstr ""
+
+#: FrontendEdit.php:226 FrontendEdit.php:235
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/class-up-frontend-output.php:109
+msgid "Create Milestones"
+msgstr ""
+
+#: includes/class-up-frontend-output.php:111
+#: includes/class-up-frontend-output.php:120
+#, php-format
+msgid "Allow users to create %s in %s."
+msgstr ""
+
+#: includes/class-up-frontend-output.php:118
+msgid "Create Tasks"
+msgstr ""
+
+#: includes/class-up-frontend-output.php:127
+msgid "Report Bugs"
+msgstr ""
+
+#: includes/class-up-frontend-output.php:129
+#, php-format
+msgid "Allow users to publish new %s in %s."
+msgstr ""
+
+#: includes/class-up-frontend-output.php:136
+msgid "Upload Files"
+msgstr ""
+
+#: includes/class-up-frontend-output.php:138
+#, php-format
+msgid "Allow users to upload %s in %s."
+msgstr ""
+
+#: includes/class-up-frontend-output.php:145
+msgid "Publish Messages"
+msgstr ""
+
+#: includes/class-up-frontend-output.php:147
+#, php-format
+msgid "Allow users to participate in %s discussions."
+msgstr ""
+
+#: includes/class-up-frontend-output.php:153
+msgid "Delete Comments"
+msgstr ""
+
+#: includes/class-up-frontend-output.php:154
+msgid "Allow users to delete discussion messages."
+msgstr ""
+
+#: includes/class-up-frontend-output.php:158
+msgid "Edit Projects"
+msgstr ""
+
+#: includes/class-up-frontend-output.php:159
+msgid "Allow users to edit project details."
+msgstr ""
+
+#: includes/class-up-frontend-output.php:257
+#: includes/class-up-frontend-output.php:434
+msgid "Unapprove"
+msgstr ""
+
+#: includes/class-up-frontend-output.php:264
+#: includes/class-up-frontend-output.php:436
+msgid "Approve"
+msgstr ""
+
+#: includes/class-up-frontend-output.php:274
+#: includes/class-up-frontend-output.php:342
+#: includes/class-up-frontend-output.php:442 templates/comment_reply.php:53
+msgid "Reply"
+msgstr ""
+
+#: includes/class-up-frontend-output.php:283
+#: includes/class-up-frontend-output.php:347
+#: includes/class-up-frontend-output.php:432 templates/add-bug.php:246
+#: templates/add-files.php:161 templates/add-milestone.php:205
+#: templates/add-task.php:274 templates/delete.php:22
+msgid "Delete"
+msgstr ""
+
+#: includes/class-up-frontend-output.php:430
+msgid "Are you sure? This action cannot be undone."
+msgstr ""
+
+#: includes/class-up-frontend-output.php:431
+msgid "Existing File"
+msgstr ""
+
+#: includes/class-up-frontend-output.php:433
+msgid "Deleting..."
+msgstr ""
+
+#: includes/class-up-frontend-output.php:435
+msgid "Unapproving..."
+msgstr ""
+
+#: includes/class-up-frontend-output.php:437
+msgid "Approving..."
+msgstr ""
+
+#: includes/class-up-frontend-output.php:438
+#: includes/class-up-frontend-output.php:502
+#: includes/class-up-frontend-output.php:596 templates/add-bug.php:233
+#: templates/add-files.php:148 templates/add-message.php:63
+#: templates/add-milestone.php:192 templates/add-task.php:261
+msgid "Add Comment"
+msgstr ""
+
+#: includes/class-up-frontend-output.php:439
+msgid "Adding..."
+msgstr ""
+
+#: includes/class-up-frontend-output.php:440
+msgid "Saving..."
+msgstr ""
+
+#: includes/class-up-frontend-output.php:441 templates/add-bug.php:255
+#: templates/add-bug.php:265 templates/add-files.php:170
+#: templates/add-files.php:180 templates/add-milestone.php:214
+#: templates/add-milestone.php:224 templates/add-project.php:212
+#: templates/add-project.php:225 templates/add-task.php:283
+#: templates/add-task.php:293
+msgid "Save"
+msgstr ""
+
+#: includes/class-up-frontend-output.php:443
+msgid "Replying..."
+msgstr ""
+
+#: includes/class-up-frontend-output.php:444
+msgid "Remove"
+msgstr ""
+
+#: includes/class-up-frontend-output.php:445
+msgid "Undo"
+msgstr ""
+
+#: includes/class-up-frontend-output.php:446
+msgid "Use this file"
+msgstr ""
+
+#: includes/class-up-frontend-output.php:447
+msgid "Invalid date."
+msgstr ""
+
+#: includes/class-up-frontend-output.php:485
+msgid "Done"
+msgstr ""
+
+#: includes/class-up-frontend-output.php:486
+msgid "Today"
+msgstr ""
+
+#: includes/class-up-frontend-output.php:489
+msgid "Show a different month"
+msgstr ""
+
+#: includes/class-up-frontend-output.php:496
+msgid "Add"
+msgstr ""
+
+#: includes/class-up-frontend-output.php:497
+msgid "Edit"
+msgstr ""
+
+#: includes/class-up-frontend-output.php:564
+#: includes/class-up-frontend-output.php:582
+#: includes/class-up-frontend-output.php:618
+#: includes/class-up-frontend-output.php:650
+#, php-format
+msgid "New: %s"
+msgstr ""
+
+#: includes/class-up-frontend-output.php:565
+#: includes/class-up-frontend-output.php:583
+#: includes/class-up-frontend-output.php:619
+#: includes/class-up-frontend-output.php:651
+#: includes/class-up-frontend-output.php:692
+#: includes/class-up-frontend-output.php:693
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: includes/class-up-frontend-output.php:660
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: includes/class-up-frontend-output.php:679
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: includes/class-up-frontend-process.php:121
+#: includes/class-up-frontend-process.php:396
+#: includes/class-up-frontend-process.php:552
+#: includes/class-up-frontend-process.php:673
+#: includes/class-up-frontend-process.php:724
+msgid "Invalid request."
+msgstr ""
+
+#: includes/class-up-frontend-process.php:127
+#: includes/class-up-frontend-process.php:402
+#: includes/class-up-frontend-process.php:730
+msgid "Invalid Project."
+msgstr ""
+
+#: includes/class-up-frontend-process.php:132
+#: includes/class-up-frontend-process.php:407
+msgid "Invalid item ID."
+msgstr ""
+
+#: includes/class-up-frontend-process.php:138
+#: includes/class-up-frontend-process.php:413
+#: includes/class-up-frontend-process.php:559
+#: includes/class-up-frontend-process.php:680
+#: includes/class-up-frontend-process.php:734
+#: includes/class-up-frontend-process.php:971
+msgid "You're not allowed to do this."
+msgstr ""
+
+#: includes/class-up-frontend-process.php:230
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr ""
+
+#: includes/class-up-frontend-process.php:330
+#: includes/class-up-frontend-process.php:333
+#: includes/class-up-frontend-process.php:433
+msgid "Item not found."
+msgstr ""
+
+#: includes/class-up-frontend-process.php:566
+#: includes/class-up-frontend-process.php:590
+msgid "Auto Draft"
+msgstr ""
+
+#: includes/class-up-frontend-process.php:578
+#: includes/class-up-frontend-process.php:740
+msgid "Project not found."
+msgstr ""
+
+#: includes/class-up-frontend-process.php:1073
+msgid "Invalid type."
+msgstr ""
+
+#: includes/class-up-frontend-process.php:1094
+msgid "Success! Your item has been added."
+msgstr ""
+
+#: includes/class-up-frontend-process.php:1098
+msgid "Your item has been successfully updated."
+msgstr ""
+
+#: includes/class-up-frontend-process.php:1102
+msgid "There was a problem adding this item."
+msgstr ""
+
+#: includes/class-up-frontend-process.php:1106
+msgid "Your item has been successfully deleted."
+msgstr ""
+
+#: includes/class-up-frontend-process.php:1110
+msgid "There was a problem deleting this item."
+msgstr ""
+
+#: includes/class-up-frontend-process.php:1114
+msgid "There was an error."
+msgstr ""
+
+#: includes/class-up-frontend-process.php:1118
+msgid "You don't have permission for this."
+msgstr ""
+
+#: includes/class-up-frontend-process.php:1122
+msgid "Looks like there were some empty fields."
+msgstr ""
+
+#: includes/class-up-frontend-process.php:1404
+msgid "Close"
+msgstr ""
+
+#: includes/up-frontend-edit-functions.php:99
+#: includes/up-frontend-edit-functions.php:168
+#: includes/up-frontend-edit-functions.php:222 templates/add-bug.php:86
+#: templates/add-bug.php:110 templates/add-bug.php:135
+#: templates/add-bug.php:160 templates/add-files.php:77
+#: templates/add-milestone.php:97 templates/add-milestone.php:121
+#: templates/add-milestone.php:139 templates/add-project.php:59
+#: templates/add-project.php:83 templates/add-project.php:105
+#: templates/add-project.php:128 templates/add-project.php:146
+#: templates/add-project.php:162 templates/add-task.php:89
+#: templates/add-task.php:113 templates/add-task.php:159
+#: templates/add-task.php:191 templates/add-task.php:209
+msgid "None"
+msgstr ""
+
+#: templates/add-bug.php:42 templates/add-files.php:39
+#: templates/add-milestone.php:52 templates/add-task.php:48
+msgid "Data"
+msgstr ""
+
+#: templates/add-bug.php:49 templates/add-files.php:46
+#: templates/add-milestone.php:58 templates/add-task.php:54
+msgid "Comments"
+msgstr ""
+
+#: templates/add-bug.php:64 templates/add-files.php:60
+#: templates/add-project.php:39 templates/add-task.php:67
+msgid "Title"
+msgstr ""
+
+#: templates/add-bug.php:80 templates/add-files.php:72
+#: templates/add-milestone.php:91 templates/add-task.php:83
+msgid "Assigned To"
+msgstr ""
+
+#: templates/add-bug.php:104
+msgid "Severity"
+msgstr ""
+
+#: templates/add-bug.php:129 templates/add-project.php:53
+#: templates/add-task.php:107
+msgid "Status"
+msgstr ""
+
+#: templates/add-bug.php:154
+msgid "Due Date"
+msgstr ""
+
+#: templates/add-bug.php:174 templates/add-files.php:93
+#: templates/add-project.php:172
+msgid "Description"
+msgstr ""
+
+#: templates/add-bug.php:193 templates/add-bug.php:198
+#: templates/add-files.php:109 templates/add-files.php:114
+msgid "File"
+msgstr ""
+
+#: templates/add-bug.php:200 templates/add-files.php:116
+msgid "Add or Upload File"
+msgstr ""
+
+#: templates/add-bug.php:251 templates/add-bug.php:261
+#: templates/add-files.php:166 templates/add-files.php:176
+#: templates/add-message.php:53 templates/add-milestone.php:210
+#: templates/add-milestone.php:220 templates/add-project.php:205
+#: templates/add-project.php:218 templates/add-task.php:279
+#: templates/add-task.php:289 templates/comment_reply.php:51
+#: templates/delete.php:20
+msgid "Cancel"
+msgstr ""
+
+#: templates/add-message.php:22
+msgid "New Message"
+msgstr ""
+
+#: templates/add-milestone.php:115 templates/add-project.php:140
+#: templates/add-task.php:185
+msgid "Start Date"
+msgstr ""
+
+#: templates/add-milestone.php:133 templates/add-project.php:156
+#: templates/add-task.php:203
+msgid "End Date"
+msgstr ""
+
+#: templates/add-milestone.php:154 templates/add-task.php:223
+msgid "Notes"
+msgstr ""
+
+#: templates/add-project.php:77
+msgid "Owner"
+msgstr ""
+
+#: templates/add-project.php:122
+msgid "Users"
+msgstr ""
+
+#: templates/add-task.php:132
+msgid "Progress"
+msgstr ""
+
+#: templates/comment_reply.php:16
+msgid "Replying Comment"
+msgstr ""
+
+#: templates/delete.php:15
+msgid "Delete This Item"
+msgstr ""
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:214
+#, php-format
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:222
+#, php-format
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s or %5$supdate now%6$s."
+msgstr ""
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:412
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:412
+msgid "Error"
+msgstr ""

@@ -1,0 +1,2 @@
+<?php
+define( 'UPSTREAM_CUSTOMIZER_VERSION', '1.1.11' );

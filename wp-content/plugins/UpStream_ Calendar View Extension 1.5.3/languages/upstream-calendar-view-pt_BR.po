@@ -1,0 +1,477 @@
+# Copyright (C) UpStream Project Management
+# This file is distributed under the same license as the UpStream Calendar View package.
+msgid ""
+msgstr ""
+"Project-Id-Version: UpStream Calendar View v1.0.9\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: CalendarView/Calendar.php:440 CalendarView/Plugin.php:350
+msgid "Calendar Overview"
+msgstr "Visão Geral do Calendário"
+
+#: CalendarView/Calendar.php:459 templates/calendar-body.php:13
+msgid "Loading..."
+msgstr "Carregando..."
+
+#: CalendarView/Calendar.php:613
+msgid "Click to create"
+msgstr "Clique para criar"
+
+#: CalendarView/Calendar.php:731 CalendarView/Plugin.php:308
+msgid "Monday"
+msgstr "Segunda-feira"
+
+#: CalendarView/Calendar.php:732 CalendarView/Plugin.php:309
+msgid "Tuesday"
+msgstr "Terça-feira"
+
+#: CalendarView/Calendar.php:733 CalendarView/Plugin.php:310
+msgid "Wednesday"
+msgstr "Quarta-feira"
+
+#: CalendarView/Calendar.php:734 CalendarView/Plugin.php:311
+msgid "Thursday"
+msgstr "Quinta-feira"
+
+#: CalendarView/Calendar.php:735 CalendarView/Plugin.php:312
+msgid "Friday"
+msgstr "Sexta-feira"
+
+#: CalendarView/Calendar.php:736 CalendarView/Plugin.php:313
+msgid "Saturday"
+msgstr "Sábado"
+
+#: CalendarView/Calendar.php:737 CalendarView/Plugin.php:314
+msgid "Sunday"
+msgstr "Domingo"
+
+#: CalendarView/Calendar.php:779 templates/calendar-header.php:83
+msgid "January"
+msgstr "Janeiro"
+
+#: CalendarView/Calendar.php:780 templates/calendar-header.php:84
+msgid "February"
+msgstr "Fevereiro"
+
+#: CalendarView/Calendar.php:781 templates/calendar-header.php:85
+msgid "March"
+msgstr "Março"
+
+#: CalendarView/Calendar.php:782 templates/calendar-header.php:86
+msgid "April"
+msgstr "Abril"
+
+#: CalendarView/Calendar.php:783 templates/calendar-header.php:87
+msgid "May"
+msgstr "Maio"
+
+#: CalendarView/Calendar.php:784 templates/calendar-header.php:88
+msgid "June"
+msgstr "Junho"
+
+#: CalendarView/Calendar.php:785 templates/calendar-header.php:89
+msgid "July"
+msgstr "Julho"
+
+#: CalendarView/Calendar.php:786 templates/calendar-header.php:90
+msgid "August"
+msgstr "Agosto"
+
+#: CalendarView/Calendar.php:787 templates/calendar-header.php:91
+msgid "September"
+msgstr "Setembro"
+
+#: CalendarView/Calendar.php:788 templates/calendar-header.php:92
+msgid "October"
+msgstr "Outubro"
+
+#: CalendarView/Calendar.php:789 templates/calendar-header.php:93
+msgid "November"
+msgstr "Novembro"
+
+#: CalendarView/Calendar.php:790 templates/calendar-header.php:94
+msgid "December"
+msgstr "Dezembro"
+
+#: CalendarView/Calendar.php:1514
+msgid "none"
+msgstr "nada"
+
+#: CalendarView/Calendar.php:1540 CalendarView/Calendar.php:1548
+msgid "Start Date"
+msgstr "Data de Início"
+
+#: CalendarView/Calendar.php:1541 CalendarView/Calendar.php:1549
+msgid "End Date"
+msgstr "Data Final"
+
+#: CalendarView/Calendar.php:1542 CalendarView/Calendar.php:1551
+msgid "Status"
+msgstr "Estado"
+
+#: CalendarView/Calendar.php:1547
+msgid "Assigned To"
+msgstr "Atribuído à"
+
+#: CalendarView/Calendar.php:1550
+msgid "Due Date"
+msgstr "Data de Vencimento"
+
+#: CalendarView/Calendar.php:1552
+msgid "Progress"
+msgstr "Progresso"
+
+#: CalendarView/Calendar.php:1554
+msgid "Severity"
+msgstr "Gravidade"
+
+#: CalendarView/Calendar.php:1616
+msgid "(hidden)"
+msgstr ""
+
+#: CalendarView/Calendar.php:1651
+msgid "Edit"
+msgstr "Editar"
+
+#: CalendarView/Calendar.php:1735 CalendarView/Calendar.php:1740
+#: CalendarView/Calendar.php:1823 CalendarView/Calendar.php:1828
+#: CalendarView/Calendar.php:1935 CalendarView/Calendar.php:1944
+msgid "Invalid request."
+msgstr "Solicitação inválida."
+
+#: CalendarView/Calendar.php:1748 CalendarView/Calendar.php:1836
+#: CalendarView/Calendar.php:1953
+msgid "Invalid Project."
+msgstr "Projeto Inválido."
+
+#: CalendarView/Calendar.php:1842 CalendarView/Calendar.php:1850
+#: CalendarView/Calendar.php:1855 CalendarView/Calendar.php:1868
+#: CalendarView/Calendar.php:1873
+#, php-format
+msgid "Invalid \"%s\" parameter."
+msgstr "Parâmetro \"%s\" inválido."
+
+#: CalendarView/Calendar.php:1939
+msgid "You're not allowed to do this."
+msgstr "Você não tem permissão para fazer isso."
+
+#: CalendarView/Calendar.php:2042
+msgid "Nothing updated"
+msgstr ""
+
+#: CalendarView/Plugin.php:165
+#, php-format
+msgid ""
+"For performance and security reasons this plugin requires <strong>%s</"
+"strong> to run."
+msgstr ""
+"Por razões de desempenho e segurança, este plugin requer <strong>%s</strong> "
+"para ser executado."
+
+#: CalendarView/Plugin.php:172
+msgid "PHP version 5.6 or greater"
+msgstr ""
+
+#: CalendarView/Plugin.php:173
+#, fuzzy, php-format
+#| msgctxt "%s = running PHP version"
+#| msgid "Please consider updating your PHP version (currently at %s)."
+msgctxt "%s = running PHP version"
+msgid "Please consider updating your PHP (currently at %s)."
+msgstr "Por favor, considere atualizar sua versão de PHP (atualmente em %s)."
+
+#: CalendarView/Plugin.php:185
+msgid "WordPress version 4.5 or greater"
+msgstr ""
+
+#: CalendarView/Plugin.php:186
+#, fuzzy, php-format
+#| msgctxt "%s = running WordPress version"
+#| msgid "Please consider updating your WordPress version (currently at %s)."
+msgctxt "%s = running WordPress version"
+msgid "Please consider updating your WordPress (currently at %s)."
+msgstr ""
+"Por favor, considere atualizar sua versão de WordPress (atualmente em %s)."
+
+#: CalendarView/Plugin.php:197
+#, php-format
+msgctxt "%s = \"UpStream\" localized string"
+msgid ""
+"Please make sure %s is <strong>installed</strong> and <strong>active</"
+"strong> in order to make this plugin to work."
+msgstr ""
+"Por favor, certifique-se de que %s está <strong>instalado</strong> e "
+"<strong>ativo</strong> para que este plugin funcione."
+
+#: CalendarView/Plugin.php:199 CalendarView/Plugin.php:218
+msgid "UpStream"
+msgstr "UpStream"
+
+#: CalendarView/Plugin.php:219 CalendarView/Plugin.php:264
+#: CalendarView/Plugin.php:500 CalendarView/Plugin.php:523
+#: templates/panel.php:16
+msgid "Calendar View"
+msgstr "Visão do Calendário"
+
+#: CalendarView/Plugin.php:223
+msgid "Go back to the plugins page."
+msgstr "Retornar para a página de plugins."
+
+#: CalendarView/Plugin.php:224
+msgid "Go Back"
+msgstr "Retornar"
+
+#: CalendarView/Plugin.php:301
+#, fuzzy
+#| msgid "General Calendar Settings"
+msgid "General Calendars Settings"
+msgstr "Configurações Gerais do Calendário"
+
+#: CalendarView/Plugin.php:303
+#, fuzzy
+#| msgid "First day of the week"
+msgid "First Day of the week"
+msgstr "Primeiro dia da semana"
+
+#: CalendarView/Plugin.php:306
+msgid "Select the first day of the week on the calendar."
+msgstr "Selecione o primeiro dia da semana no calendário."
+
+#: CalendarView/Plugin.php:319
+msgid "Weeks to be displayed"
+msgstr "Semanas a serem exibidas"
+
+#: CalendarView/Plugin.php:322
+msgid "Select how many weeks will be displayed by default on the calendar."
+msgstr "Selecione quantas semanas serão exibidas por padrão no calendário."
+
+#: CalendarView/Plugin.php:325
+msgid "week"
+msgstr "semana"
+
+#: CalendarView/Plugin.php:326 CalendarView/Plugin.php:327
+#: CalendarView/Plugin.php:328 CalendarView/Plugin.php:329
+#: CalendarView/Plugin.php:330 CalendarView/Plugin.php:331
+#: CalendarView/Plugin.php:332 CalendarView/Plugin.php:333
+#: CalendarView/Plugin.php:334 CalendarView/Plugin.php:335
+#: CalendarView/Plugin.php:336
+msgid "weeks"
+msgstr "semanas"
+
+#: CalendarView/Plugin.php:343
+msgid "Calendar Overview Settings"
+msgstr "Configurações da Visão Geral do Calendário"
+
+#: CalendarView/Plugin.php:345
+#, php-format
+msgctxt "%s = Custom \"Project\" label."
+msgid "%s Timeframe as Bars"
+msgstr "%s Período de tempo como Barras"
+
+#: CalendarView/Plugin.php:349
+#, php-format
+msgid "Choose to display all %s dates as bars on the %s."
+msgstr ""
+
+#: CalendarView/Plugin.php:353
+#, fuzzy
+#| msgid "No, use default view"
+msgid "No, use dates"
+msgstr "Não, use a visualização padrão"
+
+#: CalendarView/Plugin.php:354
+#, fuzzy
+#| msgid "Yes, use bars style"
+msgid "Yes, use bars"
+msgstr "Sim, use estilo de barras"
+
+#: CalendarView/Plugin.php:405
+msgid "Open Settings Page"
+msgstr "Abrir Página de Configurações"
+
+#: CalendarView/Plugin.php:406
+msgid "Settings"
+msgstr "Configurações"
+
+#: CalendarView/Plugin.php:519
+msgid "Default Color"
+msgstr "Cor Padrão"
+
+#: CalendarView/Plugin.php:524 CalendarView/Plugin.php:533
+msgctxt "Calendar Header"
+msgid "Header"
+msgstr "Cabeçalho"
+
+#: CalendarView/Plugin.php:525
+msgid "Day Name Text Color"
+msgstr "Cor do Texto do Nome do Dia"
+
+#: CalendarView/Plugin.php:534
+msgid "Bottom Separator Color"
+msgstr "Cor do Separador Inferior"
+
+#: CalendarView/Plugin.php:542
+msgid "Days Border Color"
+msgstr "Cor da Borda dos Dias"
+
+#: CalendarView/Plugin.php:550 CalendarView/Plugin.php:559
+#: CalendarView/Plugin.php:568
+msgid "Weekdays"
+msgstr "Dias úteis"
+
+#: CalendarView/Plugin.php:551 CalendarView/Plugin.php:578
+#: CalendarView/Plugin.php:605
+msgid "Background Color"
+msgstr "Cor de Fundo"
+
+#: CalendarView/Plugin.php:560 CalendarView/Plugin.php:587
+#: CalendarView/Plugin.php:614
+msgid "Text Color"
+msgstr "Cor do Texto"
+
+#: CalendarView/Plugin.php:569 CalendarView/Plugin.php:596
+#: CalendarView/Plugin.php:623
+msgid "Day Number Color"
+msgstr "Cor do Número do Dia"
+
+#: CalendarView/Plugin.php:577 CalendarView/Plugin.php:586
+#: CalendarView/Plugin.php:595
+msgid "Weekend"
+msgstr "Final de semana"
+
+#: CalendarView/Plugin.php:604 CalendarView/Plugin.php:613
+#: CalendarView/Plugin.php:622
+msgid "Current Day"
+msgstr "Dia Atual"
+
+#: CalendarView/Plugin.php:748 CalendarView/Plugin.php:770
+msgid "Calendar"
+msgstr "Calendário"
+
+#: templates/calendar-header.php:22
+msgid "Filter items by the assigned user"
+msgstr "Filtrar itens por usuário atribuído"
+
+#: templates/calendar-header.php:25
+msgid "Any user"
+msgstr "Qualquer usuário"
+
+#: templates/calendar-header.php:26
+msgid "Assigned to me"
+msgstr "Atribuídos a mim"
+
+#: templates/calendar-header.php:27
+msgid "No assigned user"
+msgstr "Nenhum usuário atribuído"
+
+#: templates/calendar-header.php:29
+#, php-format
+msgid "%s Members"
+msgstr "%s Integrantes"
+
+#: templates/calendar-header.php:44
+msgid "Filter items by their type"
+msgstr "Filtrar itens por tipo"
+
+#: templates/calendar-header.php:46
+msgid "All types"
+msgstr "Todos os tipos"
+
+#: templates/calendar-header.php:60
+msgid "Select how many weeks will be displayed on the calendar"
+msgstr "Selecione quantas semanas serão exibidas no calendário"
+
+#: templates/calendar-header.php:65
+#, php-format
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] "%s semana"
+msgstr[1] "%s semanas"
+
+#: templates/calendar-header.php:72
+msgid "Reset all filters to their defaults"
+msgstr "Redefinir todos os filtros para os padrões"
+
+#: templates/calendar-header.php:74
+msgid "Reset"
+msgstr "Redefinir"
+
+#: templates/calendar-header.php:80
+msgid "Jump to a certain month"
+msgstr "Ir para um determinado mês"
+
+#: templates/calendar-header.php:82
+msgid "Month"
+msgstr "Mês"
+
+#: templates/calendar-header.php:99
+msgid "Back 1 month"
+msgstr "Voltar 1 mês"
+
+#: templates/calendar-header.php:105
+msgid "Back 1 week"
+msgstr "Voltar 1 semana"
+
+#: templates/calendar-header.php:110
+#, php-format
+msgid "Today is %s"
+msgstr "Hoje é %s"
+
+#: templates/calendar-header.php:112
+msgid "Today"
+msgstr "Hoje"
+
+#: templates/calendar-header.php:116
+msgid "Forward 1 week"
+msgstr "Encaminhar 1 semana"
+
+#: templates/calendar-header.php:121
+msgid "Forward 1 month"
+msgstr "Encaminhar 1 mês"
+
+#: upstream-calendar-view.php:43
+#, php-format
+msgid ""
+"Sorry, but UpStream Calendar View requires UpStream version %s or later."
+msgstr ""
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:332
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Existe uma nova versão do %1$s disponível. %2$s Ver versão %3$s detalhes "
+"%4$s."
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:341
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Existe uma nova versão do %1$s disponível. %2$s Ver versão %3$s detalhes%4$s "
+"ou %5$satualize agora%6$s."
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:476
+msgid "You do not have permission to install plugin updates"
+msgstr "Você não tem permissão para instalar atualizações de plugins"
+
+#: vendor/alledia/edd-sl-plugin-updater/EDD_SL_Plugin_Updater.php:477
+msgid "Error"
+msgstr "Erro"
